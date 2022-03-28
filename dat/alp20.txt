@@ -1,0 +1,4374 @@
+The Astrophysical Journal, 896:39 (23pp), 2020 June 10
+© 2020. The American Astronomical Society. All rights reserved.
+
+https://doi.org/10.3847/1538-4357/ab91ba
+
+Blasts from the Past: Supernova Shock Breakouts among X-Ray Transients in
+
+the XMM-Newton Archive
+Dennis Alp1
+
+and Joseﬁn Larsson
+
+Department of Physics, KTH Royal Institute of Technology, and The Oskar Klein Centre, SE-10691 Stockholm, Sweden; dalp@kth.se
+
+Received 2020 April 20; revised 2020 May 7; accepted 2020 May 7; published 2020 June 11
+
+Abstract
+
+The ﬁrst electromagnetic signal from a supernova (SN) is released when the shock crosses the progenitor surface.
+This shock breakout (SBO) emission provides constraints on progenitor and explosion properties. Observationally,
+SBOs appear as minute- to hour-long extragalactic X-ray transients. They are challenging to detect and only one
+SBO has been observed to date. Here, we search the XMM-Newton archive and ﬁnd 12 new SN SBO candidates.
+We identify host galaxies to nine of these at estimated redshifts of 0.1–1. The SBO candidates have energies of
+∼1046 erg, timescales of 30–3000 s, and temperatures of 0.1–1 keV. They are all consistent with being SN SBOs,
+but some may be misidentiﬁed Galactic foreground sources or other extragalactic objects. SBOs from blue
+supergiants agree well with most of the candidates. However, a few could be SBOs from Wolf–Rayet stars
+surrounded by dense circumstellar media, whereas two are more naturally explained as SBOs from red supergiants.
+The observations tentatively support non-spherical SBOs and are in agreement with asymmetries predicted by
+recent three-dimensional SN explosion simulations. eROSITA may detect ∼2 SBOs per year, which could be
+detected in live analyses and promptly followed up.
+Uniﬁed Astronomy Thesaurus concepts: Core-collapse supernovae (304); X-ray transient sources (1852); Massive
+stars (732); Shocks (2086)
+
+1. Introduction
+
+The shock breakout (SBO) emission is the ﬁrst electro-
+magnetic signal from a supernova (SN; Waxman & Katz 2017;
+Levinson & Nakar 2019). This emission carries information
+about the structure of the progenitor star. The most important
+physical properties that can be constrained are the progenitor
+radius, asymmetries, and ﬁnal mass-loss history. This means
+that SBOs offer a unique avenue to probe SN progenitors
+(Smartt 2009) and the SN explosion mechanism (Janka et al.
+2016).
+
+The SBO emission is released when the radiation-mediated
+shock from the SN explosion crosses the surface of the star.
+However, if the circumstellar medium (CSM) is sufﬁciently
+dense, the shock can propagate into the CSM and result in a
+longer “CSM breakout.” SBOs from the progenitor surface
+typically peak in X-rays, and evolve into ultraviolet and optical
+as the envelope cools and the ejecta expand. Extended CSM
+breakouts and the post-breakout cooling phase evolve on
+timescales of >1 day and are easier to detect. These timescales
+are within the reach of recent wide-ﬁeld optical SN surveys
+(Waxman & Katz 2017 and references therein). Henceforth, we
+focus on X-ray SBOs that evolve on timescales much shorter
+than 1day. The initial SBO and post-breakout cooling phase
+precede the commonly observed, months-long SN emission
+that is powered by reprocessed radioactive decay.
+
+The observable properties of SN SBOs are expected to be
+different for different progenitor types. Typical SBO energies,
+timescales, and temperatures (Matzner & McKee 1999; Nakar
+& Sari 2010; Sapir et al. 2013) for red supergiants (RSGs) are
+1048erg, 1000 s, and 0.03 keV, respectively. The corresp-
+onding values are 1046.5 erg, 100 s, and 0.3 keV for blue
+supergiants (BSGs); and 1045erg, 10 s, and 3 keV for Wolf–
+Rayet (WR) stars. This assumes spherical symmetry, as well as
+
+1 Corresponding author.
+
+negligible effects of the CSM. SBOs from RSGs are very soft
+and are expected to be heavily absorbed by the interstellar
+medium (ISM). In contrast, WR SBOs are much harder, but the
+total number of emitted photons is several orders of magnitude
+lower. Both the increased temperature (higher photon energies)
+and lower total energy reduce the total number of emitted
+photons, which makes WR SBOs difﬁcult to detect. BSGs are
+the progenitor type that is most likely to be detected due to the
+trade-off between peak energy and number of emitted photons
+(Calzavara & Matzner 2004; Sapir et al. 2013; Waxman &
+Katz 2017). Finally, we note that
+thermonuclear SNe are
+expected to produce SBOs with temperatures of ∼20 keV.
+These SBOs are not expected to be detectable because the
+timescales are approximately 10 ms and the total energies are
+on the order of 1040erg (Nakar & Sari 2010; Piro et al. 2010).
+Theoretical aspects of SBOs have been studied for several
+decades. Early works explored the emission from non-
+relativistic SBOs with simpliﬁed physics and for speciﬁc
+progenitor structures (e.g., Weaver 1976; Klein & Chevalier
+1978; Ensman & Burrows 1992). More recent works have
+focused on developing models for more realistic progenitor
+structures with more detailed treatments of the relevant physics
+(Katz et al. 2010, 2012; Nakar & Sari 2010; Sapir et al. 2011,
+2013; Ito et al. 2020). Notably, several theoretical works have
+stressed that many SBOs should have been serendipitously
+observed by previous and existing X-ray telescopes (Klein &
+Chevalier 1978; Calzavara & Matzner 2004; Sapir et al. 2013;
+Sapir & Halbertal 2014; Waxman & Katz 2017). The telescopes
+most likely to have detected SBOs are XMM-Newton, which
+has been in service since 2000, followed by ROSAT, which
+collected data between 1990 and 1999.
+
+Despite the signiﬁcant theoretical efforts, few observational
+searches have been performed, and only the SBO from
+SN2008D has been detected (Soderberg et al. 2008). The
+SBO detection from SN2008D was serendipitously detected as
+
+1
+
+The Astrophysical Journal, 896:39 (23pp), 2020 June 10
+
+a bright X-ray transient in a scheduled Swift observation of
+NGC2770. In addition to the direct detection of SN2008D,
+the SBO from SN1987A was indirectly observed by the
+effects of the SBO on the CSM (Ensman & Burrows 1992;
+Blinnikov et al. 2000). The only systematic searches in archival
+X-ray data for transients with SBO-like properties were of the
+ROSAT archive (Vikhlinin 1998; Greiner et al. 2000).
+Interestingly, Vikhlinin (1998) reported a number of candidates
+but was unable to securely identify their origins. While no
+systematic searches for SBOs have been carried out recently,
+transients on longer timescales have been studied, primarily in
+the Chandra archive (Bauer et al. 2017; Xue et al. 2019; Yang
+et al. 2019).
+
+In this paper, we search for SN SBOs in archival XMM-
+Newton data. Observationally, this implies that we search all
+public XMM-Newton observations for X-ray transients on
+timescales shorter than approximately 10ks. To our knowl-
+edge, the XMM-Newton data have not been systematically
+searched for this kind of transient, even though several SBOs
+are predicted to be present in the data. We aim to identify SBO
+candidates and investigate the implications
+the SN
+progenitors.
+
+for
+
+This paper is organized as follows. We describe the SBO
+search and identiﬁcation process in Section 2, the host galaxies
+in Section 3, and provide details related to the data reduction of
+the ﬁnal candidates in Section 4. The spectral ﬁtting is
+described in Section 5 and observed properties of the SBOs are
+presented in Section 6. We investigate the SBO interpretation
+and its implications in Section 7, discuss contaminants and
+other potential astrophysical sources in Section 8, and conclude
+in Section 9.
+
+All uncertainties are 1σ and one-sided limits are 3σ unless stated
+otherwise. We adopt a ﬂat ΛCDM cosmology with a Hubble–
+Lemaître constant H0=70km s−1Mpc1 and W =L
+
+0.73.
+
+2. Identifying SBO Candidates
+
+To ﬁnd SN SBO candidates, we search for X-ray transients
+with typical timescales shorter than ∼10ks in archival XMM-
+Newton data. These X-ray transients can only be observed if
+they happen to occur within the ﬁeld of view (FoV) of an X-ray
+telescope because SBOs decay well before the optical signal
+from a SN is detected (typically days or weeks later). XMM-
+Newton (Jansen et al. 2001) is the telescope that is most likely
+to serendipitously observe SBOs because of the combination of
+its high effective area, high angular resolution, and large FoV
+of ∼0.2 deg2. For theoretically predicted BSG SBO properties
+(Section 1), we expect our search to be sensitive to a redshift of
+∼1. This assumes favorable observing conditions and a low
+level of absorption along the line of sight.
+
+Before performing a blind search for X-ray transients, we
+crossmatch all XMM-Newton observations with known SNe
+and gamma-ray bursts (GRBs). In the current context, we
+restrict the matches to X-ray detections of the SBO, long before
+the optical SN detection or simultaneous with the prompt GRB
+phase. The purpose is to check if any known SNe or GRBs
+have been serendipitously observed, but we ﬁnd none. The
+catalog of SNe is from the Latest Supernovae website2 and
+the GRBs are from the Swift/BAT GRB Catalog (Lien et al.
+2016). The SN catalog covers the entire XMM-Newton
+
+2 Previously known as “Bright Supernovae”: http://www.rochesterastronomy.
+org/snimages/sndateall.html.
+
+2
+
+lifetime, while the GRB data is limited to the lifetime of Swift
+because only GRBs with sufﬁciently accurate positions can be
+crossmatched.
+
+Alp & Larsson
+
+2.1. Finding Transients
+
+To avoid detecting a large number of variable Galactic X-ray
+sources unrelated to SN SBOs, we immediately reject all
+sources that are close to a star in Gaia or a known Galactic
+source in SIMBAD. More precisely, we reject sources within
+5″ of an object in Gaia DR2 (Gaia Collaboration et al. 2018)
+with a (positive) parallax with a signiﬁcance greater than 3σ.
+Similarly for SIMBAD, we reject X-ray sources if there is a
+SIMBAD object within 5″ classiﬁed as a star, white dwarf,
+neutron star, black hole, or combinations thereof (i.e.,binaries).
+We develop a custom transient ﬁnder algorithm that we
+apply to all observations, and also search for transients among
+the sources in the 3XMM-DR8 catalog (Rosen et al. 2016). The
+details of both search methods are provided in Appendix A.
+The custom search algorithm is the most general and detects
+any transients starting from the event lists. The 3XMM-DR8
+search focuses on identifying transient behavior among the
+cataloged X-ray sources. The two algorithms are largely
+redundant, but are complementary in some respects. The main
+difference is that our custom search is performed on all public
+observations with data archived at HEASARC as of 2019
+November 11, whereas the latest observation included in
+3XMM-DR8 is from 2017 November 30. We note that the
+standard proprietary period is 1 yr after data delivery, which
+means that the availability of public data during the last 12–14
+months of the time intervals is sparse. Our custom algorithm is
+very simple and does not treat the background and instrumental
+effects as carefully as 3XMM-DR8.
+
+The two algorithms identify ∼11,000 transient sources and
+we manually inspect the light curves, the time-integrated X-ray
+spectra, and images of these objects. The spectra and images
+are primarily useful for recognizing instrumental artifacts,
+variability caused by problematic extraction regions, and
+blended sources. Instrumental artifacts are generally restricted
+to one of the cameras and often affect individual pixels or
+columns. This is very different from astrophysical sources,
+which are convolved by the point-spread function (PSF) of the
+telescope in all cameras. The screening process up to this point
+reduces the number of X-ray transients to around 600.
+
+2.2. Source Classiﬁcation
+
+The ﬁnal step is to separate the extragalactic transients from
+Galactic foreground sources and artifacts. This separation
+essentially ﬁnds all SBO candidates, since SBOs are required to
+be associated with galaxies. The remaining non-SBO transients
+are primarily ﬂaring dwarf stars that lack parallax in Gaia and
+are not identiﬁed in SIMBAD, or instrumental artifacts that are
+difﬁcult to identify in time-integrated images. To perform this
+ﬁnal selection, we use time-resolved spectra and images.
+Additionally, we search all catalogs available at VizieR
+(Ochsenbein et al. 2000) and inspect available sky images of
+the source position (primarily X-rays, optical, and near-
+infrared; NIR). We primarily use all HiPS sky images available
+through CDS/Aladin (Bonnarel et al. 2000; Boch & Fernique
+2014), but also check for data in MAST, ESO Portal, and
+HEASARC in some cases. All objects that show clear signs of
+being instrumental, Galactic, or persistent are discarded.
+
+The Astrophysical Journal, 896:39 (23pp), 2020 June 10
+
+Alp & Larsson
+
+XT
+
+161028
+151219
+110621
+030206
+070618
+060207
+100424
+151128
+
+050925
+160220
+140811
+040610
+
+α
+(°)
+
+263.23663
+173.53096
+37.89595
+29.28818
+24.27520
+196.83165
+321.79670
+167.07789
+
+311.43725
+204.19991
+43.65356
+169.53625
+
+δ
+(°)
+
+43.51250
+0.87354
+−60.62934
+37.62732
+−12.95280
+−40.46064
+−12.03906
+−5.07517
+−67.64702
+−41.33736
+41.07430
+7.70266
+
+Table 1
+
+Identiﬁers of SBO Candidates
+
+l
+(°)
+
+69.22769
+264.47274
+283.01881
+137.06247
+162.18014
+306.19786
+40.02322
+261.31731
+
+327.21796
+312.01496
+146.61178
+249.93237
+
+b
+(°)
+
+32.05326
+57.85230
+−52.45370
+−23.43464
+−72.24921
+22.31033
+−39.95127
+49.28100
+−35.70622
+20.73297
+−16.06542
+60.57574
+
+σ
+(″)
+
+1.6
+1.6
+1.8
+1.3
+1.4
+1.8
+1.7
+2.0
+
+2.0
+1.6
+1.5
+1.5
+
+Obs. ID
+
+Time
+
+YYYY Mmm dd hh:mm:ss
+
+0781890401
+0770380401
+0675010401
+0149780101
+0502020101
+0300240501
+0604740101
+0760380201
+
+0300930301
+0765041301
+0743650701
+0203560201
+
+2016 Oct 28 02:39:35
+2015 Dec 19 03:13:20
+2011 Jun 21 18:43:20
+2003 Feb 6 03:52:30
+2007 Jun 18 21:03:55
+2006 Feb 7 18:16:20
+2010 Apr 24 18:30:00
+2015 Nov 28 23:20:00
+
+2005 Sep 25 02:53:20
+2016 Feb 20 07:28:20
+2014 Aug 11 19:36:40
+2004 Jun 11 01:53:20
+
+Note. Candidates are listed in descending order of conﬁdence of being an SN SBO. The same ordering is used throughout the paper. The last four candidates may be
+misidentiﬁed Galactic foreground sources (Section 8.1). We provide celestial coordinates in both the equatorial (α, δ) and Galactic (l, b) systems. The parameter σ
+refers to the astrometric uncertainty and the last column provides the start times of the transients in UTC.
+
+We separate stars from galaxies using the optical and NIR
+images. The primary data used for host classiﬁcation are from
+Pan-STARRS (Chambers et al. 2016), DES (Abbott et al.
+2018), and SkyMapper (Wolf et al. 2018). We use morpho-
+logical classiﬁers to identify extended sources (galaxies),3 as
+well as stellaricity catalogs (McMahon et al. 2013; Tachibana
+& Miller 2018). However, since we are interested in accurate
+classiﬁers of a few objects, we largely rely on visual inspection
+of available data for each object. The manual classiﬁcation of
+sources generally agrees with automatic
+and objective
+classiﬁers, but allows us to identify rare cases, such as likely
+misclassiﬁcations due to blending of neighboring stars.
+
+All objects that are possible SN SBOs are added to the ﬁnal
+sample. This decision is based on the light curve shape,
+duration, spectral shape, and the probability that the source is
+extragalactic based on available information. Furthermore, we
+require that the initial rise and a substantial part of the decay is
+contained within the observation. We discard sources that show
+persistent emission that appears associated with the transient
+before the initial rise, which would indicate that the source is a
+ﬂaring persistent source. We do not discard any transients
+because they are too short. This means that the lower limit is
+effectively set by the temporal resolution of XMM-Newton,
+which is on the order of 100 ms for the most common
+observing modes. We also do not discard any transients
+because they are too long, but they are indirectly limited by the
+requirement of rising and decaying within the exposure time
+(typically 10–130 ks). We do not use quantitative requirements
+at this last stage because of the difﬁculty of strictly deﬁning the
+acceptable properties.
+
+We verify completeness of the search by inspecting the
+100,000 most variable light curves from 3XMM-DR8 by eye to
+look for
+transients that were potentially missed by the
+algorithms, and ﬁnd one additional faint candidate. The level
+of variability in this context is measured by a likelihood test
+under the assumption that the light curve bin uncertainties are
+Gaussian. Altogether, we ﬁnd 12 SN SBO candidates.
+Identiﬁers of
+the SN SBO candidates are provided in
+Table 1. We designate each candidate by “XT” followed by
+
+3 Exempli
++separate+stars+and+galaxies.
+
+gratia,https://outerspace.stsci.edu/display/PANSTARRS/How+to
+
+3
+
+the date; the ﬁrst two numbers correspond to the year, the
+second two numbers to the month, and the last two numbers to
+the day (analogous to GRBs). We choose to present the SBO
+candidates in descending order of conﬁdence (loosely deﬁned)
+throughout this paper.
+
+3. Host Galaxies
+
+Table 2 provides key parameters for
+
+the host galaxy
+candidates associated with the 12 transients. For reference,
+we also provide optical and NIR photometry of the hosts when
+available, and limits otherwise,
+in Table B1. Three of the
+transients have no clearly identiﬁed host, and it is also possible
+that
+the observed hosts are Galactic objects
+misclassiﬁed as galaxies. We discuss potential misidentiﬁca-
+tions and alternative sources for
+the X-ray transients in
+Section 8. Throughout the rest of the paper, we assume that
+the X-ray transients are SN SBOs.
+
+some of
+
+The most important parameter for the inferred properties of
+the transients is the redshift (z). Some of the redshifts are highly
+uncertain and we stress that this uncertainty propagates into
+parameters that depend on z. This mainly applies to the
+discussion of inferred SN properties in Section 7.2. In contrast,
+the observed properties in Section 6 are largely independent of
+z, with the only effect being an energy shift of the ﬁtted
+temperature and host galaxy absorption. The magnitude of this
+effect is relatively small (∝1+z) and does not qualitatively
+alter the results.
+
+To estimate the redshifts of the host galaxies, we primarily
+rely on SED template ﬁtting. Photometric redshift techniques
+are generally more reliable if the Balmer (4000 Å) or Lyman
+(912 Å) break falls between two broad ﬁlters. This means that
+the optical data (Table B1) is the most constraining for our
+sources. Furthermore, we only use data from one survey (for
+each object) to ensure that the photometry is homogeneous in
+the sense that colors are correctly represented. For these
+reasons, we exclude the NIR data from the SED ﬁtting
+procedure. We are able to perform SED ﬁts to seven hosts,
+whereas the remaining ﬁve either lacked an identiﬁed host or
+multi-band optical data.
+
+In addition to the SED ﬁtting, we also consider additional
+independent information. The second most important constraint
+
+The Astrophysical Journal, 896:39 (23pp), 2020 June 10
+
+Alp & Larsson
+
+Table 2
+
+Host Candidates
+
+XT
+
+161028
+151219
+110621
+030206
+070618
+060207
+100424
+151128
+
+050925
+160220
+140811
+040610
+
+α
+(°)
+
+263.23707
+173.53037
+37.89582
+29.28776
+
+L
+L
+
+321.79659
+167.07885
+
+311.43769
+204.19926
+43.65365
+
+L
+
+δ
+(°)
+
+Offset
+
+(″)
+
+43.51231
+0.87409
+−60.62918
+37.62768
+
+L
+L
+
+−12.03900
+−5.07495
+−67.64740
+−41.33718
+41.07406
+
+L
+
+1.3
+2.9
+0.6
+1.8
+L
+L
+0.5
+3.5
+
+1.5
+1.9
+0.9
+L
+
+Pgal
+
+1.00
+0.99
+0.99
+L
+L
+L
+1.00
+1.00
+
+0.99
+0.90
+0.75
+L
+
+z
+
+0.29
+0.62
+0.095
+1.17
+0.37
+0.3a
+0.13
+0.48
+
+0.3a
+0.3a
+0.57
+0.50
+
+μ
+
+(magAB)
+
+Scale
+
+(kpc arcsec−1)
+
+40.9
+42.9
+38.2
+44.6
+41.5
+41.0
+38.9
+42.2
+
+41.0
+41.0
+42.6
+42.3
+
+4.4
+6.9
+1.8
+8.4
+5.2
+4.5
+2.3
+6.0
+
+4.5
+4.5
+6.6
+6.2
+
+Mr
+
+(magAB)
+−20.2
+−21.4
+−18.6
+−22.5
+>−17.4
+>−19.9b
+−18.6
+−21.9
+−20.3b
+−20.7b
+−22.0
+>−19.5
+
+Galaxy
+
+SB
+Sbc
+SB
+SB
+L
+L
+Sa
+Sd
+
+L
+L
+Sb
+L
+
+Notes. Offset is the distance between the transient and the host galaxy. We note that the offsets are comparable to the uncertainties of the X-ray positions (Table 1).
+Pgal is the probability of the source being a galaxy, based on morphology. These values are either from PS1-PSC (Pan-STARRS data, Tachibana & Miller 2018) or
+VHS (VISTA data, McMahon et al. 2013). For convenience, we also provide the distance expressed as the distance modulus (μ), the angular scale, and the absolute
+magnitude (M; in r-band unless otherwise noted). The “Galaxy” column provides tentative galaxy classiﬁers based on the SED ﬁtting; Sa, Sb, Sd, and Sbc are late-type
+spirals, whereas SB denotes starburst galaxies.
+a Fiducial redshifts of 0.3 are used when insufﬁcient information is available for a redshift estimate.
+b These values are in the J-band because the r-band data is much shallower for these sources.
+
+on z comes from the redshifts of neighboring galaxies. We
+utilize this when the SED ﬁtting appears unreliable or if optical
+data of the host is unavailable. After performing the SED ﬁts
+and potentially including data from neighbors, we check if the
+favored redshift implies a reasonable absolute magnitude and
+radius for the galaxy (Blanton et al. 2003; Shen et al. 2003;
+Wolf et al. 2003; Ilbert et al. 2005). We also compare the
+distances with a reconstruction of the large-scale structure
+(Lavaux et al. 2019, E. Tsaprazi 2020, private communication).
+The reconstruction of the large-scale structure in the local
+universe (out to z=∼0.1–1 depending on the line of sight)
+provides a measure of density as a function of redshift along
+the line of sight. This is effectively the likelihood of z relative
+to the large-scale structure. The inclusion of independent
+constraints means that we do not always choose the SED ﬁt
+with the lowest χ2 value, but rather analyze all data and adopt
+the redshift that appears to be most consistent overall. Finally,
+we note that the information from neighboring galaxies allows
+us to estimate redshifts even if no host galaxy is directly
+observed. This is only possible in some cases and is clearly
+highly uncertain.
+
+We use the Le PHARE code (Arnouts et al. 1999; Ilbert et al.
+2006) to perform the SED ﬁtting. The package includes a
+number of different galaxy SED libraries. We try to ﬁt all
+sources using the CWW-Kinney, AVEROIN, CFHTLS, and
+COSMOS sets. Each set is ﬁtted independently to explore the
+systematic error
+introduced by choosing different SED
+libraries. This also allows us to choose the SED that is most
+consistent with the supplementary information. The CWW
+library (Coleman et al. 1980) is based on four observed spectra
+(Ell, Sbc, Scd, Irr) and is commonly used for photometric
+redshift estimates. The CWW-Kinney sample extends the
+CWW set with six starburst galaxies (Calzetti et al. 1994;
+Kinney et al. 1996). Both the AVEROIN (Bruzual &
+Charlot 2003; Arnouts et al. 2007) and CFHTLS (Ilbert et al.
+2006) samples are essentially updated and reﬁned versions of
+the CWW-Kinney sample. Finally,
+the COSMOS sample
+(Ilbert et al. 2009) is based on more recent SEDs of three
+
+4
+
+ellipticals and six spirals (S0, Sa, Sb, Sc, Sd, Sdm, Polletta
+et al. 2007), as well as 12 starbursts (Bruzual & Charlot 2003).
+We conclude this section with brief notes on the redshift of
+
+individual objects.
+
+1. Both XT161028 (z=0.29) and 151219 (z=0.62) have
+photometric redshifts from SDSS-IV Data Release 16
+(Ahumada et al. 2019). We choose to adopt the SDSS
+values, which are very similar to the values obtained
+using our redshift estimation method (0.28 and 0.66,
+respectively). This choice does not affect the results and
+facilitates comparisons with other works that rely on
+SDSS redshifts. XT151219 also has redshift estimates of
+0.67 (Kuijken et al. 2019) and 0.68 (Wright et al. 2019)
+using combined data from KiDS and VIKING, 0.27 (de
+Jong et al. 2017) using only KiDS, and 0.61 from the Hyper
+Suprime-Cam Subaru Strategic Program (Nishizawa et al.
+2020). Large errors for a small fraction of photometric
+redshift estimates are common, which we believe explains
+the deviating value of 0.27.
+
+it
+
+2. Our SED ﬁt results in a preliminary redshift of 0.088 for
+is located 11″ (corresp-
+XT110621. Additionally,
+onding to a projected distance of 20 kpc at
+the ﬁnal
+redshift) away from an mr=15.6 magAB galaxy and 44″
+(77 kpc) from an mr=13.4 magAB galaxy (Figure 1).
+The former has a photometric redshift of 0.097 (Dalya
+et al. 2016) and the latter a spectroscopic redshift of 0.095
+(Jones et al. 2009). For these reasons, we adopt z=0.095
+as the ﬁnal value for XT110621.
+
+3. XT030206 is well-ﬁt by SB10 in the COSMOS sample,
+which is the second bluest starburst
+in the sample.
+Furthermore, the SED captures the Balmer break well,
+which no other SED type does adequately. This lends
+conﬁdence to the photometric redshift and we take
+z=1.17 for this galaxy.
+
+4. XT070618 has no detected host but
+
+is located 11″
+(58 kpc) away from an mr=20.83 magAB galaxy and
+from an mr=18.8 magAB galaxy
+21″
+
+(107 kpc)
+
+The Astrophysical Journal, 896:39 (23pp), 2020 June 10
+
+Alp & Larsson
+
+Figure 1. SBO candidates in descending order of conﬁdence of being an SN SBO. Left column: Sky images centered on the positions of the X-ray transients (green
+circles with 1σ radii). The green lines mark the candidate host galaxies. The bottom texts are the sources of the images, which are all from HiPS except for VISTA and
+Subaru data. The color scales are arbitrary and are chosen to maximize contrast. The image colors loosely represent source colors for multi-band data. All images are
+1×1 arcmin2 and the lines pointing to the galaxies are 3″. North is up and east is left. Middle column: combined EPIC light curves in the observed 0.3–10 keV range.
+Blue lines are binned light curves with light blue uncertainties, and orange lines are smoothed light curves (bin sizes and kernel widths are given in the legends). The
+dashed green lines show the separation into ﬁrst and second halves for the time-resolved spectral analysis. The gray regions show the typical timescales (tR/c;
+Section 7.1). The black crosses are the peak ﬂuxes (Section 4) and the horizontal black lines (lower left and right corners, barely visible in some cases) are the ﬂux
+limits (Table 3). Right column: upper segments show the observed time-integrated spectra (black crosses) ﬁtted with the absorbed blackbody (blue) and power-law
+(orange) models. Lower segments show the residuals normalized by the uncertainties using the same colors as above for the respective models. For visual clarity, we
+combine all EPIC data and bin to 12 energy bins logarithmically.
+
+(Figure 1). We assume that all three sources are located at
+the same redshift and perform SED ﬁts to the two bright
+galaxies. Reasonable agreement is achieved for z=0.37,
+which we take as the estimate for XT070618 despite the
+uncertainties.
+
+5. XT060207 lacks information for any type of redshift
+estimate. Therefore, we simply adopt a ﬁducial value of
+z=0.3. This redshift results in reasonable inferred SBO
+
+5
+
+parameters and is also motivated by the photometry limits
+on a host galaxy. A much lower redshift would require a
+very faint host, whereas a much higher redshift would
+imply an extreme X-ray transient. However, we stress
+that
+is clearly highly
+uncertain.
+
+the redshift of
+
+this transient
+
+6. XT100424 has acceptable SED ﬁts for redshifts in the
+range 0.08–0.4. There are two galaxies with mr=16.0
+
+The Astrophysical Journal, 896:39 (23pp), 2020 June 10
+
+Alp & Larsson
+
+Figure 1. (Continued.)
+
+and 16.5, respectively, at distances of 63″ (146 kpc) at
+z=0.10 and 71″ (166 kpc) at z=0.16. These two
+redshifts are photometric redshifts from the GLADE
+catalog (Dalya et al. 2016). We adopt a redshift of 0.13
+for XT100424 (implicitly for all three galaxies) based on
+the combined information.
+
+7. XT151128 has acceptable SED ﬁts for redshifts in the
+range 0.2–0.65. The best ﬁt is around 0.48, which we
+adopt as the favored redshift.
+
+8. We also use the ﬁducial value of z=0.3 for XT050925
+and 160220. In contrast to XT060207, there are NIR
+these sources and z=0.3 results in
+detections for
+reasonable host NIR absolute magnitudes.
+
+9. The redshift for XT140811 is solely based on SED ﬁts,
+
+which favor a redshift of 0.57.
+
+10. The redshift for XT040610 is determined based on
+photometric redshifts from SDSS12 (Alam et al. 2015) of
+eight neighboring galaxies within 20″ (123 kpc). The
+average redshift is 0.5 with a standard deviation of 0.17.
+We take z=0.5 as the redshift of XT040610 despite the
+large uncertainties.
+
+4. Observations and Data Reduction
+
+We perform data reduction of all selected sources (Table 1)
+largely following standard procedures. This data reduction is
+independent of the automatic processing used for ﬁnding the
+transients (Appendix A). We use XMM-Newton Science
+Analysis System (SAS) version 18.0.0 (Gabriel et al. 2004)
+
+6
+
+The Astrophysical Journal, 896:39 (23pp), 2020 June 10
+
+Alp & Larsson
+
+Figure 1. (Continued.)
+
+and the latest CCF as of 2019 December 11. We inspect the
+images from the Optical Monitor (Mason et al. 2001) on board
+XMM-Newton when available, but ﬁnd no variable emission
+that appears connected with the X-ray transients. Henceforth,
+we only consider data from the European Photon Imaging
+Camera (EPIC). All 12 sources are covered by pn and MOS2,
+while 8 sources are covered by MOS1 since part of its FoV has
+been disabled.
+
+We apply the latest calibration using the tasks epproc and
+emproc. We also apply ﬁlters to keep data only in the range
+0.3–10 keV with standard ﬁltering parameters. We select
+temporary source regions and ﬁnal background regions by
+hand. The background regions typically have radii of ∼1′ and
+are selected to be close to the source, free of other sources, and
+
+7
+
+on the same CCD chip as the source. We use these source and
+background regions to construct preliminary light curves.
+
+Next, we deﬁne ﬁve time intervals: before, during, after, and
+the ﬁrst and second halves of the transient. The halves of the
+transient are deﬁned to have approximately equal ﬂuences.
+These two halves are only used for time-resolved spectral
+analysis (Section 5). All time intervals are deﬁned by eye based
+on inspections of the preliminary source light curves.
+
+We remove periods of high background before and after the
+deﬁned duration of the transient following standard procedures.
+The background levels during the transients are not high
+enough to signiﬁcantly affect the analysis. Only XT110621
+occurs during a high background interval, but is still clearly
+detected with a signal-to-noise ratio (S/N) of 5. The median
+
+The Astrophysical Journal, 896:39 (23pp), 2020 June 10
+
+Alp & Larsson
+
+Figure 1. (Continued.)
+
+S/N across all sources is 7, where the longer transients
+contribute to a lower ratio. We note that the S/N only includes
+the photon number statistics and does not
+the
+detection statistic, which also includes the spatial information.
+The lowest detection statistic, as deﬁned by emldetect
+(Watson et al. 2009), is 20 for XT151128. This approximately
+corresponds to a false detection probability of 2×10−9.
+
+represent
+
+With the time intervals, it is possible to obtain an improved
+estimate of the source position by ﬁtting to the image created from
+the duration of the transient. We use the SAS task edetect_ch-
+ain to ﬁt for the position in the 0.3–10 keV range in all cameras
+simultaneously. We add in quadrature, a systematic uncertainty of
+1 24, to the statistical uncertainty from edetect_chain, to
+
+obtain the ﬁnal position uncertainty. We adopt this position as
+the ﬁnal source position and create the ﬁnal source regions. The
+radii for these regions are chosen to maximize the S/N, which
+is computed by the SAS task eregionanalyse.
+
+The next step of the data preparation is to create a light curve
+using the updated source region, and create images and extract
+spectra during each of the ﬁve time intervals. The light curve
+and images are created following standard XMM-Newton data
+reduction procedures. We largely follow standards when
+extracting the spectra as well. However, we group all source
+spectra to at least 1 count per spectral bin, which is necessary
+for using C-stat in XSPEC.5 The ancillary response ﬁles and
+
+4 XMM-Newton Calibration Technical Note XMM-SOC-CAL-TN-0018.
+
+5 https://heasarc.gsfc.nasa.gov/xanadu/xspec/manual/XSappendixStatistics
+.html
+
+8
+
+The Astrophysical Journal, 896:39 (23pp), 2020 June 10
+
+response matrix ﬁles for the individual cameras are generated
+using the SAS tasks arfgen and rmfgen, respectively.
+Solely for presentation purposes, we also combine the spectra
+from the three cameras using especcombine. The individual
+spectra used for the merged EPIC spectra are binned using a
+common channel grid corresponding to uniform bins of width
+0.2 keV.
+
+To determine upper limits on the source ﬂux during the time
+intervals before and after the transient, we use the SAS task
+esensmap. The task computes the photon ﬂux required for a
+hypothetical source to be detected in the combination of all
+three instruments. To convert the photon ﬂux to physical units,
+we use the best-ﬁt model of the time-averaged spectrum
+(Section 5). For the upper limits, we choose a detection
+threshold (DET_ML) of 5.9, which corresponds to a chance
+probability for detection of 2.7×10−3 (3σ) under the null
+hypothesis.
+
+To estimate the peak ﬂux of each transient, we start by
+ﬁnding the shortest time interval during which 25% of all
+source photons are detected. This is done by searching a
+combined EPIC source event list. Having determined the time
+interval with the highest photon ﬂux, we use epiclccorr to
+apply all corrections to obtain the corrected count rate with
+error bars. This task is usually used to produce light curves,
+whereas we use it here to compute a count rate during a single
+time interval. This is performed on the cameras individually,
+with the single-bin time interval provided as input. The ﬁnal
+step is to convert the peak count rates from epiclccorr to
+ﬂuxes. We do this by scaling the ﬂuxes obtained from the time-
+integrated spectral ﬁts (Section 5) by the ratio of the peak to the
+time-averaged photon count rate.
+
+it
+
+transient.
+
+is possible that
+
+When the ﬂux is high,
+
+two incident,
+spatially close photons are interpreted incorrectly. They could
+be detected as a single photon with higher energy or ﬂagged as
+bad, a phenomenon referred to as pile-up. There is some
+potential
+for pile-up during the brightest phases of our
+transients. XT070618 is the most likely to suffer from pile-
+up, with a peak count rate of 0.4 photons per frame in the pn
+CCD. The standard SAS method used for assessing pile-up,
+epatplot,
+is inconclusive because too few photons are
+detected during the short
+Instead, we manually
+inspect the raw (ODF), calibrated (unﬁltered), and ﬁnal event
+lists and ﬁnd no signs of suspected pile-up events. All light
+curves are practically identical, including the marginal double-
+peaked shape (Section 6).
+
+Finally, we comment on the ﬂux of the object XT151219. It
+is close to (but not on) a chip gap on the pn CCD. A part of the
+standard procedure when creating pn spectra is to reject events
+close to chip gaps (FLAG==0). This is performed because of
+energy calibration uncertainties for events not completely
+contained on the chip. For this object, this means rejecting
+∼20% of the pn events. The spectral shape is unaffected, but
+the overall ﬂux is likely underestimated by ∼15% (the source is
+covered by both pn and MOS2). This does not affect any
+conclusions qualitatively and we do not attempt to correct
+for it.
+
+5. Spectral Fitting
+
+We ﬁt
+
+two simple models to the data: a blackbody
+(zbbody) and power-law (zpowerlw) model. Both models
+also include an absorption component for the Milky Way
+absorption (tbabs, Wilms et al. 2000) and a redshifted
+
+Alp & Larsson
+absorption component (ztbabs) representing host galaxy
+absorption. The Milky Way column density is frozen to the
+weighted estimate of Willingale et al. (2013), whereas the
+redshifted column densities are ﬁtted for. Both absorption
+components use the abundances of Wilms et al. (2000) and
+cross sections of Verner & Yakovlev (1995).
+
+We freeze the redshifts to our estimated values (Table 2) and
+ignore the uncertainties that are implicitly introduced. The
+redshifts only have a minor impact on the ﬁtted parameters
+(Section 6) but have signiﬁcant
+implications for the inferred
+physical properties, which are discussed separately (Section 7.2).
+The blackbody model is a simpliﬁed representation of a
+complete physical model for the time-integrated spectrum of an
+SN SBO (Section 7.1). The integrated spectra of SBOs are not
+expected to be perfectly thermal, but a blackbody is a
+reasonable approximation given the large uncertainties. Sapir
+et al. (2013) showed that the time-integrated spectrum of an
+peak, where hνpeak is the photon
+SBO peaks at
+the spectral peak (measured in ﬂuence per
+energy at
+logarithmic frequency; νFν) and Tpeak is the peak surface
+temperature. In comparison, the spectral peak of a blackbody of
+temperature T peaks at hνpeak=2.82T. Therefore, the ﬁtted
+temperature is a reasonable approximation of the peak surface
+temperature.
+
+n
+peak
+
+T3
+
+=
+
+h
+
+The interpretation of the power-law model is simpler than
+the interpretation of the blackbody because we only use the
+power law as a phenomenological model. Its purpose is to
+quantify the observed spectral slope by ﬁtting for the photon
+index (Γ). Moreover,
+is also used for
+comparisons with the blackbody model.
+
+the goodness of ﬁt
+
+We also ﬁt the blackbody and power-law models to the
+spectra from the ﬁrst and second halves of the transients.
+However, since the aim is to solely quantify spectral evolution,
+the host absorptions are frozen to the best-ﬁt values from the
+time-integrated ﬁts. This assumes that all information about the
+evolution of the spectral shape is captured by the temperature
+or photon index.
+
+5.1. Technical Aspects
+
+We use XSPEC version 12.10.1f (Arnaud 1996) for the
+spectral analysis. The spectra are ﬁtted simultaneously to data
+from all three EPIC CCDs in the entire 0.3–10 keV range. We
+do not
+introduce a free cross-normalization between the
+instruments. The relative calibration of the instruments are
+accurate to within 5%–10% (Madsen et al. 2017; Plucinsky
+et al. 2017), but additional
+free constants between the
+instruments cannot be reliably constrained in a few cases of
+extremely few counts. The analysis is performed with the C-stat
+ﬁt statistic (Cash 1979) in XSPEC, which is the W statistic
+when a Poissonian background is included.6
+
+for
+
+Conﬁdence intervals
+
+the parameter estimates are
+computed using the error command in XSPEC, which varies
+the ﬁt parameters until the change in ﬁt statistic reaches a given
+threshold. This assumes that the difference in ﬁt statistic is
+2 for q degrees of freedom. This is a reasonable
+distributed as cq
+approximation even for Poissonian data except for a small
+(Cash 1979;
+additive correction µ -n 1 2
+Yaqoob 1998). For the time-integrated ﬁts, there are three free
+parameters. An appropriate threshold for 1σ conﬁdence
+
+for n photons
+
+6 https://heasarc.gsfc.nasa.gov/xanadu/xspec/manual/XSappendixStatistics
+.html
+
+9
+
+The Astrophysical Journal, 896:39 (23pp), 2020 June 10
+
+for
+
+intervals and three independent parameters is a change in ﬁt
+statistic of 3.5 (Avni 1976; Cash 1976; Lampton et al. 1976).
+Analogously,
+the time-resolved ﬁts with two free
+parameters, the corresponding value is 2.3. For reference, we
+note that X-ray analyses commonly use a critical value of
+2.706, which represents the 90% interval for one parameter of
+interest.
+
+The goodness of ﬁts are computed by simulating 1000
+spectra using the fakeit command in XSPEC. The spectra
+are simulated using the best-ﬁt model at the energy resolution
+of the channels of the instruments. The faked spectra are then
+grouped to at least 1 count per bin, analogously to the real data.
+The models are then ﬁtted to these spectra. The ﬁnal goodness
+measure is represented by the fraction of ﬁts to faked spectra
+with better test statistic than ﬁts to the observed data. A good ﬁt
+should on average result in a fraction of 0.5. For our purposes
+and given the systematic uncertainties, we consider goodness
+fractions relatively close to 1 as acceptable. The ﬁt statistics
+and goodness measures for all ﬁts are provided in Table C1.
+
+6. Observed Properties
+
+Here, we report
+
+the observed properties of
+
+the SBO
+candidates. These are practically independent of any modeling
+uncertainties. The redshifts enter into the ﬁtted blackbody
+temperature and host galaxy absorption, but do not affect these
+values much. In Figure 1, we provide the sky images, light
+curves, and spectra for all SBO candidates. The purpose of the
+sky images is only to show the host galaxy candidates and the
+neighboring sources relative to the X-ray transients. Properties
+of the light curves and spectra are presented separately in
+Sections 6.1 and 6.2, respectively.
+
+6.1. Light Curves
+
+The light curves in Figure 1 show the temporal evolutions of
+the transients. We note the signiﬁcantly different durations and
+timescales (Section 7.1) ranging from ∼30 to 10,000 s. All
+transients show gradual rises that appear at least marginally
+resolved, although quite steep in some cases. In particular, no
+source shows a prompt (<10 s) rise followed by an immediate
+decay. This has important
+implications for interpreting the
+origins of the transients, since some are characterized by sharp
+rises (Section 8). We are not able to quantify the properties of
+the decaying tails accurately, since all transients quickly fade
+below the detection limits. Dividing the light curves into
+different energy bands is limited by the number of photons, and
+does not reveal any signiﬁcant behavior that is not captured by
+the time-resolved spectra (Section 6.2). Finally, we note in
+passing an apparent, curious double-peak structure in the light
+curves of XT070618 and 060207. We do not consider this
+further since it appears statistically marginal, but a clearly
+double-peaked X-ray transient has previously been reported by
+Jonker et al. (2013).
+
+The average ﬂuxes, peak ﬂuxes, and constraints before and
+after the transients are provided in Table 3 (with the peak ﬂuxes
+determined as described in Section 4). This shows that the
+transients have large dynamic ranges of at least 10 in all cases
+and substantially higher in many cases. The constraints on the
+dynamic ranges are primarily limited by the telescope
+sensitivity.
+
+For
+
+two of
+
+the transients, we ﬁnd some evidence for
+emission outside the main transient event. This is the case for
+
+Alp & Larsson
+XT161028, which is marginally detected after the main event.
+This is likely the decaying tail that extends beyond the selected
+time interval used to deﬁne the duration. No sub-threshold
+source is present before the transient and the limit indicates that
+any emission was lower than the marginal detection after. We
+also ﬁnd no indications of a source in two XMM-Newton
+observations7 14yr before the transient.
+
+XT151219 shows a marginal quiescent ﬂux level before
+the transient. XMM-Newton observed this position 7months
+before and 18months after the transient.8 The last observation
+marginally detects a ﬂux level roughly half (consistent within
+uncertainties) of the level seen just before the transient. We
+interpret this as quiescent X-ray emission from an underlying
+active galactic nucleus. Using the ﬂux measured just before the
+transient, the inferred 0.3–10 keV luminosity is (1.4±0.4)×
+erg s 1 for z=0.62. No emission is detected in the
+1043
+earliest observation and just after the transient in the main
+observation. This is likely due to the limited sensitivity and
+inspections of the images reveal a sub-threshold source present
+in both cases.
+
+-
+
+6.2. Spectra
+
+The time-integrated spectral ﬁts are shown in Figure 1 and
+the parameters from all ﬁts are provided in Table 4, including
+the time-resolved ﬁts. Statistical measures of all ﬁts are
+provided in Table C1. All ﬁts are acceptable, although there
+are indications that some spectral features are not properly
+captured by the simple models. We do not attempt to ﬁt more
+complicated models due to the data quality and modeling
+uncertainties. Additionally, the sources likely evolve in time,
+which could introduce apparent spectral features in the time-
+integrated spectra.
+
+All transients are soft but show a range of different color
+temperatures in the range 0.1–1 keV, or alternatively, photon
+indices of 2–4. We note that there is an observational bias
+toward soft sources due to the instrumental characteristics of
+XMM-Newton and the detection statistic, which scales with the
+number of photons rather than ﬂuence. The time-resolved ﬁts
+show that the evolutions generally go from harder to softer,
+although the signiﬁcance is marginal in some cases. No source
+shows any signiﬁcant hardening.
+
+Overall, the power-law model seems to result in slightly
+better ﬁts. It is possible that this is due to a stronger degeneracy
+between the photon index and host absorption than between the
+temperature and host absorption. This behavior can be seen
+from the ﬁtted host absorption column densities, which
+generally are lower for the blackbody model than the power-
+law model. We do not attempt to evaluate if the blackbody or
+the power-law model is more reliable in this respect. This
+would require assuming an underlying SBO model, modeling
+the absorption of galaxies, and computing the survey
+sensitivity, which is beyond the scope of this paper. We
+simply conclude that the photon indices might be unreliable
+and that the degeneracy can result in apparently better ﬁts when
+compared to the blackbody model. Any uncertainties in the
+photon indices do not affect our conclusions signiﬁcantly since
+they are not used for inferring physical parameters.
+
+7 Observation IDs 0021140801 and 002114901.
+8 Observation IDs 0770380201 (before) and 0802860201 (after).
+
+10
+
+The Astrophysical Journal, 896:39 (23pp), 2020 June 10
+
+Alp & Larsson
+
+Fmean
+
+(10−13 erg s−1 cm−2)
+
+Fpeak
+
+(10−13 erg s−1 cm−2)
+
+Fbefore
+
+(10−13 erg s−1 cm−2)
+
+Fafter
+
+(10−13 erg s−1 cm−2)
+
+Table 3
+Fluxes
+
+3.82±0.73
+2.34±0.31
+2.63±0.54
+5.19±0.41
+32.12±3.64
+10.42±1.95
+0.26±0.04
+0.27±0.06
+0.24±0.05
+0.42±0.06
+0.16±0.02
+0.12±0.01
+
+15.30±4.31
+17.61±3.82
+7.12±2.22
+18.79±2.15
+105.92±15.31
+26.25±7.23
+0.57±0.12
+2.44±0.99
+1.16±0.37
+1.92±0.44
+0.57±0.13
+0.45±0.08
+
+<0.05
+
+0.08±0.02
+
+<0.06
+<0.07
+<0.05
+<0.08
+<0.05
+<0.08
+<0.06
+<0.11
+<0.05
+<0.03
+
+0.13±0.04
+
+<0.06
+<0.06
+<0.02
+<0.05
+<0.15
+<0.02
+<0.14
+<0.18
+<0.16
+<0.06
+<0.04
+
+XT
+
+161028
+151219
+110621
+030206
+070618
+060207
+100424
+151128
+
+050925
+160220
+140811
+040610
+
+F
+peak
+F
+
+before
+
+>300
+200
+>100
+>300
+>2000
+>300
+>10
+>30
+>20
+>20
+>10
+>20
+
+F
+peak
+F
+after
+
+100
+>300
+>100
+>800
+>2000
+>200
+>20
+>20
+>10
+>10
+>10
+>10
+
+Note. Observed ﬂuxes in the 0.3–10 keV range computed using the time-integrated best-ﬁt spectrum. The choice of model is based on the goodness of ﬁt (Table C1).
+The last two columns show the dynamic ranges of the transients.
+
+XT
+
+161028
+151219
+110621
+030206
+070618
+060207
+100424
+151128
+
+050925
+160220
+140811
+040610
+
+NH,MW
+
+(1020 cm−2)
+
+NH,BB
+
+(1022 cm−2)
+
+1.9
+2.5
+3.0
+6.4
+1.6
+10.8
+5.1
+5.1
+
+4.3
+8.4
+11.2
+4.2
+
+<1.2
+<1.8
++1.3 1.2
+3.4
+-
+<0.4
+<0.8
+<1.6
+<0.6
+<4.2
+
+<1.9
+<1.1
+<4.7
+<0.9
+
+Table 4
+
+Results of Spectral Fits
+
+T1
+(keV)
++
+0.20
+0.53 0.12
+-
++
+0.15
+0.45 0.09
+-
++
+0.18
+0.52 0.13
+-
++
+0.06
+0.53 0.06
+-
++
+0.12
+0.64 0.10
+-
++
+0.33
+0.89 0.20
+-
++
+0.04
+0.13 0.03
+-
++
+0.06
+0.09 0.03
+-
+
+0.23
+0.40 0.12
+0.15
+0.40 0.08
+0.16
+0.38 0.09
+0.30
+0.96 0.20
+
++
+-
++
+-
++
+-
++
+-
+
+T2
+(keV)
++
+0.11
+0.28 0.07
+-
++
+0.08
+0.30 0.05
+-
++
+0.11
+0.26 0.07
+-
++
+0.05
+0.38 0.05
+-
++
+0.05
+0.31 0.04
+-
++
+0.24
+0.62 0.14
+-
++
+0.03
+0.12 0.03
+-
+L
+
+0.95
+0.59 0.37
+0.14
+0.47 0.10
+0.06
+0.28 0.05
+0.14
+0.60 0.11
+
++
+-
++
+-
++
+-
++
+-
+
+T
+
+(keV)
++
+0.17
+0.41 0.12
+-
++
+0.13
+0.37 0.11
+-
++
+0.27
+0.42 0.21
+-
++
+0.05
+0.47 0.05
+-
++
+0.10
+0.46 0.09
+-
++
+0.26
+0.93 0.21
+-
++
+0.03
+0.13 0.03
+-
++
+0.14
+0.16 0.11
+-
+
+0.36
+0.45 0.17
+0.13
+0.45 0.11
+0.17
+0.32 0.13
+0.17
+0.68 0.13
+
++
+-
++
+-
++
+-
++
+-
+
+NH,PL
+
+(1022 cm−2)
+
+Γ
+
+Γ1
+
+Γ2
+
+-
+
+-
+
+<2.2
++0.8 0.6
+1.0
+-
++3.4 2.0
+3.9
++0.6 0.5
+0.5
++0.8 0.3
+0.5
+-
+<3.9
+<0.7
+<0.9
+
+<2.4
++0.5 0.4
+0.7
+-
+<3.7
++0.4 0.4
+0.7
+-
+
+-
+
+-
+
+-
+
++2.8 1.1
+1.8
++3.5 1.2
+2.1
+-
+>2.9
++3.4 0.5
+0.6
+-
++3.2 0.7
+0.8
++1.9 0.8
+1.0
++3.9 0.6
+2.8
++1.9 1.1
+3.2
++2.1 0.8
+1.6
++2.9 0.9
+1.4
++2.7 0.9
+2.0
++2.1 0.6
+0.7
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
++2.5 0.7
+0.7
++3.0 0.6
+0.7
++4.1 1.1
+1.2
++3.3 0.3
+0.3
++2.5 0.3
+0.3
++1.8 0.7
+0.7
++4.0 0.9
+1.1
+
+-
+
+-
+
+-
+
+-
+L
+
+-
+
+-
+
++2.2 0.7
+0.8
++3.0 0.6
+0.7
++2.5 0.7
+0.9
++1.8 0.5
+0.5
+
+-
+
+-
+
+-
+
+-
+
+-
+
++3.7 1.1
+1.3
++4.3 0.8
+0.9
+-
+>5.5
++3.9 0.5
+0.5
+-
++4.4 0.5
+0.6
++2.4 0.7
+0.8
++4.1 0.7
+0.9
++1.4 1.4
+1.6
++1.8 1.2
+1.2
++2.9 0.6
+0.7
++3.0 0.6
+0.7
++2.3 0.4
+0.4
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Note. Parameters without integer subscripts are for the time-integrated spectra. The subscripts 1 and 2 refer to the ﬁrst and second intervals of the time-resolved
+analysis, respectively. The Galactic absorptions (NH,MW) are frozen during the ﬁts. The absorption column densities NH,BB and NH,PL are the redshifted host galaxy
+absorptions from the blackbody and power-law ﬁts, respectively. Parameter estimates are missing for unconstrained ﬁts.
+
+7. SBO Interpretation
+
+inferring physical parameters
+
+In this section, we outline the SBO model (Section 7.1) used
+for
+from the observables
+(Section 7.2). We then discuss the effects of asymmetries
+(Section 7.3) and CSM (Section 7.4), which are not
+incorporated into the model. We conclude by commenting on
+the individual SBO candidates and how the observations
+compare to theory (Section 7.5).
+
+7.1. SBO Model
+
+We use a model for SN SBOs to connect the observed
+properties to physical parameters of the SN and its progenitor.
+The aim is to infer the shock velocity (vsh), progenitor radius
+(R), breakout density (ρ), and ejecta velocity (vej). The ejecta
+velocity is the typical bulk velocity deﬁned as
+
+=v
+ej
+
+E
+exp
+M
+ej
+
+,
+
+( )
+1
+
+11
+
+where Eexp is the SN explosion energy and Mej the ejecta mass.
+The observed parameters that constrain these properties are the
+bolometric SBO energy (ESBO) and color temperature (T).
+Here, we closely follow the summary of SN SBO theory by
+Waxman & Katz (2017). For simplicity, we consider the non-
+relativistic regime even though BSGs are expected to be in the
+transitional region (∼0.1c) and possibly be mildly relativistic in
+some cases. Non-relativistic SBOs are also more accurately
+modeled from a theoretical perspective. More detailed SBO
+modeling is not motivated due to the limited data and
+uncertainties in the redshifts.
+
+The bolometric SBO energy is given by Equation (31) of
+
+Waxman & Katz (2017)
+
+E
+
+SBO
+
+=
+
+2.2
+
+´
+
+47
+
+10
+
+2
+R v
+13
+
+-
+
+1
+sh,9 0.34
+
+k
+
+erg,
+
+( )
+2
+
+n
+
+n
+
+Q
+
+Q
+
+10
+
+=
+in general for integer n and 0.34κ0.34
+cgs
+where
+cm2g−1=κ is
+the opacity. The opacity is given by
+5 cm2g−1, where X is the H mass fraction.
+k = + X
+This implies that κ ranges from 0.2cm2g−1 (H-poor) to
+
+(
+1
+
+)
+
+The Astrophysical Journal, 896:39 (23pp), 2020 June 10
+
+Alp & Larsson
+
+XT
+
+161028
+151219
+110621
+030206
+070618
+060207
+100424
+151128
+
+050925
+160220
+140811
+040610
+
+tR c
+(s)
+
+42
+90
+380
+360
+70
+110
+5600
+1800
+
+850
+750
+1800
+3200
+
+Lpeak
+
+(1044 erg s−1)
+
++
+2.40
+3.39 1.03
+-
++
+53.76
+32.88 11.00
+-
++
+7.45
+0.39 0.22
+-
++
+28.72
+172.47 23.77
+-
++
+17.05
+48.78 10.68
+-
++
+2.74
+6.44 2.03
+-
++
+0.12
+0.05 0.01
+-
++
+56.98
+1.83 1.08
+-
+
+0.14
+0.21 0.08
+0.23
+0.51 0.12
+4.64
+0.93 0.41
+0.09
+0.32 0.07
+
++
+-
++
+-
++
+-
++
+-
+
+ESBO
+
+-
+
+-
+
+-
+
+-
++
+-
+
+(1046 erg)
++0.3 0.1
+0.2
++2.4 0.8
+4.0
++0.5 0.3
+9.5
+13.2
+79.0 10.9
++7.6 1.7
+2.6
++2.2 0.7
+0.9
++1.0 0.3
+2.6
++2.5 1.5
+78.1
++0.3 0.1
+0.2
++0.6 0.2
+0.3
+-
++2.9 1.3
+14.6
++1.8 0.4
+0.5
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Table 5
+
+Inferred SBO Properties
+
+Rt
+( ☉R )
+14
+24
+150
+71
+22
+36
+2136
+524
+
+282
+249
+494
+919
+
+RE
+( ☉R )
+11
+30
+14
+146
+49
+23
+30
+41
+
+10
+16
+34
+23
+
+vsh
+
+(103km s−1)
+
+vej
+
+(103km s−1)
+
+ρ
+
+(10−9 g cm3)
+
+Eexp
+
+(1051 erg)
+
+22
+25
+24
+35
+30
+39
+11
+14
+
+24
+25
+23
+34
+
+1.5
+2.2
+1.7
+4.5
+2.9
+3.0
+1.1
+1.5
+
+1.6
+1.8
+2.1
+2.6
+
+13.0
+2.5
+8.2
+0.2
+1.1
+2.8
+4.9
+2.5
+
+12.9
+6.9
+2.2
+3.1
+
+0.7
+1.4
+0.9
+6.0
+2.6
+2.6
+0.3
+0.6
+
+0.7
+1.0
+1.3
+2.0
+
+z
+
+)
+
+ct
+
++
+
+=
+
+(
+1
+
+Note. Timescales (tR c) are deﬁned by hand (Section 7.1) and are given in the observer frame. The redshift correction is applied when computing the radius
+R
+. The luminosities and energies are bolometric. The parameters Lpeak and ESBO are observational and do not rely on the SBO modeling. The intervals
+t
+for Lpeak and ESBO only represent the X-ray ﬁtting uncertainties and do not include the redshift uncertainties. The large uncertainties for XT151128 are due to a
+combination of few photons and a low lower temperature limit. We refrain from estimating the uncertainties for the remaining parameters since they include
+uncertainties in the redshifts as well as the SBO modeling, which are difﬁcult to quantify (Sections 3 and 7.1).
+
+0.34cm2g−1
+Equation (27) of Waxman & Katz (2017)
+
+(H-rich). The shock velocity is given by
+
+v
+sh
+v
+ej
+
+=
+
+13
+
+0.16
+M v
+ej,10
+
+0.16
+ej,8.5
+
+-
+R
+12
+
+0.32
+
+k
+
+0.16
+0.34
+
+f
+
+-
+
+0.05
+
+,
+
+( )
+3
+
+=-
+1
+
+km s
+
+3000
+
+v
+ej,8.5
+
+v
+where
+ej and f is a numerical factor of
+order unity that depends on the detailed envelope structure
+(Appendix A of Calzavara & Matzner 2004). The numerical
+factor for BSGs is given by Equation (37) of Sapir et al. (2013)
+
+f
+
+=
+
+0.072
+´
+
+m
+
+4
+0.62
+-
+
+L M
+
+-
+1
+
+,5
+0.35
+
+3
+ej,10
+L M
+
+-
+1
+k
+0.34
+-
+ej,10
+
+,5
+
+4
+
+1
+
+,
+
+
+
+(
+
+)
+
+k
+
+0.34
+
+1.35
+
+( )
+4
+where 0.62μ0.62=μ is the mean molecular weight and Lå is
+luminosity. The parameter μ is given by
+the progenitor
+)
+-
+m =
+1, where Y is the He mass fraction.
+Y
+Although the time-integrated color
+temperature cannot be
+expressed analytically, it can be ﬁtted by Equation (50) of
+Waxman & Katz (2017)
+
+0.75
+
+(
+2
+
++
+
+X
+
+⎛
+⎝
+⎜
+
+⎞
+⎠
+⎟
+
+3
+T
+eV
+
+log
+
+10
+
++
+
+0.5
+v
+sh,9
+
+=
+
+1.4
+(
+
++
+
+0.25
+
+( )
+5
+where ρ is given by Equation (28) of Waxman & Katz (2017)
+( )
+6
+
+= ´ -
+10
+
+-
+3
+g cm .
+
+0.5
+v
+sh,9
+
+0.05
+
+log
+
+r
+-
+
+0.87
+
+1.26
+
+0.29
+
+-
+
+k
+
+r
+
+8
+
+10
+
+)
+
+(
+
+)
+
+f
+
+,
+
+9
+
+9
+
+0.13
+M v
+ej,10
+
+-
+0.87
+ej,8.5
+
+-
+0.34
+
+-
+R
+12
+
+The observed data are not able to constrain all parameters, in
+particular those that the observables are relatively insensitive
+to. Therefore, we take some values based on SN1987A
+because SBOs should be most easily detectable from BSGs
+similar to SN1987A (Sapir et al. 2013; Sapir & Halbertal 2014;
+Waxman & Katz 2017). Speciﬁcally, we assume Mej=15
+☉M
+(Alp et al. 2019; Menon et al. 2019; Utrobin et al. 2019),
+Lå=150,000 ☉L (Woosley et al. 1987), and a H-rich surface
+composition of X=0.7 and Y=0.3. To illustrate the weak
+dependence on these parameters, we note that choosing a
+
+12
+
+H-poor star with a factor of 10 lower Mej and a factor of 10
+higher Lå only changes R by a factor of 0.83, vsh by 0.86, ρ by
+4.0, and vej by 1.7. With the ﬁducial SN1987A values,
+Equations (2), (3), (5), and (6) form a system of equations with
+4 unknowns. The solution process can be simpliﬁed by solving
+Equation (3) for vej, inserting it into Equation (6), and using
+Equation (2) to express ρ in terms of ESBO, which results in
+( )
+7
+
+r = ´ -
+10
+
+g cm
+
+E
+
+5
+
+-
+
+9
+
+3
+
+-
+0.75
+SBO,46
+
+for our assumed parameter values.
+
+In addition to the constraint on R from the model above, an
+independent constraint can be placed based on the light curve.
+The light curve shape is initially determined by the light travel
+time from different parts of the progenitor. The light curve rises
+R c
+,
+and remains approximately constant until a time of
+after which it starts decaying (Nakar & Sari 2010). This light
+travel
+least
+approximately spherical. Furthermore, it is only valid if tR/c is
+longer than the dynamical time of the breakout shell (breakout
+shell width over vsh). This is expected to be the case for all but
+the most extended RSGs, which are likely to be too cool to be
+observed.
+
+time argument only applies if the SBO is at
+
+ºt
+R c
+
+7.2. Inferred SN Properties
+
+Here, we use the model outlined above to infer physical SN
+parameters, which are provided in Table 5. The table includes
+values that are derived using both the energetics and the light
+curve shape. The primary goal is to determine if the obtained
+parameters are consistent with typical SN SBO values. This is
+mainly relying on comparisons with theoretical predictions due
+to the lack of observations. We do not attempt to model and
+propagate all uncertainties into these parameters. However, we
+(Section 3) and modeling
+stress
+uncertainties are large. More detailed analyses of the transients
+require spectroscopic redshifts and will be the subject of future
+studies.
+
+that both the redshift
+
+From the light curves (Figure 1), we deﬁne the typical
+timescales by hand, as described above. We denote radii
+
+The Astrophysical Journal, 896:39 (23pp), 2020 June 10
+
+determined using this method Rt to distinguish Rt from the radii
+inferred from the energetics, which we denote RE.
+
+The peak luminosities (Lpeak) and total SBO energies (ESBO)
+rely on the redshift estimates and extrapolations of the spectra.
+We use the time-integrated best-ﬁt blackbody models to
+extrapolate from the observed 0.3–10 keV range to obtain the
+bolometric quantities. For the typical best-ﬁt temperatures of
+∼0.4 keV,
+the 0.3–10 keV range already captures the vast
+majority of the bolometric ﬂux. The time-averaged luminosities
+obtained from the ﬁts are scaled to the light curve peaks using
+the peak-to-average ﬂux ratio (Section 4; Table 3). Having
+computed the energy ESBO, it is straightforward to solve for the
+remaining parameters (Section 7.1). Finally, we note that Lpeak
+is more uncertain than ESBO, both from an observational and
+theoretical perspective. Therefore, we focus on ESBO for the
+current analysis and provide Lpeak solely for comparisons with
+other X-ray transients in general.
+
+The parameter values in Table 5 are in reasonable agreement
+with predictions for SN SBOs. For reference, we compute the
+expected values for a SBO similar to SN1987A. In addition to
+the assumed values in Section 7.1, we complete the model by
+taking R=40 ☉R and Eexp=1.5×1051 erg (McCray 1993).
+=
+For this set of parameters, the derived properties are:
+1046 erg, vsh=23,000km s−1, vej=1800km s−1, and
+´4.0
+ρ=1.7×10−9 gcm−3.
+
+ESBO
+
+The values for ESBO, RE, ρ, and Eexp are generally within an
+order of magnitude of
+the predicted values. These are
+dependent and primarily show that the observed ESBO, and to
+a lesser extent T, are within the range of predictions for SBOs.
+Estimates of vsh and vej are more closely clustered around
+20,000km s−1 and 2000km s−1, respectively. This is expected
+because the velocities are mainly constrained by, and quite
+insensitive to, T through Equations (3) and(5). This implies
+that most soft spectra would result in reasonable vsh and vej.
+Furthermore,
+there is a strong observational bias against
+detecting objects cooler than 0.1 keV because of the lower
+0.3 keV energy limit of XMM-Newton and ISM absorption.
+
+It is worth pointing out that the independent estimates of R
+are within a factor of ∼2 for 5 of the sources. These two
+estimates are completely independent and lend some strength to
+the SBO interpretation. The remaining objects all have
+substantially larger Rt than RE. This is a consequence of the
+observed timescale being longer than the expected timescale.
+Possible reasons for longer timescales are asymmetries and
+dense CSM structures, as discussed below.
+
+7.3. Asymmetries
+
+Strong asymmetries in core-collapse SNe are predicted from
+theory (Janka et al. 2016; Müller 2016; Couch 2017) and
+clearly supported by observations (Larsson et al. 2016; Abellán
+et al. 2017; Grefenstette et al. 2017). Asymmetric SBOs have
+been studied (Suzuki & Shigeyama 2010; Couch et al. 2011),
+but have relied on bimodal, jet-like, two-dimensional axisym-
+metric explosions. These asymmetries were introduced by hand
+but showed that asymmetries could contribute to longer
+timescales and signiﬁcantly affect the light curve shape. To
+ﬁrst order, the asymmetries only affect when the shock reaches
+the surface. The minor differences in shock velocity and
+breakout angle should have much smaller effects on the SBO
+properties. This means that only the light curve shape should be
+affected by the asymmetries.
+
+Alp & Larsson
+More recently, Wongwathanarat et al. (2015) performed self-
+consistent three-dimensional neutrino-driven SN simulations to
+late times past SBO (Figure 14 of Wongwathanarat et al. 2015).
+They used a set of RSG and BSG single-star progenitors and
+have now also studied BSGs that are the results of binary
+mergers (Menon & Heger 2017; A. Wongwathanarat 2020,
+private communication). Although these simulations do not
+compute the SBO emission,
+they track the shock as it
+propagates through the star and breaks the surface. For the
+single-star BSG progenitor B15, the time difference between
+the ﬁrst and last parts of the shock breaking the surface is
+approximately 200 s. This is a relatively spherical model. The
+BSG merger progenitors are more asymmetric and show time
+differences of ∼1000 s. These values can be compared to the
+times required for the shock to propagate through the stars of
+4500–7500 s. For W15, which is a relatively asymmetric RSG,
+the fastest shock breaks out at ∼70,000 s and the slowest at
+∼83,000 s post-bounce.
+
+We emphasize that these asymmetries are not introduced by
+hand and develop spontaneously during the explosion from
+initial seed perturbations. This implies that asymmetries are
+expected to develop even for spherical progenitors. It is also
+worth pointing out that aspherical SBOs could both shorten or
+lengthen the observed timescale, depending on the viewing
+angle.
+
+To summarize, it is likely that asymmetric shocks develop
+during the core-collapse process. These asymmetries signiﬁ-
+cantly affect the duration and light curve shape of the observed
+SBO. We tentatively conclude that asymmetries can introduce
+time variations of up to 20% of the shock crossing time of the
+star, which is an order of magnitude longer than the light-
+crossing time R/c in extreme cases. The effects of asymmetries
+on the timescale are sufﬁcient to reduce the tensions between Rt
+and RE in the cases where they are signiﬁcantly different.
+
+7.4. Circumstellar Medium
+
+150 s
+
+»t
+R c
+
+The CSM affects the SBO emission if the optical depth of
+the CSM is larger than c/vsh. In these cases, the shock does not
+break out at the surface, but instead propagates into the CSM.
+A notable example is the initial X-ray transient associated with
+SN2008D (Soderberg et al. 2008), which is particularly
+interesting because of similarities with some of our SBO
+the SN2008D SBO had a peak
+candidates. For reference,
+erg s 1, total energy of 6×1045 erg, a
+luminosity of 4×1043
+-
+, and a Γ≈2 power-law spectrum
+timescale of
+(Modjaz et al. 2009). A thermal spectrum with a temperature of
+0.75 keV ﬁts the data worse but is still statistically acceptable.
+From these values and using our methods, we would infer
+Rt=65 ☉R and RE=11 ☉R .
+
+A common interpretation of the SN2008D X-ray transient is
+a SBO from the explosion of a WR star surrounded by a thick
+wind (Chevalier & Fransson 2008; Balberg & Loeb 2011;
+Svirski & Nakar 2014). CSM SBOs are also often used to
+explain observations of TypeIIn and super-luminous SNe
+(Section 6.1 of Waxman & Katz 2017 and references therein).
+However, these SBOs are very different and are not expected to
+appear as X-ray transients on timescales that our searches are
+sensitive to.
+
+We do not attempt to explore the effects of a dense CSM in
+detail due to the wide range of possible scenarios and the
+observational uncertainties. Instead, we simply note that a
+
+13
+
+The Astrophysical Journal, 896:39 (23pp), 2020 June 10
+
+dense CSM could increase the timescale and that some of our
+candidates are similar to SN2008D.
+
+7.5. Notes on Individual Objects
+
+Even though the inferred parameters (Table 5) agree
+reasonably well with theoretical predictions, there are some
+aspects that cause tensions with a clean SBO interpretation. In
+light of the discussions of asymmetries and effects of the CSM,
+we provide more detailed comments on individual objects
+below.
+
+1. The ﬁrst two objects, XT161028 and 151219, agree very
+well with BSG SBO predictions. The derived quantities
+are close to ﬁducial SBO values under the assumptions of
+spherical symmetry and thin CSM. The only parameter
+that stands out is ESBO for XT161028, which is an order
+of magnitude lower than the reference value. Given the
+uncertainties, we do not consider this to be a major
+problem and conclude that both objects are strong SN
+SBO candidates.
+
+2. All properties of XT1106219 agree well with predictions
+for BSG SBOs, except for the timescale. This can be seen
+from the discrepancy between Rt=150 and RE=14.
+One possible explanation for the longer observed time-
+scale is an asymmetric BSG SBO. Another possibility is
+an SBO from a WR with a dense wind, similar to the
+SN2008D SBO. They both have practically the same
+peak luminosities and total energies, although the light
+curve shapes are slightly different and XT110621 has a
+softer spectrum. Given the expected variances in light
+curves and spectra, a similar origin for XT110621 is
+possible. We are not able to distinguish between an
+asymmetric BSG SBO and a dense CSM WR SBO, but
+conclude that both are possible origins.
+
+3. XT030206 is the most energetic object and would
+require extreme SN parameters. Interestingly, the inferred
+Eexp of 6×1051 erg is in the range of (7.1±5.4)×1051
+erg typical of TypeIc-BL SNe (Taddia et al. 2019). Our
+modeling does not strictly apply to these SNe and any
+ﬁrm conclusions would
+analysis
+(Section 8.2).
+
+4. Both XT070618 and 060207 agree well with the BSG
+SBO interpretation. The main uncertainty for
+these
+objects is due to the lack of host detections. This implies
+that the redshift estimates are highly uncertain, which
+propagates into all inferred parameters.
+
+5. XT100424 and 151128 are the coolest objects and are
+much slower than expected for typical SBOs from BSGs.
+The observed properties suggest that they might instead
+be associated with SBOs from RSGs. A less-explored
+possibility is SBOs from yellow supergiants (Smartt 2009;
+Ergon et al. 2014), which in the current context
+effectively is an intermediate class between RSGs and
+BSGs. The interpretations for these two objects are
+mainly driven by the timescales and temperatures, which
+
+require
+
+further
+
+9 After submission of our paper, Novara et al. (2020) reported an independent
+discovery of XT110621 (EXMM 023135.0−603743 using their notation).
+Importantly, they ﬁnd a spectroscopic redshift of 0.092 for the host galaxy
+(compared to our value of 0.095), which eliminates much of the uncertainty for
+our analysis of XT110621. Overall, their and our results and interpretations
+agree very well with each other. There are minor differences in the spectral ﬁts,
+which likely are due to a combination of different methods,
+the high
+background (Section 4), and the high host absorption.
+
+14
+
+Alp & Larsson
+
+are observationally reliable. The total energies are more
+than an order of magnitude lower than predicted for RSG
+SBOs, but are uncertain due to the observed energy range
+relative to the temperatures, as well as the redshift
+uncertainties. The transients are also hotter than RSG
+SBO predictions, but this is anticipated because of the
+very strong observational biases against
+the cooler
+majority of RSG SBOs. The timescales are also slightly
+longer than expected, but
+this can be alleviated by
+invoking asymmetries.
+
+6. The last four transients, XT050925, 160220, 140811,
+and 040610 have longer timescales than expected for
+BSG SBOs. They are all largely similar to XT110621
+(and implicitly also the SN 2008D SBO) and the same
+arguments apply to these four sources. The main
+differences for these last four transients are the uncertain
+host redshifts and the risk of being foreground contam-
+ination (Section 8.1).
+
+8. Alternative Explanations
+
+In this section, we explore possible sources other than SNe
+that could produce the observed transients. Section3 of Bauer
+et al. (2017) provides a similar discussion with a slightly
+different focus. They discuss CDF-SXT1, which suffers from
+similar potential contaminants as our SBO candidates. The
+most likely sources to be confused for SN SBOs are ﬂares from
+Galactic late-type dwarfs (Section 8.1). We discuss GRBs as
+potential sources in Section 8.2 and a number of less probable
+sources in Section 8.3. We note that the predicted number of
+SN SBOs (Sapir & Halbertal 2014; Waxman & Katz 2017) is
+comparable to the number we observe, which lends strength to
+the SBO interpretation.
+
+8.1. Dwarf Stars
+
+X-ray ﬂares from late-type dwarf stars (Güdel 2004; Güdel
+& Nazé 2009; Benz & Güdel 2010) could potentially be
+confused for SBO candidates, in cases where a host galaxy is
+not clearly detected. The coolest object observed to ﬂare in
+X-rays is an L1dwarf (de Luca et al. 2020). A qualitative
+difference between SN SBOs and dwarf ﬂares is that dwarf
+ﬂares are recurrent (and any dwarfs with multiple ﬂares would
+already have been excluded from our sample). Faint ﬂares are
+frequent and occur up to tens of times per day, while the rate of
+the most powerful ﬂares are limited by the observed sample
+size (Loyd et al. 2018a, 2018b).
+
+The distribution of peak X-ray (0.3–10 keV) luminosities of
+dwarf ﬂares extends to ∼1030
+erg s 1 and decreases steeply
+with peak ﬂux (Cook et al. 2014; Williams et al. 2014; Loyd
+et al. 2018a, 2018b; de Luca et al. 2020). The effective
+temperatures for the majority of the ﬂares are in the range
+∼0.5–2 keV (Pallavicini et al. 1990; Robrade & Schmitt 2005;
+Pye et al. 2015; de Luca et al. 2020). Typical timescales range
+from a few hundred to a few thousand seconds, and the
+dynamic ranges vary from a factor of 2 to more than 300
+(Favata et al. 2000; Pandey & Singh 2008; Robrade et al. 2010;
+Pye et al. 2015).
+
+-
+
+For our purposes, we focus on the extreme cases despite their
+low rates. The 2014 April 23 ﬂare from DGCVn is the most
+luminous observed Mdwarf ﬂare (Caballero-García et al.
+2015; Osten et al. 2016). DGCVn is a binary system
+composed of two M4Ve dwarfs with a combined absolute J-
+
+-
+
+-
+
+an
+
+absolute
+
+J-band magnitude
+
+The Astrophysical Journal, 896:39 (23pp), 2020 June 10
+band magnitude of 7.2magAB. The ﬂare reached a peak ﬂux of
+3×1032
+erg s 1 and the dominant ﬂare component evolved on
+a timescale of ∼300 s. Another comparable event is the 2008
+April 25 EVLac ﬂare (Osten et al. 2010). EVLac is an
+M3.5Vdwarf with
+of
+8.5magAB. The X-ray ﬂare reached a peak ﬂux of 1032
+erg s 1 and the dominant component evolved on a timescale of
+∼300 s. However,
+these events are very hard, with peak
+temperatures of 25 keV (DG CVn) and 10 keV (EV Lac), and
+even triggered the gamma-ray burst monitor Swift/BAT
+(Barthelmy et al. 2005). The L1dwarf ﬂare reported by de
+Luca et al. (2020) reached a peak ﬂux of 6.3×1029
+-
+erg s 1,
+had a temperature of 1.4 keV, and evolved on timescales of
+∼3ks. The absolute J-band magnitude of the L1dwarf is
+12.8magAB. Finally, we note that Glennie et al. (2015) report a
+tentative association of an X-ray transient with an L1dwarf.
+The inferred peak luminosity is 7×1031
+erg s 1; however,
+both the spectral type and distance to the source are uncertain.
+We can use the optical and NIR data (Table B1) to constrain
+the distance to a potential dwarf star. This can be combined
+with the peak X-ray ﬂuxes (Table 3) to infer a peak X-ray
+luminosity if the source is a dwarf. For reference, the X-ray
+luminosity expressed in terms of peak ﬂux (
+peak
+erg s−1 cm−2), apparent magnitude (m), and absolute magni-
+tude (M) is
+
+=-F
+
+F10
+
+13
+
+13
+
+-
+
+L
+
+peak
+
+=
+
+F1.2
+
+´-
+13
+
+10
+
+27 0.4
+
++ ´ -
+
+(
+m M
+
+)
+
+-
+erg s
+
+1
+.
+
+( )
+8
+
+dwarf
+
+absolute magnitudes
+
+The peak ﬂare ﬂux relative to absolute magnitude is
+comparable for M and Ldwarfs. For the discussion, we adopt
+of Mr=9magAB
+ﬁducial
+(Bochanski et al. 2011; Pecaut & Mamajek 2013) and
+MJ=8magAB (Pecaut & Mamajek 2013; Carnero Rosell
+et al. 2019), which are representative of an M4dwarf, and
+similarly for an L1 dwarf: Mz=14.3magAB (Carnero Rosell
+et al. 2019; de Luca et al. 2020) and MJ=13magAB.
+
+For two of the three candidates without hosts, XT 070618
+and XT 060207,
+the inferred luminosities are orders of
+magnitude higher than what have been observed from dwarf
+stars. For the last candidate without a host, XT 040610, the
+observations are marginally consistent with an L1dwarf
+because of the weak NIR constraints. The strongest constraint
+is in the z-band, which implies a peak luminosity of 6×1029
+erg s 1 for a distance of 330pc. This is similar to the L1ﬂare
+reported by de Luca et al. (2020).
+
+-
+
+We now turn our attention to the three last SBO candidates
+with possible host associations: XT050925, 160220, and
+140811. These have been classiﬁed as galaxies based on
+morphology (Table 2) but are potentially blends of two point
+sources,implying that the transient would be a ﬂare from one
+of the foreground stars. By comparing the optical and NIR
+photometry with X-ray data, we ﬁnd that all three are consistent
+with being dwarf ﬂares for Mdwarfs at ∼3 kpc or Ldwarfs at
+∼300 pc. However, this would require them to be among the
+most luminous dwarf ﬂares for either spectral type. Further-
+more, if these sources indeed consist of two blended sources,
+then using the combined magnitude of the two sources as we
+have done above would underestimate the true X-ray ﬂux.
+
+Dust could, in principle, obscure the emission of an optical
+source. However, this is challenging to reconcile with the H
+column density through the Milky Way (Table 4, Willingale
+et al. 2013). Furthermore, the observed X-ray spectra generally
+
+Alp & Larsson
+indicate very low levels of optical and NIR absorption (Predehl
+& Schmitt 1995).
+
+To summarize, it is possible that at least some of the bottom
+four candidates: XT050925, 160220, 140811, and 040610, are
+dwarf ﬂares. However, we are not able to ﬁrmly conclude this
+without additional data.
+
+8.2. Gamma-Ray Bursts
+
+The prompt GRB phase evolves on timescales of 0.3 s for
+short GRBs and 10 s for long GRBs (Meegan et al. 1996; von
+Kienlin et al. 2020). The spectra typically peak at energies in
+the range 100–1000 keV (Goldstein et al. 2012), and extend
+into soft X-ray energies (Villasenor et al. 2005; Lien et al.
+2016). Both types are followed by afterglows with luminosities
+in the range 1047–1051
+erg s 1 at 100 s that decay on timescales
+of hours to days (Berger 2014; Bauer et al. 2017). The spectral
+shape in the 0.3–10 keV range is a power law with photon
+indices in the range ∼1.5–3 (Zhang et al. 2007; Racusin et al.
+2009).
+
+-
+
+If
+
+the SBO candidates are related to GRBs,
+
+the peak
+luminosities have to be much lower
+than typical GRB
+afterglows (Figure 4 of Bauer et al. 2017). For the candidates
+with host galaxies, it is highly unlikely that the true redshifts
+are substantially higher than estimated. The lack of a sharply
+rising prompt phase, overall light curve shapes, and spectra are
+also difﬁcult to reconcile with standard on-axis GRBs.
+
+GRBs could potentially agree with some of our observations
+if observed far off-axis. This applies to both short (Sun et al.
+2019; Xue et al. 2019; Dado & Dar 2020) and long GRBs
+(Dado & Dar 2019). The effects of a large viewing angle are
+longer duration, much lower peak luminosity, lower spectral
+peak, and lower ﬂuence. The models for off-axis GRBs can be
+adjusted to agree qualitatively with our observations; however,
+many model parameters are essentially unconstrained and can
+be tuned to produce a very large range of observed timescales,
+spectra, and energies.
+
+Another source of emission is the hot cocoon, which is the
+result of interactions between the jet and surrounding material.
+This is produced in both short (Lazzati et al. 2017) and long
+(Suzuki & Shigeyama 2013; de Colle et al. 2018) GRBs. The
+predictions for both types are X-ray transients with peak
+luminosities around 1046–1048
+erg s 1 and fast rise times, with
+the details being quite sensitive to the off-axis angle. Cocoon
+emission from short GRBs is expected to evolve on timescales
+of <30 s with temperatures of 0.2–2 keV. The corresponding
+values for long GRBs are ∼100 s and ∼0.2 keV. We note that
+these values agree reasonably well with the most luminous of
+the observed transients, XT030206, particularly for a long
+GRB cocoon.
+
+-
+
+8.3. Other Possibilities
+
+There are other astrophysical sources that could give rise to
+X-ray transients. Many of these are expected to also produce
+persistent optical emission. Therefore, we note that the optical
+constraints discussed in Section 8.1 (Equation (8)) are general
+and apply to any type of object, such as a companion star in an
+X-ray binary. It is also important to consider the Galactic
+latitude of the SBO candidates (Table 1). Galactic objects are
+generally conﬁned to the Galactic plane, except for objects that
+are expected to be very close, such as late-type dwarfs.
+Furthermore, the prior probability of a neutron star to align
+
+15
+
+-
+
+The Astrophysical Journal, 896:39 (23pp), 2020 June 10
+with an extragalactic source is <1% for a neutron star solid
+angle density of 1000deg−2 (Ofek 2009; Sartore et al. 2010).
+Here, we very brieﬂy mention a number of potential sources
+without exploring all details. We simply note that the following
+classes are able to produce some, but not all, of the observables
+without
+requiring very rare
+circumstances.
+
+signiﬁcant ﬁne-tuning or
+
+Tidal disruption events (Rees 1988; Phinney 1989) produce
+soft X-ray transients that typically evolve on timescales of
+10–300days (Komossa 2015; Kochanek 2016). This scenario
+involves an ordinary star being accreted onto a supermassive
+black hole, which also determines the timescale. This is much
+longer than the SBO candidates, but disruptions of white
+dwarfs by intermediate mass black holes have been suggested
+to produce tidal disruption events on timescales of ∼10ks
+(Fernández et al. 2019; Shen 2019; Maguire et al. 2020).
+
+X-ray binaries (Nooraee 2013; Walter et al. 2015; Martínez-
+Núñez et al. 2017) can produce a number of different types of
+X-ray ﬂares. Type-I (thermonuclear) X-ray bursts (Galloway &
+Keek 2017; Galloway et al. 2020) have peak luminosities of
+∼3×1038
+erg s 1 and evolve on timescales of 10–300 s, but
+can extend up to several thousand seconds in some cases.
+Ordinary accretion processes and type-II outbursts (van den
+Eijnden et al. 2017) generally do not produce the high dynamic
+ranges that characterize ﬂares. So-called supergiant fast X-ray
+transients (Romano 2015; Ducci et al. 2019; Sguera et al. 2020)
+are ∼3 ks ﬂares with dynamic ranges of ∼104 and peak
+luminosities on the order of 1037
+erg s 1, which are driven by
+wind accretion from OB supergiant companions. Although
+X-ray binaries can produce a range of X-ray transients, they are
+necessarily associated with bright companions
+that are
+challenging to reconcile with our optical and NIR data.
+
+White dwarf binaries (Mukai 2017) produce variable X-ray
+emission through accretion and surface nuclear burning
+(Schwarz et al. 2011; Morii et al. 2013; Starrﬁeld et al. 2016;
+Ness 2019). They can produce very soft spectra and evolve on
+short timescales, but typically do not ﬂare with sufﬁciently
+large dynamic ranges to be confused with SN SBOs.
+
+Magnetars (Mereghetti et al. 2015; Turolla et al. 2015; Kaspi
+& Beloborodov 2017) are isolated neutron stars that are
+characterized by very strong magnetic ﬁelds. They are known
+to produce high-energy transient emission, most notably so-
+called giant ﬂares (Hurley et al. 2005; Palmer et al. 2005).
+These are much harder than the SBO candidates and have light
+curves with a more prompt burst of ∼1 s followed by a much
+fainter decaying tail, similar to short GRBs.
+
+-
+
+9. Summary and Conclusions
+
+When a star undergoes core collapse, a shock is launched
+from the core. This shock propagates through the star and when
+it reaches the surface, a burst of soft X-rays is released. This is
+the ﬁrst electromagnetic signal that escapes a core-collapse SN
+and it carries independent information about the progenitor
+radius, asymmetries, and ﬁnal mass-loss history. The X-ray
+transients are characterized by total energies on the order of
+1045–1047erg,
+timescales of 10–1000 s, and soft spectra
+corresponding to temperatures of 0.03–3 keV. These values
+depend sensitively on the type of progenitor. RSGs generally
+produce slower and cooler SBOs, BSG SBOs are intermediate,
+and SBOs from WR progenitors are faster and hotter.
+
+We search the XMM-Newton archive for serendipitously
+observed SN SBOs. This archive is likely to contain more SN
+
+Alp & Larsson
+
+SBOs than any other because of the large effective area, large
+FoV, and 20 yr lifetime of XMM-Newton. Our search results in
+12 SN SBO candidates. They are all consistent with being
+SBOs, but it is possible that a few are Galactic foreground
+dwarf stars or produced by other types of extragalactic sources.
+We focus on the SN SBO interpretation and investigate the
+inferred physical properties. In addition to the X-ray data, we
+analyze public wide-ﬁeld optical and NIR data and ﬁnd host
+galaxy candidates for nine of the sources. We estimate host
+redshifts of 0.1–0.6, except for one source at redshift 1.17.
+
+The SBO candidates have energies on the order of 1046erg,
+timescales ranging from minutes to hours, and soft spectra with
+color temperatures of 0.1–1 keV. Using these observables, we
+are able to infer progenitor and SN properties. Two candidates
+are probably SBOs from BSGs. A third candidate is similar but
+slightly slower, which could be interpreted as an asymmetric
+BSG SBO or breakout from a wind surrounding a more
+compact WR progenitor (similar to SN 2008D). There is one
+transient with a total energy of 8×1047 erg, which is higher
+than SBO predictions. This could potentially be the SBO from
+an extreme SN. There are two more sources that are likely BSG
+SBOs, but
+lack host galaxy identiﬁcations and are more
+uncertain. Two candidates appear to be extreme cases of RSG
+or possibly yellow supergiant SBOs. Finally,
+the last four
+candidates could either be asymmetric BSG SBOs, WR wind
+SBOs, or Galactic foreground contamination.
+
+Many of the SBO candidates show signs of signiﬁcant
+asymmetries or optically thick CSM. This is consistent with
+both theory and other types of observations of core-collapse
+SNe. Asymmetries arise spontaneously during the core-
+collapse process and primarily affect
+the timescale of the
+SBO. We emphasize that this very naturally explains a broader
+diversity in SBO durations (up to 20% of the shock crossing
+time) than expected from spherical models. This additional
+variance agrees well with our observations. The effect of CSM
+on the SBO candidates is more difﬁcult to disentangle due to
+the very large parameter space, which can give rise to a wide
+range of observables. More detailed conclusions need further
+modeling of the individual sources, deeper optical data, and
+spectroscopic redshifts. Optical follow-up data of the SNe
+would also ideally be obtained. This will be the subject of
+future studies.
+
+Future X-ray observations will detect an ever-increasing
+number of SN SBOs. The X-ray instrument currently most
+likely to detect SBOs is eROSITA (Predehl et al. 2010;
+Predehl 2017). We predict eROSITA to detect 2 SN SBOs per
+year using Equations (43) of Sapir et al. (2013) and(97) of
+Waxman & Katz (2017). This is a back-of-the-envelope
+estimate where we also attempt to correct for ISM absorption
+and the diversity in observed properties. We conclude by
+emphasizing the importance of live analyses of future X-ray
+data and rapid follow-up observations to fully capitalize on
+these rare opportunities.
+
+We are grateful to Annop Wongwathanarat for providing
+measures of SBO asymmetries from SN simulations, and Eleni
+Tsaprazi for large-scale structure density contrasts. We also
+thank Claes Fransson and Jens Jasche for helpful discussions ,
+and the anonymous referee for the comments. This work was
+supported by the Knut and Alice Wallenberg Foundation. This
+research has made use of data obtained from the 3XMM
+XMM-Newton Serendipitous Source Catalogue compiled by
+
+16
+
+The Astrophysical Journal, 896:39 (23pp), 2020 June 10
+
+the 10 institutes of the XMM-Newton Survey Science Centre
+selected by ESA. This research has made use of data produced
+by the EXTraS project, funded by the European Union’s
+Seventh Framework Programme under grant agreement no
+607452. This research has made use of data obtained through
+the High Energy Astrophysics Science Archive Research
+Center Online Service, provided by the NASA/Goddard Space
+Flight Center. This research has made use of the SIMBAD
+database, operated at CDS, Strasbourg, France. This research
+has made use of
+the VizieR catalog access tool, CDS,
+Strasbourg, France. This research has made use of “Aladin
+sky atlas” developed at CDS, Strasbourg Observatory, France.
+This research made use of hips2ﬁts,10 a service provided by
+CDS. This research has made use of NASA’s Astrophysics
+Data System.
+
+Facility: XMM (EPIC).
+Software:ADS (Kurtz et al. 2000), Aladin (Bonnarel et al.
+2000; Boch & Fernique 2014), astropy (3.0.4; Astropy
+Collaboration et al. 2013, 2018), FTOOLS (Blackburn 1995),
+HEAsoft (6.26.1; Nasa High Energy Astrophysics Science
+Archive Research Center (Heasarc), 2014), Le PHARE (2.2;
+Arnouts et al. 1999; Ilbert et al. 2006), matplotlib (2.0.2;
+Hunter 2007), numpy (1.13.1; van der Walt et al. 2011),
+SAOImage DS9 (8.1; Joye & Mandel 2003), SAS (18.0.0;
+Gabriel et al. 2004), scipy (1.1.0; Virtanen et al. 2020).
+SIMBAD (Wenger et al. 2000), VizieR (Ochsenbein et al.
+2000), XSPEC (12.10.1f; Arnaud 1996).
+
+Appendix A
+
+Searching the XMM-Newton Observations
+
+We use two different algorithms to search for SN SBOs in
+archival XMM-Newton data. The aim of both search
+algorithms is solely to identify X-ray transients. Rejecting
+spurious detections and careful
+source identiﬁcation is
+performed in a subsequent stage (Section 2.2). For these
+reasons, we do not attempt to correct for instrumental effects
+such as vignetting, dead time, or chip gaps in the transient
+detection process. Some details related to data preparation are
+also not considered, such as extraction regions falling outside
+of CCDs and nearby sources located within background
+regions. These effects are managed in the proper data reduction
+(Section 4) for the ﬁnal SBO candidates.
+
+Notably, we do not exclude periods of high background
+when searching for transients because transients can occur
+during these times and could,
+in principle, be securely
+identiﬁed. The high background is produced by protons in
+the Earth’s magnetosphere and depends on the satellite altitude
+and level of solar activity (Carter & Read 2007). These proton
+ﬂares affect 30%–40% of the total XMM-Newton observation
+time. Excluding these time periods increases the S/N of typical
+persistent sources, but this is not true for a transient source that
+is only detectable during a background ﬂare. The challenge is
+to distinguish an interesting astrophysical
+from
+background ﬂares. This distinction is difﬁcult to do solely
+using light curves, but can easily be done in images because
+background ﬂares affect
+the CCDs uniformly whereas a
+transient source appears as a point.
+
+transient
+
+10 https://alasky.u-strasbg.fr/hips-image-services/hips2ﬁts
+
+Alp & Larsson
+
+A.1. Custom Transient Source Finder
+
+Our custom algorithm starts from the Processing Pipeline
+Subsystem (PPS) event lists and ﬁnds all variable sources. We
+use all 11,500 public observations with EPIC imaging archived
+at HEASARC as of 2019 November 11. Since we are expecting
+faint and soft sources, we combine the data from all EPIC
+cameras (Strüder et al. 2001; Turner et al. 2001) and restrict the
+energy range to 0.3–2 keV.
+
+temporal dimension. The
+
+The ﬁrst step of the search algorithm is to bin the event list
+along the spatial and temporal dimensions. Effectively, this
+creates a series of images (a data cube) for each observation ,
+which is divided into three-dimensional “cells” with two spatial
+and one
+spatial binning is
+20×20arcsec2, which is chosen to contain the cores of the
+PSFs of EPIC. The encircled energy at a radius of 10″ is around
+60% for EPIC. The PSF wings are much broader and can be
+neglected. The temporal binning is performed at ﬁve different
+timescales ranging from 100 to 10,000 s with logarithmic
+spacing. To mitigate the effects of the discretizations in space
+and time, we repeat the binning by shifting the grid by one-half
+of the bin size along each dimension. The total number of
+combinations introduced by the shifts and temporal binning at
+different timescales is 40 (2×2×2×5). This means that 40
+data cubes are created for each observation.
+
+The second step is to ﬁnd transients in the data cubes. To do
+this, we perform a simpliﬁed statistical test for variability in
+each cell relative to the grid cells before and after. Before and
+after in this context refers to the cells at the same spatial
+position, but one bin earlier and later along the temporal
+dimension, respectively. Importantly, the transient detection
+algorithm must be able to handle the highly temporally varying
+background and reject slowly varying sources. For each cell,
+we ﬁrst need to estimate the expected persistent source ﬂux at
+the position. This is done by linearly interpolating the
+background-subtracted ﬂuxes of the cells before and after in
+time. The background subtraction in the before and after cells
+are performed by subtracting the average of the four spatially
+neighboring grid cells at the respective times. To prevent over-
+subtraction (negative counts), we simply force the expected
+source ﬂux in the current bin to be at least 1 count. This
+provides the expected persistent source ﬂux at
+the current
+position. To this ﬂux, we add the average background of the
+four spatially neighboring pixels. This sum is the expected total
+count rate in the current cell. Finally, we assume the count rate
+to be Poissonian and compute the p value to obtain the
+observed count rate given the expected rate. This pvalue should
+capture any variability in excess of linear variability in time,
+while also being insensitive to the highly temporally varying
+background.
+
+To separate the variable sources, we perform a cut based on
+the variability measure. As a test statistic, we rescale the pvalue
+and use the negative log-likelihood −ln(p). We select a limiting
+statistic of 25, which leaves a very low probability of noise
+passing the ﬁlter. This cut leaves 380 detections, which are
+investigated by eye in subsequent steps.
+
+A.2. Finding Transients in 3XMM-DR8
+
+The XMM-Newton Survey Science Centre routinely pub-
+lishes catalogs of detected sources, the latest being 3XMM-
+DR8 at the time of writing. This catalog contains observations
+from 2000 February 3 through 2017 November 30 and contains
+
+17
+
+The Astrophysical Journal, 896:39 (23pp), 2020 June 10
+
+Alp & Larsson
+
+775,153 detections of 531,454 unique sources. The ﬁrst step
+toward identifying SBOs is analyzing the source light curves.
+3XMM-DR8 includes light curves, but those are not suited for
+fast transients because they were created with a common bin
+width with a minimum number of photons in every bin
+(Section 5.2 of Watson et al. 2009). Consequently, the time
+interval before the rise of a transient source (and possibly also
+after the transient has faded) results in an increased common
+bin width. This increase could drastically reduce the sensitivity
+for short, bright, ﬂare-like transients. For these reasons, we
+decide to construct custom light curves for our SBO search.11
+We use the positions from the 3XMM-DR8 catalog of identiﬁed
+sources and generate light curves for all 550,614 detections that are
+more than 15° outside of the Galactic plane. We do not search the
+Galactic plane because we found no candidates in this region using
+our custom ﬁnder and because robust source identiﬁcation is very
+difﬁcult in dense ﬁelds. The increased X-ray absorption close to
+the Galactic plane also drastically reduces the possibility of
+detecting SBOs. Furthermore, we discard very faint sources by
+omitting all objects with a detection likelihood reported by
+3XMM-DR8 as less than 10. This likelihood is based on the
+likelihood ratio described by Cash (1979). The likelihood is
+deﬁned as
+, where P is the probability of the detection
+occurring by chance (formally,
+the null
+hypothesis; Section 4.4.3 of Watson et al. 2009).
+
+the probability of
+
+( )
+- Pln
+
+To create the light curves, we download the XMM-Newton
+PPS event lists and combine all exposures of the EPIC pn,
+MOS1, and MOS2 cameras within each observation and limit
+the energy range to 0.3–10 keV. From the combined event list,
+we extract source events from a circular region with a radius of
+20″ centered on the source position (taken from 3XMM-DR8).
+Background events are then extracted from an annular region
+centered on the source with an inner radius 50″ and an outer
+radius of 100″. The light curves are binned such that each bin
+contains 25 counts from the source region. This binning
+requirement ignores the background count rate and results in
+bins with different temporal widths. The reason for choosing
+this dynamic-binning approach is to be able to effectively
+capture the large variations in ﬂux for transient sources. The
+background events are binned to the same temporal bins as the
+source light curves and are then subtracted from the source to
+create a ﬁnal light curve.
+
+The next step is to ﬁnd all transient sources. We identify
+sources showing transient-like behavior by requiring that they
+fulﬁll at least one of the following heuristics:
+
+1. The ratio of the maximum background-subtracted ﬂux
+bin over the 50th ﬂux percentile (i.e., percentile of the
+bins weighted by time for this individual light curve) is
+larger than 3, while the signal-to-background ratio (S/B)
+is higher than 10 at the time of peak ﬂux.
+
+2. Same as above, but with a peak ﬂux a factor of 5 above
+
+the 50th percentile and an S/B of at least 3.
+
+3. At least 10ks of the background-subtracted light curve is
+within 1σ of 0counts s−1. Moreover, at least one bin has
+a source ﬂux higher than 0.05counts s−1 with an S/B
+higher than 3.
+
+The combination of all heuristics is constructed to distinguish
+ﬂare-like sources while being insensitive to background ﬂares
+and inaccurate background subtraction. All heuristics are then
+also reevaluated with the modiﬁcation that the time intervals
+when the background count rate is higher than 0.05counts s−1
+are discarded.12 Approximately 11,000 sources pass these
+criteria and are investigated by eye at a subsequent stage. This
+can be compared to 3XMM-DR8, which classiﬁes 5934
+sources as variable. The difference in the number of variable
+sources is not surprising because of our simpliﬁed background
+treatment, which results in a very large number of sources
+being classiﬁed as variable due to inaccurately subtracted
+background ﬂares. Furthermore, these numbers are not strictly
+comparable because we apply a number of ﬁlters and have
+deﬁned variability differently.
+
+Appendix B
+
+Host Photometry
+
+Table B1 provides the optical and NIR data for the candidate
+host galaxies. The multi-band optical data are used for the
+redshift SED ﬁtting. Speciﬁcally, we only use optical data from
+a single survey for each source to avoid systematic uncertain-
+ties between different surveys. It is not possible to perform
+reliable SED ﬁts using only NIR data, but the NIR data are still
+useful since they provide an important check for the inferred
+absolute magnitudes.
+
+11 We note that the Exploring the X-ray Transient and variable Sky (EXTraS)
+project (de Luca et al. 2016) aim to provide more detailed temporal data
+products for all XMM-Newton sources. However,
+the EXTraS data for
+aperiodic short-term variability (EXTraS Working Package 2) only includes
+data that were publicly available by 2012 December 31 (corresponding to
+3XMM-DR4). The EXTraS light curves are also intended for general variable
+behavior and are not optimized for fast and possibly faint transients. For these
+reasons, we only brieﬂy inspected the EXTraS WP2 catalog, and we ﬁnd no
+objects that were not already detected by our other methods.
+
+12 We note that the limit of 0.05counts s−1 refers to the rate of our custom
+background light curves. These light curves are different from the background
+light curves in the standard XMM-Newton data reduction, which are
+customarily deﬁned as the total rate in the entire FoV within 10–12 keV for
+the pn CCD and above 10 keV for the MOS CCDs.
+
+18
+
+XT
+
+161028
+151219
+110621
+030206
+070618
+060207
+100424
+151128
+
+050925
+160220
+140811
+040610
+
+1
+9
+
+mu
+
+(magAB)
+22.2±0.3
+23.1±0.2
+
+L
+L
+L
+
+>17.9
+
+L
+L
+
+>17.9
+>17.9
+
+L
+L
+
+mg
+
+(magAB)
+
+mr
+
+(magAB)
+
+mi
+
+(magAB)
+
+mz
+
+(magAB)
+
+Table B1
+
+Host Photometry
+
+21.46±0.32
+22.37±0.05
+19.68±0.01
+21.89±0.11
+
+>24.3
+>18.0
+
+21.4±0.06
+21.5±0.10
+
+20.69±0.06
+21.49±0.02
+19.63±0.01
+22.05±0.12
+
+>24.08
+>18.0
+
+20.37±0.04
+20.30±0.04
+
+20.50±0.10
+20.88±0.06
+19.34±0.01
+22.37±0.11
+
+>23.44
+>18.0
+
+19.97±0.02
+19.83±0.03
+
+20.40±0.29
+20.94±0.20
+19.39±0.02
+21.73±0.15
+
+>22.69
+>18.0
+
+19.73±0.03
+19.47±0.03
+
+>18.0
+>18.0
+
+>22.9
+
+21.80±0.06
+
+>18.0
+>18.0
+
+>22.8
+
+20.61±0.02
+
+>18.0
+>18.0
+
+>22.7
+
+19.71±0.01
+
+>18.0
+>18.0
+
+>21.9
+
+19.32±0.02
+
+mY
+
+(magAB)
+
+L
+
+20.68±0.30
+19.38±0.07
+
+>21.3
+>21.44
+
+L
+
+19.33±0.07
+19.63±0.09
+21.53±0.57
+
+L
+
+19.02±0.04
+
+>20.9
+
+mJ
+
+(magAB)
+>18.01
+
+20.57±0.35
+19.17±0.13
+
+>18.01
+>18.01
+>21.11
+>18.01
+>18.01
+
+20.69±0.51
+20.25±0.28
+
+>18.01
+>18.01
+
+mH
+
+(magAB)
+>17.79
+20.3±0.3
+
+L
+
+>17.79
+>17.79
+
+L
+
+>17.79
+>17.79
+
+L
+
+>17.79
+>17.79
+>17.79
+
+mK
+
+(magAB)
+>17.15
+19.6±0.2
+19.9±0.3
+>17.15
+>17.15
+>19.95
+>17.15
+>17.15
+>20.35
+>17.15
+>17.15
+>17.15
+
+Source
+
+SDSS16/2MASS
+KiDS/VIKING
+DES/VHS
+Pan-STARRS/2MASS
+DES/2MASS
+SkyMapper/VHS
+Pan-STARRS/2MASS
+Pan-STARRS/2MASS
+
+SkyMapper/VHS
+SkyMapper/VHS
+Pan-STARRS/2MASS
+Pan-STARRS/2MASS
+
+Note. All magnitudes are converted (Hewett et al. 2006; Blanton & Roweis 2007) to the AB magnitude system (Oke & Gunn 1983). All detections use either Petrosian (1976) or Kron (1980) magnitudes, which are
+suitable for extended sources. We note that the upper limits are given for different thresholds: 3σ (2MASS), 5σ (Pan-STARRS and VHS), S/N of 10 (DES), and 10σ (SkyMapper). The limits are for point sources except
+for the DES limits, which are for apertures of 1 95. For reference, Metcalfe et al. (2013) ﬁnd that galaxies have a 50% completeness about 0.4magAB brighter than stars using Pan-STARRS observations. Filters of
+different telescopes are also slightly different.
+References. Sloan Digital Sky Survey Data Release 16 (SDSS-IV DR16, York et al. 2000; Ahumada et al. 2019), Two Micron All Sky Survey (2MASS, Skrutskie et al. 2006), Kilo-Degree Survey Data Release 3
+(KiDS-ESO-DR3, de Jong et al. 2013, 2017), Visible and Infrared Survey Telescope for Astronomy (VISTA) Kilo-degree Infrared Galaxy Survey Data Release 2 (VIKING DR2, Edge et al. 2013), Dark Energy Survey
+Data Release 1 (DES DR1, Abbott et al. 2018), VISTA Hemisphere Survey Data Release 4.1 (VHS DR4.1, McMahon et al. 2013), Panoramic Survey Telescope and Rapid Response System Data Release 2 (Pan-
+STARRS DR2, Chambers et al. 2016), SkyMapper (Wolf et al. 2018).
+
+T
+h
+e
+A
+s
+t
+r
+o
+p
+h
+y
+s
+i
+c
+a
+l
+
+J
+o
+u
+r
+n
+a
+l
+
+,
+
+8
+9
+6
+:
+3
+9
+
+(
+2
+3
+p
+p
+)
+
+,
+
+2
+0
+2
+0
+
+J
+u
+n
+e
+
+1
+0
+
+A
+l
+p
+&
+L
+a
+r
+s
+s
+o
+n
+
+The Astrophysical Journal, 896:39 (23pp), 2020 June 10
+
+Appendix C
+Fit Statistics
+
+Table C1 provides statistic measures for all spectral ﬁts. We
+note that the number of photons (essentially the degrees of
+
+Alp & Larsson
+freedom) is very limited in some cases, especially for the time-
+resolved spectra. This introduces substantial variance in the
+goodness measures.
+
+20
+
+Table C1
+
+Fitting Statistics
+
+XT
+
+161028
+151219
+110621
+030206
+070618
+060207
+100424
+151128
+
+050925
+160220
+140811
+040610
+
+CBB/DoF
+
+44/43=1.02
+71/64=1.11
+55/53=1.04
+187/209=0.89
+141/177=0.80
+42/48=0.88
+80/80=1.01
+51/34=1.50
+40/32=1.24
+82/83=0.99
+108/88=1.23
+117/141=0.83
+
+2
+1
+
+GBB
+
+0.82
+0.94
+0.61
+0.96
+0.88
+0.47
+0.69
+1.00
+
+0.81
+0.56
+0.99
+0.30
+
+CBB,1 DoF
+18/20=0.92
+43/31=1.39
+17/24=0.70
+123/133=0.93
+84/106=0.79
+23/24=0.97
+36/41=0.89
+29/19=1.52
+28/20=1.41
+43/40=1.09
+24/24=1.00
+26/37=0.70
+
+GBB,1
+0.59
+0.97
+0.09
+0.95
+0.81
+0.54
+0.39
+0.98
+
+0.90
+0.69
+0.67
+0.15
+
+CBB,2 DoF
+29/19=1.55
+35/32=1.10
+32/25=1.29
+103/93=1.11
+61/74=0.82
+11/20=0.57
+42/42=1.00
+17/11=1.55
+10/9=1.12
+30/41=0.73
+64/62=1.03
+101/102=0.99
+
+GBB,2
+0.98
+0.83
+0.78
+0.99
+0.76
+0.18
+0.52
+0.96
+
+0.48
+0.09
+0.82
+0.66
+
+CPL DoF
+
+41/43=0.95
+66/64=1.03
+56/53=1.05
+169/209=0.81
+128/177=0.72
+39/48=0.81
+75/80=0.94
+45/34=1.32
+35/32=1.08
+76/83=0.92
+101/88=1.15
+110/141=0.78
+
+GPL
+
+0.66
+0.81
+0.62
+0.58
+0.45
+0.31
+0.33
+0.90
+
+0.50
+0.27
+0.83
+0.07
+
+CPL,1 DoF
+17/20=0.86
+41/31=1.31
+17/24=0.72
+118/133=0.88
+77/106=0.73
+23/24=0.96
+36/41=0.89
+28/19=1.49
+24/20=1.19
+39/40=0.96
+22/24=0.93
+18/37=0.50
+
+GPL,1
+0.47
+0.89
+0.10
+0.87
+0.43
+0.48
+0.26
+0.78
+
+0.64
+0.34
+0.39
+0.02
+
+CPL,2 DoF
+30/19=1.55
+33/32=1.04
+32/25=1.29
+99/93=1.07
+60/74=0.81
+10/20=0.51
+36/42=0.86
+15/11=1.39
+8/9=0.94
+30/41=0.74
+63/62=1.02
+102/102=1.00
+
+GPL,2
+0.98
+0.71
+0.79
+0.96
+0.69
+0.09
+0.19
+0.87
+
+0.33
+0.07
+0.56
+0.55
+
+Note. Quantities denoted by C are ﬁt statistics and G are goodness measures (Section 5.1). The subscripts are BB for blackbody and PL for power law, and ﬁrst (1) and second (2) interval for time-resolved spectra.
+Quantities without subscript integers are time-integrated values. DoF refers to the degrees of freedom.
+
+T
+h
+e
+A
+s
+t
+r
+o
+p
+h
+y
+s
+i
+c
+a
+l
+
+J
+o
+u
+r
+n
+a
+l
+
+,
+
+8
+9
+6
+:
+3
+9
+
+(
+2
+3
+p
+p
+)
+
+,
+
+2
+0
+2
+0
+
+J
+u
+n
+e
+
+1
+0
+
+A
+l
+p
+&
+L
+a
+r
+s
+s
+o
+n
+
+The Astrophysical Journal, 896:39 (23pp), 2020 June 10
+
+Alp & Larsson
+
+ORCID iDs
+
+Dennis Alp
+Joseﬁn Larsson
+
+https://orcid.org/0000-0002-0427-5592
+
+https://orcid.org/0000-0003-0065-2933
+
+References
+
+Abbott, T. M. C., Abdalla, F. B., Allam, S., et al. 2018, ApJS, 239, 18
+Abellán, F. J., Indebetouw, R., Marcaide, J. M., et al. 2017, ApJL, 842, L24
+Ahumada, R., Allende Prieto, C., Almeida, A., et al. 2019, arXiv:1912.02905
+Alam, S., Albareti, F. D., Allende Prieto, C., et al. 2015, ApJS, 219, 12
+Alp, D., Larsson, J., Maeda, K., et al. 2019, ApJ, 882, 22
+Arnaud, K. A. 1996, in ASP Conf. Ser. 101, Astronomical Data Analysis
+Software and Systems V, ed. G. H. Jacoby & J. Barnes (San Francisco, CA:
+ASP), 17
+
+Arnouts, S., Cristiani, S., Moscardini, L., et al. 1999, MNRAS, 310, 540
+Arnouts, S., Walcher, C. J., le Fèvre, O., et al. 2007, A&A, 476, 137
+Avni, Y. 1976, ApJ, 210, 642
+Astropy Collaboration, Price-Whelan, A. M., Sipőcz, B. M., et al. 2018, AJ,
+
+156, 123
+
+Astropy Collaboration, Robitaille, T. P., Tollerud, E. J., et al. 2013, A&A,
+
+558, A33
+
+Balberg, S., & Loeb, A. 2011, MNRAS, 414, 1715
+Barthelmy, S. D., Barbier, L. M., Cummings, J. R., et al. 2005, SSRv, 120, 143
+Bauer, F. E., Treister, E., Schawinski, K., et al. 2017, MNRAS, 467, 4841
+Benz, A. O., & Güdel, M. 2010, ARA&A, 48, 241
+Berger, E. 2014, ARA&A, 52, 43
+Blackburn, J. K. 1995, in ASP Conf. Ser. 77, Astronomical Data Analysis
+Software and Systems IV, ed. R. A. Shaw, H. E. Payne, & J. J. E. Hayes
+(San Francisco, CA: ASP), 367
+
+Blanton, M. R., Hogg, D. W., Bahcall, N. A., et al. 2003, ApJ, 592, 819
+Blanton, M. R., & Roweis, S. 2007, AJ, 133, 734
+Blinnikov, S., Lundqvist, P., Bartunov, O., Nomoto, K., & Iwamoto, K. 2000,
+
+ApJ, 532, 1132
+
+Boch, T., & Fernique, P. 2014, in ASP Conf. Ser. 485, Astronomical Data
+Analysis Software and Systems XXIII, ed. N. Manset & P. Forshay (San
+Francisco, CA: ASP), 277
+
+Bochanski, J. J., Hawley, S. L., & West, A. A. 2011, AJ, 141, 98
+Bonnarel, F., Fernique, P., Bienaymé, O., et al. 2000, A&AS, 143, 33
+Bruzual, G., & Charlot, S. 2003, MNRAS, 344, 1000
+Caballero-García, M. D., Šimon, V., Jelínek, M., et al. 2015, MNRAS,
+
+452, 4195
+
+Calzavara, A. J., & Matzner, C. D. 2004, MNRAS, 351, 694
+Calzetti, D., Kinney, A. L., & Storchi-Bergmann, T. 1994, ApJ, 429, 582
+Carnero Rosell, A., Santiago, B., dal Ponte, M., et al. 2019, MNRAS,
+
+489, 5301
+
+Carter, J. A., & Read, A. M. 2007, A&A, 464, 1155
+Cash, W. 1976, A&A, 52, 307
+Cash, W. 1979, ApJ, 228, 939
+Chambers, K. C., Magnier, E. A., Metcalfe, N., et al. 2016, arXiv:1612.05560
+Chevalier, R. A., & Fransson, C. 2008, ApJL, 683, L135
+Coleman, G. D., Wu, C. C., & Weedman, D. W. 1980, ApJS, 43, 393
+Cook, B. A., Williams, P. K. G., & Berger, E. 2014, ApJ, 785, 10
+Couch, S. M. 2017, RSPTA, 375, 20160271
+Couch, S. M., Pooley, D., Wheeler, J. C., & Milosavljević, M. 2011, ApJ,
+
+727, 104
+
+Dado, S., & Dar, A. 2019, ApJL, 884, L44
+Dado, S., & Dar, A. 2020, PhRvD, 101, 063008
+Dalya, G., Frei, Z., Galgoczi, G., Raffai, P., & de Souza, R. S. 2016, yCat, VII/
+
+275, 0
+
+de Colle, F., Lu, W., Kumar, P., Ramirez-Ruiz, E., & Smoot, G. 2018,
+
+MNRAS, 478, 4553
+
+de Jong, J. T. A., Verdoes Kleijn, G. A., Erben, T., et al. 2017, A&A,
+
+604, A134
+
+de Jong, J. T. A., Verdoes Kleijn, G. A., Kuijken, K. H., & Valentijn, E. A.
+
+2013, ExA, 35, 25
+
+de Luca, A., Salvaterra, R., Tiengo, A., et al. 2016, The Universe of Digital Sky
+
+Surveys, Vol. 42 (Cham: Springer), 291
+
+de Luca, A., Stelzer, B., Burgasser, A. J., et al. 2020, A&A, 634, L13
+Ducci, L., Romano, P., Ji, L., & Santangelo, A. 2019, A&A, 631, A135
+Edge, A., Sutherland, W., Kuijken, K., et al. 2013, Msngr, 154, 32
+Ensman, L., & Burrows, A. 1992, ApJ, 393, 742
+Ergon, M., Sollerman, J., Fraser, M., et al. 2014, A&A, 562, A17
+Favata, F., Reale, F., Micela, G., et al. 2000, A&A, 353, 987
+
+22
+
+Fernández, R., Margalit, B., & Metzger, B. D. 2019, MNRAS, 488, 259
+Gabriel, C., Denby, M., Fyfe, D. J., et al. 2004, in ASP Conf. Ser. 314,
+Astronomical Data Analysis Software and Systems (ADASS) XIII, ed.
+F. Ochsenbein, M. G. Allen, & D. Egret (San Francisco, CA: ASP), 759
+
+Gaia Collaboration, Brown, A. G. A., Vallenari, A., et al. 2018, A&A, 616, A1
+Galloway, D. K., in ’t Zand, J. J. M., Chenevez, J., et al. 2020, ApJS, in press
+
+(arXiv:2003.00685)
+
+Galloway, D. K., & Keek, L. 2017, arXiv:1712.06227
+Glennie, A., Jonker, P. G., Fender, R. P., Nagayama, T., & Pretorius, M. L.
+
+2015, MNRAS, 450, 3765
+
+Goldstein, A., Burgess, J. M., Preece, R. D., et al. 2012, ApJS, 199, 19
+Grefenstette, B. W., Fryer, C. L., Harrison, F. A., et al. 2017, ApJ, 834, 19
+Greiner, J., Hartmann, D. H., Voges, W., et al. 2000, A&A, 353, 998
+Güdel, M. 2004, A&ARv, 12, 71
+Güdel, M., & Nazé, Y. 2009, A&ARv, 17, 309
+Hewett, P. C., Warren, S. J., Leggett, S. K., & Hodgkin, S. T. 2006, MNRAS,
+
+367, 454
+
+Hunter, J. D. 2007, CSE, 9, 90
+Hurley, K., Boggs, S. E., Smith, D. M., et al. 2005, Natur, 434, 1098
+Ilbert, O., Arnouts, S., McCracken, H. J., et al. 2006, A&A, 457, 841
+Ilbert, O., Capak, P., Salvato, M., et al. 2009, ApJ, 690, 1236
+Ilbert, O., Tresse, L., Zucca, E., et al. 2005, A&A, 439, 863
+Ito, H., Levinson, A., & Nagataki, S. 2020, MNRAS, 492, 1902
+Janka, H.-T., Melson, T., & Summa, A. 2016, ARNPS, 66, 341
+Jansen, F., Lumb, D., Altieri, B., et al. 2001, A&A, 365, L1
+Jones, D. H., Read, M. A., Saunders, W., et al. 2009, MNRAS, 399, 683
+Jonker, P. G., Glennie, A., Heida, M., et al. 2013, ApJ, 779, 14
+Joye, W. A., & Mandel, E. 2003, in ASP Conf. Ser. 295, Astronomical Data
+Analysis Software and Systems XII, ed. H. E. Payne, R. I. Jedrzejewski, &
+R. N. Hook (San Francisco, CA: ASP), 489
+
+Kaspi, V. M., & Beloborodov, A. M. 2017, ARA&A, 55, 261
+Katz, B., Budnik, R., & Waxman, E. 2010, ApJ, 716, 781
+Katz, B., Sapir, N., & Waxman, E. 2012, ApJ, 747, 147
+Kinney, A. L., Calzetti, D., Bohlin, R. C., et al. 1996, ApJ, 467, 38
+Klein, R. I., & Chevalier, R. A. 1978, ApJL, 223, L109
+Kochanek, C. S. 2016, MNRAS, 461, 371
+Komossa, S. 2015, JHEAp, 7, 148
+Kron, R. G. 1980, ApJS, 43, 305
+Kuijken, K., Heymans, C., Dvornik, A., et al. 2019, A&A, 625, A2
+Kurtz, M. J., Eichhorn, G., Accomazzi, A., et al. 2000, A&AS, 143, 41
+Lampton, M., Margon, B., & Bowyer, S. 1976, ApJ, 208, 177
+Larsson, J., Fransson, C., Spyromilio, J., et al. 2016, ApJ, 833, 147
+Lavaux, G., Jasche, J., & Leclercq, F. 2019, arXiv:1909.06396
+Lazzati, D., López-Cámara, D., Cantiello, M., et al. 2017, ApJL, 848, L6
+Levinson, A., & Nakar, E. 2019, arXiv:1909.10288
+Lien, A., Sakamoto, T., Barthelmy, S. D., et al. 2016, ApJ, 829, 7
+Loyd, R. O. P., France, K., Youngblood, A., et al. 2018a, ApJ, 867, 71
+Loyd, R. O. P., Shkolnik, E. L., Schneider, A. C., et al. 2018b, ApJ, 867, 70
+Madsen, K. K., Beardmore, A. P., Forster, K., et al. 2017, AJ, 153, 2
+Maguire, K., Eracleous, M., Jonker, P. G., MacLeod, M., & Rosswog, S. 2020,
+
+SSRv, 216, 39
+
+Martínez-Núñez, S., Kretschmar, P., Bozzo, E., et al. 2017, SSRv, 212, 59
+Mason, K. O., Breeveld, A., Much, R., et al. 2001, A&A, 365, L36
+Matzner, C. D., & McKee, C. F. 1999, ApJ, 510, 379
+McCray, R. 1993, ARA&A, 31, 175
+McMahon, R. G., Banerji, M., Gonzalez, E., et al. 2013, Msngr, 154, 35
+Meegan, C. A., Pendleton, G. N., Briggs, M. S., et al. 1996, ApJS, 106, 65
+Menon, A., & Heger, A. 2017, MNRAS, 469, 4649
+Menon, A., Utrobin, V., & Heger, A. 2019, MNRAS, 482, 438
+Mereghetti, S., Pons, J. A., & Melatos, A. 2015, SSRv, 191, 315
+Metcalfe, N., Farrow, D. J., Cole, S., et al. 2013, MNRAS, 435, 1825
+Modjaz, M., Li, W., Butler, N., et al. 2009, ApJ, 702, 226
+Morii, M., Tomida, H., Kimura, M., et al. 2013, ApJ, 779, 118
+Mukai, K. 2017, PASP, 129, 062001
+Müller, B. 2016, PASA, 33, e048
+Nakar, E., & Sari, R. 2010, ApJ, 725, 904
+Nasa High Energy Astrophysics Science Archive Research Center (Heasarc)
+2014, HEAsoft: Uniﬁed Release of FTOOLS and XANADU v6.21.1,
+Astrophysics Source Code Library, ascl:1408.004
+
+Ness, J.-U. 2019, AdSpR, in press (doi:10.1016/j.asr.2019.09.002)
+Nishizawa, A. J., Hsieh, B.-C., Tanaka, M., & Takata, T. 2020, arXiv:2003.
+
+01511
+
+Nooraee, N. 2013, MNRAS, 428, 205
+Novara, G., Esposito, P., Tiengo, A., et al. 2020, arXiv:2004.10665
+Ochsenbein, F., Bauer, P., & Marcout, J. 2000, A&AS, 143, 23
+
+The Astrophysical Journal, 896:39 (23pp), 2020 June 10
+
+Ofek, E. O. 2009, PASP, 121, 814
+Oke, J. B., & Gunn, J. E. 1983, ApJ, 266, 713
+Osten, R. A., Godet, O., Drake, S., et al. 2010, ApJ, 721, 785
+Osten, R. A., Kowalski, A., Drake, S. A., et al. 2016, ApJ, 832, 174
+Pallavicini, R., Tagliaferri, G., & Stella, L. 1990, A&A, 228, 403
+Palmer, D. M., Barthelmy, S., Gehrels, N., et al. 2005, Natur, 434, 1107
+Pandey, J. C., & Singh, K. P. 2008, MNRAS, 387, 1627
+Pecaut, M. J., & Mamajek, E. E. 2013, ApJS, 208, 9
+Petrosian, V. 1976, ApJL, 210, L53
+Phinney, E. S. 1989, in IAU Symposium, Vol. 136, The Center of the Galaxy,
+
+ed. M. Morris (Dordrecht: Kluwer), 543
+
+Piro, A. L., Chang, P., & Weinberg, N. N. 2010, ApJ, 708, 598
+Plucinsky, P. P., Beardmore, A. P., Foster, A., et al. 2017, A&A, 597, A35
+Polletta, M., Tajer, M., Maraschi, L., et al. 2007, ApJ, 663, 81
+Predehl, P. 2017, AN, 338, 159
+Predehl, P., Andritschke, R., Böhringer, H., et al. 2010, Proc. SPIE, 7732,
+
+77320U
+
+Predehl, P., & Schmitt, J. H. M. M. 1995, A&A, 500, 459
+Pye, J. P., Rosen, S., Fyfe, D., & Schröder, A. C. 2015, A&A, 581, A28
+Racusin, J. L., Liang, E. W., Burrows, D. N., et al. 2009, ApJ, 698, 43
+Rees, M. J. 1988, Natur, 333, 523
+Robrade, J., Poppenhaeger, K., & Schmitt, J. H. M. M. 2010, A&A, 513, A12
+Robrade, J., & Schmitt, J. H. M. M. 2005, A&A, 435, 1073
+Romano, P. 2015, JHEAp, 7, 126
+Rosen, S. R., Webb, N. A., Watson, M. G., et al. 2016, A&A, 590, A1
+Sapir, N., & Halbertal, D. 2014, ApJ, 796, 145
+Sapir, N., Katz, B., & Waxman, E. 2011, ApJ, 742, 36
+Sapir, N., Katz, B., & Waxman, E. 2013, ApJ, 774, 79
+Sartore, N., Ripamonti, E., Treves, A., & Turolla, R. 2010, A&A, 510, A23
+Schwarz, G. J., Ness, J.-U., Osborne, J. P., et al. 2011, ApJS, 197, 31
+Sguera, V., Sidoli, L., Bird, A. J., Paizis, A., & Bazzano, A. 2020, MNRAS,
+
+491, 4543
+
+Shen, R.-F. 2019, ApJL, 871, L17
+Shen, S., Mo, H. J., White, S. D. M., et al. 2003, MNRAS, 343, 978
+Skrutskie, M. F., Cutri, R. M., Stiening, R., et al. 2006, AJ, 131, 1163
+Smartt, S. J. 2009, ARA&A, 47, 63
+Soderberg, A. M., Berger, E., Page, K. L., et al. 2008, Natur, 453, 469
+Starrﬁeld, S., Iliadis, C., & Hix, W. R. 2016, PASP, 128, 051001
+Strüder, L., Briel, U., Dennerl, K., et al. 2001, A&A, 365, L18
+Sun, H., Li, Y., Zhang, B.-B., et al. 2019, ApJ, 886, 129
+
+Alp & Larsson
+
+Suzuki, A., & Shigeyama, T. 2010, ApJL, 717, L154
+Suzuki, A., & Shigeyama, T. 2013, ApJL, 764, L12
+Svirski, G., & Nakar, E. 2014, ApJ, 788, 113
+Tachibana, Y., & Miller, A. A. 2018, PASP, 130, 128001
+Taddia, F., Sollerman, J., Fremling, C., et al. 2019, A&A, 621, A71
+Turner, M. J. L., Abbey, A., Arnaud, M., et al. 2001, A&A, 365, L27
+Turolla, R., Zane, S., & Watts, A. L. 2015, RPPh, 78, 116901
+Utrobin, V. P., Wongwathanarat, A., Janka, H.-T., et al. 2019, A&A,
+
+624, A116
+
+van den Eijnden, J., Bagnoli, T., Degenaar, N., et al. 2017, MNRAS, 466,
+
+L98
+
+van der Walt, S., Colbert, S. C., & Varoquaux, G. 2011, CSE, 13, 22
+Verner, D. A., & Yakovlev, D. G. 1995, A&AS, 109, 125
+Vikhlinin, A. 1998, ApJL, 505, L123
+Villasenor, J. S., Lamb, D. Q., Ricker, G. R., et al. 2005, Natur, 437, 855
+Virtanen, P., Gommers, R., Oliphant, T. E., et al. 2020, Nature Methods,
+
+17, 261
+
+von Kienlin, A., Meegan, C. A., Paciesas, W. S., et al. 2020, ApJ, 893, 46
+Walter, R., Lutovinov, A. A., Bozzo, E., & Tsygankov, S. S. 2015, A&ARv,
+
+23, 2
+
+Watson, M. G., Schröder, A. C., Fyfe, D., et al. 2009, A&A, 493, 339
+Waxman, E., & Katz, B. 2017,
+
+in Handbook of Supernovae, ed.
+
+A. W. Alsabti & P. Murdin (Cham: Springer), 967
+
+Weaver, T. A. 1976, ApJS, 32, 233
+Wenger, M., Ochsenbein, F., Egret, D., et al. 2000, A&AS, 143, 9
+Williams, P. K. G., Cook, B. A., & Berger, E. 2014, ApJ, 785, 9
+Willingale, R., Starling, R. L. C., Beardmore, A. P., Tanvir, N. R., &
+
+O’Brien, P. T. 2013, MNRAS, 431, 394
+
+Wilms, J., Allen, A., & McCray, R. 2000, ApJ, 542, 914
+Wolf, C., Meisenheimer, K., Rix, H. W., et al. 2003, A&A, 401, 73
+Wolf, C., Onken, C. A., Luvaul, L. C., et al. 2018, PASA, 35, e010
+Wongwathanarat, A., Müller, E., & Janka, H.-T. 2015, A&A, 577, A48
+Woosley, S. E., Pinto, P. A., Martin, P. G., & Weaver, T. A. 1987, ApJ,
+
+318, 664
+
+Wright, A. H., Hildebrandt, H., Kuijken, K., et al. 2019, A&A, 632, A34
+Xue, Y. Q., Zheng, X. C., Li, Y., et al. 2019, Natur, 568, 198
+Yang, G., Brandt, W. N., Zhu, S. F., et al. 2019, MNRAS, 487, 4721
+Yaqoob, T. 1998, ApJ, 500, 893
+York, D. G., Adelman, J., Anderson, J. E. J., et al. 2000, AJ, 120, 1579
+Zhang, B.-B., Liang, E.-W., & Zhang, B. 2007, ApJ, 666, 1002
+
+23
+
+

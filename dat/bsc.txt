@@ -1,0 +1,1986 @@
+Theoretical Physics
+
+Dark Matter: Particle Evolution through Freeze-out
+
+Dennis Alp
+dalp@kth.se
+
+Samuel Modée
+smodee@kth.se
+
+SA104X Degree Project in Engineering Physics, First Level
+
+Department of Theoretical Physics
+
+Royal Institute of Technology (KTH)
+
+Supervisor: Tommy Ohlsson
+
+May 21, 2014
+
+Abstract
+
+This report focuses on the evolution of dark matter particles in a simplied, homogeneous
+and isotropic model of the Universe. The purpose is to analyze theoretical predictions and
+recent experimental measurements to be able to draw conclusions about the properties
+of the dark matter particles. The inexperienced reader is introduced to the subject and
+thorough derivations of the formulas relevant to the analysis are made. To analyze the
+evolution of dark matter, the Boltzmann equation is applied to a freeze-out model. Both
+analytical and numerical approaches will be taken and discrepancies between those are
+investigated. Qualitative eects of the particle cross section and mass are studied and
+constraints on the parameters are set using experimental data. Finally, assumptions are
+discussed and suggestions for further research are made.
+
+Sammanfattning
+
+Rapporten fokuserar på utvecklingen av mörk materia-partiklar i en förenklad, homogen
+och isotrop modell av universum. Syftet är att analysera teoretiska förutsägelser och
+nyligen genomförda experimentella mätningar för att dra slutsatser om mörk materia-
+partiklarnas egenskaper. Den oerfarne läsaren introduceras till ämnet och en utförlig
+härledning av de relevanta formlerna genomförs. Boltzmannekvationen tillämpas på en
+utfrysningsmodell och används för att analysera utvecklingen av den mörka materian.
+Både analytiska och numeriska metoder används och skillnader mellan dessa studeras.
+Kvalitativa eekter av partiklarnas tvärsnitt och massa undersöks och begränsningar av
+parametrarna görs med hjälp av experimentell data. Slutligen diskuteras antaganden och
+förslag för fortsatt forskning läggs fram.
+
+Contents
+
+1 Introduction
+
+2 Background Material
+
+2.1 Natural Units . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2.2 The Expanding Universe . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2.3 Metric . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Introduction to Dark Matter . . . . . . . . . . . . . . . . . . . . . . . . .
+2.4
+2.4.1 Dark Matter Abundance . . . . . . . . . . . . . . . . . . . . . . .
+2.4.2 Evidence . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2.4.3 Candidates
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2.5 The Boltzmann Equation . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2.5.1 The Liouville Operator . . . . . . . . . . . . . . . . . . . . . . . .
+2.5.2 The Collision Operator . . . . . . . . . . . . . . . . . . . . . . . .
+2.5.3 A Change of Variables . . . . . . . . . . . . . . . . . . . . . . . .
+
+3 Investigation
+
+3.1 Problem . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.2 Model
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.2.1 The Boltzmann Equation for Dark Matter . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . .
+3.2.2 Quantication of Relic Abundance
+3.3 Analytical Calculations . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.3.1 Freeze-out Scenario . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.3.2 Determining the Freeze-out Time . . . . . . . . . . . . . . . . . .
+3.3.3 Relation between (cid:104)σv(cid:105) and m . . . . . . . . . . . . . . . . . . . .
+3.4 Numerical Analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.5 Results . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.6 Discussion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.6.1 Remarks on λ . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.6.2 Comparing Analytical Calculations to Numerical Results . . . . .
+3.6.3 Further remarks . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.6.4 Future Work . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+4 Summary and Conclusions
+
+Bibliography
+
+2
+
+4
+4
+4
+5
+6
+6
+7
+7
+8
+8
+9
+10
+
+12
+12
+12
+12
+14
+14
+14
+15
+15
+16
+16
+17
+17
+19
+20
+21
+
+23
+
+24
+
+1
+
+Chapter 1
+
+Introduction
+
+Ever since the early times of mankind, we have looked up at the night sky and tried to
+make sense of the apparent motion of the celestial bodies. The image of ourselves at the
+center of the Universe was shattered when Nicolaus Copernicus introduced the concept
+of heliocentrism [1]. From that time onward, it became increasingly clear that we are a
+very small part of an enormous universe.
+
+Since then, our quest to describe the Universe has taken us past Johannes Kepler's
+laws for the elliptical orbits in the Solar System to Isaac Newton's theory of gravity
+which enables us to calculate the motions of many astronomical objects with great ac-
+curacy. However, events which were inexplicable by the prevailing theories of the time
+accumulated as more observations were made. In this situation, the natural question was
+whether these observations indicated faults in the theory itself or merely shortcomings
+in our ability to observe the Universe.
+
+With the advent of Albert Einstein's theory of general relativity, this question was
+partly resolved as it describes the eect of gravity on time and space more accurately
+than before. General relativity together with the standard model of particle physics,
+developed throughout the twentieth century, is able to a describe a major part of the
+peculiarities our Universe exhibits.
+
+Once again deviations from the expected results were observed when the Dutch as-
+tronomer Jan Oort studied the orbital velocities of stars in the Milky Way. He concluded
+that there had to be more matter in the galaxy than could be detected through direct
+methods. This missing matter was named dark matter [2]. Since then, much research
+has been devoted to dark matter but no candidate for the missing dark matter in the
+Universe has been detected and conrmed. The presently dominant theory is that the
+dark matter consists of particles [3]. Still another possibility would be that the laws of
+gravity and the theory of general relativity are incomplete and merely special cases of
+yet another, more general, theory.
+
+Although direct evidence for dark matter is scarce, some conclusions can be drawn
+about its nature from experiments and observations. Dark matter does not seem to inter-
+act with ordinary matter through either the electromagnetic or strong interaction [4],
+making it problematic to detect. Even though it cannot be seen directly, the impact of
+dark matter through gravity can be measured. The mass-energy ratio between ordinary
+matter and dark matter has been shown to be approximately 1 : 5 in experiments [5]. Fur-
+thermore, the majority of the energy content of the Universe seems to be an altogether
+dierent kind of energy, dark energy. However, dark energy seems to not interact directly
+
+2
+
+with matter and will therefore not be studied in detail. Current experiments show that
+the distribution of the total mass-energy of the universe is 4.9 % ordinary matter, 26.8 %
+dark matter and 68.3 % dark energy [5].
+
+The prevailing approach to explain and understand dark matter today is to look
+for a more fundamental theory to replace the standard model. So far, the behavior of
+all observed particles and interactions has successfully been explained by the standard
+model. However, to account for dark matter particles, it is now believed that a more
+general theory exists that coincides with the standard model in the low-energy limit [6].
+Dark matter research can be divided into several parts. Firstly, theory predicts dier-
+ent kinds of particles with certain properties. These are then analyzed and compared to
+experimental data to narrow the possibilities. Lastly, experiments try to detect dierent
+particles while continuously rening constraints. The main objective is to nd a particle
+which fullls all theoretical requirements as well as being experimentally veriable. The
+present study focuses on the part where predicted particles are analyzed and compared
+to experimental data.
+
+This report will start with an introduction of the basic tools for analyzing the abun-
+dance of dark matter in the Universe. The theory of an expanding universe tells us
+that a long time ago, the Universe was much hotter and denser. A model for dark mat-
+ter will be created based on the assumption that a given species of dark matter was in
+equilibrium with its surroundings at some point in time. From this model it will be deter-
+mined at what time the particles fell out of equilibrium due to decrease in temperature.
+This concept, called freeze-out, will be explained in section 2.4. Moreover, an estimate
+of the remaining abundance of the species today will be computed and constraints on
+particle parameters investigated. Finally, the results and conclusions are discussed and
+suggestions for further research are made.
+
+3
+
+Chapter 2
+
+Background Material
+
+This chapter will serve to introduce the reader to the basic concepts of cosmology nec-
+essary to properly appreciate the content of this report. Introducing convenient units
+commonly used in this context simplies several expressions otherwise cluttered with
+natural constants. An explanation of the units is given in section 2.1. The expanding
+universe together with the metric of general relativity constitute the framework for cos-
+mology research and are briey explained in sections 2.2 and 2.3. As the major subject
+of this report is dark matter, key concepts of dark matter are presented in section 2.4
+together with some exploration of the current theories. Finally, section 2.5 contains a
+thorough derivation of the Boltzmann equation, which is the main tool used in this study
+to analyze the dark matter abundance.
+
+2.1 Natural Units
+
+Throughout this report, natural units, commonly used in cosmology and particle physics,
+will be used unless otherwise stated. This means that the natural constants , c and kB
+are set to 1. Keeping the unit electron volt (eV), every other unit can then be expressed
+in eV by multiplying with an appropriate combination of , c and kB. As an example,
+the procedure for converting mass in the SI-unit kg to mass in the natural unit eV is
+
+1 kg = 1 kg × c2
+
+= 8.988 × 1016 kg m2 s−2
+= 8.988 × 1016 J/1.602 × 10−19 J/eV
+= 5.610 × 1035 eV.
+
+(2.1)
+
+With this convention, the process of converting from any other unit to eV is univocal.
+Furthermore, metric prexes can be used together with eV. In this report GeV will be
+the most frequently used unit.
+
+2.2 The Expanding Universe
+
+The Universe has expanded ever since the Big Bang. It is important to remember that
+space itself is expanding and that objects are not simply being hurled outwards into
+space. This means that the expansion can be described by the cosmic scale factor
+
+4
+
+a(t) which describes how the distance between points at rest with respect to each other
+evolves in time due to the expansion of the Universe. Only its relative value is relevant
+as a(t) is a scale factor, therefore it is commonly set to 1 at the present time [7]. It is
+also convenient to introduce the Hubble parameter
+H(t) ≡ ˙a(t)
+a(t)
+
+(2.2)
+
+,
+
+where the dot denotes derivative with respect to time, a convention which will be used
+throughout this report. A recent measurement shows that the present value of the Hubble
+parameter is H0 = 67.4 (km/s)/Mpc [5]. Furthermore, it has been conrmed that the
+expansion of the Universe is presently accelerating, or in mathematical terms ¨a(t) > 0 [8].
+Consequently, both a(t) and ˙a(t) are time dependent implying that H(t), in general, varies
+with time.
+
+An implication of the expanding universe is that an ambiguity arises when den-
+ing distances. Two dierent distances will be used to describe dierent phenomena.
+Firstly, physical distance is proportional to the scale factor and constitutes the distance
+an experiment would measure. Secondly, comoving distance is the distance between two
+coordinates on an imaginary grid which expands together with space itself. The comov-
+ing distance between two objects at rest relative to each other will always be the same,
+regardless of the expansion, whereas the physical distance will be time dependent.
+
+2.3 Metric
+
+A metric denes the distance between points in a given metric space. For example in 2D
+Cartesian coordinates the distance dl is given by
+
+dl2 = dx2 + dy2.
+
+For small distances, the same distance expressed in polar coordinates is
+
+dl2 = dr2 + r2dθ2,
+
+where x and y are the Cartesian coordinates and r and θ are the polar coordinates.
+Even though the distances are calculated dierently, the result is invariant with respect
+to coordinate system. Thus, the metric acts on coordinates to produce a coordinate-
+invariant measure of distance. Another way to express this is by using tensors,
+
+dl2 = gijxixj,
+
+where gij is the metric tensor. Throughout this report we use the Einstein summation
+convention, which means that terms are summed over repeated indices. Roman indices
+are summed over the three spatial coordinates, while Greek indices are summed over the
+four spacetime coordinates.
+
+The commonly used metric associated with an expanding universe is
+
+(2.3)
+
+
+
+−1
+0
+0
+0
+
+gµν =
+
+ ,
+
+0
+
+a2(t)
+
+0
+0
+
+0
+0
+0
+
+a2(t)
+
+0
+
+a2(t)
+
+0
+0
+
+5
+
+where the rst element is temporal and the remaining are spatial. This is the metric that
+will be used throughout this report. By assuming that the Universe is homogeneous and
+isotropic on large scales, the scale factor a(t) becomes space invariant. These assumptions
+simplify the mathematics and are supported by experiments [9]. Furthermore, we will
+need the Christoel symbol
+
+(cid:18) ∂gαν
+
+∂xβ +
+
+(cid:19)
+
+αβ ≡ gµν
+Γµ
+2
+
+∂gβν
+
+∂xα − ∂gαβ
+
+∂xν
+
+,
+
+(2.4)
+
+which contains information of the curvature of space. It will be used in section 2.5 to
+describe an expanding universe. A rigorous derivation is beyond the scope this report.
+
+2.4
+
+Introduction to Dark Matter
+
+2.4.1 Dark Matter Abundance
+
+Most of the common theories describing dark matter assumes that the dark matter we
+observe constitutes of dierent kinds of particles, called species. The particles emit no
+electromagnetic radiation and are therefore only detectable through their gravitational
+interaction with ordinary matter.
+
+In the early Universe, interactions were frequent as a consequence of the energetic
+environment. Due to the high interaction rate, it is possible to assume that every al-
+lowed interaction occurs at a frequency high enough to ensure that any deviations from
+equilibrium quickly diminishes. Thus, the dark matter particles are believed to have
+been in thermodynamical equilibrium. This means that they were in mechanical, chem-
+ical, thermal and radiative equilibrium. As the Universe expanded, the interaction rate
+between dark matter and ordinary matter decreased, causing the particles to decouple.
+Essentially, decoupling means that the particles stop interacting and the number of par-
+ticles after decoupling, the relic abundance, will remain roughly constant. Decoupling is
+a continuous process, as will be shown in chapter 3, but it is quick compared to the age of
+the Universe due to the expansion of space as well as decrease in temperature [10]. Before
+decoupling, the distribution of dark matter is simply given by the Boltzmann distribution
+as it is in thermodynamical equilibrium. The evolution of dark matter out of equilibrium
+is harder to predict and is given by the Boltzmann equation presented in section 2.5.
+This process, where the species starts in equilibrium and eventually decouples, is called
+the freeze-out scenario and decoupling itself is sometimes referred to as freeze-out.
+
+The concept of critical density ρc is commonly used in cosmology.
+
+In a simplied
+model with no dark energy one can think of the critical density as the mass-energy
+density if the Universe contains exactly enough mass to be the watershed point between
+expanding forever and collapsing. This special case is called a at universe.
+If the
+density is any higher, the expansion of the Universe will slow down and eventually start
+to contract, a closed universe. On the other hand, if the density is lower, the Universe
+would keep expanding forever, an open universe. It is possible to derive the expression
+
+ρc =
+
+3H 2
+8πG
+
+(2.5)
+
+directly from the Friedmann equations in a model without dark energy [11]. Including
+dark energy is complicated because it is dierent from all other kinds of matter and
+
+6
+
+energy in the sense that dark energy is expanding space itself which drags everything
+along with it.
+
+Quantication of a substance can be made through the density parameter dened as
+
+Ω ≡ ρ
+ρc
+
+=
+
+8πGρ
+3H 2 ,
+
+(2.6)
+
+which basically is the ratio between the density ρ of the relevant substance and the critical
+density. The matter, dark matter and dark energy quantities will henceforth be given
+the subscripts M, DM and Λ respectively. According to recent measurements, the total
+density is equal to the critical density and the distribution is as follows: ΩM = 4.9 %,
+ΩDM = 26.8 % and ΩΛ = 68.3 % [5].
+
+2.4.2 Evidence
+
+An indication of the existence of dark matter was given by analysis of the rotational
+velocity of galaxies, as mentioned in chapter 1. Using Kepler's third law it can be
+expected that the rotational velocity as a function of distance from the center will follow
+
+v(r) =
+
+GM (r)
+
+r
+
+,
+
+(2.7)
+
+(cid:114)
+
+(cid:90) r
+
+where r is the distance from the center, G is Newton's gravitational constant and M (r)
+is the total mass within the radius r. The mass M (r) is given by
+
+M (r) = 4π
+
+ρ(r)r2 dr,
+
+(2.8)
+
+0
+
+√
+where ρ(r) is the mass density, under the assumption of spherical symmetry. We would
+expect that v(r) ∝ 1/
+In practice,
+measurements are made on hydrogen clouds orbiting outside the luminous parts of the
+galaxy. However, measurements show that v is in fact almost constant in the region
+where a decrease would be expected [12]. Thus, M ∝ r and consequently ρ ∝ 1/r2 [13].
+There are several other pieces of evidence supporting the existence of dark matter
+
+r for large r where a low density is observed.
+
+such as:
+
+• Strong gravitational lensing by elliptical galaxies [14].
+• Mass-to-light ration inferred from velocity dispersion of galaxies in clusters [15].
+• Analysis of cosmic microwave background anisotropies [16].
+
+2.4.3 Candidates
+
+There are several dark matter candidates since very little is known about their nature and
+few constraints can be made. The parameter values for dierent candidates often span
+several orders of magnitude. For example, the masses of proposed dark matter particles
+span more than 20 orders of magnitude [10]. In the freeze-out scenario studied in this
+report, a common candidate is a weakly interacting massive particle, often referred to as
+WIMP. As indicated by their name, WIMPs are relatively heavy and are presumed to only
+
+7
+
+interact through gravitation and the weak force [10]. Relatively heavy in this context
+means that the particle mass is roughly in the order of 1011 eV. One of the reasons
+why WIMPs are popular is because the parameter values predicted by theory yields
+the correct relic abundance, a phenomenon sometimes called the WIMP miracle [17].
+Besides WIMPs, there exists a plethora of dierent candidates. A comprehensive review
+of several candidates can be found in the work of Bertone et al. [10].
+
+2.5 The Boltzmann Equation
+
+2.5.1 The Liouville Operator
+
+The evolution of the phase space distribution of particles f (p, x, t) is governed by the
+Boltzmann equation
+
+where
+
+L[f ] = C[f ],
+
+L = pα ∂
+
+∂xα − Γα
+
+βγpβpγ ∂
+∂pα
+
+(2.9)
+
+(2.10)
+
+is the Liouville operator and C is the collision operator [18]. The collision operator
+describes interactions between particles and will be introduced in section 2.5.2. Firstly,
+we can observe that only derivatives of f appear on the left-hand side of eq. (2.9). The two
+derivatives are with respect to x and p respectively, implying that the change in the phase
+space distribution with respect to space and momentum depends on the interactions of
+particles.
+
+We assume that the phase space distribution function is both homogeneous and iso-
+tropic, so that f (p, x, t) = f (E, t). Under these assumptions the Liouville operator (2.10)
+acting on f takes on a simpler form. Recalling that p0 = E, the rst term collapses to just
+the temporal term of the implicit sum. For the same reason, the second term disappears
+for all values of the summation index α, except when α = 0. Since Γ0
+0i = 0
+and Γ0
+
+ij = δij ˙aa we obtain
+
+00 = Γ0
+
+i0 = Γ0
+
+∂f
+∂t
+
+− Hp2 ∂f
+∂E
+
+L[f ] = E
+
+(2.11)
+where we have used the fact that pipi = gijpjpi = a−2p2 (where, in the last expression, p
+is the norm of the spatial momentum vector and the 2 is an exponent, not a contravariant
+index) and used denition (2.2) of the Hubble parameter.
+
+,
+
+Consider the Boltzmann equation (2.9). Using the expression in eq. (2.11), multiply-
+
+ing both sides by d3p/((2π)2E) and integrating over the whole phase space we obtain
+
+(cid:90) ∂f
+
+(cid:90) p2
+
+(cid:90) C[f ]
+
+d3p
+
+(2π)3 − H
+
+∂f
+∂E
+
+d3p
+(2π)3 =
+
+d3p
+(2π)3 .
+
+(2.12)
+
+E
+
+In the rst term the derivative with respect to t can be moved outside the integral. For
+
+E
+
+∂t
+
+the second term we note that, since E =(cid:112)p2 + m2,
+1(cid:112)p2 + m2
+
+∂E
+∂p
+
+1
+2
+
+=
+
+2p =
+
+p
+E
+
+,
+
+(2.13)
+
+8
+
+and we can use
+
+∂f
+∂p
+
+=
+
+∂f
+∂E
+
+H
+
+∂E
+∂p
+
+(cid:90) p2
+
+E
+
+to rewrite the second term as
+
+(cid:90)
+
+∂f
+∂E
+
+d3p
+(2π)3 =
+
+H
+
+(2π)3
+
+p
+
+∂f
+∂p
+
+d3p.
+
+(2.14)
+
+Invoking our assumption of homogeneity and isotropy we can integrate the angular parts
+of the integral, which introduces an overall factor 4π and a factor p2 in the integrand.
+This leaves a one-dimensional integral of p from 0 to ∞. A simple calculation shows that,
+demanding the integral of f over all phase space to be nite, f must fall to zero faster
+than p−3 as p → ∞. Thus, using integration by parts on the right-hand side integral of
+eq. (2.14) we obtain
+
+(cid:90) ∞
+
+0
+
+4πH
+(2π)3
+
+p3 ∂f
+∂p
+
+dp =
+
+4πH
+(2π)3
+
+(cid:18)(cid:2)p3f(cid:3)∞
+
+0 − 3
+
+(cid:90) ∞
+
+0
+
+(cid:19)
+
+p2f dp
+
+,
+
+(2.15)
+
+where the bracketed term disappears. We can revert this to an integral over the whole
+phase space again by eliminating the factors 4π and p2 from the integrand.
+
+By expressing the number density n(t) as
+
+f (E, t) d3p,
+
+(2.16)
+
+where g is the degeneracy, we can nally rewrite the left-hand side of eq. (2.12). Using
+eqs. (2.13) through (2.16), as well as incorporating g into f, we can rewrite eq. (2.12) as
+
+dn
+dt
+
++ 3Hn =
+
+d3p
+(2π)3 .
+
+(2.17)
+
+E
+
+2.5.2 The Collision Operator
+
+We now turn our attention to the right-hand side of eq. (2.17), the expression containing
+information about the interactions of dierent species. Consider a process
+
+ψ + a + b + ··· ↔ i + j + ··· ,
+
+where ψ is the dark matter species of interest. Then, the right-hand side of eq. (2.17) is
+
+(cid:90)
+
+n(t) =
+
+g
+
+(2π)3
+
+(cid:90) C[f ]
+
+given by(cid:90) C[f ]
+
+E
+
+d3p
+
+(cid:90)
+(2π)3 = − 1
+×(cid:104)|M|2
+
+g
+
+dΠψdΠadΠb ··· dΠidΠj
+
+× (2π)4δ4(pψ + pa + pb + ··· − pi − pj − ··· )
+
+(cid:105)
+ψ+a+b+···→i+j+···fafb ··· fψ(1 ± fi)(1 ± fj)···
+i+j+···→ψ+a+b+···fifj ··· (1 ± fa)(1 ± fb)··· (1 ± fψ)
+
+−|M|2
+
+,
+
+(2.18)
+
+where δ4 is the four-dimensional Dirac delta function, pz and fz are the four-momentum
+and phase space distribution for species z respectively and M denotes the amplitude of
+the process and corresponds to the strength of the interaction [13]. Starting from the
+top, with the denition
+
+,
+
+(2.19)
+
+dΠz ≡ gz
+(2π)3
+
+d3pz
+2Ez
+
+9
+
+the rst line of eq. (2.18) tells us that we must sum over the whole phase space for every
+particle to obtain all interactions. Secondly, the next line enforces the conservation of
+momentum and energy upon the process. Lastly, the two remaining lines represent the
+rate of the process going one way or the other. Thus, the production of ψ (together with
+a, b,··· ) is proportional to fifj ··· and the opposite process is proportional to fψfafb ··· .
+Simplications of eq. (2.18) can be made. By assuming that the interaction is re-
+
+versible, we dene
+
+|M| ≡ |M|ψ+a+b+···→i+j+··· = |M|i+j+···→ψ+a+b+···.
+
+Our next assumption is the absence of degenerate matter and Bose-Einstein condensates.
+This allows us to use Maxwell-Boltzmann statistics as well as approximate the blocking
+and stimulated emission factor 1 ± fx ≈ 1 for all species. To summarize, we have
+
+dnψ
+dt
+
++ 3Hnψ = −
+
+dΠψdΠadΠb ··· dΠidΠj(2π)4|M|2
+
+× δ4(pψ + pa + pb + ··· − pi − pj − ··· )[fafb ··· fψ − fifj ··· ].
+
+(2.20)
+
+(cid:90)
+
+Investigating eq. (2.20) we observe that the change in the number density over time can
+be described by two terms. One term accounts for all interactions by which the species in
+question is created or annihilated and one term is a direct consequence of the expansion
+of the Universe, 3Hnψ.
+
+2.5.3 A Change of Variables
+
+As the eect of the species being diluted by the expansion of the Universe is trivial, the
+number of particles per comoving volume will be introduced. Using the fact that entropy
+per comoving volume is conserved, the new variable
+
+is dened. The entropy density s is given by
+
+Y ≡ nψ
+s
+
+s =
+
+2π2
+45
+
+g∗ST 3,
+
+(2.21)
+
+(2.22)
+
+where g∗S is the number of relativistic degrees of freedom for entropy [13]. Conservation
+of the entropy density in comoving volume is expressed as
+
+Taking the derivative of Y with respect to time we thus end up with
+
+d(sa3)
+
+= 0.
+
+dt
+
+(cid:18)dnψ
+
+dt
+
+(cid:19)
+
+= s−1
+
+dY
+dt
+
++ 3Hnψ
+
+,
+
+(2.23)
+
+(2.24)
+
+where denition (2.2) of the Hubble parameter has been used. Apart from the overall
+factor s−1, eq. (2.24) is identical to the left-hand side of eq. (2.20).
+
+In cosmology, it can be useful to measure temporal evolution in a suitable strictly
+monotonic function of t, other than time itself, when time is not the quantity which is
+
+10
+
+of physical relevance. When studying the evolution of the Universe, the natural measure
+of time is usually the temperature T which is a strictly decreasing function of t. In the
+early Universe the relationship between t and T is given by
+
+t = 0.301 × g
+
+− 1
+2∗
+
+mPl
+T 2 ,
+
+(2.25)
+
+where mPl is the Planck mass and g∗ is the eective number of relativistic degrees of
+freedom [13].
+
+In the problem at hand it is convenient to dene
+
+x ≡ m
+T
+
+,
+
+(2.26)
+
+where m is the mass of the particle, as a measure of time. Using the chain rule, eqs. (2.24)
+and (2.25) as well as denition (2.26) of x, we have
+
+dY
+dx
+
+=
+
+dY
+dt
+
+dt
+dx
+
+= s−1
+
++ 3Hnψ
+
+0.602 × g
+
+− 1
+2∗
+
+mPl
+m2 x
+
+(cid:18)dnψ
+
+dt
+
+(cid:19)(cid:18)
+
+(cid:19)
+
+.
+
+(2.27)
+
+The rightmost parenthesized factor is a formulation of the Hubble parameter at time
+x = 1 [13]. By dening
+
+we can use eq. (2.20) together with eq. (2.27) to restate the Boltzmann equation in terms
+of Y and x,
+
+(2.28)
+
+H(m) ≡ 1.66 × g1/2∗ m2/mPl = H(x)x2,
+(cid:90)
+
+dΠψdΠadΠb ··· dΠidΠj(2π)4|M|2
+
+dY
+dx
+
+= − x
+
+H(m)s
+
+× δ4(pψ + pa + pb + ··· − pi − pj − ··· )[fafb ··· fψ − fifj ··· ].
+
+(2.29)
+
+The general Boltzmann equation (2.9) has now been simplied using the following
+
+assumptions:
+
+• The Universe is homogeneous and isotropic.
+• Maxwell-Boltzmann statistics are valid.
+• The processes are reversible.
+
+All of the assumptions above are general, thus eq. (2.29) holds for any particle in the
+Universe. Exploiting specic properties of the dark matter in our model, it will be further
+developed in section 3.2.
+
+11
+
+Chapter 3
+
+Investigation
+
+3.1 Problem
+
+One of the key questions in dark matter research is how much dark matter would remain
+today, under certain assumptions about the initial state of the Universe and properties
+of the dark matter particles. In this report, the freeze-out scenario will be the primary
+approach to analyze the dark matter evolution. Supposing that the abundance at an ear-
+lier time is known, it is possible to calculate the relic density today using the Boltzmann
+equation developed in section 2.5. On the other hand, using experimental values of the
+present dark matter density of the Universe, the Boltzmann equation can be used to put
+specic constraints on the dark matter particle parameters. We will argue that the rele-
+vant free parameters are the thermally averaged cross section, introduced in section 3.2,
+and the particle mass. Having to consider only these two parameters will allow us to put
+stringent constraints on the parameter space.
+
+In section 3.2.1 the Boltzmann equation from section 2.5 will be further modied
+to analyze relic abundances in the freeze-out model. Section 3.2.2 discusses the relation
+between Y and the density parameter Ω. The dierential equation for the relic abundance
+is analyzed and approximate analytical expressions for the present relic abundance are
+derived in section 3.3. The numerical analysis of the Boltzmann equation is described in
+section 3.4. The results are presented in section 3.5 and discussed in section 3.6.
+
+3.2 Model
+
+3.2.1 The Boltzmann Equation for Dark Matter
+
+The dark matter species are assumed to be stable and only interact through an annihi-
+lation process
+
+ψ ¯ψ ←→ X ¯X.
+
+As in section 2.5, ψ will be used to denote the dark matter particle and ¯ψ its antipar-
+ticle. Furthermore, an equal number of ψ and ¯ψ is assumed. Daughter particles and
+antiparticles are denoted generically by X and ¯X respectively. Energy conservation of
+the interactions ensures that
+
+Eψ + E ¯ψ = EX + E ¯X.
+
+(3.1)
+
+12
+
+are fX = exp(cid:0)−EX/T(cid:1) and f ¯X = exp(cid:0)−E ¯X/T(cid:1).
+
+Assuming that the daughter particles remain in equilibrium, their distribution functions
+
+Proceed by manipulating the product
+fXf ¯X = e− EX +E ¯X
+
+T
+
+= e− Eψ +E ¯ψ
+
+T = f EQ
+
+ψ f EQ
+¯ψ
+
+(3.2)
+
+using energy conservation from eq. (3.1). Henceforth, EQ will denote equilibrium. The
+reformulation
+
+(cid:90)
+
+dY
+dx
+
+= − x
+
+(cid:90)
+(cid:90)
+dΠ ¯ψ
+dΠX
+fψf ¯ψ − f EQ
+of eq. (2.29) is now possible. When evaluating the integrals
+e−E/T d3p
+2E
+
+(cid:90)
+(cid:1)(cid:104)
+× δ4(cid:0)pψ + p ¯ψ − pX − p ¯X
+(cid:90)
+
+f dΠ =
+
+H(m)s
+
+(2π)4
+
+(2π)3
+
+(cid:90)
+
+dΠψ
+
+g
+
+,
+
+it is possible to use eq. (2.16), leaving
+
+(cid:90)
+
+(cid:90)
+
+(cid:105)
+dΠ ¯X|M|2
+
+ψ f EQ
+¯ψ
+
+(3.3)
+
+(3.4)
+
+(3.5)
+
+(3.6)
+
+(3.7)
+
+Rewriting the integrals in eq. (3.3) yields
+
+fEQ dΠ.
+
+g
+
+(2π)3
+
+e−E/T d3p
+2E
+
+= n n−1
+
+EQ
+
+(cid:105)
+
+dY
+dx
+
+H(m)s
+
+= − x
+
+(cid:104)σv(cid:105)(cid:104)
+nψn ¯ψ − nEQ
+(cid:90)
+× δ4(cid:0)pψ + p ¯ψ − pX − p ¯X
+
+(cid:90)
+(cid:90)
+(cid:1) e−Eψ/T e−E ¯ψ/T
+
+(cid:17)−2(cid:90)
+
+ψ nEQ
+¯ψ
+
+nEQ
+ψ
+
+dΠ ¯ψ
+
+dΠψ
+
+,
+
+where the denition of the thermally averaged annihilation cross section
+dΠ ¯X |M|2
+
+dΠX
+
+(cid:104)σv(cid:105) ≡ (2π)4(cid:16)
+
+(cid:2)Y (x)2 − YEQ(x)2(cid:3) .
+
+is used. The cross section essentially contains information of how likely collisions between
+particles are, similarly to a classical cross section. Furthermore, using the change of
+variables introduced in denition (2.21), with YEQ dened analogously, and where H(m)
+is expressed using denition (2.28), eq. (3.6) can be expressed as
+
+dY (x)
+
+dx
+
+H(m)
+
+= −x(cid:104)σv(cid:105)s
+(cid:21)
+(cid:20)x(cid:104)σv(cid:105)s
+
+(3.8)
+
+(3.9)
+
+,
+
+Finally, using eqs. (2.22) and (2.28), we nd that by dening
+g∗S√
+= 0.264 × mPlmσ0
+g∗
+
+λ ≡
+
+H(m)
+
+x=1
+
+where σ0 is (cid:104)σv(cid:105) at time x = 1, the reformulation
+
+(cid:2)Y (x)2 − YEQ(x)2(cid:3)
+
+dY (x)
+
+= − λ
+x2
+
+dx
+
+(3.10)
+can be made. It has now implicitly been assumed that (cid:104)σv(cid:105) is independent of x, thus
+σ0 = (cid:104)σv(cid:105) in the model used. The function λ is chosen to be independent of x by letting
+x = 1 and leaving the dependence of x in the factor x−2. Thus, λ can be treated as a
+constant within certain limits. A detailed discussion of λ is found in section 3.6.1.
+
+13
+
+3.2.2 Quantication of Relic Abundance
+
+Up to this point, quantication of the abundance has been expressed by Y . This is con-
+venient for the mathematical analysis but when comparing calculated values to measured
+ones, the density parameter Ω will be used. The relation between Y and Ω is given by
+
+Ω0 =
+
+ms0Y0
+
+ρc
+
+=
+
+8πGms0Y0
+
+3H 2
+
+,
+
+(3.11)
+
+where the second equality is given by eq. (2.5). The subscript 0 denotes the present
+day value and s0 = 2889.2 cm−3 is the entropy density assuming three Dirac neutrino
+species [10]. By inserting numerical values and converting to natural units, the relation
+
+Ω0 = 6.04 × 108 m
+GeV
+
+Y0
+
+(3.12)
+
+is obtained.
+
+3.3 Analytical Calculations
+
+The relic density of a particular dark matter species is determined by eq. (3.10) which is a
+Riccati dierential equation. It is ordinary and non-linear and no closed-form analytical
+solutions are known. However, we can use the physics behind the equation to extract
+some information from it.
+
+3.3.1 Freeze-out Scenario
+
+In the early universe, when x is small, the dark matter species is expected to have been in
+thermal equilibrium with its surroundings. In thermal equilibrium, the initial condition
+is Y = YEQ. Consequently, by analyzing eq. (3.10), we conclude that dY /dx = 0.
+The function Y will initially follow YEQ, but eventually the x−2 factor will dominate
+the (Y 2−Y 2
+EQ) factor and Y will remain roughly constant while YEQ continues to decrease.
+The point at which Y stops tracing YEQ is the freeze-out and the values of Y and x at
+freeze-out are denoted by Yf and xf, respectively.
+Consider a hot relic, which decouples while relativistic. This will be the case if xf (cid:46) 3.
+For x (cid:46) 3, YEQ stays approximately constant, so the asymptotic value of Y as x → ∞,
+Y∞, will be
+
+Y∞ ≈ YEQ(xf).
+
+(3.13)
+
+In this case it is hard to precisely dene the freeze-out time xf. However, since Y will
+stay approximately constant, a precise denition of xf is not necessary to make an order
+of magnitude approximation of Y∞.
+A cold relic decouples when non-relativistic, that is xf (cid:38) 3. At early times Y will
+trace YEQ. As the temperature drops and the species decouple, annihilations do not occur
+frequently enough to maintain equilibrium anymore. Subsequently YEQ will become much
+smaller than Y and the right-hand side of eq. (3.10) will be dominated by the Y 2 term
+for x > xf. This allows us to simplify the equation to
+
+dY
+dx
+
+≈ − λ
+
+x2 Y 2
+
+14
+
+(3.14)
+
+which is an analytically solvable separable ordinary dierential equation. Upon integra-
+tion from xf to ∞, eq. (3.14) yields
+
+1
+Y∞
+
+− 1
+Yf
+
+=
+
+λ
+xf
+
+.
+
+(3.15)
+
+At suciently late times, Y will be smaller than at freeze-out. Thus, a rough approxi-
+mation of the relic density after freeze-out can be made,
+
+Y∞ ≈ xf
+λ
+
+.
+
+(3.16)
+
+3.3.2 Determining the Freeze-out Time
+
+Although we derived an approximate expression in eq. (3.16) for determining the present
+relic density, it still depends on the freeze-out time, which has so far only been vaguely
+dened. For a cold relic, where the deviation from equilibrium is immediately apparent,
+an expression for the freeze-out time can be derived. We introduce a well-chosen constant
+c of order unity such that
+
+Yf = (c + 1)YEQ(xf).
+
+(3.17)
+
+Substituting eq. (3.17) into (3.15) yields an equation with only xf unknown. It is, however,
+problematic to solve analytically. A numerical approximation of the solution is
+
+where a = 0.145(cid:0)g/g∗S
+
+xf ≈ ln(cid:2)(2 + c)λac(cid:3) − 1
+(cid:1) [13].
+
+2
+
+ln ln(cid:2)(2 + c)λac(cid:3) ,
+
+3.3.3 Relation between (cid:104)σv(cid:105) and m
+Combining eqs. (3.16) and (3.18), it is possible to show that
+
+(cid:0)ln[(2 + c)λac] − 1/2 ln ln[(2 + c)λac](cid:1) .
+
+mY∞ ≈ m
+λ
+
+(3.18)
+
+(3.19)
+
+When making an order of magnitude estimate, the ln ln-term can be neglected, in this
+context, as it will typically be at least an order of magnitude smaller than the ln-term.
+Using denition (3.9),
+
+mY∞ ≈ m ln(cid:0)(2 + c)c × 0.145 × 0.264 × mPlm(cid:104)σv(cid:105)g/
+
+√
+0.264 × mPlm(cid:104)σv(cid:105)g∗S/
+
+g∗
+
+g∗(cid:1)
+
+√
+
+(3.20)
+
+is obtained. This can be reformulated, by collecting constants in K, as
+
+(3.21)
+when only studying the relation between (cid:104)σv(cid:105) and m. Finally, experiments constrains
+the factor mY∞ allowing us to treat it as a constant implying that it can be neglected
+leading to
+
+(3.22)
+
+(cid:104)σv(cid:105)mY∞ ∝ ln(cid:0)Km(cid:104)σv(cid:105)(cid:1) ,
+(cid:104)σv(cid:105) ∝∼ ln(m) + ln(cid:0)(cid:104)σv(cid:105)(cid:1) .
+
+15
+
+3.4 Numerical Analysis
+
+Numerical methods are used to calculate Y (x) using eq. (3.10) for dierent cases. For
+practically all cases studied, λ will at least be in the order of 108. This results in a numeri-
+cally sti equation which essentially means that it is dicult to integrate using numerical
+methods. It is possible to circumvent this by introducing the change of variables
+
+W (x) ≡ ln(Y (x)),
+
+(3.23)
+
+with WEQ dened analogously, as made by Steigman et al. [19], leading to the reformu-
+lation
+
+(cid:104)
+
+e2WEQ−W − W
+
+(cid:105)
+
+dW
+dx
+
+=
+
+λ
+x2
+
+(3.24)
+
+of eq. (3.10). Firstly, W varies over fewer orders of magnitude which greatly decreases
+the computational power required to solve the equation. Secondly, it is now possible
+to obtain fairly accurate solutions even when using low precision which was practically
+impossible in the original, stier form.
+The general approach taken is to solve eq. (3.24) in the interval 100 ≤ x ≤ 103 and
+then transform W (x) back to Y (x) using denition (3.23). Furthermore, the relic density
+today Ω0 is given by eq. (3.12) where Y (103) = Y∞ is assumed. By varying the parameters
+and calculating the corresponding relic density, it is possible to set up constraints on the
+parameter space. One of the main purposes of the numerical analysis is to nd the (cid:104)σv(cid:105)
+necessary to obtain the correct abundance today for dierent m. Moreover, numerical
+solutions can be used to verify the analytical approximation (3.16).
+
+3.5 Results
+
+A family of solutions to eq. (3.10) is shown in g. 3.1. The gure illustrates the concept
+of freeze-out as well as the implications of an increasing cross section. For x < 10, the
+solution closely tracks equilibrium due to the high interaction rate. Freeze-out is where
+Y starts to deviate from equilibrium which is at x ≈ 25 for the specic parameter values
+used. At this point, the expansion rate of the universe starts to overshadow the interaction
+rate in the sense that particles have drifted apart to such an extent that interactions are
+not frequent enough to maintain equilibrium. Consequently, it is possible to observe
+how the solution decreases more slowly and becomes almost constant, it freezes-out.
+The implication of an increasing cross section is that it allows the particles to remain
+in equilibrium for a longer period since they interact more easily. Subsequently, if the
+particles remain in equilibrium until a later time, the relic abundance will decrease since
+the equilibrium abundance drops exponentially.
+Figure 3.2 shows the numerically calculated relation between (cid:104)σv(cid:105) and m in a model
+where they are the only parameters. With only two parameters it is possible to use the
+relic abundance, obtained through experiments, as a constraint allowing us to correlate
+(cid:104)σv(cid:105) to m. Since the semi-log plot basically is a straight line, there is reason to believe
+that
+
+(3.25)
+within the interval 101 GeV ≤ m ≤ 104 GeV with the model used. In g. 3.2, it is possible
+to observe that (cid:104)σv(cid:105) varies roughly a factor 1.4 while m which varies over 3 orders of
+magnitude. Hence, the relic abundance is more sensitive to dierences in (cid:104)σv(cid:105) than m.
+
+(cid:104)σv(cid:105) ∝∼ log(m)
+
+16
+
+0
+
+−5
+
+−10
+
+−15
+
+)
+)
+1
+(
+Y
+/
+)
+x
+(
+Y
+(
+g
+o
+l
+
+−20
+
+100
+
+(cid:104)σv(cid:105) = 1 × 10−35
+(cid:104)σv(cid:105) = 1 × 10−30
+(cid:104)σv(cid:105) = 1 × 10−25
+Equilibrium abundance
+
+101
+
+x
+
+102
+
+103
+
+Figure 3.1: Solutions to eq. (3.10) for dierent values of the parameter (cid:104)σv(cid:105) in a model
+where all other parameters are xed. The concept of remaining in equilibrium, freeze-out
+and being decoupled are shown.
+
+Two of the introduced methods of calculating Y∞ are using the analytical approx-
+imation (3.16) and numerically solving eq. (3.10). It is reasonable to consider the nu-
+merical solution Y∞,N to be exact when compared to the analytical approximation Y∞,A.
+Consequently, it is possible to investigate the error in the analytical approximation for
+dierent values of λ. The agreement between the two methods is shown in g. 3.3 where
+the well-chosen constant c has been set to 0.6 and the top x-axis is calculated using
+approximation (3.18). Considering the error caused by all simplications made, the ratio
+Y∞,N/Y∞,A can be considered to be close to 1 within the studied interval of λ.
+
+3.6 Discussion
+
+3.6.1 Remarks on λ
+
+Throughout the analysis, denition (3.9) of λ has been used. It relies on eq. (2.25) and
+denition (2.28) which are both limited but spans the relevant time interval. It has been
+assumed that g∗ = g∗S = 100 which is a good approximation for T > 0.1 GeV [13]. This
+is what determines the limit for large xf. Despite the limitations on the temperature, the
+model has been used to describe evolution until x = m/T = 10/T = 103 implying that
+T = 0.01 GeV. This is acceptable as the time of freeze-out is roughly x = 10 which is
+within the range of the model. Hence, any errors caused by inaccuracies in the model are
+negligible since the abundance after freeze-out is nearly constant almost regardless of the
+model and parameters. Moreover, it has been assumed that only s-wave annihilation is
+allowed. The details of the annihilation process itself is beyond the scope of this report
+but essentially the assumption implies that (cid:104)σv(cid:105) is independent of x and that the power
+
+17
+
+·10−26
+
+2.2
+
+]
+s
+/
+3
+m
+c
+[
+
+(cid:105)
+v
+σ
+(cid:104)
+
+2
+
+1.8
+
+1.6
+
+101
+
+102
+
+103
+
+104
+
+m [GeV]
+
+Figure 3.2: The relation between (cid:104)σv(cid:105) and m in a model where they are the only two
+parameters and experimental data is used as a constraint.
+
+of x in the denominator in eq. (3.10) is 2. It is then reasonable to assume that the model
+used is limited to a certain interval but still able to fulll its purpose within acceptable
+tolerances.
+
+Limitations at early times in the freeze-out model is determined by the validity of
+eq. (2.25) and denition (2.28) upon which λ relies. They are important to remember
+since other scenarios might include times which requires other models to describe the
+relation between T and t or the expansion of the Universe. It is xf that determines the
+necessary model since the evolution before xf is described by equilibrium and is simply
+constant after xf.
+
+One notable characteristic of the solutions to eq. (3.10) is that larger λ yields lower
+relic densities, which is an expected result. This phenomenon can be seen in g. 3.1.
+Firstly, this is in accordance with the analytical result (3.16). Secondly, the physical
+explanation is that the probability of particles interacting is proportional to λ. Conse-
+quently, as remaining in equilibrium requires a high interaction rate, the time of freeze-out
+also increases for increasing λ. As a result, the relic density will decrease due to a later
+freeze-out. Furthermore, large λ also motivates the assumption that the dark matter
+particles were initially in equilibrium. This will be further discussed in section 3.6.3.
+
+The opposite scenario, when λ is small, is more complicated because assumption that
+the dark matter particles remained in thermal equilibrium at early times might not be
+applicable. This is divided into two dierent cases, either the particles were created at
+some time and never reached equilibrium, the freeze-in scenario, or the particles have
+been in equilibrium at a time where the model described in section 3.2 is inapplicable.
+
+Freeze-in is essentially described by the same mathematical framework even though
+the physics behind it is slightly dierent. Particles which freeze-in are assumed to have
+a negligible initial abundance which at some point in time starts to grow. The freeze-
+
+18
+
+,
+
+A
+∞
+Y
+/
+N
+∞
+Y
+
+,
+
+100
+
+1.2
+
+xf
+
+101
+
+1.1
+
+1
+
+0.9
+
+0.8
+
+104
+
+106
+
+108
+
+1010
+
+1012
+λ
+
+1014
+
+1016
+
+1018
+
+1020
+
+1.2
+
+1.1
+
+1
+
+0.9
+
+0.8
+
+Figure 3.3: Agreement between Y∞ calculated using the analytical approximation (3.16)
+with c = 0.6 and obtained through numerical solution to eq. (3.10). Top scale shows
+xf determined by λ using eq (3.18). The ratio being relatively close to 1 indicates good
+agreement between analytical and numerical results.
+
+in scenario favors small λ, typically several orders of magnitude smaller than the ones
+considered in freeze-out. Hence, the particles never reach equilibrium but abundance
+increases until the interaction rate drops below the expansion rate after which the co-
+moving density remains constant. Analogously to freeze-out, this is called freeze-in and
+can be analyzed using similar methods. The main dierence is regarding the initial state
+of the particles and the time at which the density starts to increase.
+
+analyzing the gure. Evidently, the log(cid:0)(cid:104)σv(cid:105)(cid:1)-term was not detected when investigating
+
+3.6.2 Comparing Analytical Calculations to Numerical Results
+The results presented in g. 3.2 shows the relation between (cid:104)σv(cid:105) and m enforced by Ω0.
+The relation between the two parameters was already predicted by the analytical approx-
+imation (3.22). This relation can be compared to relation (3.25) which was obtained by
+the gure. This can be explained by the variation in (cid:104)σv(cid:105) being small when compared to
+the variations in m. Consequently, it is possible to treat the last term in relation (3.22)
+as a constant implying that it can be neglected. Thus, the analytical calculation is in
+accordance with the numerical results. Alternatively, it is possible to think of the con-
+tribution of the log ((cid:104)σv(cid:105))-term as negligible and therefore being hard to detect in the
+gure. Finally, it is crucial to emphasize that relation (3.25) is constrained by Ω0 in
+conjunction with the model used and not by any physical relation between (cid:104)σv(cid:105) and m
+or any model relating them to each other. The relation should therefore not be thought
+of as a necessary requirement for particles predicted by theory but rather as a limitation
+
+19
+
+on which particles are considered suitable, in the sense that the correct relic density is
+obtained according to our model.
+
+As seen in g. 3.3, the agreement between the analytical approximation (3.16) and
+numerical solutions to eq. (3.10) is relatively good. This implies that the analytical
+approximation is useful for estimating Y∞ without having to solve the dierential equa-
+tion.
+It is worth mentioning that the range of λ spans several orders of magnitude
+which is of little physical relevance since it is indirectly constrained by the experimen-
+tal values of Ω0 in conjunction with (cid:104)σv(cid:105) and m. For concreteness, a typical value is
+(cid:104)σv(cid:105) = 1.8 × 10−26 cm3 s−1 implying m = 102 GeV, as shown in g. 3.2, which corre-
+sponds to λ = 3.5 × 1013. The large interval was solely used to show that the analytical
+approximation is valid even for values of the parameters (cid:104)σv(cid:105) and m outside of the stud-
+ied model. Moreover, the gure starts at xf < 1 and shows good results even though the
+analytical approximation was presented as being valid for xf (cid:38) 3. Further investigation
+showed that for xf < 3, the analytical approximation became more sensitive to c indi-
+cating that the approximation should be used with caution when xf is small. However,
+it is important to remember that approximation (3.18) has been used to calculate xf
+throughout this analysis which also introduces an error. This error is hard to quantify
+since xf is a concept rather than an exact time, consequently, it lacks a strict denition.
+
+3.6.3 Further remarks
+
+Numerical calculations were used to analyze the error caused by some assumptions. As
+mentioned in section 3.1, it is assumed that the initial condition Y (1) = YEQ(1) is valid for
+freeze-out. It is possible to motivate this by solving eq. (3.10) to nd Y∞ with practically
+arbitrary initial conditions. As seen in g. 3.4, all solutions falls into equilibrium before
+freeze-out. The upper and lower initial conditions are Y (1) = YEQ(1) × 10±3. The gure
+also shows that increasing values for λ leads to quicker regression toward equilibrium. It is
+also important to emphasize that the λ used are several orders of magnitude smaller than
+those encountered in common WIMP scenarios, any realistic λ would almost instantly
+return to equilibrium. Consequently, the assumption regarding the initial condition is
+valid.
+
+Secondly, it has been assumed that Maxwell-Boltzmann statistics are valid when
+calculating the equilibrium distribution given by eq. (2.16). When using Fermi-Dirac
+or Bose-Einstein statistics instead, discrepancies are introduced, shown in g. 3.5.
+It
+shows that the quantum mechanical eects have a small impact that is limited to early
+times when the particles were in equilibrium. Thus, since both the Fermi-Dirac and
+Bose-Einstein solution coincide with the Maxwell-Boltzmann solution before freeze-out,
+it is safe to neglect the dierences as only the abundance at freeze-out aects the relic
+density.
+
+Another major assumption is that all dark matter consists of only one type of particle.
+Mathematically this translates to Ωψ = ΩDM. Since there is very little knowledge of
+dark matter and its constituents, it is hard to determine whether the assumption is
+justied or not. This is only relevant when comparing calculated values to experimental
+data and does not aect the model unless the dierent kinds of dark matter particles
+are interacting. Hence, it is important to remember that the computations involving
+comparison with experimental data in this report needs to be revised if there exist several
+kinds of dark matter particles.
+
+20
+
+)
+)
+x
+(
+Y
+(
+g
+o
+l
+
+0
+
+−2
+
+−4
+
+−6
+
+λ = 104
+λ = 105
+λ = 106
+Equilibrium abundance
+
+1
+
+1.01
+
+1.02
+
+1.03
+x
+
+1.04
+
+1.05
+
+1.06
+
+Figure 3.4: The initial condition is motivated by the solution quickly approaching equi-
+librium due to the high interaction rate. Large λ causes deviations to diminish quicker
+and vice versa, note that the λ used are very small in this context. The extreme initial
+conditions are Y (1) = YEQ(1) × 10±3.
+
+As mentioned in section 3.2, the only allowed interaction is self-annihilation. Interac-
+tions with ordinary matter has been neglected which is motivated by the very nature of
+dark matter. Furthermore, symmetry between ψ and ¯ψ has been assumed, meaning that
+an equal number of both exists. This must not necessarily be the case and is therefore
+another uncertain assumption that has been made.
+
+Finally, we can compare our results to typical theoretically predicted values for
+WIMPs. As described in section 2.4.3, one of the main reasons WIMPs are popular
+is because the predicted parameter values leads to the correct relic density. We ap-
+proached this by choosing the mass interval to match popular candidates. Consequently,
+our calculated constraints are expected to meet the theoretically predicted values for
+(cid:104)σv(cid:105). This can be veried by comparing our results with previous works, for example the
+paper by Steigman et al. [19]. In particular, g. 3.2 can be compared to g. 5 in their
+article. Our result is less accurate since the model used is simpler but it is still possible
+to tell that they are very similar.
+
+3.6.4 Future Work
+
+This report has implemented arguably the most simple non-trivial model for the Universe
+and the dark matter particles. Almost every assumption mentioned throughout this
+report can be studied more thoroughly. Some will prove to result in negligible errors,
+similar to the more detailed study of the eect of the initial condition, while others
+certainly are crucial to the nal results. For example, further research should be done
+to investigate the possibility of dierent kinds of dark matter particles since it is highly
+likely to aect the results.
+
+21
+
+−3
+
+−3.5
+
+)
+)
+x
+(
+Y
+(
+g
+o
+l
+
+−4
+
+Fermi-Dirac
+Maxwell-Boltzmann
+Bose-Einstein
+
+100
+
+100.1
+
+100.2
+
+100.3
+
+100.4
+x
+
+100.5
+
+100.6
+
+100.7
+
+100.8
+
+Figure 3.5: The gure shows the small dierences between Fermi-Dirac, Bose-Einstein
+and Maxwell-Boltzmann statistics at early times. This shows that Maxwell-Boltzmann
+statistics may be used since all solutions coincide before freeze-out and, consequently, the
+relic abundance is the same regardless of distribution used.
+
+Besides making a more accurate model, the current model can applied to other sce-
+narios than just freeze-out. As previously mentioned, the freeze-in scenario relies on a
+similar mathematical framework but allows entirely dierent candidates since the physi-
+cal processes are dierent. Some signicant dierences are that (cid:104)σv(cid:105) is several orders of
+magnitude smaller than in a freeze-out scenario and the time of freeze-in is also several
+orders of magnitude smaller than xf. Moreover, it is possible to investigate the evolution
+of particles at late times with slight modications to the model presented in this report.
+This is of interest since observations could potentially measure ΩDM at earlier times. The
+expected result is that ΩDM = ΩDM,0 since the dark matter abundance is expected to be
+constant. However, this could still be used to determine how constant the density is at
+late times which theoretically could act as a constraint.
+
+22
+
+Chapter 4
+
+Summary and Conclusions
+
+The present study was designed to determine the evolution of the dark matter abundance
+in the Universe and to put constraints on the parameter space of an unknown dark matter
+particle. In the report we have developed the tools necessary to analyze the abundance
+of dark matter in our Universe. For the mathematical analysis, a thorough derivation of
+the Boltzmann equation for dark matter was made. Supposing that the dark matter is of
+particulate nature, we continued to develop a model where the dark matter is assumed
+to have been in equilibrium at some time, the freeze-out model.
+
+For determining the dark matter relic abundance, the Boltzmann equation (3.10) is
+developed. It is then possible to give an approximate closed-form expression (3.16) for
+the relic abundance. Comparing with numerical solutions in g. 3.1 shows that the ap-
+proximate value is valid to an accuracy of 15 % in the relevant interval. The numerical
+solutions show that the abundance closely follows the equilibrium abundance initially.
+When the abundance starts to deviate from equilibrium it quickly stabilizes and be-
+comes constant, allowing us to extrapolate that value to the present relic abundance. As
+expected, a larger cross section means that the dark matter abundance stays in equi-
+librium longer, leading to lower relic density since the equilibrium abundance decreases
+exponentially in x.
+
+Using the recently measured value of ΩDM = 0.268 to correlate the cross section and
+particle mass, we show that the allowed cross section seems to depend logarithmically
+on the particle mass. This result is also motivated by direct analysis of the Boltzmann
+equation. The dependance is shown in g. 3.2 and makes evident that the relic abundance
+is very insensitive to the mass of the particle. In fact, in this model, the cross section
+can be determined to a very narrow interval. To yield the correct relic density, a particle
+in the freeze-out model should have a cross section
+
+1.6 cm3 s−1 < (cid:104)σv(cid:105) < 2.2 cm3 s−1,
+
+(4.1)
+
+an interval which may be augmented if considering a candidate with mass outside of the
+interval 101 GeV < m < 104 GeV.
+
+While these results do not directly answer the question of what dark matter actually
+consists of, they are a small step in determining where to look for particle dark matter.
+Some suggestions for further work has been made, for example analyzing the possibility
+of dark matter constituting of several kinds of particles. To sum up, more experimental
+research is required to actually nd the particles and conrm the theory.
+
+23
+
+Bibliography
+
+[1] Copernicus N., De revolutionibus orbium coelestium, Nuremberg, Holy Roman
+
+Empire of the German Nation; 1543, Latin.
+
+[2] Freeman K., McNamara G., In Search of Dark Matter, Germany, Springer; 2006.
+
+[3] Bergstrom L., Non-baryonic dark matter: Observational evidence and detection
+
+methods, Reports on Progress in Physics 63, 793841, 2005.
+
+[4] Trimble V., Existence and nature of dark matter in the universe, Annual Review
+
+of Astronomy and Astrophysics 25, 425472, 1987.
+
+[5] Ade P.A.R., Aghanim N., Armitage-Caplan C., Arnaud M., Ashdown M., Atrio-
+Barandela F., et al. Planck 2013 results. XVI. Cosmological parameters., 2013,
+arXiv:1303.5076v2 [astro-ph.CO]
+
+[6] Abazajian K., Fuller G.M., Patel M., Sterile neutrino hot, warm, and cold dark
+
+matter, Phys. Rev. D 64, 2001.
+
+[7] Dodelson S., Modern Cosmology, 525 B Street San Diego (CA), Academic Press;
+
+2003.
+
+[8] Perlmutter S., Aldering G., Goldhaber G., Knop R.A., Nugent P., Castro P.G.,
+et al., Measurements of Omega and Lambda from 42 High-Redshift Supernovae,
+Astrophys. J. 517, 565, 1999.
+
+[9] Scrimgeour M.I., Davis T., Blake C., James J.B., Poole G.B., Staveley-Smith L.,
+et al. The WiggleZ Dark Energy Survey: the transition to large-scale cosmic ho-
+mogeneity, Mon. Not. Roy. Astron. Soc. 425, 116134, 2012.
+
+[10] Bertone G., Hooper D., Silk J., Particle Dark Matter: Evidence, Candidates and
+
+Constraints. Phys. Rept. 405, 279390, 2005.
+
+[11] Friedmann A., Über die Krümmung des Raumes, Z. Phys. 10 (1), 377386, 1922.
+
+[12] Babcock H., The rotation of the Andromeda Nebula, Lick Observatory bulletin
+
+498, 1939.
+
+[13] Kolb E.W., Turner M.S., The Early Universe, Redwood City (CA), Addison-
+
+Wesley; 1990.
+
+[14] Koopmans L.V.E., Treu T., The Structure and Dynamics of Luminous and Dark
+Matter in the Early-Type Lens Galaxy of 0047-281 at z = 0.485, Astrophys. J.
+583, 606615, 2003.
+
+24
+
+[15] Zwicky F., Die Rotverschiebung von extragalaktischen Nebeln, Helv. Phys. Acta
+
+6, 110127, 1933, German.
+
+[16] Bennett C.L., et al., Nine-Year Wilkinson Microwave Anisotropy Probe (WMAP)
+
+Obervations: Final Maps and Results, ApJS. 208, 20B, 2013.
+
+[17] Blennow M., Fernandez-Martínez E., Zaldívar B., Freeze-in through portals, 2013,
+
+arXiv:1309.7348 [hep-ph]
+
+[18] Boltzmann L., Weitere Studien über das Wörmegleichgewicht unter Gasmolekülen,
+
+Sitzungsberichte Akad. Wiss., Vienna, part II 66, 275370, 1872, German.
+
+[19] Steigman G., Dasgupta B., Beacom J.F., Precise Relic WIMP Abundance and its
+
+Impact on Searches for Dark Matter Annihilation, Phys. Rev. D 86, 2012.
+
+25
+
+

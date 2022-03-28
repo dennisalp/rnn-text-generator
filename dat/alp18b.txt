@@ -1,0 +1,5176 @@
+The Astrophysical Journal, 864:174 (24pp), 2018 September 10
+© 2018. The American Astronomical Society.
+
+https://doi.org/10.3847/1538-4357/aad739
+
+Dennis Alp1
+David Burrows6
+
+The 30 Year Search for the Compact Object in SN 1987A
+, Joseﬁn Larsson1
+
+, Remy Indebetouw3
+
+, Anders Jerkstrand4
+
+, Claes Fransson2
+
+, Antero Ahola5,
+
+, Peter Challis7, Phil Cigan8, Aleksandar Cikota9
+
+Seppo Mattila5, C.-Y. Ng12
+
+, Sangwook Park13
+
+, Jason Spyromilio9
+
+, Robert P. Kirshner7,10, Jacco Th. van Loon11
+,
+
+, Stan Woosley14
+
+, Maarten Baes15
+
+,
+
+Patrice Bouchet16,17, Roger Chevalier18
+
+, Kari A. Frank19
+
+, B. M. Gaensler20
+
+, Haley Gomez8, Hans-Thomas Janka4
+
+Bruno Leibundgut9
+
+, Peter Lundqvist2
+
+, Jon Marcaide21, Mikako Matsuura8
+
+, Jesper Sollerman2
+
+, George Sonneborn22
+
+,
+
+,
+
+Lister Staveley-Smith23
+1 Department of Physics, KTH Royal Institute of Technology, The Oskar Klein Centre, AlbaNova, SE-106 91 Stockholm, Sweden; dalp@kth.se
+
+, Michael Gabler4, Francesco Taddia2, and J. Craig Wheeler24
+
+, Giovanna Zanardo23
+
+2 Department of Astronomy, Stockholm University, The Oskar Klein Centre, AlbaNova, SE-106 91 Stockholm, Sweden
+
+3 National Radio Astronomy Observatory and University of Virginia, 520 Edgemont Road, Charlottesville, VA 22903, USA
+
+4 Max Planck Institute for Astrophysics, Karl-Schwarzschild-Str. 1, D-85748 Garching, Germany
+
+5 Tuorla observatory, Department of Physics and Astronomy, University of Turku, Väisäläntie 20, FI-21500 Piikkiö, Finland
+
+6 Department of Astronomy & Astrophysics, The Pennsylvania State University, University Park, PA 16802, USA
+
+7 Harvard-Smithsonian Center for Astrophysics, 60 Garden Street, Cambridge, MA 02138, USA
+
+8 School of Physics and Astrophysics, Cardiff University, Queens buildings, The Parade, Cardiff CF24 3AA, UK
+
+9 European Southern Observatory, Karl-Schwarzschild-Strasse 2, D-85748 Garching, Germany
+10 Gordon and Betty Moore Foundation, 1661 Page Mill Road, Palo Alto, CA 94304, USA
+
+11 Lennard-Jones Laboratories, Keele University, ST5 5BG, UK
+
+12 Department of Physics, The University of Hong Kong, Pokfulam Road, Hong Kong
+
+13 Department of Physics, Box 19059, 108 Science Hall, University of Texas at Arlington, Arlington, TX 76019, USA
+
+14 Department of Astronomy and Astrophysics, University of California, Santa Cruz, CA 95064, USA
+
+15 Sterrenkundig Observatorium, Universiteit Gent, Krijgslaan 281 S9, B-9000 Gent, Belgium
+
+16 IRFU, CEA, Université Paris-Saclay, F-91191 Gif-sur-Yvette, France
+17 CNRS/AIM, Université Paris Diderot, F-91191 Gif-sur-Yvette, France
+
+19 Center for Interdisciplinary Exploration and Research in Astrophysics (CIERA), Northwestern University, 2145 Sheridan Road, Evanston, IL 60208, USA
+
+18 Department of Astronomy, University of Virginia, P.O. Box 400325, Charlottesville, VA 22904-4325, USA
+
+20 Dunlap Institute for Astronomy and Astrophysics, 50 St. George Street, Toronto, ON M5S 3H4, Canada
+
+21 Departmento de Astronomia y Astroﬁsica, Universidad de Valencia, Dr. Moliner 50, Burjassot-Valencia, E-46100, Spain
+22 Laboratory for Observational Cosmology, Code 665, NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA
+
+23 International Centre for Radio Astronomy Research (ICRAR), University of Western Australia, 35 Stirling Hwy, Crawley, WA 6009, Australia
+
+24 Department of Astronomy and McDonald Observatory, The University of Texas at Austin, Austin, TX 78712, USA
+
+Received 2018 May 11; revised 2018 July 27; accepted 2018 July 28; published 2018 September 13
+
+Abstract
+
+10 26
+
+´ - erg s−1 cm−2 Hz−1) at 213 GHz, 1 Le (6
+10 30
+
+Despite more than 30 years of searching, the compact object in Supernova (SN) 1987A has not yet been
+in SN1987A using millimeter, near-infrared,
+detected. We present new limits on the compact object
+from ALMA, VLT, HST, and Chandra. The limits are
+optical, ultraviolet, and X-ray observations
+´ - erg s−1 cm−2 Hz−1) in
+approximately 0.1mJy (0.1
+the optical if our line of sight is free of ejecta dust, and 1036 erg s−1 (2
+´ - erg s−1 cm−2 Hz−1) in 2–10keV
+X-rays. Our X-ray limits are an order of magnitude less constraining than previous limits because we use a more
+realistic ejecta absorption model based on three-dimensional neutrino-driven SN explosion models. The allowed
+bolometric luminosity of the compact object is 22 Le if our line of sight is free of ejecta dust, or 138 Le if
+dust-obscured. Depending on assumptions, these values limit the effective temperature of a neutron star (NS) to
+4< –8 MK and do not exclude models, which typically are in the range 3–4 MK. For the simplest accretion model,
+- Me yr−1, which excludes most predictions. For pulsar
+1h
+the accretion rate for an efﬁciency η is limited to 10 11
+activity modeled by a rotating magnetic dipole in vacuum, the limit on the magnetic ﬁeld strength (B) for a given
+G s−2, which ﬁrmly excludes pulsars comparable to the Crab. By combining
+spin period (P) is B
+information about radiation reprocessing and geometry, we infer that the compact object is a dust-obscured
+thermally emitting NS, which may appear as a region of higher-temperature ejecta dust emission.
+Key words: stars: black holes – stars: neutron – supernovae: individual (SN 1987A)
+
+< -
+
+10 29
+
+1014
+
+
+
+P
+
+2
+
+1. Introduction
+
+Supernova (SN) 1987A provides a unique opportunity to
+observe the development of an SN and the subsequent early
+evolution of a very young SN remnant
+reviews of
+SN1987A, see Arnett et al. 1989; McCray 1993; McCray &
+
+(for
+
+Original content from this work may be used under the terms
+of the Creative Commons Attribution 3.0 licence. Any further
+distribution of this work must maintain attribution to the author(s) and the title
+of the work, journal citation and DOI.
+
+the compact object
+
+Fransson 2016). SN1987A is expected to have created a
+compact object. The existence of
+is
+supported by the detection of the initial neutrino burst, which
+was observed by Kamiokande II(Hirata et al. 1987, 1988) and
+the Irvine–Michigan–Brookhaven detector(Bionta et al. 1987;
+Bratton et al. 1988), with a possible supporting detection by the
+Baksan Neutrino Observatory (Alekseev et al. 1987; Alexeyev
+et al. 1988). While the prompt neutrino emission is attributed to
+the formation of a compact object, more than 30 years of
+diligent searches across the electromagnetic spectrum have
+
+1
+
+The Astrophysical Journal, 864:174 (24pp), 2018 September 10
+
+Alp et al.
+
+Figure 1. Position estimates of SN1987A plotted on the HST/ACS F625W 2006 December 6 observation. The left panel shows the ﬁtted hotspot locations as green
+dots, which are determined by ﬁtting two-dimensional (2D) Gaussians within the black rectangles. The blue ellipse is the best-ﬁt ellipse to the green dots and the (very
+small) white rectangle is the entire region shown in the right panel. The white circle is the search region corresponding to a kick velocity of 800 km s−1 at 10,000days
+(2014 July 11). The cyan square is the radio centroid position (ﬁt of a spherical shell to radio data) and the yellow diamond is the progenitor position reported by
+Reynolds et al. (1995) after correcting for the proper motion of the position of SN1987A in the LMC(Kallivayalil et al. 2013; van der Marel & Kallivayalil 2014; van
+der Marel & Sahlmann 2016). The vertical gray lines show the area covered by the ﬁve slits of the HST/STIS observations and the horizontal gray lines represent the
+STIS extraction region. The right panel shows the estimated positions of SN1987A based on the 33 HST observations from 2003 to 2016 by ﬁtting ellipses to the
+hotspots. The size of the right panel is 14×12 mas. The blue points denote positions from B-band images and the red points denote positions from R-band images.
+( ) (ICRF J2015.0). The
+The black solid ellipse is the 1σ conﬁdence contour of the best estimate (black cross):
+green pentagon is the position (5 mas from the favored position) based on ﬁts using an elliptic annulus as described in the text.
+
+)
+05 35 27. 9875 11 ,
+
+69 16 11. 107 4
+
+= - 
+
+d
+
+a
+
+=
+
+(
+
+h
+
+m
+
+s
+
+¢
+
+
+
+failed to observe it. Being able to observe the compact object in
+SN1987A would provide valuable insight into the explosion
+mechanisms of SNe, the connection between SN progenitors
+and compact objects, and the early evolution of neutron stars
+(NSs). This has implications for our description of fundamental
+physics in the strong-gravity regime.
+
+that
+
+studies predict
+
+the collapse of a star
+
+Previous studies have been able to indirectly infer some
+properties of the compact object in SN1987A. The progenitor
+star, Sanduleak−69° 202(Sanduleak 1970), was identiﬁed as
+a B3 Ia blue supergiant(Kirshner et al. 1987; Walborn et al.
+1987; West et al. 1987; White & Malin 1987). The zero-age
+main-sequence mass of the progenitor is estimated to be in the
+range 16–22 Me, and the progenitor mass is estimated to be
+14 Me at the time of explosion (Fransson & Kozma 2002;
+Smartt et al. 2009; Utrobin et al. 2015; Sukhbold et al. 2016).
+Most
+like
+Sanduleak−69° 202 would create an NS, which is supported
+by the prompt neutrino burst(Burrows 1988) and SN
+simulations (Fryer 1999; Perego et al. 2015; Ertl et al. 2016;
+Sukhbold et al. 2016). However, some authors have advanced
+the hypothesis that a black hole (BH) was created in
+SN1987A(Brown et al. 1992; Blum & Kushnir 2016). The
+mass estimates of the possible NS are only loosely constrain-
+ing. Early estimates based on the neutrino signal predict a
+baryonic NS mass in the range 1.2–1.7 Me(Burrows 1988),
+explosion simulations calibrated to SN1987A estimate a
+baryonic mass of 1.66 Me(Perego et al. 2015), and a lower
+limit on the baryonic mass of 1.7 Me has been placed through
+constraints on explosive silicon burning by measuring Ni Fe
+ratios(Jerkstrand et al. 2015).
+
+The detection of the compact object is made difﬁcult by the
+light from the ejecta and surrounding circumstellar medium
+(CSM). The CSM is in the form of a triple-ring structure,
+
+2
+
+possibly created by a binary merger 20,000 years before
+explosion (Blondin & Lundqvist 1993; Morris & Podsia-
+dlowski 2007, 2009) or a rapidly rotating progenitor(Chita
+et al. 2008). The brightest of the three rings is the inner
+equatorial ring (ER), which is seen in Figure 1. It appears
+43~ °(Tziamtzis et al. 2011).
+elliptical because it is inclined by
+The outer parts of the SN ejecta reached the ER by 1995. The
+interactions gave rise to the ﬁrst hotspot(Lawrence et al. 2000)
+and the ER subsequently brightened during several years across
+the entire electromagnetic spectrum(Ng et al. 2013; Fransson
+et al. 2015; Arendt et al. 2016; Frank et al. 2016). However, the
+mid-infrared emission from the ER started decreasing in
+2010(MIR, Arendt et al. 2016), the optical emission started
+decreasing in 2009(Fransson et al. 2015), and the soft X-ray
+luminosity ﬂattened around 2013(Frank et al. 2016). The
+radiation from central ejecta is also affected by the ER. Larsson
+et al. (2011) showed that the brightening of the SN ejecta in the
+optical most
+likely is explained by the increase of X-ray
+emission from the ER. However, the decay of 44Ti is still
+expected to be the dominant energy source in the innermost
+parts of the ejecta, where the compact object is expected to
+reside(Fransson et al. 2013; Larsson et al. 2013).
+
+In this paper, we place limits on the compact object in
+SN1987A using observations
+from the Atacama Large
+Millimeter/submillimeter Array (ALMA) at millimeter wave-
+the Very Large Telescope (VLT) in near-infrared
+lengths,
+(NIR), Hubble Space Telescope (HST) in optical and ultraviolet
+(UV), and Chandra in X-rays. We then discuss the implications
+of the limits on physical properties of the compact object and
+prospects for future observations.
+
+This paper is organized as follows. The observations and
+data reduction are presented in Section 2 and the analysis
+methods are presented in Section 3. We present our compact
+
+The Astrophysical Journal, 864:174 (24pp), 2018 September 10
+
+Alp et al.
+
+Table 1
+
+Observations of SN1987A
+
+Instrument
+
+ALMA
+VLT/NACO
+VLT/NACO
+VLT/SINFONI
+VLT/SINFONI
+HST/WFC3
+HST/WFC3
+HST/WFC3
+HST/WFC3
+HST/WFC3
+HST/WFC3
+HST/WFC3
+HST/WFC3
+HST/WFC3
+HST/WFC3
+HST/STIS
+Chandra/ACIS
+
+Epoch
+
+(YYYY mm dd)
+
+2014 Sep 02
+2010 Oct 26
+2012 Dec 14
+2014 Oct 10
+2014 Oct 12
+2009 Dec 13
+2009 Dec 13
+2009 Dec 12
+2009 Dec 13
+2009 Dec 12
+2009 Dec 13
+2011 Jan 05
+2011 Jan 05
+2015 May 24
+2015 May 24
+2014 Aug 16
+2015 Sep 17
+
+Exposure
+
+(s)
+
+1800–2040a
+
+2160b
+2070c
+2400d
+2400d
+800
+3000
+800
+800
+400
+400
+403
+805
+1200
+1200
+40490e
+66598
+
+Notes.
+a Different exposures for individual segments.
+b Integrated from single exposures of 120 s.
+c Integrated from single exposures of 90 s.
+d Integrated from single exposures of 600 s.
+e Sum of 8098 s for each of the ﬁve slits.
+f Only zeroth-order image and CCD spectrum used for the analysis.
+
+object limits in Section 4 and discuss the implications of our
+results in Section 5. Finally, we summarize and list the main
+conclusions in Section 6. In an accompanying paper(Alp et al.
+2018), we estimate the X-ray absorption in SN ejecta using
+three-dimensional (3D) neutrino-driven explosion models.
+
+2. Observations and Data Reduction
+
+All observations are summarized in Table 1. We use the
+most recent observations available at
+the time of analysis,
+unless previous ones have better quality. It is possible that older
+observations place more stringent constraints if the compact
+object was brighter in the past. We brieﬂy inspect an X-ray
+observation from 2000 (Section 2.6), in addition to a detailed
+study of the 2015 X-ray observation, but
+investigating all
+observations of SN1987A is beyond the scope of this paper.
+Some consequences of the temporal evolution of the compact
+object are discussed in Section 5.5.
+
+We also analyze a circular polarimetric observation using the
+FOcal Reducer and low dispersion Spectrograph 2 (FORS2) at
+the VLT, which did not detect any signiﬁcant polarization. The
+polarization observation is presented in Appendix A.
+
+2.1. ALMA
+
+ALMA observations of SN1987A (Table 1) at 1.3mm
+(Band 6, 211–275 GHz) were performed on two different
+epochs: Cycle 2 modest angular resolution data (2013.1.00280;
+23–770 kλ) were obtained on 2014 September 2. The quasar
+J0519-4546 (05:19:49.72, −45:46:43.85; 0.75 Jy at 234 GHz)
+was the absolute ﬂux calibrator, which is monitored regularly
+and calibrated against solar system objects by the observatory.
+The quasar J0635-7516 (06:35:46.51, −75:16:16.82; 0.68 Jy at
+234 GHz) was the phase calibrator.
+
+Band/Filter/Grating
+
+Frequency/Wavelength/Energy
+
+6
+H
+Ks
+H
+K
+
+F438W
+F625W
+F225W
+F336W
+F555W
+F841W
+F110W
+F160W
+F438W
+F625W
+G750L
+HETGf
+
+230 GHz
+1.7 μm
+2.2 μm
+1.7 μm
+2.2 μm
+4300Å
+6300Å
+2400Å
+3400Å
+5300Å
+8100Å
+1.2 μm
+1.5 μm
+4300Å
+6300Å
+
+5300–10000Å
+0.3–10keV
+
+Cycle
+
+3
+
+data
+
+high-angular-resolution
+
+(2015.1.00631;
+190–8600 kλ) were obtained from 2015 November 1 to 15
+using J0601-7036 (06:01:11.25, −70:36:08.79; 0.70 Jy at
+224 GHz; 0.58 Jy at 253 GHz) as
+the phase calibrator.
+Data from 211 to 213 GHz used J0519-4546 (0.75 Jy at
+224 GHz) as the absolute ﬂux calibrator. Data at 247 GHz used
+J0519-4546 for one execution, and J0334-4008 (03:34:13.65,
+−40:08:25.10; 0.44 Jy at 253 GHz) for a second execution. All
+of these quasar calibrators are observed regularly as part of
+the observatory calibration network, so we can evaluate the
+temporal evolution of each to estimate the uncertainty in the
+absolute ﬂux calibrator due to quasar variability. We can then
+compare the derived ﬂux densities of the phase calibrator to the
+monitoring observations to estimate the uncertainty in ﬂuxscale
+transfer
+to the science target. These combined yield an
+estimated absolute ﬂux calibration uncertainty of better
+than 7%.
+
+We use the Common Astronomy Software Application25
+(CASA, McMullin et al. 2007) to calibrate and image the
+interferometric data into 3 images with spectral ranges deemed
+to be largely free of
+line emission: 211.83–213.25 GHz,
+232.55–233.52 GHz, and 245.95–247.20 GHz(see Figure 2
+of Matsuura et al. 2017). For imaging we use the task tclean
+with multiscale deconvolution with scales of 0 and 7 times the
+62 mas2 pixel size. The FWHM of the restoring beam of
+the 213 GHz image is 57×40 mas2 (major and minor axis),
+the 233 GHz image 49×30 mas2, and the 247 GHz image
+40×34 mas2. Analysis of the phase rms during the observa-
+tion with knowledge of the ALMA calibration efﬁcacy(Asaki
+et al. 2014) leads us to conclude that the astrometric accuracy is
+better than 10 mas. After image reconstruction, the real-space
+
+25 https://casa.nrao.edu
+
+3
+
+The Astrophysical Journal, 864:174 (24pp), 2018 September 10
+
+images are transformed by a linear mapping such that the
+beams are circular for optimal performance with the ﬁnding
+algorithm, which is described in Appendix B.
+
+2.2. VLT/NACO
+
+SN1987A has been observed for a total of six epochs
+between 2006 and 2017 with the Nasmyth Adaptive Optics
+System Near-Infrared Imager and Spectrograph (NACO) at the
+VLT(Lenzen et al. 2003; Rousset et al. 2003). Full details of
+the observations and data reductions are given in A. Ahola
+et al. (in preparation). For the present work we selected only a
+single epoch of H-band and Ks-band imaging of the highest
+image quality (Table 1). The H-band observation is from 2010
+October, with a total on-source integration time of 2160 s. The
+Ks-band observation is from 2012 December, with a total on-
+source integration time of 2070 s.
+
+The images are reduced using standard recipes from the ESO
+pipeline(Schreiber et al. 2004; Modigliani et al. 2007) and
+IRAF. A horizontal striping pattern present in the images is
+removed by a custom script that creates a one-dimensional (1D)
+image from the medians of the image pixels along the detector
+rows. This 1D image is then subtracted from the rows of the
+original image. A running sky subtraction is performed for sets
+of three stripe-removed exposures at a time using an ESO
+pipeline recipe. The three sky-subtracted exposures are aligned
+and stacked by the recipe yielding one sky-subtracted image
+per running set of three exposures. This process is repeated
+until all of the sets of three exposures have been sky-subtracted
+such that N exposures resulted in N − 2 sky-subtracted images.
+The sky-subtracted images are ﬁnally aligned based on the
+centroid coordinates of a bright star manually selected in each
+image and subsequently median-averaged. The stripe removal
+script is run once more for the stacked image to remove any
+remaining stripes and bands left by the ﬁrst stripe removal step.
+Flux calibrations of the NACO observations are made using
+star2 as26 a reference. We conﬁrmed that star 2 is not variable
+using observations from 1997 to 2006 from the Near Infrared
+Camera and Multi-Object Spectrometer at
+the VLT in the
+F160W and F205W ﬁlters. The NACO H and Ks ﬂuxes of
+star2 are obtained by converting27 the H and Ks ﬂuxes from
+2MASS(Cohen et al. 2003; Skrutskie et al. 2006). The
+accuracy of this zero-point construction is checked by repeating
+the 2MASS–ESO comparison for star 3.28 The relative
+difference in the ﬂux is a factor of 1.06 in the H band and
+0.82 in the Ks band. We note that star 3 shows variability
+within a factor of two in the optical(Walborn et al. 1993),
+which is conﬁrmed by regular HST observations in the R and
+B bands over the past two decades.
+
+2.3. VLT/SINFONI
+
+The SINgle Faint Object Near-IR Investigation (SINFONI)
+Integral Field Spectrograph at the VLT(Eisenhauer et al. 2003;
+Bonnet et al. 2004) observed SN1987A in the H and K bands
+between 2014 October and December (Table 1). SINFONI
+provides moderate angular
+resolution and high spectral
+resolution in a small ﬁeld of view (FOV). We only use the
+spatial resolution to extract spectra from a search region
+(Section 3.2). The limits are then constructed from the
+
+26 2MASS J05352761-6916089.
+27 http://www.ipac.caltech.edu/2mass/releases/allsky/doc/sec6_4b.html
+28 2MASS J05352822-6916118.
+
+4
+
+Alp et al.
+
+extracted spectra. The data are reduced using the standard
+ESO pipeline(Schreiber et al. 2004; Modigliani et al. 2007)
+with the improved subtraction of the OH airglow emission
+following Davies (2007). A more detailed presentation of the
+processing of these particular observations is provided by
+Larsson et al. (2016) and a comprehensive description of
+SINFONI data reduction can be found in Kjær et al. (2010).
+Contaminating light from the ER is subtracted from the
+spectra of the central region. The lines from the ER have an
+FWHM of ∼300 km s−1 and the lines from the central ejecta
+have an FWHM of ∼2500 km s−1(Fransson et al. 2015;
+Larsson et al. 2016). Even though the ejecta are clumpy and
+illumination is non-uniform, the line proﬁles of the ejecta are
+relatively smooth and much broader than the sharp narrow lines
+from the ER. The difference allows us to subtract the ER
+spectra from the central spectra by scaling the ER spectra such
+that they cancel the narrow components of the central spectra.
+Backgrounds are constructed from the cleanest available
+regions in the relatively small FOV of SINFONI. These are
+then subtracted from the extracted central spectra. It is veriﬁed
+that different choices of background regions do not signiﬁ-
+cantly alter the results. The signal-to-background ratio (S/B)
+for the low continuum level is 0.88 in the H band and 2.31 in
+the K band.
+
+2.4. HST/WFC3
+
+SN1987A was observed using Wide Field Camera 3
+(WFC3) in 2009 December in six ﬁlters; F225W, F336W,
+F438W, F555W, F625W, and F814W (Table 1). We choose
+these observations from 2009 because they provide the most
+complete wavelength coverage at a recent epoch. Together, the
+six ﬁlters provide coverage over the 2150–8860Å wavelength
+interval. The latest WFC3 NIR observations are from 2011
+January in the F110W and F160W ﬁlters. The latest wide-ﬁlter
+observations with high quality at the time of analysis are from
+2015 May in the F438W and F625W ﬁlters.
+
+All observations were performed using the four-point box
+dither pattern and drizzled(Fruchter & Hook 2002) onto a
+ﬁnal pixel size of 252 mas2 using a value for the DrizzlePac
+(Gonzaga et al. 2012) parameter pixfrac of either 0.6 or 0.7.
+Cosmic-ray rejection is also performed when drizzling to
+combine the dithered exposures. The ﬂux zero-points for all
+WFC3 images are taken from the IRAF/STSDAS package
+(Bushouse & Simon 1994, calibration database
+Synphot
+updated on 2017 January 17).
+
+2.5. HST/STIS
+
+Between 2014 August 16–20,
+
+the HST/Space Telescope
+Imaging Spectrograph (STIS) observed SN1987A using the
+G750L grating, which covers
+the wavelength interval
+5300–10000Å (Table 1). The STIS observations were
+described in detail in Larsson et al. (2016). Here, we provide
+additional information on astrometry and background subtrac-
+tion because of their importance to the compact object limit.
+The observations were made at ﬁve adjacent slit positions, as
+shown in Figure 1. Each slit is 100 mas wide and oriented in
+the north–south direction. The position of SN1987A that is
+presented in Section 3.1 is very close to the dividing line
+between the second and third slits.
+
+Contaminating light from the ring is subtracted from the
+spectrum of the central region using the same method used
+
+The Astrophysical Journal, 864:174 (24pp), 2018 September 10
+for SINFONI (Section 2.3). In addition, a background is
+extracted from regions north and south of
+the SN and
+subtracted from the ejecta spectrum. The S/B is 0.74 for the
+low continuum level. The background is extracted from 75
+pixel rows (50 mas pixel−1) in three regions both north and
+south of the SN1987A.
+
+2.6. Chandra
+
+Chandra observed SN1987A on 2015 September 17
+(Obs. ID 16756, Table 1), utilizing the Advanced CCD
+Imaging Spectrometer(ACIS, Garmire et al. 2003) S-array
+equipped with the High-Energy Transmission Grating(HETG,
+Canizares et al. 2005). The ACIS detector provides imaging
+capabilities with an angular resolution of 700 mas (FWHM)
+and a moderate energy resolution of ∼100eV at 2keV. The
+spatial resolution is just enough to resolve SN1987A, which
+allows us to extract a spectrum of the central region that can be
+used to set an upper limit on the compact object. Among many
+Chandra observations(e.g., Frank et al. 2016), we choose this
+particular observation because it was the latest observation at
+the time of analysis, which implies that the absorption toward
+the center is the lowest (Appendix C).
+
+Contamination on the ACIS optical blocking ﬁlter(OBF,
+O’Dell et al. 2013) has previously led to inaccurate ﬂux
+measurements(e.g., Park et al. 2011; Helder et al. 2013). Frank
+et al. (2016) have veriﬁed that the OBF contamination is now
+well-modeled using the High Resolution Camera/Low Energy
+Transmission Grating observation of SN1987A from 2015
+March 14 (Obs. ID 16757), which does not suffer from the
+OBF contamination. Only data from the zeroth-order image in
+energy range 0.3–10keV of the 2015 September 17 ACIS/
+HETG observation are used in this analysis.
+
+The data are reduced following standard procedures using
+CIAO 4.9 and CALDB 4.7.7(Fruscione et al. 2006). No
+background ﬂares are observed resulting in a total exposure of
+66ks with ∼11,000 source counts. XSPEC 12.9.1p(Arnaud
+1996) is used for the spectral analysis and all extracted spectra
+are binned with a minimum of 20 counts per bin. A background
+is extracted from an annulus with an inner radius of 15″ and
+outer radius of 30″. The background is negligible for the
+spectra of SN1987A because of the high source count rates
+and small spatial region of interest.
+
+The HETG provides dispersed spectra and also reduces
+pileup in the zeroth-order image(Helder et al. 2013; Frank
+et al. 2016). The dispersed spectra are used to verify that pileup
+is not signiﬁcant in the zeroth-order CCD spectrum and we ﬁnd
+that bad grades 1, 5, and 7 combine to be ∼3% of the total level
+1 source counts.29 This indicates that the level of pileup is low
+enough to not signiﬁcantly affect our analysis. A more detailed
+treatment of pileup is difﬁcult because SN1987A is marginally
+resolved and we primarily use the spectrum from the region
+inside the ER, which is smaller than a single ACIS pixel. Pileup
+properties could be different for the ER and the ejecta because
+the count rate is signiﬁcantly higher in the pixels neighboring
+the few central pixels. However, the grades are assigned based
+on 3×3 pixel islands. The way in which these effects combine
+requires custom methods, which would be excessive for our
+analysis.
+
+3. Methods
+
+Alp et al.
+
+Below, we describe the methods used to determine upper
+limits on the compact object in SN1987A. The position of
+SN1987A and the spatial regions in which we search for the
+compact object are described in Sections 3.1 and 3.2.
+Sections 3.3–3.5 present how the image and spectral limits at
+millimeter, UV, optical, and NIR (UVOIR) wavelengths are
+determined. The spread light in the X-ray observation, which
+complicates the computation of the X-ray limits, is described in
+Section 3.6. Finally, the X-ray ejecta absorption model based
+on 3D neutrino-driven SN explosion models(Alp et al. 2018)
+is described in Appendix C, and the spatial alignment of the
+images is described in Appendix D.
+
+The source luminosity limits based on the imaging analysis
+rely on the assumption that the compact object is a point
+source. The limits from the spectral analysis in UVOIR are
+based on the assumption that the compact object emission is a
+continuum. Finally,
+the X-ray limits are constructed by
+assuming certain spectra for the compact object. The distance
+to SN1987A is taken to be 51.2kpc (Panagia et al. 1991;
+Gould & Uza 1998; Panagia 1999; Mitchell et al. 2002). All
+two-sided conﬁdence intervals are 1σ and all one-sided upper
+limits are 3σ unless otherwise stated.
+
+3.1. Position of SN1987A
+
+We need an accurate position estimate of SN1987A because
+we only search for the compact object in a kick region that has
+a radius of ∼100 mas (Section 3.2). Therefore, it is important
+that the position estimate of SN1987A is accurate to ∼10 mas.
+The “position of SN1987A” refers to the projected position of
+the progenitor
+star at current epochs. The position is
+determined by ﬁtting an ellipse to the hotspots in the ER in
+HST images. This assumes that the progenitor is located at the
+center of the ring of hotspots. The ﬁrst step is to tie the HST
+images to Gaia data release 1(DR1, Gaia Collaboration
+et al. 2016b, 2016a) because the error of
+the absolute
+astrometry of HST is relatively large. This is done by mapping
+two unsaturated stars.30 The uncertainties in the positions of the
+1< mas and the
+two reference stars in the Gaia archive are
+accuracies of the localizations of the stars in the HST images
+are a few mas.
+
+All 33 observations from 2003 to 2016 in the B (F435W,
+F438W, and F439W) and R (F625W and F675W) bands
+(presented in Appendix E) are used for determining the
+position. Observations from before 2003 are excluded because
+the low number of hotspots present before this time make the
+ﬁts inaccurate. The hotspots are deﬁned using the F625W 2006
+December 6 observation because it provides the best spatial
+resolution at an epoch when most hotspots were bright
+(Fransson et al. 2015). Two-dimensional (2D) Gaussians are
+ﬁtted to the 26 hotspots, shown in Figure 1. The hotspots are
+located in the other observations by ﬁtting a radial, one-
+dimensional (1D) Gaussian along the angles deﬁned by the
+2D ﬁts in the F625W 2006 December 6 observation. This
+ensures that the same hotspots are found in all observations.
+Ellipses are then ﬁtted to the hotspots in all
+images. The
+best-ﬁt estimates of the position of SN1987A from the 33
+images agree within 25 mas and are shown in Figure 1 (right).
+The arithmetic mean of
+the 33 best-ﬁt coordinates are
+
+29 http://cxc.harvard.edu/proposer/POG/html/chap6.html
+
+30 Gaia source ID: 4657668007091797248, 4657668075811272704.
+
+5
+
+The Astrophysical Journal, 864:174 (24pp), 2018 September 10
+
+Alp et al.
+
+s
+
+h
+
+¢
+
+m
+
+
+
+(
+
+d
+
+=
+
+= - 
+
+( )
+69 16 11. 107 4
+
+)
+05 35 27. 9875 11 ,
+
+(ICRF
+a
+J2015.0), where the 1s uncertainties are estimated by boot-
+strapping the hotspot locations. Unless otherwise stated, all
+presented coordinates are at epoch J2015.0 and in the reference
+frame of Gaia DR1, which is effectively equivalent to ICRF
+(the realization of ICRS) for the current level of precision. This
+will henceforth be adopted as the position of SN1987A in
+this work.
+
+We emphasize that the reported conﬁdence interval only
+represents
+the statistical uncertainty. Fitting to the ER
+continuum in the ALMA observation results in a position
+offset of approximately 60 mas to the east, but the ER is more
+diffuse at millimeter wavelengths and we choose to use the
+optical observations. This is likely to be the best approach
+because the hotspots are well-deﬁned point sources, whereas
+the millimeter emission originates from a larger volume above
+and below the optically emitting ring.
+
+The systematic error introduced by assuming the hotspots to be
+located in an ellipse centered on the supernova position is checked
+by ﬁtting an elliptic annulus with a Gaussian radial proﬁle to the
+entire inner ring. This elliptical band is also allowed to rotate in
+the sky plane and has a sinusoidal intensity along the azimuth.
+This describes the inner ring as a continuum rather than as a
+collection of point sources and serves as a relatively independent
+estimate of the position. The center obtained using an elliptical
+(ICRF
+annulus is
+J2015.0), as shown in Figure 1 (right, green pentagon). This
+position is offset by 5 mas from the favored position of
+SN1987A.
+
+05 35 27. 9866,
+
+69 16 11. 108
+
+= - 
+
+h m
+
+=
+
+a
+
+d
+
+
+
+¢
+
+s
+
+s
+
+h
+
+¢
+
+m
+
+
+
+a
+
+position;
+
+radio
+¢
+
+d = - 
+
+( )
+69 16 11. 09 5
+
+centroid
+
+69 16 11. 08 5
+
+The hotspot coordinates can be compared to the best estimate of
+the location of the progenitor star Sanduleak−69° 202; a =
+( )
+(ICRF J1991.5,
+05 35 27. 968 9 ,
+Reynolds et al. 1995). In addition, Reynolds et al. (1995) used
+observations by the Australia Telescope Compact Array from
+1992 October 21 and 1993 January 4–5 at 8.8 GHz and reported
+=
+a
+( ) (ICRF J1991.9). The aforementioned coordi-
+- 
+nates are those reported by Reynolds et al. (1995). To compare
+with our estimates in Figure 1, the positions of Reynolds et al.
+(1995) are corrected for the displacement between the epochs of
+observation. The proper motion of the position of SN1987A in the
+Large Magellanic Cloud (LMC) is 46 mas east and 13 mas north
+(Kallivayalil et al. 2013; van der Marel & Kallivayalil 2014; van
+der Marel & Sahlmann 2016). This assumes that the proper motion
+of Sanduleak−69° 202, and consequently also SN1987A,
+conforms to the expected motion of its location within the LMC.
+
+)
+05 35 27. 994 12 ,
+
+=
+
+d
+
+(
+
+m
+
+h
+
+s
+
+3.2. Search Region
+
+An extended region is searched because the compact object
+created by SN1987A is expected to have a kick velocity
+caused by the asymmetric explosion. Typical 3D kick
+velocities of pulsars are ∼400 km s−1(Hobbs et al. 2005;
+Faucher-Giguère & Kaspi 2006). However, extreme cases of
+velocities up to 1600 km s−1 have been observed(Cordes et al.
+1993; Chatterjee & Cordes 2002, 2004; Hobbs et al. 2005).
+When searching for a point source in SN1987A, we assume a
+sky-plane projected kick velocity of 800 km s−1, which
+mas at the epoch of
+corresponds to a search radius of
+our observations. This is a trade-off between having to search
+an excessively large region and the risk of not including the
+true source position.
+
+100~
+
+6
+
+The effects of different choices of kick velocity are relatively
+small. For a kick of 1600 km s−1, the average correction factor
+to the six HST limits from 2009 (Section 4.2) is 1.07. For a
+more typical speed of 400 km s−1 the corresponding factor is
+0.86. The reason for the small difference is that the brightness
+is relatively uniform and the search algorithm is dependent on
+both surrounding morphology and brightness. This means that
+limits are not directly proportional to the local brightness.
+
+3.3. Reddening
+
+The effect of interstellar reddening at UVOIR wavelengths is
+corrected for using the model of Cardelli et al. (1989) with
+RV=3.1 and E(B − V )=0.19. The parameters are chosen
+based on the work by France et al. (2011), which takes several
+studies of extinction to SN1987A and the LMC into
+consideration (Fitzpatrick & Walborn 1990; Walker & Suntzeff
+1990; Scuderi et al. 1996; Gordon et al. 2003; Michael et al.
+2003). The uncertainty in the de-reddening is approximately
+20% below 3000Å, less than 10% in the optical, and less than
+∼2% in the NIR.
+
+Large amounts of dust have been detected in the ejecta of
+SN1987A(Matsuura et al. 2011, 2015; Indebetouw et al.
+2014; Dwek & Arendt 2015; Wesson et al. 2015), but we do
+not attempt to correct for it using the same method used for
+interstellar reddening. The primary reason for this is that the
+spatial distribution of the ejecta dust is poorly constrained(e.g.,
+Dwek & Arendt 2015; Wesson et al. 2015). Our treatment of
+ejecta dust is explained in Section 4.1.
+
+3.4. Image Limits
+
+Image limits are obtained from ALMA, VLT/NACO, and
+HST/WFC3. The same method is used for all observations,
+apart from two small differences for ALMA. The differences
+are how the PSFs of the instruments are determined and how
+the spatial positions are chosen. For the interferometric ALMA
+images, the PSFs are the well-deﬁned reconstruction beams
+(Section 2.1). The PSFs for the UVOIR images are created
+using the IRAF/DAOPHOT(Stetson 1987) package following
+the guidelines for ﬁtting PSFs in Davis (1994). An empirical
+10~ bright,
+PSF is generated for each observation by ﬁtting to
+well-isolated stars. A Gaussian is selected as the analytical
+component with a linear lookup table. The quality of the PSFs
+is checked by estimating the residuals when subtracting best ﬁts
+from the original images. The residuals are less than 5% of the
+counts for most stars. In addition, each individual PSF model is
+visually inspected for defects.
+
+The ALMA limits are not required to be from the same point
+because they are treated as three independent limits in the
+analysis. In contrast, UVOIR image limits from the same epoch
+are at the same spatial position for the different bands. The
+points are chosen such that the highest total ﬂux allowed by
+the limits in all bands is maximized and allows us to combine
+the limits to constrain spectra.
+
+The remainder of the process is identical for the ALMA and
+UVOIR images. Limits are obtained by introducing artiﬁcial
+sources with known ﬂuxes that are recovered using a ﬁnding
+algorithm, which is described in Appendix B.
+
+The Astrophysical Journal, 864:174 (24pp), 2018 September 10
+
+Alp et al.
+
+Figure 2. The 2014 SINFONI H and K spectra of the central region of
+SN1987A. Both spectra are extracted from regions that correspond to the
+800 km s−1 kick region (Section 3.2, Figure 1). The solid black lines are the
+upper limits and the dashed black lines are the average ﬂux in the selected
+intervals (Section 3.5.1). The spectra have been corrected for spread light from
+the ER and background-subtracted(Section 2.3), and corrected for interstellar
+reddening(Section 3.3). The observed spectra (blue) have been binned by a
+factor of 21 for visual clarity.
+
+3.5. Spectral Limits
+
+The spectra are extracted from regions corresponding to the
+800 km s−1 kick region and wavelengths are corrected for the
+systematic heliocentric velocity of SN1987A of 287 km s−1
+away from Earth(Gröningsson et al. 2008a, 2008b). Limits are
+then constructed from spectral regions that are relatively free of
+line emission. These regions are assumed to contain contribu-
+tions from weak lines, gas continuum emission, and emission
+from the compact object. Therefore, the determined limits are
+conservative limits on the contribution from the compact
+object. We ﬁt functions to the observed ﬂux within the regions
+that are free of line emission (Sections 3.5.1 and 3.5.2). The
+magnitudes of these functions are then increased until the χ2
+values have increased by 7.740. These values are then taken to
+be the one-sided 3σ upper limits. We veriﬁed that the reduced
+χ2 values are reasonably close to unity, which is required for
+this method to be applicable.
+
+3.5.1. NIR Spectral Limits
+
+The upper limits from the SINFONI spectra are set using the
+ﬂux density in regions that are free of strong line emission. The
+resulting spectra are shown in Figure 2. The regions are
+selected to avoid intervals of emission lines identiﬁed in
+SN1987A provided in Tables 3 and 4 of Kjær et al. (2007) and
+regions of H2 emission(Fransson et al. 2016). Moreover,
+wavelength intervals close to residual atmospheric lines are
+also excluded. These are clearly seen in observations as narrow
+lines. In total, 16% of all data pass the aforementioned selection
+criteria in the H band; for the K band, 28% pass the criteria. We
+combine many very narrow intervals into four groups and
+deﬁne constant functions within the groups (Figure 2). We
+choose four regions because the speciﬁc ﬂux is relatively
+constant within the regions. The constant values are the
+averages within each group, which are then increased to a 3σ
+upper-limit level.
+
+Figure 3. The 2014 STIS spectrum of the central region of SN1987A. The
+extraction region is a rectangle that approximately contains the 800 km s−1
+kick region (Section 3.2, Figure 1). The solid black line is the power law that
+represents the 3σ upper limit to continuum emission from a compact object.
+The dashed black line is the best-ﬁt power law, which is a factor of 2.1 lower
+than the limit. The gray regions indicate the wavelength intervals in which the
+power law is ﬁtted. The spectra have been corrected for spread light from the
+ER and background-subtracted(Section 2.5), and corrected for interstellar
+reddening(Section 3.3). The observed spectrum (blue) is smoothed by a factor
+of 11 for visual clarity. The orange line is a model spectrum of SN1987A
+taken from Jerkstrand et al. (2011) normalized to Hα. This model is only used
+for identifying regions that are free of line emission.
+
+3.5.2. Optical Spectral Limit
+
+in the ﬁt
+
+To determine the compact object
+
+limit using the STIS
+observation, a spectrum is extracted from the search region.
+Because of the resolution of the instrument, the spectrum is
+from a region with a width of two 100 mas slits and height of
+ﬁve 50 mas pixels, which is approximately equivalent to a
+rectangle that just contains the 800 km s−1 extraction region
+(Figure 1). A power law is ﬁtted to regions that are free of
+strong lines (gray regions in Figure 3). The power
+law
+describes the quasicontinuum well within the STIS wavelength
+range 5300–10000Å, which is why we do not use the same
+(Section 3.5.1). No signiﬁcant
+method as for SINFONI
+improvement
+is seen for other simple functional
+forms. The selected regions that are relatively free from line
+emission are 6025–6100, 6850–6950, and 7550–7650Å. The
+average ﬂux in the middle region is slightly higher, but
+excluding it results in a ∼10% less constraining limit because
+of the reduced statistics. The regions are found by visual
+inspection of the observed spectrum and by searching the
+model spectrum of Jerkstrand et al. (2011) for regions free of
+strong lines. The model computes an observed spectrum by
+simulating the radiation transfer through the SN ejecta, which is
+assumed to be powered by the radioactive decay of 44Ti. We
+note that the predicted spectrum was summed over the entire
+ejecta and worse agreement is expected for the smaller search
+region. The model is only used to identify line-free regions and
+it is included in Figure 3 for reference.
+
+3.6. X-Ray Limits
+
+To determine the X-ray ﬂux limit on the compact object, the
+ER emission needs to be modeled. This is important because
+the observed ﬂux in the inner region is dominated by spread
+light from the ER. We use spread light to refer to the result of
+
+7
+
+The Astrophysical Journal, 864:174 (24pp), 2018 September 10
+
+Alp et al.
+
+best-ﬁt ellipse. The outer region is deﬁned as an inclined
+elliptical annulus with the inner region as the inner boundary.
+The semimajor axis of the outer boundary of the outer region
+is 10″.
+
+An ER spectrum is extracted from the outer region and a
+central spectrum from the inner region, henceforth referred to
+as the ejecta spectrum. The ejecta spectrum has a total photon
+count of 624. The option to correct for the encircled energy
+(EE) of the CIAO task specextract is disabled. Instead, the
+correction factor for the inner region is computed to be 0.46
+using the simulated MARX PSF. The value of 0.46 is
+computed for a point source at the center and will be used to
+correct for the missing ﬂux throughout this analysis. No EE
+correction is applied to the outer region because the physical
+ﬂux of the ER is not of interest. This method is employed
+because it allows for ﬁtting of the fraction of spread light,
+which can then be directly compared to the modeled fraction of
+spread light.
+
+3.6.2. Modeled Spread Light Fraction
+
+=
+
+0.011
+0.005
+
++
+0.073
+-
+
+Light from the bright ER contaminates the central region of
+SN1987A in the Chandra observations. We estimate the
+fraction of spread light ( fs) using the spatial model and
+compare it to the observed value, which is obtained by spectral
+ﬁtting. The fraction of spread light is deﬁned as the ratio of
+spread light ﬂux in the inner region to the ﬂux in the outer
+region. The value f
+is computed using the
+s
+spatial model with no central source. The model is forward-
+folded using the PSF to simulate the angular response of the
+detector and the uncertainties are obtained by simulations using
+the ﬁtted model. We assume that the energy dependence of the
+EE is relatively weak, implying that the spectrum of the spread
+light in the inner region is the same as the spectrum of the ER
+itself. This assumption is partially motivated by the fact that the
+energy dependence is modest over the range covered by the
+bulk of the photons. Additionally, the small angular separations
+of 1″ further
+this effect; see
+Section3.2 of Park et al. (2010) for a more detailed treatment
+of spread light.
+
+reduce the magnitude of
+
+3.6.3. Observed Spread Light Fraction
+
+The observed fraction of spread light can be determined by
+extracting spectra from both the ER and the inner region, and
+then ﬁtting the model
+that describes the ER to the inner
+spectrum, with only the normalization left free to vary. This
+needs to be done because there might be a signiﬁcant
+contribution from the compact object in the observation, which
+is assumed to have a spectrum different from that of the ER.
+The model we use for the ER spectrum consists of an ISM
+absorption component and three source components; an
+ionization equilibrium collisional plasma (vequil) at a
+temperature of 0.3keV, a constant-temperature plane-parallel
+shock plasma model (vpshock) at a temperature of 2.1keV,
+and a power-law component. ISM absorption of all
+three
+components is modeled using the tbgrain(Wilms et al. 2000)
+photoabsorption model with a frozen hydrogen column density
+cm−2 is
+of N
+molecular. These values are taken from Willingale et al. (2013)31
+and are approximately a factor of two higher than the value used
+
+cm−2, of which 0.144
+
+0.409
+
+1022
+
+10
+
+´
+
+´
+
+=
+
+ISM
+
+22
+
+31 http://www.swift.ac.uk/analysis/nhtot/
+
+8
+
+Figure 4. Folded model (left panel; see the text) and the 2015 September 17
+Chandra/ACIS observation binned to 502 mas2 pixels in the energy range
+0.3–10keV (right). The ellipse shows the inner region where the ejecta
+spectrum is extracted.
+
+angular blurring of telescopes, also referred to as wings, leaked
+light, scattered light, or glare. The spatial model allows for
+computation of the amount of spread light in the inner region.
+Finally, the limits are set by spectral ﬁtting to the spectrum
+from the inner region with a model that includes the spread
+light from the ER.
+
+We also brieﬂy inspected the 61 ks ACIS observation from
+2000 December 7 (Obs. ID 1967) and ﬁnd that the X-ray limits
+allow for approximately a factor of two higher luminosities
+because of the higher ejecta absorption (Appendix C). It is
+unlikely that more stringent limits can be placed using the High
+Resolution Camera on board Chandra because of the very poor
+energy resolution, which prevents separation of emission from
+the ER.
+
+3.6.1. Spatial Modeling
+
+The remnant is ﬁtted with an ellipse of sinusoidal intensity
+along the azimuth and Gaussian radial proﬁles, and is then
+folded through the modeled instrumental PSF. This is just a
+model used to describe the observed morphology of the ER. A
+description of the simulation of the Chandra PSF is provided in
+Appendix F. The inner region covering the central ejecta is
+excluded from the ﬁt to reduce the effects of any contribution
+from a central source. Observations show ﬁner structure than
+allowed by this simple model. Therefore, the pixels of the
+unfolded model are given some freedom by assigning new
+values that are distributed as normal distributions, with the
+mean set to the original value and standard deviation set to one-
+third of the original value. Any negative values are set to zero.
+The random reassignment of pixels is performed 10,000 times
+and the folded model that gives the maximum likelihood for the
+observed data is chosen, as shown in Figure 4. The goodness of
+ﬁt is determined by simulating 100,000 observations from the
+folded best-ﬁt model. A total of 53,039 simulations resulted in
+a higher statistical likelihood than the real observation, showing
+that the ﬁt is acceptable.
+
+An inner and an outer region are deﬁned using the best-ﬁt
+model. These are the regions from which spectra are extracted.
+The inner region (Figure 4) is deﬁned as an inclined ellipse
+with parameters given by the ﬁtted model: a position angle of
+83° to the semimajor axis (deﬁned counter-clockwise from
+north) and a ratio of semimajor to semiminor axis of 1.37. The
+magnitude of the semimajor axis of the inner region is set to
+450 mas, which is chosen to maximize the signal-to-noise ratio
+(S/N) of a central point source. This can be compared to the
+870 mas semimajor axis and 620 mas semiminor axis of the
+
+The Astrophysical Journal, 864:174 (24pp), 2018 September 10
+by many previous X-ray studies of SN1987A, which neglected
+the molecular component. We note that
+this only makes a
+difference of ∼3% for our results because of the high ejecta
+absorption. For this reason, we also ignore any CSM or LMC
+absorption. The power
+statistic by
+2cD = - for 2 additional degrees of freedom (d.o.f.) and
+clearly improved the ﬁt at energies above 5keV. The power law
+does not have a clear physical interpretation, but the purpose of
+the model is only to represent the spread light from the ER into
+the central region. The ﬁt statistic for the ER spectrum is
+2c =
+
+law reduced the ﬁt
+
+for 202d.o.f.
+
+205
+
+29
+
+29.8
+
+We then ﬁt the ER model to the ejecta spectrum, with all
+parameters frozen apart from a constant factor. This represents
+an upper limit on the spread light from the ER into the central
+region because it is implicitly assumed that the contribution
+from the compact object
+is negligible. The ﬁt statistic is
+for 27d.o.f. and the fraction of spread light to ER
+2c =
+ﬂux is 0.062±0.003, which can be compared to the value of
+0.011
+0.073 0.005
+predicted by the model. The goodness of ﬁt implies
+that the energy dependence of the EE is small enough to be
+neglected in this case. The observed value is marginally lower
+than predicted and implies that practically all ﬂux observed in
+the central region can be interpreted as spread light from the
+ER. The purpose of comparing the modeled and observed fs is
+that an observed value that is signiﬁcantly higher than predicted
+would indicate an additional contribution in the central region.
+
++
+-
+
+3.6.4. Calculating X-Ray Limits
+
+We construct X-ray limits on the compact object by adding
+components to the ER spectrum model and re-ﬁtting the model
+to the ejecta spectrum. Then, we ﬁnd the limiting value for a
+parameter of interest of the additional component while ﬁtting
+fs and freezing all other parameters. Leaving additional
+parameters free is not possible because the low number of
+counts in the ejecta region is insufﬁcient
+to meaningfully
+constrain additional parameters. The additional component
+represents the contribution from the compact object and the
+SN ejecta absorption (Appendix C) is only applied to this
+component using the tbvarabs(Wilms et al. 2000) photo-
+absorption model. The presented results are obtained using the
+Levenberg–Marquardt ﬁtting algorithm and the χ2 statistic. We
+also attempted an unbinned analysis using the Cash-statistic
+(Cash 1979), but found differences that are much smaller than
+other uncertainties.
+
+remained
+
+0.06
+
+Blackbody and power-law models with different amounts of
+ejecta absorption are tested, as described in Section 4.4. The
+for all models with absorption
+value fs
+(Section 4.4), which means that
+is not
+degenerate with the additional component. The upper limits
+are obtained by requiring an increase of the χ2 statistic of
+7.740. This corresponds to a one-sided 3σ limit, analogous to
+the SINFONI and STIS spectral limits (Section 3.5).
+
+the spread light
+
+4. Results
+
+We describe our model of the ejecta dust absorption in
+Section 4.1, which is relevant for the results from the UVOIR
+observations, but not
+the other wavelengths. The direct
+millimeter, UVOIR, and X-ray limits are then presented in
+Sections 4.2–4.4. In Section 4.5, we present the bolometric
+limits, which are partly dependent on the UVOIR observations.
+
+9
+
+Therefore, we provide bolometric limits for both dust-free and
+dust-obscured lines of sight.
+
+Alp et al.
+
+4.1. UVOIR Dust Absorption
+
+´
+
+1016
+
+The effects of absorption by ejecta dust are important in
+UVOIR. The dust is assumed to have a negligible impact on the
+millimeter observations and have the same absorption proper-
+ties as gas in the X-ray regime(Morrison & McCammon 1983;
+Draine 2003; Alp et al. 2018). Large amounts of dust have been
+observed in SN1987A (Lakićević et al. 2011, 2012a; Matsuura
+et al. 2011, 2015; Indebetouw et al. 2014; Dwek & Arendt
+2015; Wesson et al. 2015; Bevan 2018) and there is evidence
+that the dust resides in clumpy structures (Lucy et al. 1989,
+1991; Fassia et al. 2002; Jerkstrand et al. 2011). The latter
+means that the dust is modeled as a covering factor and not an
+average optical depth. The diameters of
+the clumps of
+mas (1000 km s−1
+100~
+molecules have been observed to be
+cm, Abellán et al. 2017), but it is possible that the
+or 8
+size of the dust clumps is different from the clumps of
+molecules. The covering factor has been estimated to be 50%–
+70% by observing asymmetries of emission lines and spectral
+modeling (Lucy et al. 1989, 1991; Wooden et al. 1993; Wang
+et al. 1996; Fassia et al. 2002; Jerkstrand et al. 2011).
+
+the ejecta dust
+
+The information about
+
+in SN1987A is
+insufﬁcient for detailed corrections. In particular, the 3D SN
+explosion models used for
+the X-ray absorption estimate
+(Appendix C) cannot be used for the dust because dust
+formation, composition, and geometry depend on additional
+unconstrained parameters(e.g., Bevan 2018).
+Instead, we
+assume that our
+in
+SN1987A is free of ejecta dust clumps when placing limits
+in UVOIR. If there is a dust clump along our line of sight to a
+compact object, then essentially all UVOIR emission from the
+compact object would be absorbed and the presented direct
+UVOIR limits would not apply.
+
+to the compact object
+
+line of sight
+
+However, we consider the reprocessing of the absorbed
+UVOIR emission in the dust-obscured case in Section 4.5,
+where we obtain bolometric limits based on the energy budget
+the dust
+of the ejecta. We assume that
+is optically thick
+throughout
+the spectrum because no
+the UVOIR part of
+indications of energy- or time-dependent attenuation have been
+observed with VLT/SINFONI (since 2005) or HST (since
+1994, Larsson et al. 2013, 2016).
+
+4.2. Millimeter and UVOIR Image Limits
+
+We compute upper
+
+limits on the compact object
+
+in
+SN1987A at millimeter wavelengths using the ALMA images.
+An image of the observation at 213 GHz is shown in Figure 5
+and the limits are provided in Table 2. The ER and central
+ejecta structure are clearly resolved and no obvious point
+source is seen in any of the ALMA images. The level of
+spatially extended emission in the central region is comparable
+to the noise level. The high noise level is a consequence of
+constructing images of narrow frequency spans of 1–2 GHz
+(Section 2.1).
+
+The upper limits in UVOIR are shown in Figure 6 and listed
+in Table 3. There are limits in six ﬁlters from 2009; F225W,
+F336W, F438W, F555W, F625W, and F841W. The more
+constraining limits in the B and R bands are the 2015
+observations. The four NIR limits are: WFC3 F110W and
+F160W from 2011, and NACO H from 2010 and Ks from 2012.
+
+The Astrophysical Journal, 864:174 (24pp), 2018 September 10
+
+Alp et al.
+
+4.3. UVOIR Spectral Limits
+
+The SINFONI H and K spectra from the central region and
+limits on the compact object are shown in Figures 2 and 6. The
+limits for the individual wavelength intervals are listed in
+Table 3. We note that the four intervals are for presentation
+only and are groups consisting of many narrow ranges, which
+are used to compute the limits (Section 3.5.1). Images of the
+selected wavelength intervals that are relatively free of line
+emission are also studied and no clear point source is seen in
+the resolved image of the ejecta. The spatial distribution of the
+emission in the central regions of the ejecta in the continuum
+images is essentially uniform at the resolution of SINFONI in
+both the H and K bands.
+
+The STIS spectrum for the central region of SN1987A is
+
+Figure 5. ALMA observation at 213 GHz (color map) and the HST/WFC3
+observation from 2014 June 15 in the B band (contours). The dotted white
+circle is the search region (Section 3.2) and the 57×40 mas2 beam is shown in
+the lower right corner. The pixel size is 62 mas2 and the off-source rms noise is
+0.02~
+
+mJybeam−1.
+
+Figure 6. Limits in UVOIR on a point source in SN1987A inside a kick region
+corresponding to 800 km s−1. The gray lines are spectral limits. Image limits
+from left to right are as follows: F225W, F336W, F438W, F555W, F625W,
+F814W, F110W, F160W, NACO H, and NACO Ks. The less strict limits in
+F438W and F625W are from 2009 and are simultaneous with the other optical
+image limits, whereas the stricter F438W and F625W limits are from 2015.
+Limits from the same epoch are from the same spatial position. The dashed
+orange line is a blackbody spectrum for the temperature and radius of the Sun
+scaled to the distance of SN1987A. This can be taken as a limit on a surviving
+main-sequence companion if our line of sight is free of dust(Section 5.6). The
+dashed–dotted yellow line is the assumed conservative spectrum corresponding
+to a luminosity of 6.6 Le used for the bolometric limit (Section 4.5).
+
+Table 2
+
+Millimeter Limits
+
+Frequency
+(GHz)
+
+213
+233
+247
+
+Flux Density
+
+(mJy)
+
+0.11
+0.20
+0.12
+
+All limits from the same epoch are at the same spatial position.
+In contrast to the ALMA images, the limits at UVOIR are
+dominated by the ejecta emission.
+
+10
+
+shown in Figure 3. The limiting power law is given by
+
+F
+l
+
+=
+
+1.2
+
+´
+
+-
+10
+
+18
+
+0.95
+
+-
+erg s
+
+1
+
+cm
+
+Å
+- -
+
+2
+
+1
+,
+
+( )
+1
+
+⎛
+⎜
+⎝
+
+l
+4
+10
+
+⎞
+-
+⎟
+⎠Å
+
+where Fλ is the spectral ﬂux density and λ is the wavelength.
+The power-law limit
+is shown in Figures 3 and 6 and is
+included in Table 3. We note that the limits from spectra
+are more constraining than image limits at corresponding
+frequencies.
+
+4.4. X-Ray Limits
+
+X-ray limits on the compact object are set using the 2015
+September 17 Chandra/ACIS observation and the ejecta
+absorption estimate from the SN model B15 (Appendix C).
+We investigate the standard blackbody model,
+the XSPEC
+thermal model nsmaxg(Mori & Ho 2007; Ho et al. 2008), and
+two power laws with photon indices (G) of 1.63, corresponding
+to the Crab Pulsar, and 2.108, corresponding to the Crab
+Nebula(Willingale et al. 2001). The nsmaxg model describes
+thermal emission from an NS for different atmospheric
+compositions and magnetic ﬁeld strengths. We only explore
+the case of a NS with a carbon atmosphere and a magnetic ﬁeld
+strength of 1012G. A carbon-atmosphere model was reported
+to ﬁt the NS in CasA(Ho & Heinke 2009; Posselt et al. 2013).
+See Figure 2 of Ho & Heinke (2009) for a comparison of
+different atmospheric compositions. Apart from the spread light
+fraction, only the temperature is allowed to vary for the two
+thermal components and the normalization for the two power
+laws. The remaining parameters are frozen under the assump-
+tions (discussed in Section 5.3.1) of a gravitational mass of
+1.4 Me, local (unredshifted) NS radius of 10km, and uniform
+emission from the entire surface. The assumed mass and radius
+give a gravitational redshift factor of 0.766.
+
+All X-ray limits are listed in Table 4. The presented effective
+surface temperatures (T) are given in the local (unredshifted)
+frame. The parameter (K¥) is the XSPEC power law normal-
+ization and is given in the observed frame (“at inﬁnity”). The
+luminosities (L¥) are also given in the observed frame to
+facilitate comparisons with other observational studies. The
+luminosities for
+the thermal components are bolometric,
+whereas the power-law luminosities are given for the observed
+2–10keV range.
+
+The limits for the standard blackbody and the Γ=1.63
+power law are given for three different levels of SN ejecta
+absorption. The selected amounts are the average, 10th
+percentile, and 90th percentile of the optical depth. The general
+trends for the two thermal components and the two power laws
+
+The Astrophysical Journal, 864:174 (24pp), 2018 September 10
+
+Table 3
+
+UVOIR Limits
+
+Instrument
+
+Filter/Grating
+
+Method
+
+Epocha
+
+(YYYY mm dd)
+
+WFC3
+WFC3
+WFC3
+WFC3
+WFC3
+WFC3
+WFC3
+WFC3
+WFC3
+WFC3
+NACO
+NACO
+STIS
+SINFONI
+SINFONI
+SINFONI
+SINFONI
+SINFONI
+SINFONI
+
+F225W
+F336W
+F438W
+F555W
+F625W
+F841W
+F110W
+F160W
+F438W
+F625W
+
+H
+Ks
+
+G750L
+
+L
+L
+H
+L
+L
+K
+
+Spatial
+Spatial
+Spatial
+Spatial
+Spatial
+Spatial
+Spatial
+Spatial
+Spatial
+Spatial
+Spatial
+Spatial
+Spectral
+Spectral
+Spectral
+Spectral
+Spectral
+Spectral
+Spectral
+
+2009 Dec 13
+2009 Dec 13
+2009 Dec 12
+2009 Dec 13
+2009 Dec 12
+2009 Dec 13
+2011 Jan 05
+2011 Jan 05
+2015 May 24
+2015 May 24
+2010 Oct 26
+2012 Dec 14
+2014 Aug 16
+2014 Oct 10
+2014 Oct 10
+2014 Oct 10
+2014 Oct 12
+2014 Oct 12
+2014 Oct 12
+
+Notes.
+a Start of ﬁrst exposure if the observation is multi-day.
+b Average of the limiting power law.
+c Extrapolated slightly outside of, and interpolated between, ﬁtted intervals.
+
+are the same;
+the difference between the 10th and 90th
+percentiles is a factor of ∼2 in luminosity for the thermal
+components and ∼3 for the power laws. Absorption by the ISM
+is always included, but we also provide limits for no SN ejecta
+absorption. This represents the minimum amount of absorption,
+in case the SN explosion model describes SN1987A poorly
+and we happen to have a very favorable line of sight.
+
+The reason for the extremely high limiting temperatures and
+luminosities of the thermal models is that the high optical
+depths at energies below ∼4keV effectively absorb all
+emission. We point out that an important factor to the thermal
+components crossing the detection threshold is the shift of the
+emission toward higher energies where the optical depth is
+lower. The power-law models are more constrained in the sense
+that the limiting luminosity in the 2–10keV range is much
+lower because the power-law components extend to higher
+energies.
+
+4.5. Bolometric Limit
+
+The bolometric luminosity of the compact object can be
+constrained by the total energy budget of SN1987A. The
+energy inputs are radioactive decay of 44Ti and the unknown
+contribution from the compact object. The energy outputs are
+far-infrared (FIR) dust emission and UVOIR de-excitation and
+recombination emission lines. Detailed models of SN1987A
+predict that much of the emission powered by 44Ti would
+emerge as ﬁne structure lines in MIR(Jerkstrand et al. 2011),
+but observations severely constrain these lines (Lundqvist et al.
+2001; Bouchet et al. 2006). This implies that the MIR emission
+is reprocessed and escapes as thermal dust emission in the
+submillimeter to FIR(Matsuura et al. 2011, 2015; Indebetouw
+et al. 2014; Dwek & Arendt 2015).
+
+The lifetime of 44Ti is τ=85.0 years (half-life of 58.9 years,
+Ahmad et al. 2006) and decays into 44Sc, which emits 596-keV
+
+Wavelength
+
+(Å)
+
+2150–2615
+3102–3617
+4026–4638
+4556–6112
+5525–6991
+7284–8864
+9203–13901
+14027–15925
+4022–4639
+5529–6982
+14950–18250
+20050–23550
+5300–10000
+15150–15800
+16900–18125
+15000–18500c
+19875–22725
+22725–23825
+19500–24000c
+
+Flux Density
+
+(erg s−1 cm−2 Å−1)
+
+4.0 × 10−17
+9.5 × 10−18
+8.4 × 10−18
+6.7 × 10−18
+6.7 × 10−18
+2.8 × 10−18
+6.0 × 10−18
+4.5 × 10−18
+7.1 × 10−18
+5.5 × 10−18
+7.6 × 10−19
+2.1 × 10−19
+1.5 × 10−18b
+2.4 × 10−19
+1.4 × 10−19
+1.8 × 10−19
+1.8 × 10−19
+1.2 × 10−19
+1.7 × 10−19
+
+Luminosity
+(erg s−1)
+5.8×1033
+1.5×1033
+1.6×1033
+3.3×1033
+3.1×1033
+1.4×1033
+8.8×1033
+2.7×1033
+1.4×1033
+2.5×1033
+7.9×1032
+2.3×1032
+2.3×1033
+5.0×1031
+5.3×1031
+2.0×1032
+1.6×1032
+4.2×1031
+2.3×1032
+
+Alp et al.
+
+Luminosity
+
+(Le)
+
+1.5
+0.40
+0.42
+0.86
+0.81
+0.36
+2.3
+0.70
+0.36
+0.65
+0.21
+0.061
+0.59
+0.013
+0.014
+0.051
+0.043
+0.011
+0.061
+
+their energy locally under the assumption of
+
+positrons when promptly decaying to stable 44Ca. All positrons
+deposit
+the
+presence of a weak magnetic ﬁeld(Ruiz-Lapuente & Spruit
+1998) and a fraction fh of the energy goes into heating and the
+rest goes into excitation and ionization(Kozma & Fransson
+1992; Jerkstrand et al. 2011). We assume that the ionization
+days (current epochs)
+fraction is slightly higher at
+than at 2875days, which is what was modeled by Jerkstrand
+et al. (2011). A higher ionization fraction results in a higher
+heating fraction(Figure 5 of Kozma & Fransson 1992).
+
+10,000
+
+~
+
+The emission processes relevant for the compact object are
+thermal surface emission, accretion, or pulsar wind activity. We
+assume that
+the emission is dominated by X-ray emission
+below 10keV, which is absorbed locally because of the high
+optical depth(Alp et al. 2018) and escapes as thermal dust
+emission or UVOIR lines. Both surface emission and accretion
+would be observed as unresolved point sources. Chevalier &
+Fransson (1992) investigated the early evolutions of young
+pulsars and their effect on the surrounding ejecta and found that
+–800 km s−1 for a pulsar
+the bubble expansion velocity is
+luminosity of 1039 erg s−1 above 13.6eV. The current limits on
+the compact object constrains the luminosity, and consequently
+the expansion velocity, to be orders of magnitude lower. For
+expansion velocities less than ∼100 km s−1, it is reasonable to
+treat a possible pulsar wind nebula (PWN) as a point source.
+Assuming the compact object to be point-like allows us to
+separate the cases where the line of sight is free of dust and
+dust-obscured, and use the point-source image limits in the
+dust-free case.
+
+500~
+
+In the case where our line of sight is free of dust, we assume
+that 70% of the input from the compact object goes into heating
+and the remaining 30% escapes as UVOIR emission lines.
+These fractions are distinct from those for the positron input,
+but we assume them to be the same(Kozma & Fransson 1992;
+Jerkstrand et al. 2011). We do not consider further reprocessing
+
+11
+
+The Astrophysical Journal, 864:174 (24pp), 2018 September 10
+
+Alp et al.
+
+Table 4
+
+X-Ray Limits
+
+Model
+
+Absorption
+
+Blackbody
+Blackbody
+Blackbody
+Blackbody
+Carbon atm.
+Power law
+Power law
+Power law
+Power law
+Power law
+
+No SN abs.
+
+10th percentile
+
+Average
+
+90th percentile
+
+Average
+
+No SN abs.
+
+10th percentile
+
+Average
+
+90th percentile
+
+Average
+
+χ2
+
+28.6
+29.8
+29.4
+29.1
+29.0
+29.7
+29.1
+28.9
+29.1
+28.9
+
+d.o.f.
+
+χ2/d.o.f.
+
+26
+26
+26
+26
+26
+26
+26
+26
+26
+26
+
+1.10
+1.15
+1.13
+1.12
+1.12
+1.14
+1.12
+1.11
+1.12
+1.11
+
+a
+
+fs
+
+(10−2)
+5.0±0.3
+5.9±0.3
+5.9±0.3
+6.0±0.3
+6.0±0.3
+5.6±0.3
+6.0±0.3
+6.0±0.3
+6.0±0.3
+6.0±0.3
+
+Tb
+(MK)
+
+4.4
+8.2
+8.9
+9.6
+7.7
+L
+L
+L
+L
+L
+
+Γc
+
+L
+L
+L
+L
+L
+1.63
+1.63
+1.63
+1.63
+2.108
+
+b
+
+K¥
+
+(10−4 keVΓ−1 s−1cm−2)
+
+L
+L
+L
+L
+L
+2.9
+2.1
+3.5
+6.1
+7.7
+
+d
+
+L¥
+
+(erg s−1)
+1.6×1035
+1.9×1036
+2.6×1036
+3.6×1036
+1.5×1036
+4.1×1034
+3.0×1035
+4.9×1035
+8.8×1035
+5.3×1035
+
++
+-
+
+Notes.
+a The fraction of spread light from the ER at the limiting values of the parameter of interest (either T or K¥). This can be compared to the predicted value of
+0.011
+0.073 0.005
+b 3σ upper limits.
+c Frozen during ﬁts.
+d Observed bolometric luminosity for the thermal components. Luminosity in the observed 2–10keV range for the power laws.
+
+(Section 3.6.3). Uncertainties are 1s.
+
+of the energy that goes into heating, which most likely escapes
+as thermal dust emission(Bouchet et al. 2006; Jerkstrand et al.
+2011). The compact object is situated in the central regions
+where the photoabsorption is dominated by iron(Figure 2 of
+Alp et al. 2018), which implies that the line spectrum of the
+reprocessed emission from the compact object could be
+different from that of the 44Ti-powered ejecta. Therefore, we
+choose a conservative limit on the reprocessed UVOIR
+´ - erg s−1 in
+emission from the compact object to be 4
+the range 1000–3000Å, which is an extrapolation of the 3s
+UV (F225W) HST point-source limit
+(Section 4.2 and
+Figure 6). This spectral shape was chosen because it results
+in the least constraining limit. The wavelength range covers the
+region where many of
+lines are expected to
+escape(Figures 3–5 of Jerkstrand et al. 2011) and longer
+wavelengths are strongly constrained by the limits (Figure 6
+and Table 3). The ﬂux limit corresponds to an allowed UVOIR
+luminosity of 6.6 Le, which for the assumed heating fraction of
+70% results in a bolometric limit of 22 Le. The epoch of this
+limit
+is 2009 December, which is set by the HST UV
+observation.
+
+the metal
+
+10 17
+
+f
+
+d
+
+h- of the positron input
+
+The situation is different in the case where our line of sight
+to the compact object is obscured by dust. In this case, the
+contribution from the compact object
+is added to the
+contribution to dust heating from 44Ti. Out of the fraction
+1
+that goes into excitation and
+ionization, a fraction fd is absorbed by dust. The case is simpler
+for the electromagnetic input from the compact object, all of
+which goes into dust heating in the dust-obscured case. This
+implicitly assumes spherical symmetry and means that the total
+dust luminosity is expected to be
+-
+
+( )
+2
+where LTi is the 44Ti positron decay luminosity and L• is the
+contribution from the compact object.
+
+)]
+
+=
+
++
+
++
+
+f
+h
+
+f
+h
+
+f
+d
+
+L
+
+L
+
+,
+
+•
+
+L
+
+(
+
+1
+
+[
+
+Ti
+
+A limit on L• can now be determined. The values of the other
+ Le (Dwek & Arendt
+parameters are taken to be L
+2015; Matsuura et al. 2015, weighted values from 2010 and
+Le (initial 44Ti
+2012, and scaled to 51.2 kpc), L
+´ - Me for 51.2 kpc, Jerkstrand et al. 2011;
+10 4
+mass of 1.6
+–0.85(Kozma & Fransson 1992;
+Boggs et al. 2015), f
+
+Ti =
+
+d =
+
+0.55
+
+295
+
+298
+
+17
+
+36
+
+
+
+h =
+
+–
+
+d =
+
+0.5 0.7
+
+(Lucy et al. 1989,
+Jerkstrand et al. 2011), and f
+1991; Wooden et al. 1993; Wang et al. 1996; Fassia et al. 2002;
+Jerkstrand et al. 2011, see also Section 4.1). The values are
+scaled to 9090days after explosion (2012 January), which is
+the time of the dedicated Herschel observations of the dust
+luminosity(Matsuura et al. 2015). The distributions are
+assumed to be Gaussian and conﬁdence intervals are 1σ except
+for the fractions, which are assumed to be uniformly distributed
+within the intervals. This is clearly a very primitive model but
+the uncertainty in the Ti mass estimate is the largest source of
+uncertainty and an improvement in the determination of LTi in
+the near future is unlikely. Therefore, a more detailed model of
+the energy budget would not improve the limit on L• by much.
+Following the above reasoning, the estimate of the compact
++ Le, which shows that an
+37
+object
+38
+is not
+additional contribution from the compact object
+statistically signiﬁcant. The 3σ upper limit is L
+Le.
+It
+
+138
+Some simpliﬁcations have implicitly been made.
+
+is
+possible that some fraction of the energy emitted by the
+compact object escapes the remnant before being reprocessed
+into observable wavebands, such as, for example, in the MIR
+(Section 5.7.1, Bouchet et al. 2006; Bouchet & Danziger 2014)
+or as high-energy gamma-rays (Section 5.7.2). The X-ray
+emission from the ring provides an additional energy source for
+the ejecta(Larsson et al. 2011), but this primarily affects the
+outer H and He envelope (Fransson et al. 2013; Larsson
+et al. 2013).
+
+luminosity is L
+
+= -
+33
+
+• <
+
+•
+
+5. Discussion
+
+All limits on the compact object in SN1987A presented in
+Section 4 apply to both NSs and BHs. However, the expected
+emission characteristics for the two classes of objects are very
+different. This discussion primarily focuses on NSs because
+the creation of an NS in SN1987A
+most studies favor
+(Section 1) and NSs power a wider diversity of physical
+processes.
+themselves
+through accretion, which is explored in Section 5.3.2 and
+more comprehensively in Graves et al. (2005).
+
+In contrast, BHs primarily reveal
+
+Table 5 summarizes all limits on physical parameters. The
+the
+
+combination of all available information favors that
+
+12
+
+The Astrophysical Journal, 864:174 (24pp), 2018 September 10
+
+Alp et al.
+
+Figure 7. Limits (triangles) on the compact object in SN1987A, shown together with the spectra of the Crab Nebula (dashed–dotted purple line; Bühler & Blandford
+2014, and references therein), the Crab Pulsar (dashed red line; Bühler & Blandford 2014, and references therein), and the CCO in Cas A modeled as a NS with a
+carbon atmosphere (solid brown line; Posselt et al. 2013). The spectra are scaled to the distance of SN1987A. The blue limits are from this work, and the orange and
+green limits are from the literature. The green limits are super-resolved using deconvolution algorithms and all orange limits are unresolved except for the VLBI
+observation at 1.7 GHz and the Gemini/T-ReCS observations at 10 μm.
+
+Model-dependent Constraints on Physical Parameters
+
+Table 5
+
+Model
+
+Methoda
+
+Observationb
+
+Dustc
+
+Spectrum
+
+NS Surface
+NS Surface
+NS Surface
+Accretion
+Accretion
+Accretion
+PWN
+PWN
+PWN
+PWN
+PWN
+PWN
+
+DO
+EB
+EB
+DO
+EB
+EB
+DO
+DO
+DO
+DO
+EB
+EB
+
+Chandra
+
+HST F225W
+
+Herschel
+Chandra
+
+HST F225W
+
+Herschel
+
+SINFONI 1.7 μm
+ALMA 213 GHz
+SINFONI 1.7 μm
+
+Chandra
+
+HST F225W
+
+Herschel
+
+L
+N
+Y
+L
+N
+Y
+N
+L
+N
+L
+N
+Y
+
+Thermal
+Thermal
+Thermal
+
+X-ray dominated
+X-ray dominated
+X-ray dominated
+
+Crab Nebula
+Crab Nebula
+Crab Pulsar
+Crab Pulsar
+
+X-ray dominated
+X-ray dominated
+
+Lum.
+(Le)
+
+450
+22
+138
+300
+22
+138
+3
+10
+528
+830
+22
+138
+
+Limit on Physical Parameters
+
+-
+1
+
+-
+1
+
+-
+1
+
+12
+
+12
+
+h
+h
+h
+
+MK)
+
+2.0
+1.5
+9.2
+
+T<8 MK (T
+6<¥
+T<3.8 MK (T
+MK)
+2.9<¥
+T<5.9 MK (T
+MK)
+4.5<¥
+˙
+´ -
+-
+<
+1
+11
+10
+yr
+M
+M
+
+˙
+´ -
+<
+10
+yr
+M
+M
+
+˙
+´ -
+<
+10
+yr
+M
+M
+
+B < 1.8 × 1013 P2 G s−2
+B < 3.2 × 1013 P2 G s−2
+B < 2.3 × 1014 P2 G s−2
+B < 2.9 × 1014 P2 G s−2
+B < 4.7 × 1013 P2 G s−2
+B < 1.2 × 1014 P2 G s−2
+
+-
+1
+
+-
+1
+
+Notes.
+a Either constrained by direct observations (DO) or by the energy budget (EB).
+b Which observation is constraining. Herschel observations (Dwek & Arendt 2015; Matsuura et al. 2015) are used for the bolometric limit (Section 4.5).
+c Ejecta dust along the line of sight: Yes, No, or blank if limit is insensitive to dust.
+
+compact object
+is a dust-obscured thermally emitting NS
+(Section 5.7). The discussion is organized as follows. We
+compile literature limits for a comprehensive overview of
+SN1987A observations across the entire electromagnetic
+spectrum in Section 5.1 and compare our limits with previous
+works in Section 5.2. The implications of the limits based on
+direct observations for thermal surface emission are discussed
+in Section 5.3.1, accretion is discussed in Section 5.3.2, and
+pulsar activity is discussed in Section 5.3.3. We relate the
+bolometric limit to physical parameters in Section 5.4 and
+extrapolate the limits to other epochs using simple models in
+Section 5.5. Lastly, we explore constraints on a possible binary
+main-sequence companion in Section 5.6, remaining possibi-
+lities for the compact object in Section 5.7, and brieﬂy look into
+future prospects in Section 5.8.
+
+5.1. Global Limits
+
+Limits on a point source collected from the literature are
+included to give a complete coverage over
+the entire
+electromagnetic spectrum. We only include literature limits at
+frequencies not covered by this work. Limits covering the same
+bands as our limits are instead discussed in Section 5.2. An
+overview of limits at all frequencies is shown in Figure 7. More
+details on the literature limits are provided in Table 6. We
+categorize the limits based on the methods employed.
+Unresolved imaging in this context implies that the ER and
+ejecta are not spatially resolved. These limits are just the total
+ﬂux of
+resulting in very
+conservative limits. The unresolved radio limit is dominated
+by ejecta-ER interactions(Callingham et al. 2016), unresolved
+IR limits by thermal dust emission(Matsuura et al. 2015;
+
+the ER and ejecta combined,
+
+13
+
+The Astrophysical Journal, 864:174 (24pp), 2018 September 10
+
+Alp et al.
+
+Frequency
+(Hz)
+(0.076–8.642) × 109
+1.7 × 109
+109´
+9
+36.2 × 109
+109´
+44
+109´
+94
+(0.6–4.3) × 1012
+(12–83) × 1012
+26 × 1012
+29 × 1012
+(0.5–1.5) × 1019
+(2.4–24.2) × 1023
+(2.4–24.2) × 1026
+
+Flux Density
+
+(erg s−1 cm−2 Hz−1)
+(5.1–0.17) × 10−23
+
+0.3
+
+0.3 × 10−26
+0.3 × 10−26
+´ -
+
+2.2 × 10−26
+1×10−26
+
+0.2
+
+10 26
+
+(50–150)×10−26
+(1.0–76)×10−26
+
+0.34 × 10−26
+0.32 × 10−26
+
+(1.9–0.6) × 10−31
+(2.2–0.22) × 10−36
+(2.8–0.04) × 10−40
+
+Table 6
+
+Literature Limits on SN1987A
+
+Epoch
+
+([YYYY–]YYYY)
+
+Instr.a
+
+Resolutionb
+
+Conf. Levelc
+
+References
+
+2013–2014
+
+MWA, ATCA
+
+2008
+1996d
+2008
+2011
+2011
+2012
+
+2003–2015
+
+2005
+2003
+
+2010–2011
+2008–2014
+2003–2012
+
+VLBI
+ATCA
+ATCA
+ATCA
+ATCA
+
+SPIRE, PACS
+MIPS, IRAC
+
+T-ReCS
+T-ReCS
+
+IBIS
+LAT
+HESS
+
+U
+R
+S
+S
+S
+S
+U
+U
+R
+R
+U
+U
+U
+
+L
+3-σ
+3-σ
+E
+E
+2-σ
+L
+L
+3-σ
+Ee
+L
+L
+L
+
+Callingham et al. (2016)
+Ng et al. (2011)
+Ng et al. (2008)
+Potter et al. (2009)
+Zanardo et al. (2013)
+Lakićević et al. (2012b)
+Matsuura et al. (2015)
+Arendt et al. (2016)
+Bouchet et al. (2006)
+Bouchet et al. (2004)
+Grebenev et al. (2012)
+Ackermann et al. (2016)
+H.E.S.S. Collaboration et al. (2015)
+
+Notes.
+a The abbreviations and acronyms are as follows: Murchison Wideﬁeld Array (MWA); Australia Telescope Compact Array (ATCA); Very Long Baseline
+Interferometry (VLBI) using ATCA, Parkes, Mopra, and the NASA DSS 43 antenna at Tidbinbilla; Spectral and Photometric Imaging Receiver (SPIRE) and
+Photodetector Array Camera and Spectrometer (PACS) on board Herschel; Multiband Imaging Photometer (MIPS) and Infrared Array Camera (IRAC) on board
+Spitzer; Thermal Region Camera and Spectrograph (T-ReCS) attached to the Gemini South 8 m Telescope; Imager on board the INTEGRAL Satellite (IBIS) on board
+INTEGRAL; The Large Area Telescope (LAT) on board Fermi; and the High Energy Stereoscopic System (HESS).
+b Either unresolved (U), meaning that the ﬂux densities are given for the ER and ejecta combined; super-resolved (S), meaning that images are restored using a
+deconvolution algorithm; or resolved (R), meaning that the ER and central ejecta structure are spatially resolved.
+c Flux densities presented as estimates of a point source rather than upper limits are denoted by “E.” This is left blank for values presented as measured ﬂuxes of the
+ejecta and ER combined.
+d Limits from other epochs are very similar.
+e This was reported as potential dust emission.
+
+Arendt et al. 2016), unresolved X-ray limits most likely by
+ejecta-ER interactions(Grebenev et al. 2012), and gamma-ray
+limits most likely by spread light from the nearby objects
+N157B and 30DorC(H.E.S.S. Collaboration et al. 2015;
+Ackermann et al. 2016). Super-resolved implies that images are
+restored using a deconvolution algorithm, which introduces
+additional assumptions and is model-dependent in some cases.
+This is especially unreliable because the compact object is
+surrounded by bright ejecta(e.g., White 1994). Resolved
+images clearly distinguish the ER from the central ejecta and
+are the most robust measurements. The VLT/SINFONI, HST/
+STIS, and Chandra/ACIS limits from this work are based on
+spectra, whereas all other limits are determined using images.
+The radio limits of Potter et al. (2009) and Zanardo et al.
+(2013) in Table 6 are referred to as estimates. These are excess
+sources inside the ER that were interpreted as possible
+indications of a pulsar. However,
+the evidence remains
+inconclusive and we are not able to compare our limits with
+their observations.
+
+5.2. Comparison with Previous Limits
+
+Earlier studies have presented limits on the compact object in
+SN1987A in (sub-)mm, optical, UV, and X-rays. Zanardo
+et al. (2014) discussed the possibility of a PWN with a ﬂux of
+3mJy in the range 102–672 GHz. This is not directly
+comparable to our limits of ∼0.1mJy at 213–247 GHz because
+our limits apply to point sources and a PWN might be spatially
+extended (cf. Figure 5).
+
+Graves et al. (2005) placed limits in optical and UV using
+data from HST. The image limits from Graves et al. (2005) are
+lower than ours by approximately a factor of 2, but the STIS
+
+14
+
+30%~
+
+more constraining than
+limit presented in this work is
+any previous limit in the same wavelength range. There are
+numerous factors that contribute to the differences. Their STIS
+spectrum is from 1999 December and images are from 2003
+November taken by the Advanced Camera for Surveys (ACS),
+resolution than WFC3. Our
+which has a higher angular
+observations are from later epochs, which implies that
+the
+ejecta have expanded signiﬁcantly, the shock interactions with
+the ER have evolved,
+the ER X-ray illumination has
+increased(Larsson et al. 2011), and our search region needs
+to be larger. Additionally, slightly different values for the
+reddening and equivalent widths of the ﬁlters are used, as well
+as a different search algorithm (Appendix B). We veriﬁed that
+the combined effect of all factors explains the differences
+between our limits and those of Graves et al. (2005).
+
+the compact object
+
+Many authors have presented upper limits on the X-ray
+in SN1987A using
+luminosity of
+from Chandra and XMM-Newton (Burrows
+observations
+et al. 2000; Park et al. 2002, 2004; Shtykovskiy et al. 2005;
+Haberl et al. 2006; Ng et al. 2009; Orlando et al. 2015; Frank
+et al. 2016; Esposito et al. 2018). The reported luminosity
+erg s−1 for different
+limits are in the range (0.3–60
+instruments, methods, assumed spectra, and energy ranges
+(often 2–10 keV). This should be compared to our limit of
+erg s−1 for the Γ=1.63 power-law model without
+4
+ejecta absorption (Table 4). However, most of our X-ray limits
+are approximately an order of magnitude less constraining than
+previous X-ray limits because we use a more realistic model of
+the soft X-ray photoabsorption of the SN ejecta based on 3D
+neutrino-driven SN explosion models(Alp et al. 2018). We
+also employ a method (Section 3.6) that uses the angular
+
+´)
+
+1034
+
+´
+
+1034
+
+The Astrophysical Journal, 864:174 (24pp), 2018 September 10
+resolution of Chandra/ACIS in conjunction with its spectral
+resolution.
+
+5.3. Model Comparisons
+
+5.3.1. Thermal Emission
+
+The direct
+
+limits do not strongly constrain the surface
+temperature of an NS (Tables 4 and 5). The remainder of this
+section provides the information needed to draw this conclu-
+sion. We note that more constraining limits are obtained from
+the bolometric limits (Sections 5.4 and 5.7).
+
+To relate the surface temperature of an NS to observed
+luminosity, it is necessary to adopt a mass and radius. We
+assume a gravitational mass of 1.4 Me and a local (unred-
+shifted) radius of 10km for an NS in SN1987A. Recent best
+estimates based on Bayesian analyses of low-mass X-ray
+binaries(Steiner et al. 2013), nuclear physics and observational
+constraints on the NS equation of state(Hebeler et al. 2013),
+and the binary NS merger GW170817(Bauswein et al. 2017)
+favor radii in the range 11–13km; see also Figure 10 of Özel &
+Freire (2016). The primary reason for choosing a radius of
+10km is that the limits are more conservative because all
+reported temperature limits decrease for an increasing NS
+radius and ﬁxed mass. The decrease in limiting temperature for
+a radius of 12km is approximately a factor of 0.89 for T and
+0.94 for T¥, because of the different dependencies on the
+gravitational redshift factor.
+
+3.2»¥
+
+2.5»¥
+
+3.3» MK (T
+
+Typical surface temperatures of young NSs are of the order
+of a few million Kelvin and correspond to spectral peaks at soft
+X-ray energies of ∼1keV. The characteristic temperature for a
+given NS age depends on the relatively unknown cooling
+properties of NSs(Yakovlev & Pethick 2004). For an NS at
+30 years that has not undergone thermal relaxation, a typical
+temperature is T
+MK, Gnedin et al. 2001;
+Shternin & Yakovlev 2008; Page et al. 2009; Klochkov et al.
+2015). A more extreme case is for an NS with a carbon heat
+4.1» MK
+blanket. Carbon is more heat transparent and gives T
+MK, Yakovlev et al. 2011; Klochkov et al. 2015).
+(T
+These values are at the high end of temperatures predicted for
+an NS in SN1987A. If thermal relaxation has started, the
+temperature would decrease quickly at current epochs(Gnedin
+et al. 2001; Yakovlev & Pethick 2004; Shternin & Yakovlev
+2008; Page et al. 2009).
+
+Limits on thermal emission from an NS in SN1987A based
+on the X-ray observation are provided in Tables 4 and 5. The
+X-ray limits constrain thermal spectra much more strictly than
+the UVOIR limits. The limiting temperatures are approximately
+8 MK for all expected levels of ejecta absorption and NS
+atmospheres. This is clearly above the predicted values of
+T
+the direct observations do not
+exclude any models. Thus, a scenario where SN1987A created
+a central compact object(e.g., Posselt et al. 2013; Bogdanov
+2014) is consistent with the observational limits.
+
+implying that
+
+4 MK,
+
+5.3.2. Accretion
+
+It is possible that the compact object is accreting a signiﬁcant
+amount of matter. An extensive study of many different
+accretion scenarios was made by Graves et al. (2005, their
+Sections 5 and 6),
+to which the reader is referred for a
+comprehensive analysis of accretion in SN1987A. We restrict
+our discussion of accretion to the simplest model with the
+
+15
+
+Alp et al.
+
+purpose of estimating the luminosity, and ﬁnd that most
+predictions for fallback are excluded unless the accretion
+efﬁciency is less than 0.03 (cf. Section 5.5).
+
+The simplest accretion model is to assume that a signiﬁcant
+amount of the gravitational binding energy of the infalling
+material is converted into radiation. The accretion luminosity
+(La) is then given by
+
+L
+
+a
+
+=
+
+˙
+h
+Mc
+
+2
+
+=
+
+5.7
+
+´
+
+46
+
+10
+
+h
+
+⎛
+⎝⎜
+
+˙
+M
+yr
+M
+☉
+
+-
+
+1
+
+⎞
+⎠⎟
+
+-
+erg s
+
+1
+,
+
+( )
+3
+
+´
+
+0.1
+
+h »
+
+1038
+
+) of 3.1
+
+where η is the accretion efﬁciency, M˙ is the accretion rate, and
+c is the speed of light in vacuum. A typical accretion efﬁciency
+for an NS of mass 1.4 Me and radius 10km,
+is
+assuming the accreted gas radiatively cools efﬁciently(e.g.,
+McCray 1979). The efﬁciency of accretion onto BHs is more
+model-dependent. Possible values of BH accretion efﬁciencies
+range from 10−10 for spherically symmetric accretion(Shapiro
+1973)
+to 0.4 for disk accretion(Frank et al. 2002). For
+reference, the Eddington luminosity (LEdd) for an object of
+erg s−1, which corresponds to an
+mass 1.4 Me is 1.8
+˙
+- Me yr−1.
+Eddington accretion rate (MEdd
+1h
+This relies on some standard assumptions that are inapplicable
+in this case, but we choose to use the Eddington luminosity as a
+unit for comparison with other works.
+The amount of fallback onto NSs after SN explosions has
+been estimated to 0.1 Me, which mostly accrete on timescales
+1 year (Chevalier 1989; Houck & Chevalier 1991; Brown
+of
+& Weingartner 1994; Chatterjee et al. 2000). Brown &
+Weingartner (1994) estimated that a mass of 10−4–10−3 Me
+remains bound to the NS in SN1987A after ∼3years.
+Relevant timescales for accretion of this remaining mass are
+1000
+years, and it is possible that most of the remaining mass
+is expelled(Houck & Chevalier 1991; Chatterjee et al. 2000).
+As an example, we assume a relatively conservative fallback
+mass of 10−5 Me that is uniformly accreted over 104 yr. This
+results in an accretion rate of 10−9 Me yr−1, which corresponds
+to L
+
+´ -
+10 9
+
+= ´
+
+37 h
+
+-
+1h
+
+10 11
+
+< ´ -
+
+Me yr−1 ( 1036»
+
+The X-ray limits are 0.04–3.6
+
+erg s−1 (Table 4) at
+10,433 days (2015 September). Given that the spectrum is
+6» ´
+not known, M 2
+- ˙
+) can be taken as a limit on the current accretion rate
+M10 3
+in SN1987A based on the X-ray observation. This is only
+erg s−1 if η
+consistent with the prediction of 6
+. The discrepancy between models and observations is
+is
+even clearer if the temporal evolution of the accretion rate is
+considered (Section 5.5).
+
+erg s−1
+
+0.03<
+
+1037 h
+
+´
+
+Le, Equation (3)).
+1036
+
+erg s−1 ( 104 h
+´
+
+»
+
+a
+
+6
+
+10
+
+˙
+
+Edd
+
+5.3.3. Magnetic Field and Rotation
+
+We constrain the surface magnetic ﬁeld strength (B) and
+rotational period (P) of an NS in SN1987A using a simple
+model of a rotation-powered PWN and assuming spectra in the
+form of the Crab Nebula and Pulsar. An analog of the Crab
+Nebula or the Crab Pulsar in SN1987A is ruled out even if our
+line of sight is dust-obscured (Table 5).
+
+The total
+
+luminosity of an NS can be modeled by a
+rotating magnetic dipole in vacuum(e.g., Equation (10.5.4) of
+
+The Astrophysical Journal, 864:174 (24pp), 2018 September 10
+Shapiro & Teukolsky 1983):
+
+Alp et al.
+
+5
+2
+
+L
+
+=
+
+2
+
+6
+
+4
+
+p
+B R
+4
+3
+3
+c P
+
+=
+
+3.9
+
+´
+
+10
+
+⎛
+⎝
+⎜
+31
+
+⎞
+⎛
+2
+⎠
+⎝
+⎟ ⎜
+
+P
+s
+
+4
+
+⎞
+-
+⎠
+⎟
+
+⎛
+⎝
+⎜
+
+R
+
+10 km
+
+6
+
+⎞
+⎠
+⎟
+
+B
+12
+
+10 G
+
+-
+erg s
+
+1
+.
+
+( )
+4
+
+Several assumptions have implicitly been made; the rotation
+axis and the magnetic dipole axis are orthogonal and the
+dominating source of energy is the rotational energy of the NS.
+We follow the convention of letting the “surface” magnetic
+ﬁeld strength be the magnetic equator ﬁeld strength and using
+the vacuum formula (e.g.,
+the ATNF Pulsar Catalogue,
+Manchester et al. 2005). The magnetic ﬁeld strength at the
+magnetic poles is a factor of two higher. We also note that the
+force-free magnetic dipole formula would imply 1.7 times
+lower magnetic ﬁeld strengths than the vacuum formula for
+orthogonal rotation and magnetic axes(Spitkovsky 2006). In
+the simplest picture, the energy emitted by the NS is deposited
+into the surroundings where it
+is reprocessed. We do not
+attempt to model the complex interactions that generate the
+observed spectrum of a PWN. Instead, we assume that the
+deposited energy emerges with the spectrum of the Crab
+Nebula or
+the Crab Pulsar, and study these two cases
+separately. The spectrum of the pulsar is the pulsed component,
+which corresponds to radiation originating predominantly from
+the immediate surroundings of the pulsar and to a lesser extent
+from the pulsar itself. The Crab is one of the most extreme
+sources in the sky and it is not a typical PWN. For a high-
+energy comparison of the pulsed emission, see Figure 28 of
+Kuiper & Hermsen (2015), and for a multiwavelength
+comparison of the Crab and PSRB0540-69.3, see Figure 15
+of Seraﬁmovich et al. (2004). However, the Crab is relatively
+young, well-observed, and frequently used as a reference. The
+physical scenario is that an NS created by SN1987A is a pulsar
+that drives a younger and smaller analog of the Crab in the SN
+remnant.
+
+With Equation (4) and a spectral shape, we can compute the
+region in the BP-plane that is allowed by the upper limits. This
+is done by taking the Crab Nebula spectrum and the Crab
+Pulsar spectrum, scaling to the distance of SN1987A, and then
+scaling the spectra such that they are consistent with the limits
+(seeFigure 7). If our line of sight is free of dust, both spectra
+are constrained by the SINFONI data point at 1.7 μm,
+otherwise the nebula spectrum is constrained by the 213 GHz
+limit and the pulsar spectrum is constrained by the Γ=1.63
+X-ray power-law limit. We only use the new limits presented in
+this work and we assume that a PWN is point-like (Section 4.5,
+and Chevalier & Fransson 1992). The allowed luminosities
+´ - of the Crab
+vary from 3 Le, corresponding to 8.2
+Nebula, to 830 Le, corresponding to 0.42 of the Crab Pulsar
+(Table 5). The luminosities can be translated to limits in the
+BP-plane by rearranging Equation (4). The local (unredshifted)
+radius is taken to be 10km. The limits span a range from
+B < 1.8 × 1013 P2 G s−2 to B
+G s−2, and are
+included in Table 5 and shown in Figure 8. The limits are all
+relatively low and any possible PWN activity is most likely
+very weak.
+
+10 5
+
+1014
+
+2.9
+
+<
+
+´
+
+P
+
+2
+
+Figure 8. Limits on B and P of an NS in SN1987A, together with the pulsars
+(black points) in the ATNF Pulsar Catalogue(Manchester et al. 2005), which
+are included for reference and do not represent the expected properties of the
+compact object in SN1987A. The large white diamond is the Crab Pulsar. The
+solid line is the limit from direct observations for a Crab Nebula spectrum in
+the dust-free case and the dotted line is for a Crab Pulsar spectrum obscured by
+dust. These limits are chosen because they are the two extremes, implying that
+all other BP-plane limits are covered within the range. The shaded extensions
+that are partially horizontal correspond to the respective lines but for constraints
+on birth values of B and P for an assumed temporal evolution (see Section 5.5).
+The color map represents the current luminosity of a rotating dipole in vacuum
+as modeled by Equation (4) as a function of birth values of B and P.
+
+5.4. Energy Budget
+
+The bolometric limit on the compact object in SN1987A is
+22 Le at 8329 days (2009 December) if our line of sight is free
+of dust and 138 Le at 9090 days (2012 January) in the dust-
+rely on many assumptions
+obscured case. The limits
+(Section 4.5) and the direct observations are arguably less
+model-dependent. The direct-observation limits and the bolo-
+metric limits can be viewed as independent
+limits on the
+in SN1987A. All constraints on physical
+compact object
+parameters are provided in Table 5. Only the bolometric limits
+on the effective temperature are substantially more constraining
+than the corresponding direct-observation limits.
+
+5.9<
+
+3.8<
+
+MK (T
+
+MK (T
+
+2.9<¥
+
+In the dust-free case, the bolometric limit constrains the
+MK) for an
+blackbody temperature to T
+NS radius of 10km and mass of 1.4 Me. The corresponding
+4.5<¥
+value for the dust-obscured case is T
+MK). This is much stronger than the constraints based on direct
+X-ray observations, which are approximately T
+MK
+MK, Table 4). Additionally, the bolometric limit on
+(T
+the effective blackbody temperature is independent of the
+composition of the atmosphere of the NS. Interestingly, the
+dust-free limit of 3.8 MK is close to some theoretical
+predictions (Section 5.3.1). Given that the limit is conservative,
+it can be taken as an indication that the compact object is
+obscured by dust if it is an NS.
+
+6.5<¥
+
+8.5<
+
+The constraints on the accretion rate and pulsar activity from
+the bolometric limits were obtained using Equations (3)
+and(4). The results are within a factor of 3 to those of the
+direct limits, as summarized in Table 5.
+
+5.5. Implications for Other Epochs
+
+In the above discussion, we have focused on constraints on
+physical properties at the times of observation. Here, we brieﬂy
+
+16
+
+The Astrophysical Journal, 864:174 (24pp), 2018 September 10
+
+explore extrapolations of the limits to other epochs. In the case
+of thermal emission from an NS, the surface temperature is
+expected to be relatively constant from a year after explosion to
+current epochs(Shternin & Yakovlev 2008), which implies
+that the current limits apply to earlier times as well. However, if
+thermal relaxation has occurred, then it is possible that the
+surface temperature has been higher than our current limits.
+
+the current
+
+Accretion and pulsar properties are expected to have
+evolved, which implies that
+limits need to be
+modiﬁed if extrapolated to other epochs. These extrapolations
+are uncertain and rely on models of how accretion and pulsar
+properties evolve over time. For accretion, the basic picture is a
+period of rapid fallback followed by a declining tail with a time
+dependence of t 5 3-
+. This dependence can be derived from
+simple arguments for marginally bound gas(Rees 1988; Evans
+& Kochanek 1989; Phinney 1989). This means that the limit at
+corresponds to
+current epochs of around
+3
+one year after explosion. The accretion
+rate was predicted to be about 10−4 Me yr−1 one year after
+explosion(Chevalier 1989; Houck & Chevalier 1991). The
+discrepancy with observations was clear a few years after
+explosion(e.g., Suntzeff et al. 1992), and is stronger now. A
+feedback is indicated, which could be the radiation pressure
+when the radiation can ﬁrst escape from the shocked
+region(Houck & Chevalier 1991).
+
+´ -
+9
+10
+
+-
+1
+M
+
+
+h-
+11
+
+M
+
+
+10
+
+yr
+
+yr
+
+-
+1
+
+-
+1
+
+-
+1
+
+h
+
+The temporal evolution of a rotating dipole in vacuum
+
+(Equation (4)) is given by
+p
+4
+5
+2
+(
+4
+3
+c P
+0
+
+=
+
+L
+
+3
+
+6
+
+2
+
+B R
+)
++ ¢
+1
+t
+t
+
+,
+
+2
+
+( )
+5
+
+( )
+6
+
+where P0 is the birth period, t is the time since birth, and
+
+¢ º
+
+t
+
+˙
+P P
+
+2
+
+=
+
+4.1
+
+´
+
+14
+
+10
+
+⎛
+⎝⎜
+
+M
+•
+M
+
+
+⎞
+⎠⎟⎛
+⎝
+⎜
+
+2
+
+⎞
+-
+⎠
+⎟
+
+⎛
+⎝
+⎜
+
+⎞
+⎛
+2
+⎠
+⎝
+⎟ ⎜
+
+P
+s
+
+R
+
+10 km
+
+4
+
+⎞
+-
+⎠
+⎟
+
+s,
+
+B
+12
+
+10 G
+
+where P˙ is the period derivative and M• the NS mass. This
+models the NS as a homogeneous sphere, and assumes constant
+magnetic ﬁeld and inclination angle. This allows us to translate
+the current observational limits to constraints on birth proper-
+ties (Figure 8). For all but very high magnetic ﬁeld strengths,
+the limits are essentially the same because the spin-down
+timescale is long. However, for magnetic ﬁeld strengths above
+1016~
+G, the current period is practically independent of the
+birth period.
+
+For the rotational energy of the NS to contribute a signiﬁcant
+fraction of the explosion energy, the rotational period has to be
+a few milliseconds. Figure 8 excludes all initial periods shorter
+than 10ms unless the magnetic ﬁeld is unusually weak or
+unusually strong. If the ﬁeld has not evolved and the pulsar
+formula is applicable, the rotation of the NS is thus unlikely to
+have contributed a signiﬁcant fraction of the explosion energy,
+which lends some support to the hypothesis that SN1987A
+was a neutrino-powered event.
+
+5.6. Limits on a Binary Companion
+
+The UVOIR limits can also be used to constrain a possible
+surviving binary companion in SN1987A. The evolution
+of
+fully
+understood and some theories involve binary interaction as
+an explanation for the three circumstellar rings(Blondin &
+
+the progenitor Sanduleak−69° 202 is still not
+
+Alp et al.
+Lundqvist 1993; Morris & Podsiadlowski 2007, 2009) and the
+peculiar properties of SN1987A(e.g., Menon & Heger 2017;
+Kochanek 2018).
+
+In Figure 6 we show a blackbody spectrum corresponding to
+the temperature and radius of the Sun scaled by the distance to
+SN1987A. It happens to just ﬁt below all UVOIR limits and is
+constrained by the SINFONI data point at 1.7 μm. Therefore,
+the Sun can serve as the limit for a possible main-sequence
+companion in SN1987A. We note that this limit only applies if
+our line of sight to a companion is free of dust.
+
+We can use the bolometric limit on the compact object of
+138 Le to constrain a main-sequence companion even if our
+line of sight is obscured by dust. The mass–luminosity (M–L)
+Me is(Eker et al.
+relation for companion masses
+2015)
+
+c 
+M
+
+2.4
+
+<
+
+7
+
+⎛
+⎝⎜
+
+⎞
+⎠⎟
+
+L
+c
+L
+☉
+
+⎛
+⎝⎜
+
+⎞
+⎠⎟
+
+M
+c
+M
+☉
+
+=
+
+1.32
+
+3.96
+
+,
+
+( )
+7
+
+c
+
+4
+
+)
+
+3.2
+
+138
+
+c <
+
+Le, we ﬁnd that M
+
+where Lc is the companion luminosity. By imposing that
+c <
+L
+Me. We test the sensitivity
+of this result by comparing to limits from other M–L relations.
+= (
+(Duric 2003, p. 20)
+The M–L relation L L
+☉
+c <
+results in a limit of M
+–3.7 Me
+(depending on angular momentum and metallicity) from Figure
+5.11 of Salaris & Cassisi (2005).
+
+M M
+☉
+c
+3.4
+
+Morris & Podsiadlowski (2009) proposed that a 15 Me
+primary and a 5 Me companion merged to form Sandu-
+leak−69° 202. The constraints on a binary companion show
+that such a companion did not survive as a 5 Me main-
+sequence star.
+
+Me and M
+
+c <
+
+3.2
+
+5.7. Remaining Possibilities
+
+In this section, we combine all available information and
+explore the remaining possibilities for the compact object,
+which results in much stronger conclusions. Even though the
+limits in individual frequency intervals are relatively weak,
+only a few possible options remain for the compact object in
+SN1987A. This is because the direct limits are corrected for
+absorption, but do not consider reprocessing of the absorbed
+energy. This is a limitation with important consequences
+because some of the limits (Table 5) require more than 100 Le
+to be absorbed and it is not obvious how such large amounts of
+energy can escape undetected. The bolometric limits address
+this limitation by including reprocessing of the emission.
+However, the bolometric limits only consider the cases when
+the UVOIR emission can escape and when the UVOIR
+emission is absorbed by dust. This is effectively equivalent to
+having a minimal 1D spherical geometry and disregarding the
+spatial
+the
+bolometric limits rely on additional assumptions and are much
+more model-dependent.
+
+information of the observations. We stress that
+
+Below, we ﬁrst describe in detail the reprocessing of the
+is expected in all models involving
+thermal emission that
+NSs in Section 5.7.1. This is followed by our
+favored
+explanation and reasons for rejecting additional components in
+Section 5.7.2.
+
+5.7.1. Thermal Surface Emission
+
+If the compact object is an NS, then at least thermal surface
+emission is expected. For a gravitational mass of 1.4 Me and a
+
+17
+
+The Astrophysical Journal, 864:174 (24pp), 2018 September 10
+local radius of 10km, 3.1 MK corresponds to a luminosity at
+inﬁnity (redshifted, observer’s frame) of 10 Le (Section 5.3.1).
+The choice of 10km is conservative, as a choice of 12km
+would increase the luminosity by 60% for a ﬁxed temperature
+(increased emitting area and decreased gravitational redshift).
+The thermal emission peaks at soft X-ray energies, which is
+photoabsorbed locally (on-the-spot) due to the high optical
+depth of the ejecta for soft X-rays(Alp et al. 2018). The X-ray
+emission that is absorbed by the ejecta is reprocessed into dust
+continuum emission, and optical and UV emission lines. The
+fact that the very conservative limit of 22 Le (Section 4.5) is
+close to the expected luminosity of 10 Le indicates that the
+compact object is dust-obscured. Regardless of whether or not
+there are dust clumps directly along the line of sight, it is likely
+that a signiﬁcant amount of the X-ray input would escape as
+thermal dust emission at (sub-)millimeter and FIR wavelengths.
+If the reprocessing into dust heating occurs on-the-spot and
+thermal dust emission escapes directly, an NS would appear as
+a point source in the dust emission. To fully explore this
+scenario, we need to analyze observations at frequencies where
+the dust emission peaks; investigate the dust lifetime close to
+the NS; model the dust composition, geometry, and temper-
+ature; model the distribution of 44Ti; and compute the radiation
+propagation of UVOIR photons powered by X-ray emission
+from an NS. This is beyond the scope of this paper and will be
+the subject of future studies.
+
+The most
+
+likely alternative scenario to on-the-spot dust
+heating is if the mean free path of UVOIR photons in the ejecta
+is comparable to the spatial extent of the ejecta. In this case, the
+emission would diffuse on scales comparable to the size of
+the ejecta and be spatially mixed with the emission powered by
+the decay of 44Ti. This is effectively what was assumed for the
+dust-obscured bolometric limit of 138 Le (Section 4.5) because
+it did not consider the spatial distribution of the escaping
+radiation. However, if the UVOIR photons have a long mean
+free path,
+the escaping reprocessed UVOIR emission is
+expected to be directly observed. This means that only a
+certain range of intermediate mean free paths allows an NS to
+be hidden in the ejecta.
+
+Future observations that spatially resolve the dust emission
+will provide information about the mean free path of UVOIR
+photons. It is unlikely that clumps of 44Ti would appear as
+point sources if the mean free path is long because observable
+overdensities require the clumps of 44Ti to be well-obscured by
+dust. In addition, it is not clear if the intrinsic distribution of
+44Ti allows for overdensities that can be confused with an NS
+(Wongwathanarat et al. 2013, 2015).
+
+A less likely scenario is that the input from the NS surface
+emission somehow escapes in the MIR where observational
+limits are poor, possibly as hot-dust emission(see Bouchet
+et al. 2004; Bouchet & Danziger 2014). This is unlikely
+because it requires the primary emission to be reprocessed by
+dust with a temperature tuned such that the emission escapes
+detection. Furthermore, we know that the MIR ﬁne structure
+lines that are predicted to be the primary cooling channels
+(Jerkstrand et al. 2011) have not been observed(Lundqvist
+et al. 2001; Bouchet et al. 2006), implying that MIR emission
+cannot escape the ejecta.
+
+5.7.2. Favored Explanation and Additional Components
+
+All things considered, we ﬁnd the most likely scenario to be
+in SN1987A is a dust-obscured
+
+the compact object
+
+that
+
+Alp et al.
+
+thermally emitting NS. We favor this scenario regardless of
+whether or not the dust absorbs the UVOIR emission locally or
+if the mean free path for UVOIR photons is comparable to the
+size of the ejecta.
+
+The bolometric limit of 138 Le leaves little room for
+accretion and pulsar wind activity, which would appear as
+additional contributions
+surface
+emission of ∼10 Le (Table 5). The effects vary depending on
+the spectrum. For accretion, the input is most likely in the form
+of soft X-rays and can be treated analogously to the thermal
+surface emission and simply be added to the thermal luminosity
+in the current framework.
+
+to the expected thermal
+
+Pulsar wind activity is more complicated since it could
+extend over the entire electromagnetic spectrum. However, the
+luminosity from millimeter to soft X-rays is limited by the
+bolometric limits and the spatial extent(Chevalier & Fransson
+1992) is constrained to less than ∼100 km s−1 (Section 4.5).
+The only realistic scenario for a PWN to contribute more than
+138 Le would be if the spectrum is heavily gamma-ray-
+dominated (e.g., Vela and Geminga, Danilenko et al. 2011;
+Abdo et al. 2013; Kuiper & Hermsen 2015). High-energy
+gamma-rays escape the ejecta and are not expected to be
+reprocessed into lower frequencies(Alp et al. 2018). The
+Fermi/LAT limit (Table 6) is not stringent enough to rule out
+this scenario.
+
+1029~
+
+If the compact object is a radio pulsar, it would emit narrow
+erg s−1
+beams of radio emission. The total radio power is
+for typical radio pulsars(Lorimer & Kramer 2012; Szary et al.
+2014). Even if the ejecta are free–free thick at radio wavelengths,
+the energy input is insufﬁcient to signiﬁcantly contribute to the
+heating of the ejecta. The only realistic avenue to distinguish a
+thermally emitting NS from a radio pulsar is if the free–free
+depth is low enough and the radio beams sweep our line of sight,
+in which case pulsed radio emission would be detected(for
+recent limits, see Zhang et al. 2018).
+
+For completeness, the compact object in SN1987A could be
+a BH. However, as discussed in Section 1, most studies predict
+that an NS formed in the explosion.
+
+5.8. Future Observations
+
+Below, we review the prospects for detecting the compact
+object in SN1987A with future facilities. The best constraints
+in the radio will come from the Square Kilometre Array (SKA,
+Dewdney et al. 2009; Taylor 2013). SKA-low will not be able
+to resolve the central ejecta from the ER, but it can perform
+timing observations to search for pulsed emission. Because of
+the side lobes of ∼1%, the sensitivity of SKA-mid is limited to
+∼1% of the ER, which will have 2mJy spots at 0.1arcsec
+resolution at 8 GHz(Zanardo et al. 2013). A point limit of
+∼0.02mJy can therefore be expected, assuming free–free
+absorption to be negligible. The limit could possibly be
+improved by an order of magnitude, depending on the
+uv-coverage and the ability to self-calibrate.
+
+As discussed in Section 5.7, the thermal surface emission
+from an NS could be reprocessed into a point-like source in the
+thermal ejecta dust emission. The dust emission peaks at
+200 μm (1500 GHz) and has been observed at
+low spatial
+resolution by ALMA and Herschel (Indebetouw et al. 2014;
+Zanardo et al. 2014; Matsuura et al. 2015). Higher-resolution
+observations may be able to detect a region of NS-heated dust.
+The James Webb Space Telescope(JWST, Gardner et al.
+2006), The Giant Magellan Telescope(GMT, Johns et al. 2012),
+
+18
+
+The Astrophysical Journal, 864:174 (24pp), 2018 September 10
+and The European Extremely Large Telescope(E-ELT,
+Gilmozzi & Spyromilio 2007) will allow for signiﬁcantly deeper
+searches using both imaging and spectral observations in the IR
+and optical. However, it remains uncertain if the compact object
+in SN1987A is bright at IR or optical wavelengths. A point-like
+source of a few Le is expected from reprocessing of thermal
+X-ray emission from an NS surface into UVOIR, if not obscured
+by dust clouds (Section 5.7).
+
+(2015) predicted that
+
+The Advanced Telescope for High ENergy Astrophysics
+(Barcons et al. 2015, 2017; Collon et al. 2015) will be unable to
+spatially resolve SN1987A and any emission from the
+compact object will be blended with the ER emission. In
+addition, Orlando et al.
+the X-ray
+emission from the ER will fade, but the central parts will
+become brighter, primarily driven by interaction with the
+reverse shock. This means that SN1987A will become brighter
+in X-rays toward the center where the compact object
+is
+expected to reside. However, these difﬁculties will be partly
+counteracted by the decreasing optical depth. The optical depth
+t µ - , where t
+in the homologous expansion phase scales as
+is the time elapsed since the explosion. The optical depth at
+2keV is expected to reach 3 by 2066±10(Alp et al. 2018).
+The error bar accounts for asymmetries of the explosion, but
+excludes any uncertainty in the explosion model, variance
+introduced by the compact object being kicked by the
+explosion, and CSM structure. At higher energies, this will
+occur much earlier, as is relevant for a PWN.
+
+t 2
+
+marginal indication that the compact object is obscured
+by dust if it is an NS.
+
+Alp et al.
+
+1h-
+
+4. The current accretion rate is limited to less than about
+- Me yr−1 for the simplest model of accretion.
+10 11
+fallback in SN
+This excludes most predictions for
+1987A(Chevalier 1989; Houck & Chevalier 1991;
+Suntzeff et al. 1992) and indicates some kind of
+feedback(Houck & Chevalier 1991).
+
+5. The limits constrain PWN activity to 3–830 Le, depend-
+ing on assumptions about dust and spectral shape. The
+luminosities can be related to the magnetic ﬁeld strength
+and spin period by modeling the NS as a rotating dipole
+in vacuum. The limits constrain B to be less than
+G s−2. However, because of the rapid
+(1.8–
+spin-down, we cannot exclude birth magnetic ﬁeld
+strengths higher than 1016G.
+
+´)
+
+1013
+
+29
+
+2
+
+P
+
+6. By combining all available information about radiation
+reprocessing and geometry, the most likely remaining
+scenario is that the compact object is a dust-obscured
+thermally emitting NS. In this case, the thermal surface
+emission from the NS would be reprocessed into thermal
+dust emission. For realistic assumptions about the dust
+properties and geometry, only a small parameter space
+remains open for additional accretion and pulsar-wind
+components. We stress
+is model-
+dependent. The most promising avenues for detecting
+reprocessed surface emission from an NS are provided by
+JWST, GMT, E-ELT, and ALMA.
+
+result
+
+that
+
+this
+
+6. Summary and Conclusions
+
+We have placed upper limits on the compact object
+
+in
+SN1987A using observations at millimeter wavelengths from
+ALMA; NIR from VLT; optical and UV from HST; and X-rays
+from Chandra. We assume that the compact object would
+appear as a point source in images and that it only contributes
+to the continuum component in observed spectra. We also place
+constraints on the bolometric luminosity of the compact object
+by investigating the total energy budget of SN1987A. Our
+main conclusions are as follows:
+
+the geometry of
+
+1. The only model-independent results are the direct ﬂux
+limits. They are corrected for absorption, but do not
+include information about the reprocessing of the absorbed
+emission or
+the system. The most
+constraining limit in the millimeter range of ALMA is
+0.11mJy at 213 GHz. The deepest UVOIR limits are from
+the spectra taken by VLT/SINFONI in the NIR and HST/
+STIS in the optical. The allowed luminosity of the compact
+object in the UVOIR band is approximately 1 Le. The
+erg s−1,
+X-ray limits allow luminosities less than
+but are very sensitive to the assumed spectrum.
+
+2. The total energy budget of SN1987A places a bolometric
+limit of 22 Le on the compact object if our line of sight is
+free of dust, or 138 Le if dust-obscured. This is based on
+assumptions and models of the emission reprocessing, but
+relies on a minimal 1D spherical model of the geometry.
+3. The limits can be used to constrain the effective local
+(unredshifted) blackbody temperature of an NS. Only the
+limit of 3.8 MK from the dust-free bolometric limit is
+close to constraining any theoretical predictions, which
+typically are in the range 3–4 MK. This can be taken as a
+
+1036~
+
+through
+
+This research was funded by the Knut & Alice Wallenberg
+Foundation and the Swedish Research Council. S.E.W. at
+UCSC was
+supported by the NASA Theory Program
+(NNX14AH34G). At Garching, support by the Deutsche
+Forschungsgemeinschaft through Excellence Cluster Universe
+(EXC 153) and Sonderforschungsbereich SFB1258 “Neutri-
+nos and Dark Matter in Astro- and Particle Physics,” and by the
+European Research Council
+grant ERC-AdG
+No.341157-COCO2CASA is acknowledged. The research of
+J.C.W.
+is supported in part by the Samuel T. and Fern
+Yanagisawa Regents Professorship. This paper makes use of
+the following ALMA data: ADS/JAO.ALMA#2013.1.00280.
+S and ADS/JAO.ALMA#2015.1.00631.S. ALMA is a
+partnership of ESO (representing its member states), NSF
+(USA) and NINS (Japan), together with NRC (Canada) and
+NSC and ASIAA (Taiwan) and KASI (Republic of Korea), in
+cooperation with the Republic of Chile. The Joint ALMA
+Observatory is operated by ESO, AUI/NRAO, and NAOJ. The
+National Radio Astronomy Observatory is a facility of the
+National Science Foundation operated under cooperative
+agreement by Associated Universities, Inc. This work is based
+on observations collected at the European Organisation for
+Astronomical Research in the Southern Hemisphere under ESO
+programme 294.D-5033(A). This research has made use of data
+obtained through the High Energy Astrophysics Science
+Archive Research Center Online Service, provided by the
+NASA/Goddard Space Flight Center. Support for Programs
+GO-13181, GO-13405, GO-13810, GO-14333, GO-13401,
+GO-14753, and GO-15256 was provided by NASA through a
+grant from the Space Telescope Science Institute, which is
+operated by the Association of Universities for Research in
+Astronomy, Incorporated, under NASA contract NAS5-26555.
+
+19
+
+The Astrophysical Journal, 864:174 (24pp), 2018 September 10
+
+Alp et al.
+
+Figure 9. VLT/FORS2 circular-polarization observation of SN1987A from 2015 February 23. The images show ordinary (o) and extraordinary (e) beams at two
+quarter-wave retarder plate angles of θ=±45°. The circle centered at the position of SN 1987A (α=83°. 866246, δ=−69°. 269722) marks an aperture of 5 pixel
+(1250 mas) radius within which the ﬂux is measured. Images at other epochs show no signiﬁcant variability.
+
+STSDAS and PyRAF are products of the Space Telescope
+Science Institute, which is operated by AURA for NASA. The
+scientiﬁc results reported in this article are based to a signiﬁcant
+degree on data obtained from the Chandra Data Archive. This
+research has made use of software provided by the Chandra
+X-ray Center (CXC) in the application package CIAO. This
+research has made use of NASA’s Astrophysics Data System.
+Facilities: ALMA, HST (UVIS, STIS), VLT (FORS2,
+
+NACO, SINFONI), CXO (ACIS).
+
+Software:astropy(Astropy Collaboration et al. 2013),
+CASA(McMullin et al. 2007), CIAO/CALDB(Fruscione
+et al. 2006), DAOPHOT(Stetson 1987), DrizzlePac(Gonzaga
+et al. 2012), IRAF/PyRAF, matplotlib(Hunter 2007),
+MARX(Davis et al. 2012), numpy(Jones et al. 2001; van der
+Walt et al. 2011), scipy(Jones et al. 2001), STSDAS,
+Synphot(Bushouse & Simon 1994), XSPEC(Arnaud 1996).
+
+Appendix A
+
+Circular Polarimetry of SN1987A
+
+A.1. Observations
+
+555
+
+0l =
+
+All observations were acquired with FORS2 mounted at the
+Cassegrain focus of the UT1 VLT. The observations were
+obtained in imaging polarimetric mode (IPOL), through the
+nm, FWHM=
+V_ HIGH FORS2 standard ﬁlter (
+123.2nm) and with two different quarter-wave retarder plate
+angles of θ=±45° per epoch, during four epochs: 2015
+February 15, 16, 18, and 23. We obtain four exposures per
+angle, each of 350 s. On the night of February16,
+the
+instrument was rotated by 90°. In IPOL mode, the image is
+split by the Wollaston prism into two orthogonal polarized
+outgoing beams, ordinary (o) and extraordinary (e), and the
+MOS Slitlets strip mask is inserted to avoid overlapping of the
+beams. One of the observations is shown in Figure 9.
+
+A.2. Methods
+
+All
+
+frames are bias-subtracted using the corresponding
+calibration bias frames. A ﬂat-ﬁeld correction is not performed
+because of the ﬂat-ﬁeld effect(Patat & Romaniello 2006;
+O’Brien 2015), the additional polarization caused by the color
+dependent offset to the nominal retarder plate position, and
+the effect of the incomplete retardation of the quarter-wave
+plate(O’Brien 2015) gets canceled out when calculating
+the circular polarization using two angles. For each epoch,
+we group the science frames according to the quarter-wave
+retarder plate angle, split the ordinary and extraordinary beams,
+and create separate science frames, align them, and calculate
+the median of the four exposures. Finally, we investigate the
+
+20
+
+circular polarization of SN 1987A by performing aperture
+photometry with a set of different aperture radii, centered at the
+position of SN 1987A (Figure 9) in ordinary and extraordinary
+beams using the DAOPHOT.PHOT package, and calculating
+the circular polarization from the determined ﬂuxes. We ignore
+the observations of February18, because of variable weather
+conditions, which makes aperture photometry difﬁcult. We
+determine the amount of circular polarization by the equation
+below, as described in O’Brien (2015):
+
+⎤
+⎥⎥
+⎦
+
+q
+
+=- 
+45
+
+⎡
+⎢⎢
+⎣
+
+⎛
+⎝⎜
+
+P
+V
+
+=
+
+1
+2
+
+o
+
+o
+
+f
+f
+
+-
++
+
+e
+
+e
+
+f
+f
+
+⎞
+⎠⎟
+
+-
+
+= 
+45
+
+q
+
+⎛
+⎝⎜
+
+⎞
+⎠⎟
+
+o
+
+o
+
+f
+f
+
+-
++
+
+e
+
+e
+
+f
+f
+
+,
+
+( )
+8
+
+where f o and f e are the measured ﬂuxes in the ordinary and
+extraordinary beams, respectively. The error is calculated by
+propagating the photometry uncertainties.
+
+A.3. Results
+
+We calculated the circular polarization of SN 1987A
+from ﬂuxes determined by performing aperture photometry
+using different aperture radii of 1, 2, 3, 4, and 5pixels
+(250 mas pixel−1), centered at the position of SN 1987A. We
+found that the circular polarization is consistent with zero.
+Figure 10 shows the circular-polarization, Stokes V values for
+the different aperture radii. We are unable to determine an
+upper limit on the circular polarization of the central ejecta
+because the angular resolution is insufﬁcient for resolving the
+structure of SN1987A. This leaves the circular polarization
+from the compact object unconstrained.
+
+The Crab was also observed using the same setup but for a
+shorter duration. We are unable to detect any circular
+polarization in the Crab Nebula, which possibly implies that
+the method is relatively insensitive. A possible explanation for
+this is that the phase-averaged polarization is essentially zero.
+
+Appendix B
+
+Finding Algorithm
+
+Searches for point sources in the ejecta are made using the
+DAOPHOT task daoﬁnd. The most important input parameter
+for daoﬁnd is the local noise level (sigma). For ALMA
+images, this is set to the off-source noise in the images. We
+veriﬁed that
+this method gives essentially the same noise
+estimates as measurements of
+the noise in the visibility
+amplitudes. The parameter sigma for the UVOIR images is
+chosen to account for both the sky background and the Poisson
+noise of the ejecta. We note that both contributions are of
+comparable magnitude. The sky background is determined by
+setting a 3σ threshold such that essentially no noise peaks pass
+
+The Astrophysical Journal, 864:174 (24pp), 2018 September 10
+
+Alp et al.
+
+Table 7
+
+X-Ray Absorption Parameters
+
+Element
+
+H
+He
+C
+O
+Ne
+Mg
+Si
+S
+Ar
+Ca
+Fe
+d
+H0.1
+d
+H0.9
+
+a
+NSN
+(cm−2)
+
+1.4×1022
+1.1×1022
+1.4×1020
+2.0×1020
+4.1×1019
+4.5×1018
+5.3×1019
+6.6×1018
+2.6×1018
+1.3×1019
+5.5×1019
+1.0×1022
+1.8×1022
+
+b
+
+ASN
+
+A
+ASN
+
+ISM
+
+c
+
+1
+
+7.8 × 10−1
+1.0 × 10−2
+1.4 × 10−2
+3.0 × 10−3
+3.2 × 10−4
+3.9 × 10−3
+4.8 × 10−4
+1.9 × 10−4
+9.4 × 10−4
+4.0 × 10−3
+
+0.73
+1.31
+
+1
+8
+43
+29
+34
+13
+208
+39
+74
+591
+148
+L
+L
+
+Figure 10. Circular polarization of SN 1987A measured using different
+aperture radii of 1, 2, 3, 4, and 5pixels (250 mas pixel−1). The circular
+polarization is consistent with 0%.
+
+while as many real sources as possible are detected. This
+transition is clearly seen as a break in the detection-threshold
+relation(Davis 1994). The ejecta Poisson noise is set to the
+square root of the maximum photon count
+in the original
+detector pixels within the search region. The parameter sigma
+is then computed as the square root of sky background and
+ejecta noise is added in quadrature. It is veriﬁed that the sample
+deviation of small segments of the central ejecta is comparable
+to the computed sigma. The effects of super-resolving when
+drizzling and instrument gain on the Poisson noise properties
+are accounted for by including a multiplicative correction factor
+for the geometric mapping and another factor for the gain.
+
+Limits are determined by inserting artiﬁcial PSFs and ﬁnding
+the PSF ﬂux such that it just crosses the 3σ threshold of daoﬁnd.
+The procedure is then repeated inside the search region at intervals
+of 12.5 mas, which is chosen to be the half-pixel size of the WFC3
+and NACO images. At a few points, the detection threshold is
+crossed without added artiﬁcial sources,
+implying that point
+sources are detected. These are all just slightly above the detection
+threshold of 3σ and are interpreted as structure in the ejecta. The
+limits in these points are set to the maximum ﬂux of a PSF that is
+consistent with the observation. None of the threshold crossing
+events are spatially coincident in several adjacent ﬁlters and they
+are not signiﬁcantly increasing the upper limits.
+
+Appendix C
+
+X-Ray Ejecta Absorption
+
+X-ray absorption by SN ejecta is explored in detail using 3D
+neutrino-driven SN explosion models (Wongwathanarat et al.
+2013, 2015) in an accompanying paper(Alp et al. 2018). One
+of the main conclusions is that the optical depth of the SN
+ejecta for X-rays below 10keV is very high at the age of
+SN1987A. For a discussion of the transport of the absorbed
+energy, see Section 4.5. Here, we use the absorption estimates
+based on the B15 explosion model(Woosley et al. 1988) for
+our X-ray analysis. The B15 model is a single-star model that
+was evolved to core-collapse in one dimension without mass
+loss. It explodes as a blue supergiant with a mass of 15.4 Me
+and is designed to represent SN1987A.
+
+From the models, we compute the column number densities
+(NSN) of H, He, C, O, Ne, Mg, Si, S, Ar, Ca, and Fe using the
+
+21
+
+SN
+
+N
+
+SN
+
+N
+
+SN
+
+(
+)
+X
+
+(
+), where X is a chemical element.
+H
+
+)
+º(
+X
+ISM(
+) is the abundance of X in the ISM from Wilms et al. (2000).
+X
+
+Notes.
+a Direction-averaged SN column number density.
+b A
+c A
+d The quantity H0.1 is the hydrogen column density scaled by the ratio of the
+direction-averaged optical depth to the 10th percentile of the optical depth at
+2keV, and H0.9 is the 90th analogue. The column densities of other elements
+are assumed to be scaled by the same fraction(Alp et al. 2018).
+
+explosion model. A single estimate cannot be made because of
+the asymmetries of the SN explosion. Instead, we focus on
+the direction-averaged column number densities and the
+hydrogen number densities corresponding to the 10th and
+90th percentiles of the optical depth, which are shown in
+Table 7. The percentiles are used to represent the variance
+introduced by SN explosion asymmetries. Even though the
+hydrogen column number density N HSN(
+) is relatively low, the
+25~
+high metallicity of the ejecta results in an optical depth of
+at 2keV at current epochs.
+
+Appendix D
+
+Spatial Alignment
+
+All observations need to be accurately registered for us to
+use the position determined in Section 3.1, which is needed to
+deﬁne the search regions for the images and the extraction
+regions for the spectra. Only ALMA has good enough absolute
+astrometry. The other observations are aligned with the HST
+observations using either nearby stars or the ER, as described
+below.
+
+ALMA has an absolute astrometric accuracy of less than
+∼10 mas. The accuracy is determined by measuring the phase
+rms and using it to estimate the phase transfer error, which
+likely results in a quite conservative estimate. Applying a self-
+calibration gain table to a point source and measuring the
+offset, and considering the accuracy in measuring baselines
+both yield uncertainty estimates that are smaller than 10 mas.
+Both NACO images are mapped onto the HST/WFC3
+images using the IRAF tasks geomap and geotran. We
+choose 10 bright stars in the common FOV, using polynomial
+ﬁtting functions, and a general geometry, which consists of
+shifts, scale factors, a rotation, and a skew. This aligns the
+images and resizes them to a common pixel size of 252 mas2.
+The magniﬁcation increases the pixel size from the original
+detector scale of 13.272 mas2, but
+the
+
+this does not affect
+
+The Astrophysical Journal, 864:174 (24pp), 2018 September 10
+
+Epoch
+(YYYY mm dd)
+
+2003 Jan 05
+2003 Aug 12
+2003 Nov 28
+2004 Dec 15
+2005 Apr 02
+2005 Sep 26
+2005 Sep 28
+2006 Apr 15
+2006 Apr 29
+2006 Dec 06
+2007 May 12
+2008 Feb 19
+2009 Apr 29
+2009 Dec 12
+2011 Jan 05
+2013 Feb 06
+2014 Jun 15
+2015 May 24
+2016 Jun 08
+
+HST Observations Used for Astrometric Registration of SN1987A
+
+Table 8
+
+Instrument
+
+Band
+
+Filter
+
+Exposure
+
+(s)
+
+Band
+
+Filter
+
+ACS
+ACS
+ACS
+ACS
+ACS
+ACS
+ACS
+ACS
+ACS
+ACS
+
+WFPC2
+WFPC2
+WFPC2
+WFC3
+WFC3
+WFC3
+WFC3
+WFC3
+WFC3
+
+R
+R
+R
+L
+L
+R
+R
+R
+R
+R
+R
+R
+R
+R
+R
+R
+R
+R
+R
+
+F625W
+F625W
+F625W
+
+L
+L
+
+F625W
+F625W
+F625W
+F625W
+F625W
+F675W
+F675W
+F675W
+F625W
+F625W
+F625W
+F625W
+F625W
+F625W
+
+800
+480
+800
+L
+L
+
+12000
+720
+1200
+720
+1200
+2700
+1600
+1600
+3000
+1000
+1200
+1200
+1200
+600
+
+B
+B
+B
+B
+B
+L
+L
+B
+L
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+
+F435W
+F435W
+F435W
+F435W
+F435W
+
+L
+L
+
+F435W
+
+L
+
+F435W
+F439W
+F439W
+F439W
+F438W
+F438W
+F438W
+F438W
+F438W
+F438W
+
+Alp et al.
+
+Exposure
+
+(s)
+
+1200
+800
+1600
+1600
+1200
+L
+L
+1200
+L
+1800
+3000
+2400
+2000
+800
+1400
+1200
+1200
+1200
+600
+
+100~
+
+measurements because the FWHM of the point-spread function
+(PSF) is
+mas. Comparisons of NACO and HST images
+25~ mas at the
+show that the spatial alignments are better than
+position of SN1987A, and the rotations and skews have a
+negligible impact on the region relevant to this work.
+
+The SINFONI images are aligned by ﬁtting an elliptical band
+with a Gaussian radial proﬁle to the ER. The center of the
+ellipse is then matched with the HST image position presented
+in Section 3.1. The accuracy is better than 20 mas, which is
+estimated using the diagonal elements of the covariance matrix.
+Alignment using nearby stars is not possible because the small
+FOV of SINFONI does not extend much beyond the ER. The
+hotspots are also poorly resolved and faint in the SINFONI
+images, which is why an elliptical band is used to ﬁt the ER as
+an extended source.
+
+The position of SN1987A in the STIS observation is
+determined by mapping onto the HST images. The R.A. is
+determined with respect to a nearby, isolated reference star that
+was used for the spacecraft pointing when performing the ﬁve
+individual slit observations. Spectral lines from the ER are used
+to match the decl. with the HST images. This is done by ﬁtting
+Gaussians to the north and south 1D proﬁles of the ER in
+the slits. The position of SN1987A is known relative to the
+ER from Section 3.1. The ﬁve slits are ﬁrst matched
+individually, allowing the sample variance to serve as an
+estimate of the statistical uncertainty. The average position of
+the ﬁve alignments is then used to align all slits. The 1σ
+uncertainty in the ﬁnal decl. of all slits is 0.14 pixels or 7.0 mas.
+The ER in the Chandra observation is modeled by ﬁtting an
+ellipse of sinusoidal intensity along the azimuth and Gaussian
+radial proﬁle (Section 3.6.1), which is also used for alignment.
+There are no point sources visible in the Chandra FOV that
+can be used for alignment. The error in position using this
+method is ∼40 mas, which is small compared to the PSF
+FWHM of ∼700 mas of Chandra/ACIS. The uncertainty of
+the position is determined by simulating samples from the
+model and then applying the same ﬁtting method to resample
+the position.
+
+Observations Used for Astrometric Registration of
+
+Appendix E
+
+SN1987A
+
+The observations that are used to determine the position of
+SN1987A are listed in Table 8. The WFC3 observations are
+reduced as described in Section 2.4. The previous observations
+are described in Larsson et al. (2011).
+
+Appendix F
+Chandra PSF
+
+The Chandra PSF is created using MARX 5.3.2(Davis et al.
+2012), which is called from the CIAO task simulate_psf.
+The PSF is created for the position of SN1987A on the CCD
+chip, 22 pixels off-axis (approximately the distance between the
+default aimpoint and optical axis), using an input spectrum
+extracted from the source region. The quantum efﬁciency of the
+detector is included by disabling the ideal option. Simulation
+of the readout streak and pileup are both performed. The
+extended option is disabled because the PSF is used as a
+convolution kernel. The PSF is simulated onto a pixel size of
+502 mas2 and statistical ﬂuctuations of
+the simulation are
+reduced by making 200 iterations. The default value of 70 mas
+for
+the parameter AspectBlur, which is the measured
+uncertainty of the aspect solution, is used because it better
+matches the observation according to the statistical likelihood.
+We note that this is smaller than the “merely suggested” value of
+∼280 mas,32 which is based on a limited number of observa-
+tions(Primini et al. 2011). The source of this additional blurring
+for at least some observations is currently not fully understood.
+
+ORCID iDs
+
+https://orcid.org/0000-0002-0427-5592
+
+Dennis Alp
+Joseﬁn Larsson
+Claes Fransson
+Remy Indebetouw https://orcid.org/0000-0002-4663-6827
+
+https://orcid.org/0000-0003-0065-2933
+https://orcid.org/0000-0001-8532-3594
+
+32 http://cxc.harvard.edu/ciao/why/aspectblur.html
+
+22
+
+The Astrophysical Journal, 864:174 (24pp), 2018 September 10
+
+Alp et al.
+
+https://orcid.org/0000-0001-8005-4030
+
+https://orcid.org/0000-0003-0729-1632
+
+https://orcid.org/0000-0001-7101-9831
+https://orcid.org/0000-0002-1272-3017
+
+https://orcid.org/0000-0002-5847-2612
+
+Anders Jerkstrand
+David Burrows
+Aleksandar Cikota
+Jacco Th. van Loon
+C.-Y. Ng
+Sangwook Park
+Jason Spyromilio
+Stan Woosley
+Maarten Baes
+Roger Chevalier
+Kari A. Frank
+B. M. Gaensler
+Hans-Thomas Janka
+Bruno Leibundgut
+Peter Lundqvist
+Mikako Matsuura
+Jesper Sollerman
+George Sonneborn
+Lister Staveley-Smith
+Giovanna Zanardo
+J. Craig Wheeler
+
+https://orcid.org/0000-0003-3900-7739
+https://orcid.org/0000-0001-6815-4055
+
+https://orcid.org/0000-0002-3352-7437
+https://orcid.org/0000-0002-3930-2757
+
+https://orcid.org/0000-0002-9117-7244
+
+https://orcid.org/0000-0003-0570-9951
+https://orcid.org/0000-0002-3382-9558
+
+https://orcid.org/0000-0002-0831-3330
+https://orcid.org/0000-0002-4413-7733
+
+https://orcid.org/0000-0002-3664-8082
+
+https://orcid.org/0000-0002-5529-5593
+https://orcid.org/0000-0003-1546-6615
+
+https://orcid.org/0000-0003-1440-9897
+https://orcid.org/0000-0002-8057-0294
+https://orcid.org/0000-0003-2742-771X
+https://orcid.org/0000-0003-1349-6538
+
+References
+
+Abdo, A. A., Ajello, M., Allafort, A., et al. 2013, ApJS, 208, 17
+Abellán, F. J., Indebetouw, R., Marcaide, J. M., et al. 2017, ApJL, 842, L24
+Ackermann, M., Albert, A., Atwood, W. B., et al. 2016, A&A, 586, A71
+Ahmad, I., Greene, J. P., Moore, E. F., et al. 2006, PhRvC, 74, 065803
+Alekseev, E. N., Alekseeva, L. N., Volchenko, V. I., & Krivosheina, I. V.
+
+1987, JETPL, 45, 589
+
+Alexeyev, E. N., Alexeyeva, L. N., Krivosheina, I. V., & Volchenko, V. I.
+
+1988, PhLB, 205, 209
+
+Alp, D., Larsson, J., Fransson, C., et al. 2018, ApJ, 864, 174
+Arendt, R. G., Dwek, E., Bouchet, P., et al. 2016, AJ, 151, 62
+Arnaud, K. A. 1996, in ASP Conf. Ser. 101, Astronomical Data Analysis
+Software and Systems V, ed. G. H. Jacoby & J. Barnes (San Francisco, CA:
+ASP), 17
+
+Arnett, W. D., Bahcall, J. N., Kirshner, R. P., & Woosley, S. E. 1989,
+
+ARA&A, 27, 629
+
+Asaki, Y., Matsushita, S., Kawabe, R., et al. 2014, Proc. SPIE, 9145, 91454K
+Astropy Collaboration, Robitaille, T. P., Tollerud, E. J., et al. 2013, A&A,
+
+558, A33
+
+Barcons, X., Barret, D., Decourchelle, A., et al. 2017, AN, 338, 153
+Barcons, X., Nandra, K., Barret, D., et al. 2015, JPhCS, 610, 012008
+Bauswein, A., Just, O., Janka, H.-T., & Stergioulas, N. 2017, ApJL, 850, L34
+Bevan, A. 2018, MNRAS, 480, 4659
+Bionta, R. M., Blewitt, G., Bratton, C. B., Casper, D., & Ciocio, A. 1987,
+
+PhRvL, 58, 1494
+
+Blondin, J. M., & Lundqvist, P. 1993, ApJ, 405, 337
+Blum, K., & Kushnir, D. 2016, ApJ, 828, 31
+Bogdanov, S. 2014, ApJ, 790, 94
+Boggs, S. E., Harrison, F. A., Miyasaka, H., et al. 2015, Sci, 348, 670
+Bonnet, H., Abuter, R., Baker, A., et al. 2004, Msngr, 117, 17
+Bouchet, P., & Danziger, J. 2014, in IAU Symp. 296, Supernova Environmental
+Impacts, ed. A. Ray & R. A. McCray (Cambridge: Cambridge Univ. Press), 9
+
+Bouchet, P., De Buizer, J. M., Suntzeff, N. B., et al. 2004, ApJ, 611, 394
+Bouchet, P., Dwek, E., Danziger, J., et al. 2006, ApJ, 650, 212
+Bratton, C. B., Casper, D., Ciocio, A., et al. 1988, PhRvD, 37, 3361
+Brown, G. E., Bruenn, S. W., & Wheeler, J. C. 1992, ComAp, 16, 153
+Brown, G. E., & Weingartner, J. C. 1994, ApJ, 436, 843
+Bühler, R., & Blandford, R. 2014, RPPh, 77, 066901
+Burrows, A. 1988, ApJ, 334, 891
+Burrows, D. N., Michael, E., Hwang, U., et al. 2000, ApJL, 543, L149
+Bushouse, H., & Simon, B. 1994, in ASP Conf. Ser. 61, Astronomical Data
+Analysis Software and Systems III, ed. D. R. Crabtree, R. J. Hanisch, &
+J. Barnes (San Francisco, CA: ASP), 339
+
+Callingham, J. R., Gaensler, B. M., Zanardo, G., et al. 2016, MNRAS,
+
+462, 290
+
+Canizares, C. R., Davis, J. E., Dewey, D., et al. 2005, PASP, 117, 1144
+Cardelli, J. A., Clayton, G. C., & Mathis, J. S. 1989, ApJ, 345, 245
+Cash, W. 1979, ApJ, 228, 939
+
+23
+
+Chatterjee, P., Hernquist, L., & Narayan, R. 2000, ApJ, 534, 373
+Chatterjee, S., & Cordes, J. M. 2002, ApJ, 575, 407
+Chatterjee, S., & Cordes, J. M. 2004, ApJL, 600, L51
+Chevalier, R. A. 1989, ApJ, 346, 847
+Chevalier, R. A., & Fransson, C. 1992, ApJ, 395, 540
+Chita, S. M., Langer, N., van Marle, A. J., García-Segura, G., & Heger, A.
+
+2008, A&A, 488, L37
+
+Cohen, M., Wheaton, W. A., & Megeath, S. T. 2003, AJ, 126, 1090
+Collon, M. J., Vacanti, G., Günther, R., et al. 2015, Proc. SPIE, 9603, 96030K
+Cordes, J. M., Romani, R. W., & Lundgren, S. C. 1993, Natur, 362, 133
+Danilenko, A. A., Zyuzin, D. A., Shibanov, Y. A., & Zharikov, S. V. 2011,
+
+MNRAS, 415, 867
+
+Davies, R. I. 2007, MNRAS, 375, 1099
+Davis, J. E., Bautz, M. W., Dewey, D., et al. 2012, Proc. SPIE, 8443, 84431A
+Davis, L. E. 1994, A Reference Guide to the IRAF/DAOPHOT Package
+
+(Tucson, AZ: NOAO)
+
+Dewdney, P. E., Hall, P. J., Schilizzi, R. T., & Lazio, T. J. L. W. 2009, IEEEP,
+
+97, 1482
+
+Draine, B. T. 2003, ApJ, 598, 1026
+Duric, N. 2003, Advanced Astrophysics (Cambridge: Cambridge Univ. Press)
+Dwek, E., & Arendt, R. G. 2015, ApJ, 810, 75
+Eisenhauer, F., Abuter, R., Bickert, K., et al. 2003, Proc. SPIE, 4841, 1548
+Eker, Z., Soydugan, F., Soydugan, E., et al. 2015, AJ, 149, 131
+Ertl, T., Janka, H.-T., Woosley, S. E., Sukhbold, T., & Ugliano, M. 2016, ApJ,
+
+818, 124
+
+Esposito, P., Rea, N., Lazzati, D., et al. 2018, ApJ, 857, 58
+Evans, C. R., & Kochanek, C. S. 1989, ApJL, 346, L13
+Fassia, A., Meikle, W. P. S., & Spyromilio, J. 2002, MNRAS, 332, 296
+Faucher-Giguère, C.-A., & Kaspi, V. M. 2006, ApJ, 643, 332
+Fitzpatrick, E. L., & Walborn, N. R. 1990, AJ, 99, 1483
+France, K., McCray, R., Penton, S. V., et al. 2011, ApJ, 743, 186
+Frank, J., King, A., & Raine, D. J. 2002, Accretion Power in Astrophysics (3rd
+
+ed.; Cambridge: Cambridge Univ. Press), 398
+
+Frank, K. A., Zhekov, S. A., Park, S., et al. 2016, ApJ, 829, 40
+Fransson, C., & Kozma, C. 2002, NewAR, 46, 487
+Fransson, C., Larsson, J., Migotto, K., et al. 2015, ApJL, 806, L19
+Fransson, C., Larsson, J., Spyromilio, J., et al. 2013, ApJ, 768, 88
+Fransson, C., Larsson, J., Spyromilio, J., et al. 2016, ApJL, 821, L5
+Fruchter, A. S., & Hook, R. N. 2002, PASP, 114, 144
+Fruscione, A., McDowell, J. C., Allen, G. E., et al. 2006, Proc. SPIE, 6270,
+
+62701V
+
+Fryer, C. L. 1999, ApJ, 522, 413
+Gaia Collaboration, Brown, A. G. A., Vallenari, A., et al. 2016a, A&A,
+
+595, A2
+
+Gaia Collaboration, Prusti, T., de Bruijne, J. H. J., et al. 2016b, A&A, 595, A1
+Gardner, J. P., Mather, J. C., Clampin, M., et al. 2006, SSRv, 123, 485
+Garmire, G. P., Bautz, M. W., Ford, P. G., Nousek, J. A., & Ricker, G. R., Jr.
+
+2003, Proc. SPIE, 4851, 28
+
+Gilmozzi, R., & Spyromilio, J. 2007, Msngr, 127, 11
+Gnedin, O. Y., Yakovlev, D. G., & Potekhin, A. Y. 2001, MNRAS, 324, 725
+Gonzaga, S., Hack, W., Fruchter, A., & Mack, J. 2012, The DrizzlePac
+
+Handbook (Baltimore: STScI operated by AURA for NASA)
+
+Gordon, K. D., Clayton, G. C., Misselt, K. A., Landolt, A. U., & Wolff, M. J.
+
+2003, ApJ, 594, 279
+
+Gould, A., & Uza, O. 1998, ApJ, 494, 118
+Graves, G. J. M., Challis, P. M., Chevalier, R. A., et al. 2005, ApJ, 629, 944
+Grebenev, S. A., Lutovinov, A. A., Tsygankov, S. S., & Winkler, C. 2012,
+
+Natur, 490, 373
+
+Gröningsson, P., Fransson, C., Leibundgut, B., et al. 2008a, A&A, 492, 481
+Gröningsson, P., Fransson, C., Lundqvist, P., et al. 2008b, A&A, 479, 761
+Haberl, F., Geppert, U., Aschenbach, B., & Hasinger, G. 2006, A&A, 460, 811
+Hebeler, K., Lattimer, J. M., Pethick, C. J., & Schwenk, A. 2013, ApJ, 773, 11
+Helder, E. A., Broos, P. S., Dewey, D., et al. 2013, ApJ, 764, 11
+H.E.S.S. Collaboration, Abramowski, A., Aharonian, F., et al. 2015, Sci,
+
+347, 406
+
+Hirata, K., Kajita, T., Koshiba, M., Nakahata, M., & Oyama, Y. 1987, PhRvL,
+
+58, 1490
+
+Hirata, K. S., Kajita, T., Koshiba, M., et al. 1988, PhRvD, 38, 448
+Ho, W. C. G., & Heinke, C. O. 2009, Natur, 462, 71
+Ho, W. C. G., Potekhin, A. Y., & Chabrier, G. 2008, ApJS, 178, 102
+Hobbs, G., Lorimer, D. R., Lyne, A. G., & Kramer, M. 2005, MNRAS,
+
+360, 974
+
+Houck, J. C., & Chevalier, R. A. 1991, ApJ, 376, 234
+Hunter, J. D. 2007, CSE, 9, 90
+Indebetouw, R., Matsuura, M., Dwek, E., et al. 2014, ApJL, 782, L2
+Jerkstrand, A., Fransson, C., & Kozma, C. 2011, A&A, 530, A45
+
+The Astrophysical Journal, 864:174 (24pp), 2018 September 10
+
+Jerkstrand, A., Timmes, F. X., Magkotsios, G., et al. 2015, ApJ, 807, 110
+Johns, M., McCarthy, P., Raybould, K., et al. 2012, Proc. SPIE, 8444, 84441H
+Jones, E., Oliphant, T., Peterson, P., et al. 2001, SciPy: Open Source Scientiﬁc
+
+Tools for Python, https://www.scipy.org/
+
+Kallivayalil, N., van der Marel, R. P., Besla, G., Anderson, J., & Alcock, C.
+
+2013, ApJ, 764, 161
+
+Kirshner, R. P., Sonneborn, G., Crenshaw, D. M., & Nassiopoulos, G. E. 1987,
+
+ApJ, 320, 602
+
+Kjær, K., Leibundgut, B., Fransson, C., et al. 2007, A&A, 471, 617
+Kjær, K., Leibundgut, B., Fransson, C., Jerkstrand, A., & Spyromilio, J. 2010,
+
+A&A, 517, A51
+
+Klochkov, D., Suleimanov, V., Pühlhofer, G., et al. 2015, A&A, 573, A53
+Kochanek, C. S. 2018, MNRAS, 473, 1633
+Kozma, C., & Fransson, C. 1992, ApJ, 390, 602
+Kuiper, L., & Hermsen, W. 2015, MNRAS, 449, 3827
+Lakićević, M., van Loon, J. T., Patat, F., Staveley-Smith, L., & Zanardo, G.
+
+2011, A&A, 532, L8
+
+Lakićević, M., van Loon, J. T., Stanke, T., De Breuck, C., & Patat, F. 2012a,
+
+A&A, 541, L1
+
+Lakićević, M., Zanardo, G., van Loon, J. T., et al. 2012b, A&A, 541, L2
+Larsson, J., Fransson, C., Kjaer, K., et al. 2013, ApJ, 768, 89
+Larsson, J., Fransson, C., Östlin, G., et al. 2011, Natur, 474, 484
+Larsson, J., Fransson, C., Spyromilio, J., et al. 2016, ApJ, 833, 147
+Lawrence, S. S., Sugerman, B. E., Bouchet, P., et al. 2000, ApJL, 537, L123
+Lenzen, R., Hartung, M., Brandner, W., et al. 2003, Proc. SPIE, 4841, 944
+Lorimer, D. R., & Kramer, M. 2012, Handbook of Pulsar Astronomy
+
+(Cambridge, UK: Cambridge Univ. Press)
+
+Lucy, L. B., Danziger, I. J., Gouiffes, C., & Bouchet, P. 1989, in IAU Coll.
+120: Structure and Dynamics of the Interstellar Medium, Vol. 350, ed.
+G. Tenorio-Tagle, M. Moles, & J. Melnick (Berlin: Springer), 164
+
+Lucy, L. B., Danziger, I. J., Gouiffes, C., & Bouchet, P. 1991, in Supernovae,
+
+ed. S. E. Woosley (New York: Springer), 82
+
+Lundqvist, P., Kozma, C., Sollerman, J., & Fransson, C. 2001, A&A, 374, 629
+Manchester, R. N., Hobbs, G. B., Teoh, A., & Hobbs, M. 2005, AJ, 129, 1993
+Matsuura, M., Dwek, E., Barlow, M. J., et al. 2015, ApJ, 800, 50
+Matsuura, M., Dwek, E., Meixner, M., et al. 2011, Sci, 333, 1258
+Matsuura, M., Indebetouw, R., Woosley, S., et al. 2017, MNRAS, 469, 3347
+McCray, R. 1979, in Active Galactic Nuclei, ed. C. Hazard & S. Mitton
+
+(Cambridge: Cambridge Univ. Press), 227
+
+McCray, R. 1993, ARA&A, 31, 175
+McCray, R., & Fransson, C. 2016, ARA&A, 54, 19
+McMullin, J. P., Waters, B., Schiebel, D., Young, W., & Golap, K. 2007, in
+ASP Conf. Ser. 376, Astronomical Data Analysis Software and Systems
+XVI, ed. R. A. Shaw, F. Hill, & D. J. Bell (San Francisco, CA: ASP), 127
+
+Menon, A., & Heger, A. 2017, MNRAS, 469, 4649
+Michael, E., McCray, R., Chevalier, R., et al. 2003, ApJ, 593, 809
+Mitchell, R. C., Baron, E., Branch, D., et al. 2002, ApJ, 574, 293
+Modigliani, A., Hummel, W., Abuter, R., et al. 2007, arXiv:astro-ph/0701297
+Mori, K., & Ho, W. C. G. 2007, MNRAS, 377, 905
+Morris, T., & Podsiadlowski, P. 2007, Sci, 315, 1103
+Morris, T., & Podsiadlowski, P. 2009, MNRAS, 399, 515
+Morrison, R., & McCammon, D. 1983, ApJ, 270, 119
+Ng, C.-Y., Gaensler, B. M., Murray, S. S., et al. 2009, ApJL, 706, L100
+Ng, C.-Y., Gaensler, B. M., Staveley-Smith, L., et al. 2008, ApJ, 684, 481
+Ng, C.-Y., Potter, T. M., Staveley-Smith, L., et al. 2011, ApJL, 728, L15
+Ng, C.-Y., Zanardo, G., Potter, T. M., et al. 2013, ApJ, 777, 131
+O’Brien, K. 2015, User Manual, issue 96.0, VLT-MAN-ESO-13100-1543
+
+(European Southern Observatory)
+
+O’Dell, S. L., Swartz, D. A., Tice, N. W., et al. 2013, Proc. SPIE, 8859,
+
+88590F
+
+Orlando, S., Miceli, M., Pumo, M. L., & Bocchino, F. 2015, ApJ, 810, 168
+Özel, F., & Freire, P. 2016, ARA&A, 54, 401
+Page, D., Lattimer, J. M., Prakash, M., & Steiner, A. W. 2009, ApJ,
+
+707, 1131
+
+Panagia, N. 1999, in IAU Symp. 190, New Views of the Magellanic Clouds,
+
+ed. Y.-H. Chu et al. (San Francisco, CA: ASP), 549
+
+Panagia, N., Gilmozzi, R., Macchetto, F., Adorf, H.-M., & Kirshner, R. P.
+
+1991, ApJL, 380, L23
+
+Park, S., Burrows, D. N., Garmire, G. P., et al. 2002, ApJ, 567, 314
+Park, S., Hughes, J. P., Slane, P. O., Mori, K., & Burrows, D. N. 2010, ApJ,
+
+710, 948
+
+Park, S., Zhekov, S. A., Burrows, D. N., et al. 2011, ApJL, 733, L35
+Park, S., Zhekov, S. A., Burrows, D. N., Garmire, G. P., & McCray, R. 2004,
+
+ApJ, 610, 275
+
+Patat, F., & Romaniello, M. 2006, PASP, 118, 146
+Perego, A., Hempel, M., Fröhlich, C., et al. 2015, ApJ, 806, 275
+
+24
+
+Alp et al.
+
+Phinney, E. S. 1989, in IAU Symp. 136, The Center of the Galaxy, ed.
+
+M. Morris (Dordrecht: Springer), 543
+
+Posselt, B., Pavlov, G. G., Suleimanov, V., & Kargaltsev, O. 2013, ApJ,
+
+779, 186
+
+Potter, T. M., Staveley-Smith, L., Ng, C.-Y., et al. 2009, ApJ, 705, 261
+Primini, F. A., Houck, J. C., Davis, J. E., et al. 2011, ApJS, 194, 37
+Rees, M. J. 1988, Natur, 333, 523
+Reynolds, J. E., Jauncey, D. L., Staveley-Smith, L., et al. 1995, A&A, 304, 116
+Rousset, G., Lacombe, F., Puget, P., et al. 2003, Proc. SPIE, 4839, 140
+Ruiz-Lapuente, P., & Spruit, H. C. 1998, ApJ, 500, 360
+Salaris, M., & Cassisi, S. 2005, Evolution of Stars and Stellar Populations
+
+(New York: Wiley-VCH), 400
+
+Sanduleak, N. 1970, CoTol, 89
+Schreiber, J., Thatte, N., Eisenhauer, F., et al. 2004, in ASP Conf. Ser. 314,
+Astronomical Data Analysis Software and Systems (ADASS) XIII, ed.
+F. Ochsenbein, M. G. Allen, & D. Egret (San Francisco, CA: ASP), 380
+
+Scuderi, S., Panagia, N., Gilmozzi, R., Challis, P. M., & Kirshner, R. P. 1996,
+
+ApJ, 465, 956
+
+Seraﬁmovich, N. I., Shibanov, Y. A., Lundqvist, P., & Sollerman, J. 2004,
+
+A&A, 425, 1041
+
+Shapiro, S. L. 1973, ApJ, 180, 531
+Shapiro, S. L., & Teukolsky, S. A. 1983, Black Holes, White Dwarfs, and
+Neutron Stars: The Physics of Compact Objects (New York: Wiley-
+Interscience)
+
+Shternin, P. S., & Yakovlev, D. G. 2008, AstL, 34, 675
+Shtykovskiy, P. E., Lutovinov, A. A., Gilfanov, M. R., & Sunyaev, R. A. 2005,
+
+AstL, 31, 258
+
+Skrutskie, M. F., Cutri, R. M., Stiening, R., et al. 2006, AJ, 131, 1163
+Smartt, S. J., Eldridge, J. J., Crockett, R. M., & Maund, J. R. 2009, MNRAS,
+
+395, 1409
+
+Spitkovsky, A. 2006, ApJL, 648, L51
+Steiner, A. W., Lattimer, J. M., & Brown, E. F. 2013, ApJL, 765, L5
+Stetson, P. B. 1987, PASP, 99, 191
+Sukhbold, T., Ertl, T., Woosley, S. E., Brown, J. M., & Janka, H.-T. 2016, ApJ,
+
+821, 38
+
+Suntzeff, N. B., Phillips, M. M., Elias, J. H., Walker, A. R., & Depoy, D. L.
+
+1992, ApJL, 384, L33
+
+Szary, A., Zhang, B., Melikidze, G. I., Gil, J., & Xu, R.-X. 2014, ApJ, 784, 59
+Taylor, A. R. 2013, in IAU Symp. 291, Neutron Stars and Pulsars: Challenges
+and Opportunities after 80 years, ed. J. van Leeuwen (Cambridge:
+Cambridge Univ. Press), 337
+
+Tziamtzis, A., Lundqvist, P., Gröningsson, P., & Nasoudi-Shoar, S. 2011,
+
+A&A, 527, A35
+
+Utrobin, V. P., Wongwathanarat, A., Janka, H.-T., & Müller, E. 2015, A&A,
+
+581, A40
+
+van der Marel, R. P., & Kallivayalil, N. 2014, ApJ, 781, 121
+van der Marel, R. P., & Sahlmann, J. 2016, ApJL, 832, L23
+van der Walt, S., Colbert, S. C., & Varoquaux, G. 2011, CSE, 13, 22
+Walborn, N. R., Lasker, B. M., Laidler, V. G., & Chu, Y.-H. 1987, ApJL,
+
+321, L41
+
+Walborn, N. R., Phillips, M. M., Walker, A. R., & Elias, J. H. 1993, PASP,
+
+105, 1240
+
+Walker, A. R., & Suntzeff, N. B. 1990, PASP, 102, 131
+Wang, L., Wheeler, J. C., Kirshner, R. P., et al. 1996, ApJ, 466, 998
+Wesson, R., Barlow, M. J., Matsuura, M., & Ercolano, B. 2015, MNRAS,
+
+446, 2089
+
+West, R. M., Lauberts, A., Schuster, H.-E., & Jorgensen, H. E. 1987, A&A,
+
+177, L1
+
+White, G. L., & Malin, D. F. 1987, Natur, 327, 36
+White, R. L. 1994, in The Restoration of HST Images and Spectra—II, ed.
+
+R. J. Hanisch & R. L. White (Baltimore, MD: STScI), 104
+
+Willingale, R., Aschenbach, B., Grifﬁths, R. G., et al. 2001, A&A, 365,
+
+L212
+
+Willingale, R., Starling, R. L. C., Beardmore, A. P., Tanvir, N. R., &
+
+O’Brien, P. T. 2013, MNRAS, 431, 394
+
+Wilms, J., Allen, A., & McCray, R. 2000, ApJ, 542, 914
+Wongwathanarat, A., Janka, H.-T., & Müller, E. 2013, A&A, 552, A126
+Wongwathanarat, A., Müller, E., & Janka, H.-T. 2015, A&A, 577, A48
+Wooden, D. H., Rank, D. M., Bregman, J. D., et al. 1993, ApJS, 88, 477
+Woosley, S. E., Pinto, P. A., & Ensman, L. 1988, ApJ, 324, 466
+Yakovlev, D. G., Ho, W. C. G., Shternin, P. S., Heinke, C. O., &
+
+Potekhin, A. Y. 2011, MNRAS, 411, 1977
+
+Yakovlev, D. G., & Pethick, C. J. 2004, ARA&A, 42, 169
+Zanardo, G., Staveley-Smith, L., Indebetouw, R., et al. 2014, ApJ, 796, 82
+Zanardo, G., Staveley-Smith, L., Ng, C.-Y., et al. 2013, ApJ, 767, 98
+Zhang, S.-B., Dai, S., Hobbs, G., et al. 2018, MNRAS, 479, 1836
+
+

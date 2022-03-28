@@ -1,0 +1,1597 @@
+A&A 609, A90 (2018)
+DOI: 10.1051/0004-6361/201731484
+c(cid:13) ESO 2018
+
+Astronomy
+&Astrophysics
+
+Refraction in exoplanet atmospheres
+
+Photometric signatures, implications for transmission spectroscopy, and search
+
+in Kepler data
+
+D. Alp1 and B.-O. Demory2
+
+1 Department of Physics, KTH Royal Institute of Technology, The Oskar Klein Centre, AlbaNova, 106 91 Stockholm, Sweden
+
+e-mail: dalp@kth.se
+
+2 Center for Space and Habitability, University of Bern, Sidlerstrasse 5, 3012 Bern, Switzerland
+
+e-mail: brice.demory@csh.unibe.ch
+
+Received 30 June 2017 / Accepted 27 October 2017
+
+ABSTRACT
+
+Context. Refraction deﬂects photons that pass through atmospheres, which aﬀects transit light curves. Refraction thus provides an
+avenue to probe physical properties of exoplanet atmospheres and to constrain the presence of clouds and hazes. In addition, an
+eﬀective surface can be imposed by refraction, thereby limiting the pressure levels probed by transmission spectroscopy.
+Aims. The main objective of the paper is to model the eﬀects of refraction on photometric light curves for realistic planets and to
+explore the dependencies on atmospheric physical parameters. We also explore under which circumstances transmission spectra are
+signiﬁcantly aﬀected by refraction. Finally, we search for refraction signatures in photometric residuals in Kepler data.
+Methods. We use the model of Hui & Seager (2002, ApJ, 572, 540) to compute deﬂection angles and refraction transit light curves,
+allowing us to explore the parameter space of atmospheric properties. The observational search is performed by stacking large samples
+of transit light curves from Kepler.
+Results. We ﬁnd that out-of-transit refraction shoulders are the most easily observable features, which can reach peak amplitudes
+of ∼10 parts per million (ppm) for planets around Sun-like stars. More typical amplitudes are a few ppm or less for Jovians and at
+the sub-ppm level for super-Earths. In-transit, ingress, and egress refraction features are challenging to detect because of the short
+timescales and degeneracies with other transit model parameters. Interestingly, the signal-to-noise ratio of any refraction residuals for
+planets orbiting Sun-like hosts are expected to be similar for planets orbiting red dwarfs and ultra-cool stars. We also ﬁnd that the
+maximum depth probed by transmission spectroscopy is not limited by refraction for weakly lensing planets, but that the incidence of
+refraction can vary signiﬁcantly for strongly lensing planets. We ﬁnd no signs of refraction features in the stacked Kepler light curves,
+which is in agreement with our model predictions.
+Key words. planets and satellites: atmospheres
+
+1. Introduction
+
+The transit method is one of the most successful at ﬁnding
+exoplanets, with thousands of detections by the Kepler mis-
+sion (Koch et al. 2010) alone. Transit
+light curves are typ-
+ically modelled as planets occulting host stars with non-
+uniform brightness proﬁles (Mandel & Agol 2002). Light curves
+with higher photometric precision reveal additional eﬀects,
+such as thermal emission from planets (e.g. Charbonneau et al.
+2005; Demory et al. 2012) and reﬂected host star light (e.g.
+Sudarsky et al. 2000; Demory 2014). Searches for rings and
+moons have also been carried out (Hippke 2015; Kipping et al.
+2015; Heller 2017). Further development of light-curve models
+is therefore desirable in order to account for physical eﬀects that
+were previously not included, especially on the verge of the com-
+missioning of new facilities that will signiﬁcantly improve the
+current photometric capabilities.
+
+Refraction in exoplanet atmospheres, or “atmospheric lens-
+ing”, was ﬁrst discussed by Seager & Sasselov (2000) and
+Hubbard et al. (2001), who concluded that refraction is weak
+at low pressures. Hui & Seager (2002) presented a model and
+made the ﬁrst detailed study of the eﬀects of refraction and
+oblateness on transit light curves. Sidis & Sari (2010) studied
+
+refraction in the extreme case of a transparent planet and showed
+that dips in light curves can be caused by refractive transpar-
+ent planets. Bétrémieux & Kaltenegger (2015) provide analytic
+expressions for the column density and deﬂection angle, and
+make comparisons with a ray-tracing algorithm. Refraction in
+exoplanet atmospheres have received increased attention over
+the past few years and several authors have emphasised that re-
+fraction can set the eﬀective planet radius (García Muñoz et al.
+2012; Bétrémieux & Kaltenegger 2013, 2014). The implications
+of the eﬀective surface depth due to refraction on transmis-
+sion spectroscopy have also been studied (Bétrémieux 2016;
+Bétrémieux & Swain 2017). Several authors have studied how
+transmission spectra depend on transit phase and the possibil-
+ity of using refraction to probe the atmospheric composition at
+diﬀerent altitudes (Sidis & Sari 2010; García Muñoz et al. 2012;
+Misra et al. 2014). Refraction signatures in photometric light
+curves have been proposed by Misra & Meadows (2014) to serve
+as an eﬃcient method of identifying clear skies. No attempt has
+yet been made to detect refraction signals in observational data
+despite the recent theoretical developments.
+
+This paper studies the eﬀects of refraction on transit light
+curves and how refraction signals depend on physical proper-
+ties of exoplanet atmospheres. We compute the expected signal
+
+Article published by EDP Sciences
+
+A90, page 1 of 12
+
+A&A 609, A90 (2018)
+
+strengths and characteristics for a sample of planets. We then dis-
+cuss the eﬀects of refraction on planetary transmission spectra.
+We ﬁnally survey the complete Kepler primary mission dataset
+to search for refraction features.
+
+The paper is organised as follows. We describe the model and
+suite of test planets in Sect. 2, and present model predictions in
+Sect. 3. Observations and data reduction are detailed in Sect. 4,
+and observational results are presented in Sect. 5. We discuss our
+ﬁndings in Sect. 6, and summarise our conclusions in Sect. 7.
+
+2. Model description
+
+√
+
+We use the following conventions and deﬁnitions: residuals are
+deﬁned as ∆F = FR − FM, where FR is the normalised ob-
+served or predicted model ﬂux and FM is the normalised ﬂux
+of a ﬁtted model. All uncertainties are one standard deviation.
+We parametrise the stellar surface brightness as I = 1− γ1 (1− ν)
+− γ2 (1− ν)2, where γ1 and γ2 are the limb-darkening coeﬃcients
+1 − r2 with r as radial distance from the stel-
+(LDCs) and ν =
+lar disc centre. The following parameter values are used unless
+otherwise stated: an impact parameter of 0.5 stellar radii, a pho-
+ton wavelength of 6500 Å, stellar radius equal to the solar value,
+γ1 = 0.37, and γ2 = 0.27. The LDCs correspond to the solar val-
+ues computed using the theoretical tables of Claret & Bloemen
+(2011) in the Kepler bandpass.
+
+2.1. Refraction model
+
+Table 1. List of symbols (Hui & Seager 2002).
+
+Symbol
+kB
+t
+T
+g
+µ
+mH
+H
+α
+F
+W
+DOL
+DLS
+τ
+R0
+ρ0
+θS ≡ (θ1
+θI ≡ (θ1
+θ∗
+
+S, θ2
+S)
+I , θ2
+I )
+
+Meaning
+Boltzmann constant
+time
+temperature
+surface gravity
+mean molecular weight
+hydrogen atom mass
+atmospheric scale height
+refractive coeﬃcient
+normalised ﬂux
+occultation kernel
+observer–lens (observer–planet) distance
+lens–source (planet–star) distance
+optical depth
+planet radius
+atmospheric mass density at R0
+source position in the sky plane
+image position in the sky plane
+star-centre position in the sky plane
+
+with parameters given by
+
+H =
+B ≡ 2α
+
+kBT
+gµmH
+ρ0
+H
+
+,
+
+DLSDOL
+DOL + DLS
+
+≈ 2α
+
+ρ0
+H
+
+DLS,
+
+(6)
+
+(7)
+
+We present in the following an outline of the atmospheric refrac-
+tion transit light-curve model of Hui & Seager (2002), to which
+the reader is referred for a rigorous derivation and comprehen-
+sive description of the model. The model assumes isothermal
+atmosphere in hydrostatic equilibrium and uniform vertical at-
+mospheric composition. We note that a factor of two is missing
+in Eq. (9) of Hui & Seager (2002), see our Eq. (4). We emphasise
+that it is the absolute magnitude of the magniﬁcation (A) that en-
+ters Eq. (1). Negative magniﬁcations signiﬁes that the image has
+been spatially reversed, but only the photometric amplitude is
+of interest for refraction light curves. Hui & Seager (2002) also
+treat the eﬀects caused by oblateness of planets, but in this work
+planets are assumed to be spherical. In this paper we use the no-
+tation shown in Table 1, which is the same as the notation used
+by Hui & Seager (2002). Let I(θS − θ∗(t)) be the surface bright-
+ness of the star as a function of source position and star-centre
+position and W(θI) be the occultation kernel of the planet disc,
+which is 0 when the observed image position is within the planet
+radius and 1 otherwise. Hui & Seager (2002) veriﬁed that the
+step model was a good approximation to reality. Then, the equa-
+tions describing atmospheric refraction become
+
+1 + 2ψ + ψ2 + u2 ˜ψ(1 + ψ)
+
+(cid:90)
+
+(cid:88)
+
+images
+
+F(t) =
+
+(cid:104)
+A =
+ψ(u) = −B
+
+d2θS
+
+(cid:114)
+(cid:114)
+
+u2 ˜ψ(u) = B
+u2 ≡ (θ1
+I )2 + (θ2
+A90, page 2 of 12
+
+πH
+
+exp
+
+(cid:34)
+2uDOL
+πuDOL
+1 +
+2H
+I )2 = |θI|2;
+
+|A| I(θS − θ∗(t)) W(θI)
+(cid:35)
+(cid:34)
+− uDOL − R0
+
+− uDOL − R0
+(cid:34)
+
+(cid:105)−1
+(cid:35)
+
+H
+
+H
+
+exp
+
+2uDOL
+
+H
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(cid:35)
+
+(cid:114)
+
+1 −
+
+and
+C ≡ R0/H,
+(8)
+where the approximation DOL (cid:29) DLS in Eq. (7) holds for exo-
+planet transits. The transit light curve is given by Eq. (1) and is
+an integral over the stellar disc, which is treated as a ﬂat surface.
+The quantities denoted by ψ and u2 ˜ψ can be thought of as lensing
+potentials. The parameter B is essentially just a deﬂection angle
+that has been scaled by a ratio of distances and C is the ratio of
+binding energy to thermal energy.
+
+Much of the physics is captured by the important parameters
+B and C. Of particular importance is the dividing line between
+strong and weak lensing
+
+π
+2C
+
+B < 0,
+
+(9)
+
+where the system is strongly lensing if the condition is ful-
+ﬁlled (Hui & Seager 2002). Strong lensing occurs when caustics
+are present. Caustics are source positions for which the mag-
+niﬁcation diverges (Hui & Seager 2002). A more intuitive and
+equivalent condition for strong lensing is when photons can be
+refracted into view by the far side of the planet. The far side
+is where the image is closer to the planet centre than its source
+position. A consequence of strong lensing is that the ﬂux can in-
+crease above the baseline before and after transit. The baseline
+refers to the out-of-transit ﬂux. The increase of ﬂux just outside
+of transit will henceforth be referred to as “refraction shoulders”.
+Importantly, the information contained in the B and C parame-
+ters does not capture all the properties that could be connected to
+the photometric signal strength. Importantly, refraction can ob-
+scure atmospheric layers only if the planet is strongly lensing,
+which is crucial for transmission spectroscopy (see Sect. 6.2).
+
+Table 2. Physical, atmospheric, and orbital parameters for the test planets.
+
+D. Alp and B.-O. Demory: Refraction in exoplanet atmospheres
+
+Period Distance Mass
+
+Radius Temp. Atm. composition
+
+Planet
+
+Earth
+Super-Earth
+Jupiter
+Jovian
+Jovian
+Best-case
+
+1 yr
+80 d
+12 yr
+1 yr
+20 d
+12 yr
+
+(R(cid:12))
+215
+78
+1118
+215
+31
+1118
+
+1.0 M⊕
+3.9 M⊕
+1.0 MJ
+1.0 MJ
+1.0 MJ
+1.0 MJ
+
+1.0 R⊕
+1.5 R⊕
+1.0 RJ
+1.0 RJ
+1.0 RJ
+1.0 RJ
+
+(K)
+255
+423
+150
+342
+901
+600
+
+0.78N2 + 0.22O2
+0.78N2 + 0.22O2
+0.86H2 + 0.14He
+0.86H2 + 0.14He
+0.86H2 + 0.14He
+
+H2
+
+α
+
+(cm3 g−1)
+
+0.23
+0.23
+1.22
+1.22
+1.22
+1.54
+
+H
+(km)
+7.4
+7.1
+21.7
+49.4
+130.1
+98.5
+
+B
+
+C
+
+23 048
+7302
+3059
+171
+6
+351
+
+859
+1346
+3276
+1437
+546
+721
+
+Notes. Atmospheric composition fractions are given by number. The 0.86H2 + 0.14He mixture for the Jovian planets is equivalent to 76% H2 and
+24% He by mass, which is the atmospheric composition of Jupiter.
+
+Other models for refraction have been published based on
+a ray-tracing approach (García Muñoz et al. 2012; Bétrémieux
+& Kaltenegger 2013, 2015; Misra et al. 2014), which implies
+that the equivalent to the analytic expression for the magniﬁ-
+cation in Eq. (2) needs to be determined numerically. This ap-
+proach is computationally more demanding than the model of
+Hui & Seager (2002), which only requires Eq. (1) to be com-
+puted numerically. This is because the assumption of an atmo-
+sphere that is isothermal in hydrostatic equilibrium and with
+uniform vertical composition allows the use of an analytic ex-
+pression in Eq. (2). We note that Misra & Meadows (2014) re-
+ported that the assumption of an isothermal atmosphere results in
+no signiﬁcant diﬀerence after testing realistic tropospheric lapse
+rates and stratospheric temperature inversions using their ray-
+tracing framework. Alternately, Sidis & Sari (2010) developed
+a model that provides analytic approximations for the observed
+ﬂux near and away from occultation, but at the cost of ignoring
+limb darkening.
+
+2.2. Test planets
+We construct a suite of test planets for the analysis of refraction
+transit light curves. Each planet is deﬁned by a set of parameters,
+T, MP, R0, DLS, and atmospheric composition, where MP is the
+planet mass and the remaining variables are deﬁned following
+Hui & Seager (2002, Table 1). The atmospheric composition is
+related to α by Cauchy’s equation (Appendix A). Let P be the or-
+bital period, G the gravitational constant, MS the stellar mass, σR
+the cross section for Rayleigh scattering, and assume the plan-
+etary orbits to be circular. The remaining parameters needed to
+compute refraction light curves are then given by (Hui & Seager
+2002)
+
+(cid:115)
+
+D3
+LS
+GMS
+
+,
+
+P = 2π
+
+g =
+
+GMP
+R2
+0
+
+,
+
+σR = 10−27 cm2
+µmH
+√
+2πR0H
+
+ρ0 =
+
+σR
+
+λ
+
+,
+
+(cid:32)5000 Å
+
+(cid:33)4
+
+,
+
+(10)
+
+(11)
+
+(12)
+
+(13)
+
+along with Eqs. (1)–(7). Equation (13) assumes that the eﬀec-
+tive surface is set by Rayleigh scattering. This is a reasonable
+assumption at a wavelength of 6500 Å in atmospheres devoid of
+clouds and hazes, which is what is assumed here unless other-
+wise stated. Importantly, the model is insensitive to the opacity
+
+Fig. 1. Positions of the test planets presented in Table 2. The black line
+is the limit between weak and strong lensing; the region above the line
+is strongly lensing.
+
+source. The model is constructed such that the optical depth
+above R0 is zero and inﬁnite below. So, it is perfectly legitimate
+to ignore the Rayleigh scattering modelled by Eq. (13) and to
+set ρ0 and R0 manually. For example, if there are reasons to be-
+lieve that a cloud deck obscures all paths below R0, then R0 can
+be set to the radius that corresponds to the altitude at the top of
+the cloud layer, in which case ρ0 would be the atmospheric mass
+density at R0.
+
+We provide the properties of all test planets in Table 2,
+while their distribution in the BC-plane is shown in Fig. 1. Earth
+and Jupiter are used as references for the other ﬁducial plan-
+ets. The temperatures for Earth and Jupiter are chosen to be rep-
+resentative of the majority of the atmosphere above the eﬀec-
+tive Rayleigh surface. A temperature of 255 K is deemed repre-
+sentative of the atmosphere of the Earth and the temperature of
+150 K for Jupiter is based on the temperature proﬁle measured
+by the Galileo atmospheric probe (Seiﬀ et al. 1998, Fig. 28). The
+temperature of the 80-day super-Earth is assumed to scale as
+T ∝ D−0.5
+LS with respect to the Earth and the temperatures of the
+20-day Jovian and 1-year Jovian with respect to Jupiter. The bulk
+density for the ﬁducial super-Earth scenario is chosen based on
+the empirical relation of Weiss & Marcy (2014, Eq. (3)), which
+is ﬁtted to planets with radii in the range 1.5−4 R⊕. This relation
+results in a mass of 3.9 M⊕ for a radius of 1.5 R⊕, corresponding
+to a mean density of 6.4 g cm−3. It is also assumed that the mass
+distributions within all planets are homogeneous. The average
+
+A90, page 3 of 12
+
+05001000150020002500300035004000C100101102103104105B20-dayJovian80-daysuper-EarthEarth1-yearJovianJupiterBest-caseJovianA&A 609, A90 (2018)
+
+Fig. 2. Residuals for a light-curve model including refraction ﬁtted with
+a plain transit model without refraction for Jupiter. The dash-dotted red
+line is for a plain model with identical parameters as for the refraction
+light curve. The dashed green line is for a plain model with ﬁxed, correct
+limb-darkening coeﬃcients (LDCs). The solid blue line is a plain model
+ﬁtted with 10% freedom in the LDCs. The vertical black lines mark
+when the planet limb and centre cross the star limb. The reference time
+is set to mid-transit.
+
+density of the Jovian planets is assumed to be equal to that of
+Jupiter.
+
+The purpose of the best-case planet is to put a limit on the
+maximum possible refraction strength. We ﬁx the orbital dis-
+tance to the orbital distance of Jupiter because it sets the geo-
+metrical deﬂection angle and is of little importance as long as the
+angle is small (Sect. 3.2). The radius is set to the Jupiter radius
+because an arbitrarily large signal strength can be achieved by
+increasing the radius with an appropriate rescaling of the other
+parameters. This leaves the atmospheric composition, which is
+set to pure H2; planet mass, which is set to 1 MJ; and the tem-
+perature, which is set to 600 K. It is shown in Sect. 3.2 that the
+atmospheric composition, planet mass, and temperature are de-
+generate. For example, a doubling in mass and temperature re-
+sults in an identical light curve to that of the original parameters.
+The purpose of the best-case planet is that any planet at an orbital
+distance and with a radius equivalent to those of Jupiter yields a
+weaker refraction signal. In this sense, the best-case planet sce-
+nario can be considered as an upper limit. We note that the Earth
+happens to show a stronger refraction signal for an Earth-sized
+planet on a 1-year orbit and can serve as a best-case terrestrial
+planet.
+
+3. Model predictions
+3.1. Refraction light curves
+
+The primary question is what diﬀerences are caused by at-
+mospheric refraction in transit light curves. This can be stud-
+ied by generating a light curve using the refraction model of
+Hui & Seager (2002) and then ﬁtting a model without refrac-
+tion to it. Residuals (∆F) can then be computed by taking the
+refraction light curve and subtracting the ﬁtted model from it.
+Mathematically, ∆F = FR − FM, where FR is the normalised
+predicted model ﬂux and FM is the normalised ﬂux of a ﬁt-
+ted model. Figure 2 shows residuals for a refraction light curve
+
+A90, page 4 of 12
+
+Fig. 3. Refraction shoulders for the ﬁve strongly lensing test planets.
+The y-axis is logarithmic for visual clarity. Blue is the reference Jupiter
+and is identical to the blue line in Fig. 2. Red is the Earth, yellow is the
+80-day super-Earth, green is the 80-day Jovian, and magenta is the best-
+case Jovian planet. The reference time is set to when the planet centre
+crosses the star limb, which is equivalent to the second vertical line in
+Fig. 2.
+
+ﬁtted with plain transit light-curve models without refraction for
+Jupiter. The ﬁtted models are a plain transit light curve with the
+parameters ﬁxed to those used for generating the refraction light
+curve (dash-dotted red); with free inclination, orbital distance,
+and planet radius but ﬁxed LDCs (dashed green); and with free
+parameters and 10% freedom in the LDCs (solid blue). The ef-
+fects of refraction are clearly seen as shoulders before and after
+transit and a ﬂux decrease appears during transit. The shoulders
+only exist for planets in the strong lensing regime. The near side
+of a strongly lensing planet can occult the star before light starts
+being lensed into view by the far side of the planet, in which case
+the shoulders are suppressed. This is only relevant for systems
+close to the limit between strong and weak lensing. Most sys-
+tems in the strong lensing regime will exhibit shoulders. The ﬂux
+decrease of ∼15 parts per million (ppm; dash-dotted red) at mid-
+transit for Jupiter is relatively large. For comparison, the corre-
+sponding ﬂux decrease for the 1-year Jovian case is (cid:46)1 ppm. One
+of the main points of Fig. 2 is to show that many of the in-transit
+refraction features are eliminated when ﬁtting a model with free
+impact parameter, planet radius, and star-planet distance (dashed
+green), especially when also allowing for some freedom in the
+LDCs (solid blue).
+
+3.2. Refraction shoulders
+
+Refraction shoulders are expected to be the most easily de-
+tectable features and depend on several atmospheric parameters.
+Figure 3 shows refraction shoulders for the suite of test planets
+provided in Table 2, except for the 20-day Jovian, which does
+not exhibit shoulders as it is weakly lensing. The peak resid-
+ual amplitudes and half-times for the planets are provided in
+Table 3. A half-time is deﬁned as the time interval measured
+from when the residual amplitude is half of the peak amplitude
+to the time when the residual amplitude is at its peak. Systems
+with higher peak amplitudes are not necessarily easier to detect.
+For instance, when comparing the 80-day super-Earth with the
+Earth, the super-Earth’s refraction shoulders have a higher peak
+
+−1500−1000−500050010001500t(min)−15−10−505∆F(ppm)−200−150−100−500t(min)10−1100101∆F(ppm)D. Alp and B.-O. Demory: Refraction in exoplanet atmospheres
+
+Fig. 4. Refraction signal strengths as functions of six diﬀerent refraction parameters. The left panel is the 80-day super-Earth and the right panel
+is Jupiter. The x-axis is the ratio of the changing parameter to its original value. Red is wavelength, green is temperature, blue is planet mass, cyan
+is radius, magenta is orbital distance, and yellow is molecular weight (which overlaps with planet mass). The signal is measured over 60 min for
+the 80-day super-Earth and 600 min for Jupiter because of the diﬀerent characteristic timescales.
+
+Table 3. Refraction shoulder properties.
+
+Host
+
+Planet
+
+Sun
+Sun
+Sun
+Sun
+Sun
+M4V
+M4V
+M4V
+TRAPPIST-1
+TRAPPIST-1
+TRAPPIST-1
+TRAPPIST-1
+TRAPPIST-1
+TRAPPIST-1
+TRAPPIST-1
+
+Earth
+Super-Earth
+Jupiter
+1-year Jovian
+Best-case
+Earth
+Super-Earth
+Jupiter
+b
+c
+d
+e
+f
+g
+h
+
+(ppm)
+0.3
+0.4
+4.1
+3.6
+17.3
+2.9
+2.6
+18.3
+2.0
+3.3
+7.4
+19.6
+23.8
+18.7
+40.2
+
+Peak amp. Half-time
+
+(min)
+49
+33
+274
+38
+221
+12
+6
+43
+1
+2
+2
+3
+6
+9
+8
+
+amplitude, but fade over shorter timescales than the shoulders of
+the Earth.
+
+We explore the parameter space by studying the strength
+of refraction as a function of the following parameters: observ-
+ing wavelength, temperature, mass, radius, orbital distance, and
+molecular weight. This is done by scaling each parameter with
+respect to the reference value that is provided in Table 2. The
+molecular weight is scaled by simply assuming that the mass
+of the atoms that constitute the atmosphere is changing. This
+means that the refractive properties, which are unique for each
+molecule, are assumed to be constant. Each parameter is as-
+sumed to be independent of the other parameters that are used to
+deﬁne a test planet, but propagates into the quantities that are cal-
+culated using the scaled parameter, following the description in
+Sect. 2.2. For example, the mass is assumed to be constant when
+the radius is doubled, whereas a parameter such as the surface
+gravity would be reduced by a factor of 4 following Eq. (11). We
+thus deﬁne the refraction signal strength S∆t as the mean ∆F over
+
+the ∆t minutes just before ﬁrst contact. This serves as a measure
+of the shoulders’ detectability.
+
+Refraction signal amplitudes for various ranges of param-
+eters are shown in Fig. 4. The very steep refraction strength
+drop-oﬀ at shorter wavelengths is primarily explained by the
+fourth-order wavelength dependence of Rayleigh scattering (see
+Eq. (12)). The radius R0 is set to the radius at which the optical
+depth due to Rayleigh scattering is unity. A quickly increasing
+scattering cross section at shorter wavelengths implies that the
+eﬀective radius is shifted to higher altitudes where the density
+is lower. A secondary eﬀect of decreasing wavelength is that the
+refractive coeﬃcient increases, but this eﬀect is orders of mag-
+nitude weaker than that of the increased Rayleigh cross section.
+The wavelength dependence ﬂattens for long wavelengths be-
+cause it only determines the capability of the atmosphere to de-
+ﬂect light. This enters the model through the B parameter, which
+is a deﬂection angle scaled by distance. Further increased de-
+ﬂection strength beyond the point where the planet is capable of
+deﬂecting light from its host star into the line of sight does not
+result in a signiﬁcantly stronger signal because the limiting fac-
+tor becomes the projected area of the atmosphere. This means
+that B is eﬀectively saturated.
+
+Figure 4 also shows that the refraction signal strength mono-
+tonically increases with increasing orbital distance. The sig-
+nal strength increases more steeply for shorter distances, then
+reaches a break and keeps increasing more slowly. The steep re-
+gion is where the refraction strength is limited by the capability
+of the atmosphere to deﬂect the light at a large enough angle. The
+break is the distance at which the B parameter eﬀectively satu-
+rates, analogously to the break that is seen in the wavelength de-
+pendence. The reason for a continued, slower refraction strength
+increase for large distances is that the transit timescale lengthens
+as a consequence of the Keplerian orbits of the planets.
+
+The refraction signal strength has a non-monotonous depen-
+dence on some of the parameters. The signal shows the same be-
+haviour with respect to the molecular weight, mass, and inverse
+temperature because these three parameters enter the equations
+through B and C identically. The parameters decrease the scale
+height and increases the density ρ0, both of which result in a
+larger density gradient of the atmosphere, which increases the
+
+A90, page 5 of 12
+
+10−1100101Parametervaluerelativeto80-daysuper-Earth10−1100S60(ppm)10−1100101ParametervaluerelativetoJupiter10−1100101S600(ppm)A&A 609, A90 (2018)
+
+Fig. 5. Same as Fig. 3, but with an M4V red dwarf host star. The 1-year
+Jovian and best-case planet are excluded; they have no shoulders be-
+cause they fall outside of the strong lensing regime.
+
+atmosphere’s capability of deﬂecting light. A competing eﬀect
+is that a decreased scale height also gives a smaller projected at-
+mospheric area, which results in a lower refraction signal. The
+balance between these two eﬀects yields a parameter value for
+which the refraction strength is maximised. The density has a
+stronger dependence on molecular weight than the planet mass
+and inverse temperature, but this eﬀect is cancelled by a corre-
+sponding decrease in the refractive coeﬃcient α.
+
+The strongest dependence of refraction amplitude is on the
+planet-to-star radius ratio. The refraction signal scales with
+planet radius because of the increased projected atmospheric
+area. Additional eﬀects are that the scale height increases and
+atmospheric density decreases, which at a given radius renders
+the atmosphere unable to deﬂect light at large enough angles to
+be strongly lensing, resulting in a sharp cut-oﬀ. It is also possible
+that the radius is large enough for the near side of the planet to
+start occulting the star before the far side of the planet starts re-
+fracting light into view. In this case, the strength of the refraction
+signal also drops sharply.
+
+3.3. Red dwarf host star
+Refraction signal strength is dependent on host star proper-
+ties, which is investigated by computing the refraction wings
+for the same test suite of planets but with a red dwarf host.
+The host star used is a ﬁducial M4V dwarf star with a ra-
+dius of 0.26, mass of 0.2, and luminosity of 0.0055 relative to
+the Sun (Reid & Hawley 2005; Kaltenegger & Traub 2009). The
+LDCs are set to γ1 = 0.2 and γ2 = 0.4 corresponding to the
+redder wavelengths of Berta-Thompson et al. (2015) because the
+ﬂux of a red dwarf is assumed to be weighted towards longer
+wavelengths in the Kepler bandpass. The test planets are moved
+to an orbit at which they receive the same incident ﬂux as for a
+Sun-like host. Only Earth, the 80-day super-Earth, and Jupiter
+out of the ﬁve test planets are in the strongly lensing regime
+with the M4V dwarf host. The refraction shoulders are shown
+in Fig. 5. The two most striking diﬀerences are that the ampli-
+tudes increase by a factor of ∼5 and the relevant timescales are
+much shorter, which is clearly seen in Table 3.
+
+We can then compare the detectability of refraction features
+for Jupiter around the Sun and a Jupiter analogue around an M4V
+
+A90, page 6 of 12
+
+Fig. 6. Same as Fig. 3, but for the TRAPPIST-1 system at a wave-
+length of 4.5 µm corresponding to the infrared Spitzer photometry of
+Gillon et al. (2017). The planets are TRAPPIST-1b (red), c (green), d
+(blue), e (cyan), f (magenta), g (yellow), and h (black).
+
+dwarf star. Let ξ be the timescale, L host star luminosity, and as-
+sume that the achievable photometric precision (σP) scales as
+the square root of photon count. The precision is the relative un-
+certainty from photon counting statistics that can be achieved
+within a given time interval. For this reason a factor of P−1/2 is
+introduced because it is assumed that observations are performed
+whenever a transit occurs. In this case the precision follows
+σP ∝
+
+(cid:114)
+
+(14)
+
+·
+
+ξL
+P
+
+The period around the dwarf star is six months compared to
+twelve years around the Sun and the refraction timescale is
+shorter by a factor of 274/43 ≈ 6.4 (from Table 3) around the
+dwarf star. The ratio of precision around the Sun to precision
+(cid:114)
+around an M4V dwarf after twelve years of observations is then
+
+(15)
+
+×
+
+274
+43
+
+× 0.5
+12
+
+≈ 7.
+
+1
+
+0.0055
+
+The signal strength around the Sun is expected to be weaker by
+roughly the same amount, see Table 3, so the predicted signal-
+to-noise ratio (S/N) is similar for the Sun and for an M4V dwarf
+host. Importantly, the M4V S/N would of course decrease if not
+all transits are observed within the given time interval.
+
+3.4. TRAPPIST-1
+We now focus on the more extreme case of the M8V dwarf
+TRAPPIST-1, which hosts seven Earth-size planets (Gillon et al.
+2017). We compute the refraction shoulders for all TRAPPIST-1
+planets at a wavelength of 4.5 µm, corresponding to the infrared
+Spitzer photometry gathered for this object (Gillon et al. 2017).
+The nominal eﬀect of limb darkening at 4.5 µm is ignored. It is
+not reasonable to assume that Rayleigh scattering sets the eﬀec-
+tive surface at a wavelength of 4.5 µm. Instead, the planet radius
+(R0) is set to the radius at which the pressure is 1 atm, conse-
+quently the mass density ρ0 is set to the density at R0, instead of
+being computed using Eq. (13). We show the refraction shoul-
+ders for all TRAPPIST-1 planets in Fig. 6 and their properties
+in Table 3. We use the parameters (except for planet masses)
+from Gillon et al. (2017), an assumed atmospheric composition
+
+−200−150−100−500t(min)10−1100101∆F(ppm)−60−50−40−30−20−100t(min)100101∆F(ppm)D. Alp and B.-O. Demory: Refraction in exoplanet atmospheres
+
+0.78N2 + 0.22O2, and planet masses from Wang et al. (2017).
+The seventh planet, TRAPPIST-1h, shows the strongest refrac-
+tion signal with a peak excess amplitude of 40 ppm and a half-
+time of 11 min. It is not reasonable to expect any residual signal
+to be stronger than 100 ppm for diﬀerent assumptions concern-
+ing the atmospheric composition or when considering the uncer-
+tainty of the parameters. This value was determined by exploring
+the parameter space around TRAPPIST-1h.
+
+The S/N for planets around TRAPPIST-1 and the Sun can
+be compared using the precision deﬁned by Eq. (14). The lu-
+minosity of TRAPPIST-1 is 0.000524 L(cid:12) and the orbital period
+of TRAPPIST-1h is 18.8 days (Luger et al. 2017). The distance
+with an equivalent incident ﬂux around the Sun would corre-
+spond to a period of 1677 days. The peak amplitude of the re-
+fraction shoulders of a TRAPPIST-1h analogue around the Sun
+is 1 ppm with a half-time of 73 min. Analogously to Eq. (15),
+the precision would be higher by a factor of
+
+(cid:114)
+
+×
+
+73
+8
+
+1
+
+0.000524
+
+× 18.8
+1677
+
+≈ 14
+
+(16)
+
+around the Sun than TRAPPIST-1, which results in a comparable
+S/N given that the refraction signal is 1 ppm around the Sun
+compared to 40 ppm around TRAPPIST-1.
+
+3.5. Weak lensing
+Any in-transit, ingress, and egress signals are expected to be van-
+ishing for weakly lensing planets because almost all of these re-
+fraction eﬀects can be compensated for by ﬁtting a plain transit
+model, especially when allowing for some freedom in the LDCs.
+This can be seen for Jupiter in Fig. 2, where the residuals are
+smaller than 1 ppm between the shoulders when ﬁtting a model
+with 10% freedom in the LDCs. The 20-day Jovian is a planet
+that is expected to have relatively strong lensing features even
+though it is weakly lensing, primarily because it is large and
+is further away from its host star than the closest close-in gi-
+ants. Figure 7 shows the residuals for the 20-day Jovian planet
+along with a set of planets with similar parameters. The main
+point is that refraction features are not signiﬁcantly stronger and
+present on much shorter timescales compared to strongly lensing
+planets.
+
+4. Observations
+We then turn to observations where transit light curves from
+Kepler are stacked and ﬁtted in an attempt to detect refraction
+features. Kepler 30-min long-cadence simple aperture photome-
+try (SAP) Jenkins et al. (2010, data release 25) are used for the
+analysis. The products in the SAP data used for our purpose are
+the timestamps, photometric ﬂuxes, 1-σ statistical ﬂux errors,
+and quality ﬂags. Data for all Kepler objects of interest (KOIs)
+from quarters 0 through 17 were downloaded from NASA Ex-
+oplanet Archive1 (NEA) on 23 January 2017. The SAP data
+have Argabrightening events mitigated (Witteborn et al. 2011)
+and cosmic rays removed. Background estimates are then sub-
+tracted and the photometric ﬂuxes are computed using optimal
+apertures. The SAP is a less processed version than the pre-
+search data conditioning SAP (PDCSAP) (Stumpe et al. 2012;
+Smith et al. 2012), which has undergone additional artefact miti-
+gation to account for instrument systematics. The choice of using
+SAP instead of PDCSAP is made because the artefacts primar-
+ily aﬀect longer timescales and additional high-level data re-
+duction increases the risk of either removing refraction signals
+
+1 http://exoplanetarchive.ipac.caltech.edu
+
+Fig. 7. Residuals for a set of 20-day Jovians after ﬁtting a plain light-
+curve model with 10% freedom in the limb-darkening coeﬃcients to
+a refraction light curve. Blue is the reference planet with parameters
+given in Table 2. Red is double temperature, green is double mass, cyan
+is six times higher molecular weight, and yellow is double radius. The
+vertical black lines mark when the planet centre crosses the star limb.
+The reference time is set to mid-transit.
+
+or introducing weak systematics that could be confused with
+refraction-driven patterns in the data. Concerning false positives,
+Fressin et al. (2013) determined that 90% of all KOIs are real
+planets.
+
+4.1. Light curve reduction and ﬁtting
+The Kepler photometry data are reduced and ﬁtted in order to
+study any systematic residuals. All transits for each KOI are
+stacked and only data corresponding to ﬁve transit durations cen-
+tred on the transit are kept for each transit. All data points during
+transits of other KOIs in the same system or ﬂagged as bad in the
+SAP are removed. Bad means that the ﬂag SAP_QUALITY is dif-
+ferent from 0. This conservative rejection criterion is chosen be-
+cause systematic residuals were observed otherwise. Each transit
+is individually normalised by dividing the data with a quadratic
+polynomial that is ﬁtted to the out-of-transit baselines, which
+are deﬁned as the ﬁrst and last 1.5 transit durations out of the
+ﬁve transit durations. This means that the actual transit and half
+a transit duration before and after the transit are excluded. The
+additional margin is introduced because of potential refraction
+shoulders during the time intervals just before and after transit.
+The transit light-curve model of Mandel & Agol (2002) is then
+ﬁtted to the stack of all transits for each KOI. Transit timing
+variations (TTVs) are modelled by introducing a sinusoidal shift
+in time. Light curve ﬁtting is performed using the Levenberg-
+Marquardt gradient descent function curve_fit in SciPy 0.13.3
+with eight free parameters; star-planet distance, planet radius, in-
+clination, two LDCs and three TTV parameters. The LDCs are
+given 10% freedom with respect to the values in NEA, which are
+derived using the method of Claret & Bloemen (2011) using the
+ATLAS model and least-squares method with eﬀective temper-
+atures and surface gravities from Huber et al. (2014). The three
+TTV parameters are the amplitude, frequency, and initial phase
+of the sinusoidal shift in time. A 5-σ clip is then applied to the
+data meaning that points with a photometric residual of more
+than ﬁve sigma are removed. A second normalisation using the
+
+A90, page 7 of 12
+
+−150−100−50050100150t(min)−10−5051015∆F(ppm)A&A 609, A90 (2018)
+
+same conservative baseline is then performed with the additional
+requirement that the normalisation function is ﬁtted to at least
+ﬁve points on each side. A minimum of 14 data points between
+the baseline intervals are demanded to ensure that the reference
+level is well determined and that the transit contains a mean-
+ingful amount of information. Transits with too few points are
+removed and the remaining stacked transits are reﬁtted.
+
+The accuracy of the photometric baseline for each transit is
+checked using two tests (Sheets & Deming 2014). Firstly, a line
+is ﬁtted to the ﬁrst interval and projected to the other side of
+transit. The transit is rejected if the mean of the projection at the
+time of the other baseline deviates by more than 0.001 (relative
+ﬂux) from 0. It was veriﬁed that the choice of 0.001 resulted
+in a reasonable balance between number of rejected transits and
+light-curve quality. The projection is then reversed by ﬁtting to
+the second interval and projecting to the ﬁrst. It is possible that
+a transit light curve passes one but not both parts of the test.
+Secondly, it is required that the two lines from the projection
+test have slopes that are consistent with 0 at 3-σ. Only transits
+with both slopes being consistent with 3-σ are kept for further
+analysis. Light curve ﬁts are then performed for each KOI to the
+stack of the transits that passed both tests. Finally, the deviations
+of the residuals are tested for systematics using the red-noise
+test presented in Sheets & Deming (2014). If the noise is solely
+composed of statistical ﬂuctuations, such as for photon count-
+ing, then log(σ) ∝ −0.5 log(N), where σ is the sample standard
+deviation and N is the size of the bins. The stacked residuals for
+all transits of a given KOI are binned with diﬀerent bin sizes,
+allowing for ﬁtting of log(σ) against log(N). Only KOIs with
+ﬁtted noise slopes in the range −0.8 to −0.3 are kept. This is
+an eﬃcient way to ﬁlter KOIs with various systematic errors on
+diﬀerent timescales.
+
+A total of 2394 out of the 4707 KOI light curves pass all
+tests. The median reduced χ2 value for the 2394 ﬁts is 1.24 and
+the arithmetic mean is 1.47. The distribution of the number of
+degrees of freedom (d.o.f.) for the 2394 planets has a median
+of 8680 and arithmetic mean of 13 733. The primary condition
+that candidates failed was the requirement of 14 data points be-
+tween the intervals used for baseline ﬁtting. This is essentially
+equivalent to requiring transits to be longer than three hours,
+which excludes 1743 KOIs. These are close-in planets and are
+not expected to show any refraction signal because of the geom-
+etry of the planetary system and the refraction timescale com-
+pared to the 30-min cadence of Kepler. This scenario is studied
+in Sect. 3.5; examples are shown in Fig. 7.
+
+4.2. Selection of candidates
+
+A subset of 305 out of the 2394 ﬁtted KOIs are selected based on
+the following criteria. It is required that the planet radius is larger
+than 0.025 stellar radii and orbital period longer than 40 days.
+This is based on theoretical expectations of which planet popu-
+lation would show the strongest refraction signals. The choice
+of having an orbital-period requirement instead of star-planet
+distance cut-oﬀ is because the period is more robust as it is
+measured directly in contrast to the star-planet distance, which
+is determined by the multi-dimensional light-curve ﬁt. It is re-
+quired that ﬁtted planet radii should be smaller than 0.5 of the
+host star radius and that impact parameters be smaller than 1.
+These criteria mainly reject poorly ﬁtted KOIs. The subset of
+305 large planets with long orbits will henceforth serve as the
+primary sample in the analysis. The median reduced χ2 value for
+the 305 selected planets is 1.22 and the arithmetic mean is 1.46.
+
+A90, page 8 of 12
+
+Fig. 8. Binned residuals for the sample of 305 large planets on long
+orbits. The blue line is the theoretical prediction for a Jovian planet on
+a 1-year orbit. The precision of the stacked residuals is clearly not high
+enough to detect any refraction signal. Negative distances are before
+mid-transit and positive distances are after. The vertical black lines mark
+when the planet centre crosses the star limb.
+
+The distribution of the d.o.f. for the 305 planets has a median of
+3358 and arithmetic mean of 3941.
+
+5. Stacked Kepler data
+
+Figure 8 shows the stacked residuals for the selected sample
+of 305 large planets with long orbits. A total of 101 557 long-
+cadence data points are stacked, with an average of 3174 points
+per bin. The bins are 0.125 wide in units of host star radii. The
+relatively long timescale is chosen to reveal refraction shoulders.
+The residual signal is expected to be of the order of 1 ppm. The
+precision of the stacked residuals is in the range 2.3–8.4 ppm,
+implying that any refraction shoulders are not expected to be de-
+tectable. The increased noise towards mid-transit occurs primar-
+ily because many projected KOI transits do not cross the central
+parts of the host star, resulting in fewer data points. The blue line
+is the theoretical prediction for a Jovian planet on a 1-year orbit.
+It is not a best-case scenario, but a signal in the averaged resid-
+uals can most likely not be expected to be stronger than that of
+a 1-year Jovian. This is determined by exploring the parameter
+space and studying the residuals for many planets in the sample.
+Figure 9 shows the stacked residuals around ingress and
+egress for the sample of 305 large planets with long orbits. The
+sample is the same as in Fig. 8, but contrary to Fig. 8, the data in
+Fig. 9 have the x-axis in units of planet radii. Additionally, the
+distance on the x-axis is the distance from the stellar limb to the
+planet centre. A total of 28 911 data points are stacked, with an
+average of 903 per bin. The choice of unit is made because re-
+fraction features around ingress and egress are expected to scale
+with planet size. This is in contrast with the refraction shoulders
+that scale with the planet-centre to star-centre distance. Further-
+more, each bin is half a planet radius wide allowing for resolu-
+tion of features on shorter timescales. The purpose of this ﬁgure
+is to reveal any potential features that are similar to those shown
+in Fig. 7. This would be the only refraction signal for planets that
+are not strongly lensing. The signal is expected to be a few tenths
+of ppm at Kepler long cadence and the precision of the stacked
+
+−2.0−1.5−1.0−0.50.00.51.01.52.0Planet-centretostar-centredistance(starradius)−20−15−10−5051015∆F(ppm)D. Alp and B.-O. Demory: Refraction in exoplanet atmospheres
+
+both with and without TTV modelling are skewed towards large
+values and have medians of 1.237 and 1.239, respectively. A
+TTV model with more freedom which allowed each transit to
+shift slightly in time and another model allowing each transit
+to shift with respect to the previous one were tested. Both were
+discarded because they introduced artefacts around ingress and
+egress. It is clear from Fig. 10 that no systematic residuals are
+observed out of transit. Any feature at a few ppm, such as signs
+of rings or moons, would be obvious.
+
+No signiﬁcant diﬀerences to the presented results are ob-
+served when dividing the KOIs into other subsets. This includes
+separating the sample into narrow ranges of star-planet distances
+and planet sizes. Eﬀects of other ﬁtting parameters and selection
+criteria are also studied.
+
+Fig. 9. Binned residuals for the sample of large planets on long orbits.
+Contrary to Fig. 8, the x-axis is the distance from the stellar limb to the
+planet centre in units of planet radii. The blue line is the theoretical pre-
+diction for a Jovian planet on a 20-day orbit. It is equivalent to the blue
+line in Fig. 4 as observed through the 30-min long cadence of Kepler.
+Negative distances are when planets are inside of the stellar disc and
+positive distances are outside. The vertical black lines mark when the
+planet limb and centre cross the star limb.
+
+Fig. 10. Same as Fig. 8, but for all 2394 KOIs that were ﬁtted. The
+blue line was computed for a 1-year Jovian and is not representative for
+the stacked planets. It is not the expected signal for the sample and is
+included for reference only.
+
+residuals is approximately 7 ppm. Thus, any refraction features
+are not expected to be detectable in this case.
+
+A blind search for any systematic residuals at a high pre-
+cision in the sample of all 2394 ﬁtted KOIs is made by stack-
+ing the residuals at a bin size of 0.125 star radii, shown in
+Fig. 10. The stack contains a total of 2.7 million long-cadence
+data points with an average of 84 thousand per bin. The preci-
+sion during the transit ranges from 0.3–1 ppm. The residual ex-
+cess centred on mid-transit possibly stems from inaccurate TTV
+ﬁtting. The three-parameter TTV model (Sect. 4.1) lowered the
+reduced χ2 value from 1.481 for 5.34 × 106 d.o.f. to 1.469 for
+5.46 × 106 d.o.f. (more d.o.f. with the TTV model because more
+transits passed all tests). The distributions of reduced χ2 values
+
+6. Discussion
+6.1. Connection with physical properties
+The refraction strength is very sensitive to the atmospheric scale
+height, composition, and density, potentially allowing for con-
+straints on the atmosphere using solely photometric data. How-
+ever, parameters such as the planet radius and orbital distance are
+more strongly constrained by other observational methods than
+atmospheric lensing.
+
+Refraction also allows for constraints on the presence of
+clouds or hazes in the atmosphere. No refraction can be observed
+in atmospheric layers that are opaque due to clouds, hazes, or
+other obscuring weather conditions, implying that any refrac-
+tion features can be taken as an indication of relatively clear
+skies. Searching for refraction residuals using photometry alone
+can therefore yield suitable targets for follow-up observations,
+as previously pointed out by Misra & Meadows (2014). An al-
+ternative approach to detect refraction is to measure molecular
+feature wing steepness and relative depths of absorption features
+in near-infrared transmission spectra (Benneke & Seager 2013).
+Refraction shoulders, which are only possible in the strong
+lensing regime, are likely to be easier to observe than any
+ingress, egress, or in-transit residuals. Refraction will be very
+challenging to detect for weakly lensing systems because the
+timescales are much shorter. We note that the refraction resid-
+uals are usually compensated for when adjusting a transit model
+to the data. These residuals can also be confused with stellar os-
+cillations, starspots, and other minor eﬀects such as rings and
+moons (Hippke 2015; Kipping et al. 2015; Heller 2017). An ad-
+ditional source of error is the accuracy of the stellar surface
+brightness proﬁle. The nature of the refraction shoulders, be-
+ing out of transit, facilitates the interpretation of the refraction
+signal.
+
+There is no simple relation between most physical param-
+eters and refraction strength. It is a trade-oﬀ that depends on
+many parameters, as is shown in Sect. 3.2. The only predictor
+for refraction that is robust is if the system is strongly lens-
+ing, but this does not immediately translate to signal strength.
+The exact position in the BC-plane is not simply correlated with
+refraction signal strength, although it does give some informa-
+tion on qualitative features (e.g. the overall shape of the re-
+fraction residuals), but contains little quantitative information.
+It is worth emphasising that refraction can set the eﬀective ra-
+dius only if the planet is strongly lensing, which is impor-
+tant for transmission spectroscopy and is further discussed in
+Sect. 6.2. The largest refraction peak amplitudes for realistic
+planets orbiting Sun-like stars are on the order of 10 ppm, see
+Sect. 3 and Misra & Meadows (2014), but amplitudes as large
+
+A90, page 9 of 12
+
+Planet-centretostar-limbdistance(planetradius)31-1-3−30−20−100102030∆F(ppm)Ingress-3-113−30−20−100102030Egress−2.0−1.5−1.0−0.50.00.51.01.52.0Planet-centretostar-centredistance(starradius)−2−101234567∆F(ppm)A&A 609, A90 (2018)
+
+as 100 ppm have been reported for hypothetical ﬁducial plan-
+ets (Hui & Seager 2002; Sidis & Sari 2010). The Earth and the
+best-case Jovian can be used as examples of planets with high re-
+fraction signal strength given their respective orbital distance and
+radius. The exact signal strength is sensitive to a set of parame-
+ters and only seems to be strong for certain combinations, which
+means that refraction will be an important eﬀect for a small num-
+ber of planets that happen to be favourable for lensing.
+
+very weak close to strong absorption features or towards shorter
+wavelengths where Rayleigh scattering becomes important. In
+this case, any eﬀects of refraction will be restricted to the low-
+opacity regimes. The general guideline is that refraction does not
+obscure layers of the atmosphere if the planet is weakly lensing.
+Weak lensing could be restricted to certain wavelengths if the
+opacity is wavelength dependent or it could be restricted to some
+transits because of transient clouds or hazes.
+
+6.2. Effects on transmission spectroscopy
+Refraction has attracted much attention as it could increase
+the eﬀective radius of a planet and set a “surface” above
+the deepest layers of the atmosphere, which has critical con-
+sequences for transmission spectroscopy (García Muñoz et al.
+2012; Bétrémieux & Kaltenegger 2013, 2014; Bétrémieux 2016;
+Bétrémieux & Swain 2017). This eﬀect is more pronounced
+for in-transit transmission spectra and it was emphasised by
+Misra et al. (2014) that deeper layers can be probed out of tran-
+sit in such cases. There is a deep connection between refraction
+shoulders, which are observed out of transit, and the maximum
+depth reached by in-transit transmission spectroscopy. The rea-
+son the deepest layers are obscured in cases where refraction
+sets an eﬀective surface is that any light passing through the
+deep layers are deﬂected at a large enough angle such that no
+light from these regions reaches the observer while the planet is
+in transit. This also means that the light that penetrates deeply
+into the atmosphere can be observed near transit because of the
+large deﬂection angles, which was ﬁrst pointed out by Sidis &
+Sari (2010; their Figs. 2 and 3) and then also by Misra et al.
+(2014; their Fig. 9). The photon paths that pass the deep lay-
+ers and consequently are deﬂected at large angles also constitute
+the refraction shoulders. Combining the above arguments means
+that weakly lensing planets cannot have an eﬀective surface set
+by refraction because they are not capable of deﬂecting light at
+large enough angles. The scenario is more complicated if the
+planet is strongly lensing because some parts of the atmosphere
+become inaccessible during parts of or throughout the transit. It
+is therefore not necessary for atmospheric layers to be obscured
+throughout the entire transit, but that the eﬀective exposure time
+is altitude dependent. Obscured deep layers can be recovered to
+some extent by observing the out-of-transit spectra in the refrac-
+tion shoulders. The signal is weaker out of transit because of the
+geometry that eﬀectively only exposes a narrow slit of the atmo-
+sphere on the outer side of the planet to starlight. This means that
+refraction can have signiﬁcant eﬀects on transmission spectra
+for strongly lensing planets even if refraction shoulders cannot
+be detected because of insuﬃcient photometric precision. In the
+most extreme cases, the deepest layers may not even be observ-
+able out of transit because photons beyond a certain depth are
+eﬀectively trapped by the atmosphere. This possibility is clearly
+conceptualised by Sidis & Sari (2010) who discuss the trapping
+of photons in transparent planets and the idea of a “lower bound-
+ary” deﬁned by Bétrémieux & Kaltenegger (2015).
+
+Refraction is only weakly dependent on wavelength and is
+unlikely to introduce any artefacts that can be interpreted as
+spectral features in transmission spectra. The wavelength depen-
+dence of refraction is incorporated in the model through R0 and
+the refractive coeﬃcient α (Appendix A). Only the latter is in-
+herent to refraction, whereas the former is a radius set by ab-
+sorption due to other processes. The inherent wavelength depen-
+dence of refraction can be neglected for practically all realistic
+cases. However, it is possible that refraction becomes signiﬁ-
+cant at wavelengths where the atmosphere is optically thin but
+
+A90, page 10 of 12
+
+6.3. Host star
+Refraction features depend on host star parameters. Smaller stars
+result in larger relative amplitudes for all features because all
+normalised quantities scale with the ratio of projected planet area
+to star area. An extreme case of a peak amplitude of 950 ppm
+was reported by Misra & Meadows (2014) for a 200 K Saturn
+analogue around an M9V dwarf. The downside is that the lu-
+minosity for small dwarf stars is much lower and orbits with
+the same incident ﬂux as for Sun-like stars are closer-in, which
+means that the transit duration is shorter but repeats more of-
+ten. The change in S/N of any refraction signal is much less
+than the peak amplitude might suggest when all parameters are
+taken into account, as shown in Sect. 3.3. Misra et al. (2014) and
+Bétrémieux & Kaltenegger (2014) reported that deeper layers of
+planet atmospheres can be probed for analogous planets around
+cooler stars. This means that transmission spectra can contain
+information from diﬀerent parts of the atmosphere although the
+S/N of photometric residuals is expected to be approximately
+the same for diﬀerent host stars (Sect. 3.3). It was also shown
+that only three out of the ﬁve strongly lensing planets around
+Sun-like hosts are strongly lensing if orbiting an M4V dwarf.
+Going from strongly to weakly lensing shows that deeper layers
+of atmospheres can be probed around dwarf stars than around
+Sun-like stars because weakly lensing planets are guaranteed to
+have their entire atmospheres exposed throughout transits, im-
+plying that layers that are inaccessible around a Sun-like star are
+exposed around red dwarfs.
+
+6.4. Alternative refraction scenarios
+It is possible for the atmosphere of an exoplanet to lens a back-
+ground star, analogously to gravitational microlensing. The re-
+fraction model predicts inﬁnite ampliﬁcation for background
+lensing, which clearly is an artefact of an idealisation. A more
+realistic guess would be an ampliﬁcation of a factor of a few,
+based on observed gravitational microlensing light curves. The
+main diﬃculty becomes the occurrence rate. The cross section is
+a few AU for gravitational lensing compared to a planet diam-
+eter for atmospheric lensing. The brightness increase does not
+have to be mixed with the host star light if the lensing planet
+can be directly imaged, since the lensed images of the back-
+ground star will be in the atmosphere of the exoplanet. Impor-
+tantly, any lensed light would have been transmitted through the
+atmosphere, thereby having its spectral imprint.
+
+Another consequence of atmospheric lensing is that it is pos-
+sible for planets with a near-transiting geometry to increase the
+ﬂux without ever occulting the host star. This is just the eﬀect of
+having a system that would have refraction shoulders if it was
+transiting, but instead showing a single ﬂux excess peak when it
+passes the star without entering the stellar disc.
+
+6.5. Kepler observations
+No refraction signal is observed in the Kepler data when tran-
+sits are stacked. The achieved precision is not high enough to
+
+D. Alp and B.-O. Demory: Refraction in exoplanet atmospheres
+
+residual excess amplitude on atmospheric parameters and shows
+comparable results.
+
+Acknowledgements. We thank the anonymous referee for the helpful comments
+that improved the manuscript. B.-O.D. acknowledges support from the Swiss
+National Science Foundation in the form of a SNSF Professorship (PP00P2-
+163967). This paper includes data collected by the Kepler mission. Funding for
+the Kepler mission is provided by the NASA Science Mission directorate. This
+research has made use of the NASA Exoplanet Archive, which is operated by the
+California Institute of Technology, under contract with the National Aeronautics
+and Space Administration under the Exoplanet Exploration Program. This re-
+search made use of Astropy, a community-developed core Python package for
+Astronomy (Astropy Collaboration et al. 2013). This research has made use of
+NASA’s Astrophysics Data System Bibliographic Services.
+
+A33
+
+103
+
+constrain refraction in the sample of large planets in long orbits,
+which is the population where refraction is expected to be sig-
+niﬁcant. It is still possible that refraction is relatively strong for
+a few targets, but these get suppressed when stacked with the
+rest of the sample. No attempt was made to constrain refraction
+in individual sources because computing refraction light curves
+is computationally intensive and the observational precision is
+clearly lower than predicted refraction shoulder amplitudes.
+
+A lack of refraction signatures in the stack of all ﬁtted plan-
+ets is expected because the transit method is generally biased
+towards detecting planets on short orbital periods. The short
+planet-to-star distance is disadvantageous for refraction because
+it requires atmospheres to deﬂect light at larger angles. The only
+systematic residuals that can be seen in the stack of all planets is
+the central excess with a peak amplitude of 5 ppm.
+
+7. Conclusions
+We have studied the eﬀects of atmospheric refraction on transit
+light curves and searched for refraction signatures in data from
+the Kepler mission. Our main conclusions are the following:
+
+1. Refraction residuals in photometric data can constrain phys-
+ical properties of exoplanet atmospheres, such as density,
+scale height, and to some extent composition.
+
+2. Out-of-transit refraction shoulders are the most robust and
+detectable residuals induced by atmospheric lensing and
+can reach peak residual excess amplitudes of approximately
+10 ppm. More probable amplitudes are a few ppm or less
+for Jovians and sub-ppm for super-Earths. In-transit, ingress,
+and egress features are probably very challenging to de-
+tect because of short timescales and degeneracy with other
+transit-model parameters.
+
+3. The parameter space is highly complex and depends criti-
+cally on a number of the parameters parametrising a plane-
+tary system. Refraction will prove important for some targets
+whereas most planets will show very weak refraction signals.
+4. Eﬀects of refraction on transmission spectroscopy are deeply
+connected with refraction shoulders. Refraction does not set
+the eﬀective radius if the planet is weakly lensing. The im-
+pact of refraction on transmission spectra for strongly lens-
+ing planets can vary greatly.
+
+5. The detectability of refraction signals for planets orbiting red
+dwarfs cannot be assessed by the sole increase in peak resid-
+ual amplitude. A combination of shorter timescale, shorter
+orbits, shorter star-planet distance, and host star properties
+results in similar values of S/N for planets orbiting Sun-like
+hosts. However, the altitudes probed can be diﬀerent even
+though the S/N is approximately the same.
+
+6. Refraction residuals cannot be observed in stacked Kepler
+light curves because of insuﬃcient photometric precision.
+The only systematic deviation across the entire Kepler sam-
+ple is a central excess of a few ppm.
+
+While the present paper was in review, we learnt of a similar
+study by Dalba (2017). It also explores the dependence of peak
+
+References
+Astropy Collaboration, Robitaille, T. P., Tollerud, E. J., et al. 2013, A&A, 558,
+
+Benneke, B., & Seager, S. 2013, ApJ, 778, 153
+Berta-Thompson, Z. K., Irwin, J., Charbonneau, D., et al. 2015, Nature, 527, 204
+Bétrémieux, Y. 2016, MNRAS, 456, 4051
+Bétrémieux, Y., & Kaltenegger, L. 2013, ApJ, 772, L31
+Bétrémieux, Y., & Kaltenegger, L. 2014, ApJ, 791, 7
+Bétrémieux, Y., & Kaltenegger, L. 2015, MNRAS, 451, 1268
+Bétrémieux, Y., & Swain, M. R. 2017, MNRAS, 467, 2834
+Born, M., & Wolf, E. 1999, Principles of optics: electromagnetic theory of
+
+propagation, interference and diﬀraction of light (Cambridge University
+Press)
+
+Charbonneau, D., Allen, L. E., Megeath, S. T., et al. 2005, ApJ, 626, 523
+Claret, A., & Bloemen, S. 2011, A&A, 529, A75
+Dalba, P. A. 2017, ApJ, 848, 91
+Demory, B.-O. 2014, ApJ, 789, L20
+Demory, B.-O., Gillon, M., Seager, S., et al. 2012, ApJ, 751, L28
+Fressin, F., Torres, G., Charbonneau, D., et al. 2013, ApJ, 766, 81
+García Muñoz, A., Zapatero Osorio, M. R., Barrena, R., et al. 2012, ApJ, 755,
+
+Gillon, M., Triaud, A. H. M. J., Demory, B.-O., et al. 2017, Nature, 542, 456
+Griﬃths, D. 1999, Introduction to Electrodynamics (Prentice Hall)
+Heller, R. 2017, ArXiv e-prints [arXiv:1701.04706]
+Hippke, M. 2015, ApJ, 806, 51
+Hubbard, W. B., Fortney, J. J., Lunine, J. I., et al. 2001, ApJ, 560, 413
+Huber, D., Silva Aguirre, V., Matthews, J. M., et al. 2014, ApJS, 211, 2
+Hui, L., & Seager, S. 2002, ApJ, 572, 540
+Jenkins, J. M., Caldwell, D. A., Chandrasekaran, H., et al. 2010, ApJ, 713, L120
+Kaltenegger, L., & Traub, W. A. 2009, ApJ, 698, 519
+Kipping, D. M., Schmitt, A. R., Huang, X., et al. 2015, ApJ, 813, 14
+Koch, D. G., Borucki, W. J., Basri, G., et al. 2010, ApJ, 713, L79
+Luger, R., Sestovic, M., Kruse, E., et al. 2017, Nature Astron., 1, 0129
+Mandel, K., & Agol, E. 2002, ApJ, 580, L171
+Misra, A. K., & Meadows, V. S. 2014, ApJ, 795, L14
+Misra, A., Meadows, V., & Crisp, D. 2014, ApJ, 792, 61
+Reid, I. N., & Hawley, S. L. 2005, New light on dark stars: red dwarfs, low-mass
+
+stars, brown dwarfs (Praxis Publishing Ltd.)
+
+Seager, S., & Sasselov, D. D. 2000, ApJ, 537, 916
+Seiﬀ, A., Kirk, D. B., Knight, T. C. D., et al. 1998, J. Geophys. Res., 103, 22857
+Sheets, H. A., & Deming, D. 2014, ApJ, 794, 133
+Sidis, O., & Sari, R. 2010, ApJ, 720, 904
+Smith, J. C., Stumpe, M. C., Van Cleve, J. E., et al. 2012, PASP, 124, 1000
+Stumpe, M. C., Smith, J. C., Van Cleve, J. E., et al. 2012, PASP, 124, 985
+Sudarsky, D., Burrows, A., & Pinto, P. 2000, ApJ, 538, 885
+Wang, S., Wu, D.-H., Barclay, T., & Laughlin, G. P. 2017, ApJ, submitted
+
+[arXiv:1704.04290]
+
+Weiss, L. M., & Marcy, G. W. 2014, ApJ, 783, L6
+Witteborn, F. C., Van Cleve, J., Borucki, W., Argabright, V., & Hascall, P. 2011,
+in Techniques and Instrumentation for Detection of Exoplanets V, Proc. SPIE,
+8151, 815117
+
+A90, page 11 of 12
+
+A&A 609, A90 (2018)
+
+Appendix A: Cauchy’s equation
+Cauchy’s equation is used to compute the refractive coeﬃcient
+(α) for diﬀerent atmospheric compositions. The refractive coef-
+ﬁcient is not to be confused with the refractive index (n), which
+are related by n = 1 + αρ, where ρ is the density. The refractive
+coeﬃcient is given by αρ = A1(1 + B1/λ2), where A1 is the co-
+eﬃcient of refraction, B1 is the coeﬃcient of dispersion, and λ
+is the wavelength. Coeﬃcients for some common gases are pro-
+vided in Table A.1. The refractive coeﬃcients are calculated at a
+temperature of 0 ◦C and pressure of 1 atm, and are assumed to
+be constant over the relevant temperatures and pressures.
+
+Table A.1. Cauchy’s equation coeﬃcients.
+A1 × 10−5
+
+Gas composition
+
+Hydrogen
+Helium
+Argon
+Nitrogen
+Oxygen
+Methane
+Ethane
+Air
+
+13.60
+3.48
+27.92
+29.19
+26.63
+42.60
+73.65
+28.79
+
+B1 × 105
+(Å2)
+7.7
+2.3
+5.6
+7.7
+5.1
+14.4
+9.1
+5.7
+
+Notes. Values are given for gases at a temperature of 0 ◦C and pressure
+of 1 atm (Born & Wolf 1999; Griﬃths 1999).
+
+A90, page 12 of 12
+
+

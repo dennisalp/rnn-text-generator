@@ -1,0 +1,2745 @@
+The Astrophysical Journal, 864:175 (15pp), 2018 September 10
+© 2018. The American Astronomical Society. All rights reserved.
+
+https://doi.org/10.3847/1538-4357/aad737
+
+X-Ray Absorption in Young Core-collapse Supernova Remnants
+
+Dennis Alp1
+
+, Joseﬁn Larsson1
+
+, Claes Fransson2
+
+, Michael Gabler3, Annop Wongwathanarat3
+
+, and Hans-Thomas Janka3
+
+1 Department of Physics, KTH Royal Institute of Technology, The Oskar Klein Centre, AlbaNova, SE-106 91 Stockholm, Sweden; dalp@kth.se
+
+2 Department of Astronomy, Stockholm University, The Oskar Klein Centre, AlbaNova, SE-106 91 Stockholm, Sweden
+
+3 Max Planck Institute for Astrophysics, Karl-Schwarzschild-Str. 1, D-85748 Garching, Germany
+
+Received 2018 May 4; revised 2018 June 18; accepted 2018 June 18; published 2018 September 13
+
+Abstract
+
+The material expelled by core-collapse supernova (SN) explosions absorbs X-rays from the central regions. We use
+SN models based on three-dimensional neutrino-driven explosions to estimate optical depths to the center of the
+explosion, compare different progenitor models, and investigate the effects of explosion asymmetries. The optical
+depths below 2keV for progenitors with a remaining hydrogen envelope are expected to be high during the ﬁrst
+−2 E−2, where t4 is the time since
+century after the explosion due to photoabsorption. A typical optical depth is 100 t4
+the explosion in units of 10,000 days (∼27 years) and E is the energy in units of keV. Compton scattering
+dominates above 50keV, but the scattering depth is lower and reaches unity at ∼1000 days at 1MeV. The optical
+depths are approximately an order of magnitude lower for hydrogen-stripped progenitors. The metallicity of the SN
+ejecta is much higher than that in the interstellar medium, which enhances photoabsorption and makes absorption
+edges stronger. These results are applicable to young SN remnants in general, but we explore the effects on
+observations of SN1987A and the compact object in CasA in detail. For SN1987A, the absorption is high and
+the X-ray upper limits of ∼100L☉ on a compact object are approximately an order of magnitude less constraining
+than previous estimates using other absorption models. The details are presented in an accompanying paper. For
+the central compact object in CasA, we ﬁnd no signiﬁcant effects of our more detailed absorption model on the
+inferred surface temperature.
+Key words: stars: neutron – supernova remnants – supernovae: general – supernovae: individual (SN 1987A, Cas A) –
+X-rays: ISM
+
+1. Introduction
+
+Core-collapse supernova (SN, core-collapse unless otherwise
+stated) explosions expel large amounts of material into their
+surroundings. The ejecta dominate the absorption for X-rays up
+to the young SN remnant (SNR) stage. To accurately analyze
+X-ray observations, it is important to estimate the optical depth
+as a function of energy along the line of sight. Most X-ray
+absorption models(e.g., Wilms et al. 2000; Gatuzz et al. 2015)
+have been developed in order to account for photoabsorption
+by the interstellar medium (ISM) and the column densities are
+often obtained by retrieving the hydrogen column number
+density NISM(H) from H I surveys(Dickey & Lockman 1990;
+Kalberla et al. 2005; Winkel et al. 2016; HI4PI Collaboration
+et al. 2016). We use the notation NISM(H) instead of the
+standard NH to differentiate NISM(H) from NSN(H), which is the
+hydrogen column number density of the ejecta. Other methods
+include letting NISM(H) be a free parameter that is ﬁtted or
+) from observations of dust or molecular lines.
+inferring N
+It is very common to assume that the abundances of all other
+elements, relative to hydrogen, are solar or representative
+ISM abundances(e.g., Anders & Grevesse 1989; Grevesse &
+Sauval 1998; Wilms et al. 2000). The main difference in young
+SNRs is that
+in
+the ISM.
+
+the metallicity is much higher than that
+
+Here, we use three-dimensional (3D) neutrino-driven SN
+explosion models to estimate the column densities of all
+elements that have a signiﬁcant contribution to the optical
+depth. Similar estimates have been made by other studies using
+individual progenitors and less realistic SN models (Fransson &
+Chevalier 1987; Seraﬁmovich et al. 2004; Orlando et al. 2015;
+Esposito et al. 2018). Our results are generally in agreement with
+previous works, but we explore 3D SN explosion models,
+
+HISM(
+
+quantify the uncertainties introduced by SN asymmetries, and
+compare different progenitors. The need for more general and
+detailed ejecta absorption models has been indicated in the
+literature (e.g., Stage et al. 2004; Shtykovskiy et al. 2005; Long
+et al. 2012; Posselt et al. 2013; Orlando et al. 2015). We focus on
+the absorption toward the center of the SN, where the compact
+object
+is expected to reside, and also re-analyze X-ray
+observations of the compact objects in SN1987A and CasA
+using our absorption model.
+
+SN1987A is the closest observed SN in more than three
+centuries (for reviews of SN 1987A, see Arnett et al. 1989;
+McCray 1993; McCray & Fransson 2016). It is located in the
+Large Magellanic Cloud at a distance of approximately
+50kpc(Panagia et al. 1991; Panagia 1999). SN1987A was a
+TypeII-pec core-collapse SN and is therefore expected to leave
+a compact object. The observed neutrino burst conﬁrms the
+existence of a compact object (Bionta et al. 1987; Hirata et al.
+1987, 1988; Bratton et al. 1988), but electromagnetic radiation
+from the compact object has never been observed despite more
+than 30 years of searches spanning the entire observable
+spectrum. The X-ray absorption below a few keV in SN1987A
+is very high at current epochs, which limits our ability to probe
+the central parts of
+these energies. An
+accompanying paper(Alp et al. 2018) uses estimates from
+the current work to model the X-ray absorption and presents a
+detailed study of multiwavelength ﬂux limits on the compact
+object. The main result of the X-ray analysis is that the limits
+are about 100L☉, depending on the assumed spectrum of the
+compact object. This is approximately an order of magnitude
+less constraining than previously published X-ray limits. The
+difference, compared to previous absorption models,
+is a
+substantial increase of the column densities, particularly for the
+
+the ejecta at
+
+1
+
+The Astrophysical Journal, 864:175 (15pp), 2018 September 10
+
+Alp et al.
+
+Table 1
+
+Supernova Explosion Models
+
+Modela
+
+Name
+
+Type
+
+B15-1-pw
+N20-4-cw
+L15-1-cw
+W15-2-cw
+W15-2-cw-IIb
+
+B15
+N20
+L15
+W15
+IIb
+
+BSG
+BSG
+RSG
+RSG
+
+RSG He core
+
+MNS
+(M☉)
+
+1.2
+1.4
+1.6
+1.4
+1.5
+
+Mej
+(M☉)
+
+14.2
+14.3
+13.7
+14.0
+3.7
+
+b
+Mtot
+(M☉)
+
+15.4
+15.7
+15.3
+15.4
+5.1
+
+tlate
+(days)
+
+156
+145
+146
+148
+18
+
+Notes.
+a Notation of Wongwathanarat et al. (2015). The ﬁrst letter does not correspond
+to any physical quantity (related to creators). The two-digit number
+is
+approximately the zero-age mass in M☉. The single-digit number indicates the
+model number in the series of models with varying explosion energies and
+initial seed perturbations(Wongwathanarat et al. 2013). The last two letters are
+“pw” for power-law wind or “cw” for constant-wind boundary.
+b At the time of the explosion.
+
++
+-
+
+metals, which dominate the opacity in the relevant 0.3–10keV
+energy range.
+
+CasA is a SNR at a distance of 3.4 0.1
+0.3
+
+kpc, based on proper
+motion and age data(Reed et al. 1995). CasA was created by a
+TypeIIb core-collapse SN(Krause et al. 2008; Rest et al.
+2011). Extrapolation of the proper motion of the expanding
+ejecta estimates the explosion date of the SN to be around the
+year 1670(Fesen et al. 2006). The SN was possibly observed by
+John Flamsteed on 1680 August 16(Flamsteed 1725; Ashworth
+1980; Hughes 1980; Kamper 1980). The central compact object
+(CCO) created by the SN was detected in the ﬁrst light images of
+Chandra (Tananbaum 1999; Pavlov et al. 2000; Chakrabarty
+et al. 2001). The spectrum of the CCO has been interpreted as
+thermal emission from a neutron star (NS) surface with a carbon
+atmosphere(Ho & Heinke 2009). Fast cooling of the CCO has
+been reported based on analyses of Chandra X-ray observation-
+s(Heinke & Ho 2010; Elshamouty et al. 2013), but
+the
+signiﬁcance of the cooling has been discussed by Posselt et al.
+(2013). Here, we simply repeat part of their analyses and explore
+the difference introduced by using a more realistic absorption
+model based on our 3D SN explosion models.
+
+This paper is organized as follows. We introduce the 3D SN
+explosion models in Section 2 and describe the methods in
+Section 3. The estimated optical depths and abundances are
+presented in Section 4 and the implications and uncertainties of
+the results are discussed in Section 5. We provide a summary
+and the main conclusions in Section 6. An investigation of the
+effects of ejecta absorption on the interpretation of the observed
+CasA CCO spectrum is provided in Appendix A.
+
+2. Models
+
+SN explosion models(Wongwathanarat et al. 2015, and
+references therein) are used in order to estimate the X-ray
+absorption in SNRs. Details regarding the models are listed in
+Table 1 and ejecta compositions are listed in Table 2. We
+(BSG) models
+choose the B15 and N20 blue supergiant
+because they are designed to match the progenitor properties of
+SN1987A. Observations of SN1987A show that the progeni-
+tor was a BSG(Kirshner et al. 1987; Walborn et al. 1987; West
+et al. 1987; White & Malin 1987). The B15 model is used for
+the analysis of the X-ray limits on the SN1987A compact
+object(Alp et al. 2018) because it is the single-star progenitor
+that yields the best agreement of light-curve calculations based
+
+on self-consistent 3D explosion models, compared to observa-
+tions of SN1987A(Utrobin et al. 2015; V. P. Utrobin 2018, in
+preparation).
+
+The L15 and W15 models are included in the analysis for the
+purpose of extending the results to a case considering an
+explosion of a red supergiant (RSG), and comparing these
+results to the BSG cases, which should be of interest for the
+X-ray analyses of more distant SNe. Finally, the IIb model is an
+explosion of a bare helium core of a RSG. The model shows
+similarities between the ejecta asymmetries and those deduced
+from observations of CasA(Wongwathanarat et al. 2017), and
+thus is used for our CasA CCO analysis. We will refer to B15,
+N20, L15, and W15 as the non-stripped models.
+
+2.1. Progenitors
+
+All progenitor models are based on one-dimensional (1D)
+evolution of non-rotating single stars. The B15 model represents
+SN 1987A and was evolved without mass loss by Woosley et al.
+(1988). The N20 model was artiﬁcially constructed by combining
+the core(Nomoto & Hashimoto 1988) and envelope(Saio et al.
+1988) of two different stars. The combination was made by
+Shigeyama & Nomoto (1990) and designed to match the
+properties of the progenitor of SN 1987A. The L15 model was
+computed without mass loss by Limongi et al. (2000) and the
+W15 model is the s15s7b2 model of Woosley & Weaver (1995).
+The IIb model is created by removing all but 0.5M☉ of the
+hydrogen envelope of the W15 model to avoid the dynamical
+consequences of the hydrogen shell and to allow the star to
+explode as a TypeIIb SN, which was the type of the CasA
+SN(Krause et al. 2008; Rest et al. 2011).
+
+2.2. Early Evolution
+
+The short time between the start of core-collapse to ∼10 ms
+after bounce was treated by dedicated simulations. The B15
+model was collapsed using a Lagrangian hydro-code by Bruenn
+(1993) and the N20, L15, and W15 models were collapsed
+using the PROMETHEUS-VERTEX code(Rampp & Janka 2002)
+in one dimension(Wongwathanarat et al. 2013).
+
+The simulations then were continued (Wongwathanarat et al.
+2010b, 2013) from ∼10ms after core bounce, past the shock
+revival at ∼250 ms, and extended to about 1s after shock revival
+in three dimensions. These 3D simulations were performed using
+the PROMETHEUS code(Fryxell et al. 1991; Müller et al. 1991)
+with suitable tuned neutrino heating at the inner boundary. When
+mapping from 1D to 3D, perturbations with an amplitude of 0.1 %
+were introduced by hand(Wongwathanarat et al. 2013). The 3D
+simulations were run on axis-free Yin–Yang grids(Kageyama &
+Sato 2004; Wongwathanarat et al. 2010a) with an angular
+resolution of 2°. Because of computational
+the
+innermost regions corresponding to radial velocities of less
+than ∼10kms−1 were removed from the simulation (Scheck
+et al. 2006; Wongwathanarat et al. 2013).
+
+limitations,
+
+2.3. Intermediate Evolution
+
+We let intermediate times refer to the time between the end
+of early stages at ∼1 s and the beginning of late times at ∼105 s
+(∼1 day), which was followed by Wongwathanarat et al.
+(2015). The ﬁve models were mapped onto a larger Yin–Yang
+grid with the same angular resolution of 2° and a relative radial
+resolution higher than 1% at all radii. The inner boundary was
+initially set to 500km and was continuously moved outward to
+
+2
+
+The Astrophysical Journal, 864:175 (15pp), 2018 September 10
+
+Model
+
+B15
+N20
+L15
+W15
+IIb
+
+B15
+N20
+L15
+W15
+IIb
+
+M H(
+)
+(M☉)
+
+8.2
+5.7
+7.3
+7.2
+0.5
+M Si(
+)
+(M☉)
+
+´ -
+10 2
+7.9
+8.1×10−2
+´ -
+10 2
+3.9
+´ -
+10 2
+4.3
+´ -
+10 2
+2.9
+
+Table 2
+
+Ejecta Mass Compositions
+
+M(He)
+(M☉)
+
+5.4
+6.5
+5.3
+5.4
+2.1
+M(S)
+(M☉)
+
+9.6×10−3
+9.3×10−3
+
+L
+L
+L
+
+M(C)
+(M☉)
+
+1.2×10−1
+1.0×10−1
+1.8×10−1
+2.3×10−1
+1.7×10−1
+
+M(Ar)
+(M☉)
+
+4.1×10−3
+4.7×10−3
+
+L
+L
+L
+
+M(O)
+(M☉)
+
+0.2
+1.3
+0.6
+0.7
+0.6
+M(Ca)
+(M☉)
+
+2.1×10−2
+2.8×10−2
+4.5×10−2
+6.0×10−2
+5.7×10−2
+
+M(Ne)
+(M☉)
+
+0.5×10−1
+2.4×10−1
+1.0×10−1
+1.7×10−1
+1.3×10−1
+
+M(Fe)
+(M☉)
+
+0.10
+0.13
+0.15
+0.14
+0.13
+
+Alp et al.
+
+M(Mg)
+(M☉)
+
+6.3×10−3
+1.7×10−1
+4.6×10−2
+5.0×10−2
+3.7×10−2
+
+Sum
+(M☉)
+
+14.2
+14.3
+13.7
+14.0
+3.7
+
+relax time step constraints imposed by the material at small
+radii with high sound speed. The outer boundary was moved so
+that the ejecta remain within the grid and was set to 109km by
+the end of the simulations.
+
+2.4. Late Evolution
+
+Shortly before the shocks break out from the progenitors
+(t  104 s), we continue the 3D simulations with a new version
+of the PROMETHEUS-HOTB code that includes a description of
+β-decay. The grid remains unchanged compared to the
+intermediate evolution. However, in this part of the simulation,
+we employ a radially outward moving grid, which reduces the
+numerical diffusion between neighboring grid cells due to the
+lower relative velocities of the radially expanding ejecta. We
+continue the simulations until ∼150 days for the non-stripped
+models and ∼18 days for the IIb model. At later times, we do
+not expect signiﬁcant effects of the β-decay on the structures,
+because the ejecta become transparent
+to the released
+γ-radiation and because most of the radioactive material has
+already decayed(for details, see M. Gabler et al. 2018, in
+preparation).
+
+2.5. Asymmetries
+
+All models possess strong asymmetries that are created as a
+result of non-radial hydrodynamic instabilities behind the
+stalled shock, where neutrinos deposit
+the energy of the
+supernova explosion during the ﬁrst seconds after core
+bounce(Wongwathanarat et al. 2015). This innermost region
+is dominated by iron-peak elements and form fast-rising
+plumes, which are initially rather similar for all models. In
+the carbon–oxygen layer,
+the plumes are not extremely
+decelerated in all models except for the N20 case, which
+results in considerably more compressed structures in the N20
+model. More pronounced differences between the models
+develop at the interface between the carbon–oxygen core and
+the helium layer, where Rayleigh–Taylor instabilities after the
+passage of the shock change the morphology of the expanding
+ejecta. Considerable evolution of the morphology also occurs
+after the shock has decelerated in the hydrogen envelope. A
+strong reverse shock is launched upstream into the expanding
+inner ejecta, which decelerates and compresses the ejecta. The
+IIb model evolves very similarly to the W15 model, except no
+reverse shock is formed at the helium–hydrogen interface. This
+
+3
+
+results in stronger and larger-scale asymmetries, higher overall
+ejecta velocities, and a sharper inner radius of the ejecta
+(because of the absence of an extended low-velocity tail of the
+radial distribution) in the IIb model. During the time covered
+until the ﬁnal stage of our simulations, the β-decay inﬂates the
+radioactive iron-peak ﬁngers signiﬁcantly. A comparison of the
+asymmetries at 2s and tlate between all considered models is
+provided in Figure 1. The plots also visualize the outcome of
+different mixing and fragmentation histories of the initial
+structures as a consequence of differences in the evolutionary
+phases mentioned before.
+
+Additionally, it has been shown that different asymmetries
+develop even if the initial conditions are nearly identical for the
+same progenitor because of the chaotic nature of hydrodynamic
+instabilities(Wongwathanarat et al. 2015). Müller et al. (2017)
+demonstrated by 3D simulations that pre-collapse large-scale
+convective perturbations in the oxygen shell during the late
+stages of stellar evolution can have a supportive inﬂuence on
+the onset of
+the explosion. These seed perturbations are
+important because they help the development of violent
+hydrodynamic mass motions behind the supernova shock,
+which facilitate the outward expansion of the supernova shock
+and of the neutrino-heated matter in its wake. More details on
+the evolution of asymmetries can be found in Section5 of
+Wongwathanarat et al. (2015) for the early to intermediate
+phases, in M.Gabler et al.(2018, in preparation) for the late
+phases of the non-stripped models, and in Section3.3 of
+Wongwathanarat et al. (2017) for late stages of the IIb model,
+which exempliﬁes the consequences of removing the hydrogen
+envelope from the W15 model.
+
+2.6. Nucleosynthesis
+
+from 4He to 56Ni;
+
+There were minor differences in the treatment of
+
+the
+nucleosynthesis in the different models. Starting from after
+core bounce at ∼10 ms, the nucleosynthesis in the BSG models
+was followed by a network of elements that includes protons;
+the 13 α-nuclei
+radioactive daughter
+products; and a tracer nucleus X (Kifonidis et al. 2003;
+Wongwathanarat et al. 2013, 2015). The tracer comprises
+neutron-rich, iron-group elements and was produced in grid
+cells where the electron fraction was below 0.49. The
+radioactive products that were included were 44Ca and 44Sc
+from b+ decay of 44Ti, and 56Fe and 56Co from b+ decay of
+56Ni. The RSG and IIb models follow fewer nuclear species,
+
+The Astrophysical Journal, 864:175 (15pp), 2018 September 10
+
+Alp et al.
+
+Figure 1. Equal-area Hammer projections of the column mass densities at 2s (left) and at tlate (right). The colors are normalized to the minimum column density for
+each model. The bottom-left projection is labeled W15 because the IIb model is created from the W15 model. Larger structures are present at early times and during
+the evolution the large-scale structures fragment into smaller ﬁlaments and ﬁngers. We note that the contrast between different directions is much larger for the IIb
+model.
+
+omitting 32S, 36Ar, 48Cr, and 52Fe in the burning network. Free
+neutrons are followed in all simulations but are irrelevant to our
+study of photoabsorption and Compton scattering.
+
+3. Methods
+
+The models consist of 3D maps of number densities of each
+element, deﬁned from an inner radius to an outer radius. The
+vast majority of the mass of the SN ejecta is inside the spherical
+shell deﬁned by the simulation grid. We refer to this mass as
+
+the ejecta mass Mej. The outer radius is set such that essentially
+all of the ejecta are contained within the grid. The dynamics of
+the material inside of the inner boundary are not followed in the
+3D explosion simulations. This material includes the NS with a
+baryonic mass MNS and its surrounding material. The mass that
+is excluded from the simulation within the inner radius has
+velocities below escape velocity at the end of our simulations
+and is likely to fall back to the NS on a longer timescale. It is
+therefore added to the mass of the compact remnant. Typical
+
+4
+
+r rD
+
+2p-
+
+100<
+
+to π/2. The resolution
+
+The Astrophysical Journal, 864:175 (15pp), 2018 September 10
+masses are 0.01M☉ for the non-stripped models and less than
+0.15M☉ for the IIb model. We veriﬁed that any realistic
+contribution from the mass inside the inner cutoff has a
+negligible impact on the results even if the material escaped.
+The data are mapped from the Yin–Yang grids used for the
+3D explosion simulations to spherical coordinate systems for
+the current work. We denote the conventional radial coordinate
+r but deﬁne f as the longitude ranging from 0 to 2π and q as the
+is
+latitude ranging from
+better than 1% at all radii except within radii corresponding to
+kms−1, where the resolution is better than
+velocities v
+10 %. The angular resolution of 2 is uniform in f and θ. These
+spherical grids resolve the models well enough for accurate
+estimates of the optical depth while not over-resolving the Yin–
+Yang grids used for the 3D explosion simulations.
+=ˆ
+),
+We denote a unit vector starting from the origin n
+which will henceforth be referred to as “direction.” Contributions
+from different directions are weighted by cos q throughout the
+analysis to compensate for the varying angular resolution of the
+spherical coordinate system. The expansions of all models are
+assumed to be homologous after tlate and all presented values are
+scaled to 10,000days (∼27 years). The column number density as
+nNSN(ˆ) is computed by integrating the
+a function of direction
+column number density along all directions of the model speciﬁed
+by the angular coordinates f and θ. The integration is carried out
+separately for each chemical element. The optical depth τ can then
+be computed using
+å
+
+(
+,
+i E N i
+
+,f q
+
+s
+SN
+
+(
+
+t
+
+E
+
+,
+
+s
+C
+
+(
+
+ˆ)
+n
+
+,
+
+,
+
+(
+1,
+
+ˆ)
+n
+
+(
+
+,
+i E
+
+)
+
++
+
+=
+
+[
+
+i
+
+)]
+
+SN
+
+( )
+1
+
+where E is the photon energy, the summation index i represents
+all chemical elements, SNs is the photoabsorption cross section,
+and Cs is the Compton scattering cross section. The photo-
+absorption cross sections below 10keV are taken from the
+tables of Gatuzz et al. (2015).4 They compile cross sections
+obtained using different analytic methods(Bethe & Salpeter
+1957), the R-matrix method (Gorczyca 2000; García et al.
+2005, 2009; Juett et al. 2006; Witthoeft et al. 2009, 2011;
+Gorczyca et al. 2013; Hasoğlu et al. 2014), semi-empirical
+ﬁts(Verner & Yakovlev 1995), and experimental values
+(Kortright & Kim 2000). The tables cover energies from 0.01
+to 10keV with 650,000 logarithmically spaced steps, which
+results in a relative energy resolution of 10−5. Photoabsorption
+cross sections from 10 to 100keV are computed using the
+analytic ﬁts of Verner & Yakovlev (1995). The Compton
+scattering cross section at energies higher than ∼10keV, which
+is the binding energy of the K-shell electrons, is given by the
+Klein-Nishina formula(e.g., Rybicki & Lightman 1979).
+
+We reduce the number of free parameters by making a
+number of simpliﬁcations. We assume that the formation of
+molecules and dust has a negligible impact on the X-ray
+absorption properties (see Section 5.3). It is also assumed that
+all atoms are in the neutral ground state. Cross sections for
+single and double ionization are included in Table 2 of Gatuzz
+et al. (2015) and general cases can be explored using the
+analytic ﬁts of Verner & Yakovlev (1995) and Verner et al.
+(1996). Detailed models of SN1987A show that the ejecta
+indeed are mainly in neutral and at most in singly ionized states
+
+4 These are also the tables used by the XSPEC model ISMabs(Gatuzz
+et al. 2015).
+
+5
+
+Alp et al.
+(low ionization ions such as Mg II, Si II, Ca II, and Fe II,
+Jerkstrand et al. 2011). This is also expected for young SNe in
+general. For remnants like Cas A,
+the situation is more
+complicated. The effect of ionization above 0.3keV is small in
+most cases, but quantitative estimates would require detailed
+knowledge of the ionization state of the gas.
+
+Another simpliﬁcation is that we group some of the elements
+traced by the nucleosynthesis network. This is done because of
+radioactive decay and because we aim to provide column
+densities of elements that are abundant and included in publicly
+available ISM models. We combine the number densities of
+40Ca, 44Ca, 44Sc, 44Ti, and 48Cr and treat the combined number
+density as 40Ca. The elements 44Ti, 44Sc, and 44Ca form a
+radioactive decay chain with 44Ca as the stable product. The
+difference between isotopes of the same element is negligible
+because the cross sections are determined by the electrons. For
+reference, the number of neutrons of an atom is not a parameter
+in the analytic ﬁts of the photoabsorption cross sections(Ver-
+ner & Yakovlev 1995; Verner et al. 1996) and the Klein-
+Nishina formula. The element 48Cr is treated as 40Ca because
+48Cr decays into 48Ti, which makes Ca the most similar
+element commonly included in absorption models in XSPEC.
+We apply the same grouping to 52Fe, 56Fe, 56Co, 56Ni, and X
+and treat the group as 56Fe. The elements 56Ni, 56Co, and 56Fe
+constitute the decay chain from 56Ni to the stable isotope 56Fe.
+for SN1987A and CasA the
+At
+abundant isotopes, 56Ni and 56Co have all decayed into 56Fe.
+The mass numbers of all atoms will henceforth be omitted.
+
+the epochs of
+
+interest
+
+4. Results
+
+A complete absorption description requires knowledge of the
+column densities of all elements for all directions. We do not
+intend to provide a description at this level of detail. Instead,
+we focus on direction-averaged column number densities and
+optical depths in Section 4.1, with the purpose of providing
+representative values for quantities of interest. The optical
+depth variations along different directions are explored in
+Section 4.2. This represents the level of variance of the optical
+depth within a speciﬁc SNR. We superﬁcially investigate the
+differences introduced by different compositions along differ-
+ent lines of sight in Section 4.3. Results concerning Compton
+scattering are contained in Section 4.4. A comparison of SN
+ejecta
+included in
+Appendix B. Throughout the analysis, we assume that atoms
+are in the neutral ground state and that
+the formation of
+molecules and dust has a negligible impact on the relevant
+absorption properties (Section 3).
+
+absorption with ISM absorption is
+
+roughly marks the start of
+
+All presented results are at a time of 10,000 days unless
+otherwise stated. However, the column densities and optical
+depths can be scaled to other epochs as ∝t−2, where t is the
+time since the SN explosion, if the ejecta are assumed to
+expand homologously. The models are evolved up to the point
+when the ejecta start expanding homologously, implying that
+tlate
+the homologous phase.
+Homologous expansion is a reasonable approximation until
+the reverse shock reaches the material with velocities of
+kms−1, which dominates the contribution to the optical
+103~
+depths (Section 4.1). The time at which this happens varies
+over more than an order of magnitude because the dynamics
+are sensitive to explosion energy, ejecta mass, and density
+distribution of the ejecta and circumstellar medium along the
+line of sight. For SN1987A, the inner ejecta along our line of
+
+The Astrophysical Journal, 864:175 (15pp), 2018 September 10
+
+Alp et al.
+
+Elem.
+
+ñˆa
+SNá
+N n
+(cm−2)
+
+SNá
+A
+
+ñˆ b
+n
+
+B15
+
+Direction-averaged Column Number Densities at 10,000 Days
+
+Table 3
+
+ñˆc
+SNá
+A
+n
+(AISM)
+
+e
+SN
+
+ñˆd
+á
+N n
+(cm−2)
+
+Elem.
+
+SNá
+ñˆ
+N n
+(cm−2)
+
+SNá
+A
+
+ñˆ
+n
+
+N20
+
+SNá
+ñˆ
+A
+n
+(AISM)
+
+e
+SN
+
+á
+ñˆ
+N n
+(cm−2)
+
+H
+He
+C
+O
+Ne
+Mg
+Si
+S
+Ar
+Ca
+Fe
+Sum
+
+H
+He
+C
+O
+Ne
+Mg
+Si
+Ca
+Fe
+Sum
+
+H
+He
+C
+O
+Ne
+
+´
+
+1022
+1.5
+1.2×1022
+1.5×1020
+2.1×1020
+4.5×1019
+4.8×1018
+5.8×1019
+7.2×1018
+2.9×1018
+1.4×1019
+6.0×1019
+2.7×1022
+
+1.7×1022
+5.9×1021
+1.2×1020
+3.1×1020
+4.3×1019
+2.3×1019
+2.1×1019
+2.7×1019
+5.8×1019
+2.4×1022
+
+1.2×1020
+2.2×1020
+1.2×1019
+3.7×1019
+6.4×1018
+
+1
+
+7.8×10−1
+1.0×10−2
+1.4×10−2
+3.0×10−3
+3.2×10−4
+3.9×10−3
+4.8×10−4
+1.9×10−4
+9.4×10−4
+4.0×10−3
+
+L
+
+L15
+
+1
+
+3.5×10−1
+6.8×10−3
+1.8×10−2
+2.5×10−3
+1.3×10−3
+1.2×10−3
+1.6×10−3
+3.4×10−3
+
+L
+
+1
+1.8
+
+1.0×10−1
+3.0×10−1
+5.2×10−2
+
+1
+8
+43
+29
+34
+13
+208
+39
+74
+591
+148
+L
+
+1
+4
+29
+37
+29
+54
+67
+998
+125
+L
+
+1
+18
+403
+608
+592
+
+1.5×1022
+2.4×1022
+9.0×1020
+1.7×1021
+4.5×1020
+5.8×1019
+8.1×1020
+1.2×1020
+5.2×1019
+2.8×1020
+1.6×1021
+4.4×1022
+
+1.7×1022
+1.2×1022
+7.2×1020
+2.5×1021
+4.3×1020
+2.8×1020
+2.9×1020
+5.4×1020
+1.5×1021
+3.5×1022
+
+1.2×1020
+4.4×1020
+7.2×1019
+3.0×1020
+6.4×1019
+
+IIb
+
+H
+He
+C
+O
+Ne
+Mg
+Si
+S
+Ar
+Ca
+Fe
+Sum
+
+H
+He
+C
+O
+Ne
+Mg
+Si
+Ca
+Fe
+Sum
+
+Mg
+Si
+Ca
+Fe
+Sum
+
+9.5×1021
+5.4×1021
+5.8×1019
+8.3×1020
+9.8×1019
+7.5×1019
+3.8×1019
+1.1×1019
+3.9×1018
+2.4×1019
+5.9×1019
+1.6×1022
+
+2.1×1022
+6.4×1021
+1.7×1020
+5.3×1020
+9.8×1019
+2.9×1019
+2.6×1019
+5.8×1019
+7.1×1019
+2.9×1022
+
+1.7×1018
+1.2×1018
+1.8×1018
+2.4×1018
+4.0×1020
+
+1
+
+5.7×10−1
+6.1×10−3
+8.7×10−2
+1.0×10−2
+7.9×10−3
+4.1×10−3
+1.2×10−3
+4.2×10−4
+2.6×10−3
+6.3×10−3
+
+L
+
+W15
+
+1
+
+3.0×10−1
+8.0×10−3
+2.5×10−2
+4.6×10−3
+1.3×10−3
+1.2×10−3
+2.7×10−3
+3.3×10−3
+
+L
+
+1.4×10−2
+9.3×10−3
+1.5×10−2
+1.9×10−2
+
+L
+
+1
+6
+26
+179
+119
+315
+218
+95
+162
+1615
+232
+L
+
+1
+3
+33
+51
+53
+53
+65
+1705
+124
+L
+
+545
+502
+9444
+717
+L
+
+9.5×1021
+1.1×1022
+3.5×1020
+6.6×1021
+9.8×1020
+9.0×1020
+5.3×1020
+1.8×1020
+7.0×1019
+4.8×1020
+1.5×1021
+3.2×1022
+
+2.1×1022
+1.3×1022
+1.0×1021
+4.2×1021
+9.8×1020
+3.5×1020
+3.6×1020
+1.2×1021
+1.8×1021
+4.4×1022
+
+2.0×1019
+1.7×1019
+3.6×1019
+6.2×1019
+1.1×1021
+
+Notes.
+a Direction-averaged column number density of the SN ejecta.
+b Direction-averaged SN abundance relative to hydrogen.
+c Relative SN ejecta abundances in units of corresponding ISM abundances(Wilms et al. 2000), equivalent to A
+á
+d Direction-averaged column number density of electrons of the SN ejecta. Same as N n
+SNá
+element.
+
+ñˆ
+An
+
+SN
+
+.
+
+ISM
+
+ñˆ, and scaled by the number of electrons of the corresponding chemical
+
+sight can safely be assumed to be expanding freely at present
+epochs for our purposes. For CasA,
+the reverse shock
+has reached ejecta expanding at ∼5500kms−1(Morse et al.
+2004). In general, theoretical models predict that the inner
+ejecta expand freely for up to a few thousand years for simple
+models of core-collapse SNe(e.g., Truelove & McKee 1999).
+However, in extreme cases, such as for TypeIIn SNe and for
+lines of sight crossing the dense inner ring of SN1987A
+(Fransson et al. 2013), the timescales can be much shorter.
+
+4.1. Direction-averaged Optical Depths
+
+The direction-averaged column densities of all elements at
+10,000 days are provided in Table 3. The SN abundances
+ñˆ and AISM are the ISM
+relative to hydrogen are given by A
+n
+abundances(Wilms et al. 2000) normalized to hydrogen. The
+SN ejecta have very high metallicities compared to the ISM
+(see Appendix B for comparisons with ISM absorption).
+
+SNá
+
+6
+
+Direction-averaged optical depths for all models and the
+individual contributions for the B15 model at 10,000 days are
+shown in Figure 2. The optical depths are high and the ejecta
+are opaque for soft X-rays for several decades after the
+explosion. A typical optical depth for the non-stripped models
+is 30 at 2keV.
+
+The optical depth for the IIb model is approximately an order
+of magnitude lower because the expansion velocity is higher,
+which is a consequence of having removed all but 0.5M☉ of the
+hydrogen envelope. The decrease in optical depth because of the
+removed hydrogen is subdominant because the contribution
+from hydrogen is small even in the non-stripped models.
+
+The general behavior is that He, C, O, Si, Ca, and Fe are all
+dominating in different models within certain energy ranges.
+The differences are determined by the relative abundances of
+the metals. However, the relative abundances of the metals are
+uncertain because of
+the
+simulations (Section 5.3.1).
+
+the small α-networks used for
+
+The Astrophysical Journal, 864:175 (15pp), 2018 September 10
+
+Alp et al.
+
+Figure 2. (Left) Direction-averaged optical depths for all models. The dashed lines are photoabsorption, the dotted lines are Compton scattering, and the solid lines are
+the sums. The blue B15 line is partially covered by the green L15 line in the photoabsorption regime and the red W15 line in the scattering regime. The non-stripped
+models are very similar to each other and signiﬁcantly different from the IIb model, which expels the ejecta at higher velocities because all but 0.5M☉ of the hydrogen
+has been artiﬁcially removed. (Right) The individual contributions of all chemical elements to the optical depth for the B15 model. The individual contributions in all
+other models are qualitatively similar.
+
+Figure 3. (Left) Cumulative direction-averaged optical depth at 10,000 days at 2keV as a function of velocity for all models. The optical depth of the IIb model has
+been scaled by a factor of 20 for visual clarity. The effect of the cutoff at 2400kms−1 for the IIb model is expected to be small (Section 3). The density gradient at the
+inner boundary of the IIb model is very steep because of a much weaker reverse shock, which is a consequence of the lack of a hydrogen envelope. (Right)
+Contribution to the cumulative 2keV optical depth per log(velocity) for the B15 model. Mathematically, this is d τ(2 keV)/d log (v), where v is the velocity. The
+Compton scattering (CS) contribution and sum have been scaled for visual clarity. The bump at ∼2500kms−1 in the scattering contribution is from hydrogen. The
+distribution is qualitatively similar for the other models.
+
+The cumulative direction-averaged optical depth at 2keV as
+a function of velocity is shown in Figure 3 (left) for all models.
+The dominant contribution to the optical depth is from ejecta
+with velocities in the range 400–2000kms−1 for the non-
+stripped models. The velocity range is shifted to higher
+velocities by a factor of ∼3 for the IIb model because of the
+higher average ejecta velocity. We also analyze the contribu-
+tions to the cumulative distribution from individual elements
+(Figure 3, right) and ﬁnd that the general trend is that the
+contributions from all metals are from approximately the same
+velocities. There is a trend that contributions from heavier
+elements are on average from velocities lower than those of
+lighter elements. The effect of this is less than a factor of a few
+in velocity, which is comparable to the spread in velocities for
+individual elements.
+
+4.2. Asymmetries of the Ejecta
+
+SN explosions are highly asymmetric and a consequence is
+that the absorption depends on the line of sight (Section 2.5).
+The projections of the optical depths for all directions of the
+B15 and IIb models are shown in Figure 4. All models show
+pronounced asymmetric clumpy structures or ﬁlaments. The
+variances in optical depths are caused by a combination of
+varying amounts of ejecta expelled in different directions and
+varying compositions of the ejecta.
+
+We also visually inspected projections of column number
+individual elements (not shown). The most
+densities of
+uniformly distributed elements are the light elements H, He,
+and C, whereas the heavy elements Ca and Fe are the most
+asymmetrically distributed. To a certain extent, the directions
+of high abundances of heavy elements are anti-correlated with
+
+7
+
+The Astrophysical Journal, 864:175 (15pp), 2018 September 10
+
+Alp et al.
+
+Figure 4. Equal-area Hammer projections of the optical depth at an energy of
+2keV of the B15 (top) and IIb (bottom) models at 10,000 days. The projection
+looks qualitatively similar at different energies for each of the models. The
+relative strength of the different structures that can be seen varies across
+absorption edges because of different compositions.
+
+Figure 5. Cumulative distribution functions of the optical depth at 10,000 days
+as functions of direction. The horizontal gray lines show 90%, 50%, and 10%.
+The non-stripped models are very similar, while the IIb model has lower optical
+depths. The iron-peak elements in the IIb model are also more asymmetrically
+distributed. This is clearly seen from the very wide CDF at 8keV.
+
+light elements. We interpret this as rising clumps of heavy
+elements that pierce through the outer shells of the progenitor
+and leave holes or push the light elements into ﬁlaments. It is
+often the case that the clumps consist of heavier elements,
+whereas the smoother variations and ﬁlaments are lighter
+elements from the outer layers of the progenitor.
+
+Another
+
+representation of asymmetries is the cumulative
+distribution function (CDF) of the optical depth. In the CDFs,
+the asymmetries are correlated to the width of the distribution.
+The optical depth CDFs at 0.5, 8, and 100keV are shown in
+Figure 5. The qualitative and quantitative behaviors of the non-
+stripped models are similar. The optical depths of the IIb model
+are clearly lower, but the distribution of optical depths is also
+wider. The most notable feature of the CDFs’ over all directions is
+the very wide distribution at 8keV for the IIb model, which is the
+result of the highly asymmetric distribution of iron-peak elements.
+More quantitative measurements of the asymmetries are
+given by the variations in optical depths at given energies for
+each model, which are provided in Table 4. The conﬁdence
+intervals represent the 1-σ intervals of the optical depth as a
+function of direction, which are at a level of approximately
+20%–40%. We also include the ratio of the upper bound to the
+lower bound as a relative measure of asymmetry variance. The
+optical depth for a given model and energy typically spans a
+factor of 1.5–2. It is also clear from the variance measures that
+the IIb model is more asymmetric, in particular around 8keV
+where the iron-peak elements dominate the opacity.
+
+8
+
+4.3. Ejecta Compositions
+
+The results up to this point have focused on the direction-
+averaged optical depth and variance of the optical depth
+introduced by both asymmetric distribution of material and
+composition. It is possible to isolate the contribution to the
+variance of varying composition, which affects the energy
+dependence of the optical depth. We do not attempt to quantify
+the distribution of abundances of all
+individual elements.
+Instead, we deﬁne the effective slope α by
+
+s
+SN,eff
+
+(ˆ
+n E
+
+,
+
+)
+
+µ a
+E
+
+,
+
+( )
+2
+
+trend is that
+
+where σSN,eff is the effective cross section of the SN ejecta. The
+general
+lighter elements have steeper energy
+dependencies and heavier elements have shallower dependen-
+cies. Therefore, the effective slope can serve as a representation
+of the variations in compositions as a function of direction. The
+advantage of introducing α in place of the composition is that
+the composition depends on 11 parameters (all elements).
+The drawback is that it provides no insight into the relative
+abundances of heavier elements, which determine the relative
+strength of absorption edges. We choose to measure α as
+the slope between 0.3 and 10keV.
+
+Figure 6 shows the distribution of α for all directions. The
+non-stripped models are similar and have distributions that
+overlap almost completely, whereas the IIb model shows a
+wider distribution of a. This is a consequence of
+the
+
+The Astrophysical Journal, 864:175 (15pp), 2018 September 10
+
+Alp et al.
+
+Asymmetry Measures (1σ Conﬁdence Intervals)
+
+Table 4
+
+Model
+
+B15
+N20
+L15
+W15
+IIb
+
+a
+
+τ0.5
++
+30
+171 26
+-
++
+35
+153 26
+-
++
+26
+142 26
+-
++
+34
+221 30
+-
++
+4
+8 3
+-
+
+τ1
++
+24
+104 17
+-
++
+70
+175 41
+-
++
+27
+112 28
+-
++
+39
+173 36
+-
++
+6
+9 6
+-
+
+τ2
++
+6
+24 5
+-
++
+16
+37 9
+-
++
+5
+22 5
+-
++
+7
+33 6
+-
++
+1
+2 1
+-
+
+τ4
++
+-
++
+-
++
+-
++
+-
++
+-
+
+1.0
+4.0 0.8
+2.3
+6.0 1.3
+0.8
+3.3 0.8
+1.0
+4.9 0.9
+0.2
+0.2 0.2
+
+τ8
++
+-
++
+-
++
+-
++
+-
++
+-
+
+0.4
+2.2 0.3
+0.4
+2.5 0.3
+0.5
+2.1 0.4
+1.0
+2.8 0.3
+0.1
+0.1 0.1
+
+τ100
++
+4.6
+´-
+22.6
+3.5
++
+3.2
+´-
+17.0
+2.4
++
+0.7
+´-
+18.8
+0.6
++
+1.6
+´-
+23.6
+1.4
++
+0.2
+´-
+0.6
+0.1
+
+-
+3
+10
+-
+3
+10
+-
+3
+10
+-
+3
+10
+-
+3
+10
+
+b
+
+V0.5
+
+1.4
+1.5
+1.4
+1.3
+2.4
+
+V1
+
+1.5
+1.8
+1.6
+1.6
+4.9
+
+V2
+
+1.6
+1.9
+1.6
+1.5
+5.7
+
+V4
+
+1.6
+1.8
+1.6
+1.5
+6.0
+
+V8
+
+1.4
+1.3
+1.6
+1.5
+23.3
+
+V100
+
+1.4
+1.4
+1.1
+1.1
+1.8
+
+Notes. The 1σ conﬁdence intervals of the optical depths refer to the standard deviations of τ along different directions. This is effectively a measure of the asymmetry
+of the explosion model.
+a τE, optical depth at 10,000days at energy E in keV.
+b VE, ratio of the 1s upper to the 1σ lower limit of τE.
+
+asymmetric distribution of iron-peak elements in the IIb model.
+For all models, there is a signiﬁcant spread in the distribution,
+which indicates that the composition is varying. It is worth
+pointing out that even though the slope is deﬁned over the
+range 0.3–10keV, absorption is often only important
+in a
+limited interval where the optical depth is around unity. This is
+because any lower opacity leaves the spectrum relatively
+unaffected, whereas higher depths are likely to completely
+obscure the source.
+
+4.4. Compton Scattering
+
+In contrast
+
+to photoabsorption, Compton scattering will
+not destroy the photon, but will result in a down-scattering
+of the photon energy, until photoabsorption dominates. This
+was discussed for the early radioactive phase in SN1987A
+dominated by 56Ni and 57Ni decay, as well as for pulsar input
+(e.g., Ebisuzaki & Shibazaki 1988; Grebenev & Syunyaev
+1988; Xu et al. 1988, and references therein). Here, we limit
+ourselves to estimates of the optical depths and do not further
+discuss the spectrum resulting from the scattering.
+
+5
+
+10 4
+
+Figure 2 shows the contribution of Compton scattering to the
+the scattering depth above
+optical depth. At 10,000 days,
+50keV is 1–3×10−2 for
+the non-stripped models and
+~ ´ - for the IIb model. The dominating contribution to
+the scattering depth is by hydrogen and helium. The relative
+contributions can be seen from the electron column number
+densities provided in Table 3. Assuming homologous expan-
+sion, the scattering depth at 1MeV is unity at ∼1000 days for
+the non-stripped models and ∼150 days for the IIb model.
+
+The total optical depths above 50keV are dominated by
+Compton scattering. The spread in scattering depths can be seen in
+Figure 5 and Table 4. The RSGs have lower asymmetry variances
+in the scattering regime. The main reason for this is that scattering
+is dominated by lighter elements, which are more uniformly
+distributed in the more extended envelopes of the RSGs.
+
+5. Discussion
+
+5.1. Absorption Properties
+
+The absorption to the central regions of SNRs is high for
+X-rays for a long time after the explosion. If the ejecta expand
+homologously, the optical depth below 2keV remains above
+unity for more than a century for the non-stripped models
+and reaches unity at 10keV at approximately 30 years. The
+situation is very different
+the IIb model. Because
+the hydrogen envelope is stripped off, the SN explosion expels
+the ejecta at a factor of three higher velocities, which results in
+a factor of nine lower optical depths. The contribution of
+
+for
+
+9
+
+Figure 6. Probability distribution of the effective slope of the effective cross
+section (α) for all directions. The effective slope is deﬁned by Equation (2).
+Different compositions result in different effective cross sections. Thus, the
+effective slope serves as a proxy for the composition.
+
+hydrogen to the optical depth constitutes less than ∼10% of the
+total photoabsorption depth above 0.3keV for all models
+(Figure 2). The expansion velocity v is also connected to the
+SN explosion energy E as v
+, where M is the total
+ejecta mass. Therefore, it is reasonable to assume that higher
+explosion energies or lower ejecta masses lead to higher
+expansion velocities and lower optical depths.
+
+E M
+
+µ
+
+Another important property of ejecta absorption is that the
+metallicity is much higher than standard ISM abundances. This
+implies that the hydrogen column density commonly used by
+X-ray astronomers is a poor parameterization of the absorption.
+The effective cross section is much higher for high-metallicity
+gas than for standard ISM compositions. The energy depend-
+ence of the effective cross section is signiﬁcantly ﬂatter for
+metal-rich than metal-poor gas, primarily because high-
+metallicity gas has more pronounced absorption edges, mostly
+K-shell edges, in the 0.3–10keV energy range. The stronger
+absorption edges are likely to be the most robust observational
+signature of high-metallicity absorption, because the difference
+in continuum absorption is likely degenerate with underlying
+model components.
+
+Compton scattering dominates the optical depth above
+50keV and the energy dependence of the scattering depth is
+weak for energies lower than 100keV. The transition energy of
+50keV is higher than the typical value for ISM compositions,
+where the transition occurs at ∼10keV. The reason for this is
+
+The Astrophysical Journal, 864:175 (15pp), 2018 September 10
+
+the higher metallicity of the SN ejecta, which signiﬁcantly
+increases the importance of photoabsorption and has a much
+smaller effect on the scattering properties.
+
+5.2. Comparison with Previous Estimates
+
+In general, previous studies found SN ejecta absorption
+properties comparable to our estimates. However, no previous
+work has explored 3D SN explosion models, quantiﬁed the
+uncertainties introduced by SN asymmetries, or compared
+different progenitors.
+
+Fransson & Chevalier (1987) modeled the absorption for
+X-rays in SN1987A using the 15 M☉ 1D model 4A from
+Woosley et al. (1988). They showed the photoabsorption
+optical depth in their Figure 1 and found that the optical depth
+reaches unity at 10keV at 18years. This can be compared to
+our estimates for BSGs, which show that the optical depth at
+10keV reaches unity at ∼30 years. However, they noted that
+using the 25 M☉ model 8A(Woosley et al. 1988) resulted in
+optical depths that are a factor of 2.2 higher, which better
+agrees with our results. Fransson & Chevalier (1987) also
+concluded that Compton scattering starts dominating over
+photoabsorption in the 30–100keV range, depending on the
+composition of the gas.
+
+Seraﬁmovich et al. (2004) used the 15 M☉ 1D model 14E1 of
+Blinnikov et al. (2000) to estimate the ejecta absorption in the
+1000 year-old pulsar PSR B0540−69.3 in the Large Magella-
+nic Cloud. They reported that the effective cross section for SN
+ejecta is 40 times higher than the standard value for ISM
+abundances (see Appendix B) and that the effect of ejecta
+absorption is negligible because of the age of PSR B0540
+−69.3, which agrees with our results.
+
+Orlando et al. (2015) performed simulations describing
+SN1987A and found an ejecta hydrogen column density of
+∼3×1022 cm−2 at 30 years. This number is close to our
+values of the hydrogen column number densities (Table 3).
+However, they did not report the chemical composition of the
+ejecta, which is critical for a complete absorption estimate.
+
+Esposito et al. (2018) used the model lm18a7Ad of Dessart
+& Hillier (2010, provided to them by S. E. Woosley). It is a 1D
+model with a total ejecta mass of 15.6M☉. Esposito et al.
+(2018) used the abundances
+from the model, assumed
+homogeneous distribution, and estimated the density based
+on approximations. They reported a hydrogen column density
+of 7.6×1021 cm−2 for the ejecta, which should result
+in
+absorption properties comparable to our estimates for the
+abundances provided in their Table 2.
+
+5.3. Sources of Uncertainty
+
+There are several sources of uncertainty that we have
+neglected. The presented uncertainties on the optical depths in
+Table 4 only represent
+the variance introduced by the
+asymmetries for a given model. One of the purposes of
+providing column densities for comparable models is to get a
+handle on the uncertainties associated with the progenitor
+properties, stellar evolution, and explosion simulations. The
+sensitivity of
+the results to progenitor models and early
+explosion simulations can be estimated by comparing the four
+non-stripped models. They were not tuned to represent the
+same progenitor, only B15 and N20 were designed to match the
+progenitor of SN1987A in broad terms(see Utrobin
+et al. 2015). Our results show that
+the general absorption
+
+10
+
+Alp et al.
+
+properties of all non-stripped models are relatively similar. This
+is most clearly seen from the CDFs in Figure 5 and the values
+in Table 4. The differences between the direction-averaged
+properties of the models are comparable to the asymmetry
+uncertainties within each model. This indicates that the effects
+of progenitor properties and asymmetry uncertainties are
+comparable for a given SN type.
+
+Observations of nearby SNRs ﬁnd dust masses of ∼0.1M☉
+or larger in CasA(Rho et al. 2008; Barlow et al. 2010), the
+Crab Nebula(Gomez et al. 2012; Owen & Barlow 2015), and
+SN1987A (Matsuura et al. 2011, 2015; Indebetouw et al.
+2014; Dwek & Arendt 2015). Molecules composed of metals
+have also been detected in CasA(Rho et al. 2012), the Crab
+Nebula(Barlow et al. 2013; Bentley et al. 2018), and
+SN1987A (Kamenetzky et al. 2013; Abellán et al. 2017;
+Matsuura et al. 2017). However, the formation of dust and
+molecules from the ejecta material only has a small effect on
+the X-ray absorption properties(Morrison & McCammon 1983;
+Draine 2003). Photoabsorption in soft X-rays is dominated by
+inner-shell absorption, which is approximately the same for
+dust and molecules as
+their constituents and Compton
+scattering only depends on the electron column density.
+
+Additionally, we do not consider the effects of the compact
+object kick velocity. A full treatment would require investigation
+of absorption to all positions that the compact object can have
+been kicked to, but
+the 3D kick velocity is rarely known.
+Some insight into the possible effects of kick velocities on
+absorption is provided by Figure 3, which shows at what radii
+the gas contributes to the optical depth. For kick velocities of
+∼500kms−1, the maximum effect on the optical depth is ∼50%
+if the kick happens to be aligned with our line of sight. For
+reference, we note that pulsars are inferred from observations to
+have 3D kick velocities of ∼400±250kms−1(Hobbs et al.
+2005; Faucher-Giguère & Kaspi 2006), with some extreme cases
+up to 1600kms−1 (Cordes et al. 1993; Chatterjee & Cordes
+2002, 2004; Hobbs et al. 2005).
+
+5.3.1. Progenitor and Explosion Models
+
+All results rely on the SN progenitors and explosion models.
+These are not fully self-consistent and it is difﬁcult to exactly
+quantify the uncertainties introduced by them. We ﬁnd it
+unlikely that the model uncertainties have a major, qualitative
+impact on our conclusions. What follows is a brief description
+of some of the contributing factors.
+
+The explosion models that we use do not include a longer-
+lasting phase of simultaneous accretion and mass outﬂow
+around the NS after the onset of the explosion, as suggested to
+exist by present self-consistent models(Müller et al. 2017).
+Having such a phase of accretion and outﬂow instead of the
+spherical “wind” that boosts the explosion in the simulations, is
+likely to lead to more extreme asymmetries in the innermost
+∼0.1M☉ of the ejecta. Therefore, the inner half of the iron-
+group matter is likely to be more asymmetrically distributed.
+Additionally, the 3D simulations contain no information about
+mixing below the grid scale, but this is not important for the
+X-ray absorption properties because the absorption only relies
+on the total column densities.
+
+Overall, the explosion dynamics is roughly compatible with our
+present-day knowledge of how neutrino-driven explosions work.
+Moreover, the asymmetries we ﬁnd in the simulations are able to
+produce the mixing needed to explain the light curve of
+SN1987A(Utrobin et al. 2015),
+the morphology of CasA
+
+The Astrophysical Journal, 864:175 (15pp), 2018 September 10
+(Wongwathanarat et al. 2017), or, roughly, the asymmetries of SiO
+and CO molecules observed in SN1987A(Abellán et al.
+2017). However, an important caveat for the SN1987A models
+is that they are based on single-star progenitors. The progenitor of
+SN1987A was most likely the result of a merger, which is
+primarily supported by the triple-ring structure surrounding the SN
+(Blondin & Lundqvist 1993; Morris & Podsiadlowski 2007;
+Menon & Heger 2017; Urushibata et al. 2018). The mixing
+properties of the merger models are different and the masses of the
+helium and oxygen cores are also much lower than those for the
+single-star progenitors. However, the set of progenitors considered
+in our study covers a fairly wide range of pre-collapse proﬁles, and
+one case (B15) has a core structure with similarities to the core
+properties of some of the binary models of Menon & Heger (2017).
+The relative abundances of the different metals are also
+small α-nuclei networks(see
+uncertain because of
+Section 3.1 of Wongwathanarat et al. 2017). This uncertainty
+only applies to the relative abundances of metals and leaves the
+total mass and spatial distribution unaffected.
+
+the
+
+Model B15, despite its ability to yield efﬁcient mixing and to
+explain the SN1987A light curve fairly well, is far from being a
+perfect case for SN1987A. In particular, the NS mass is too low.
+A baryonic mass of 1.25M☉ corresponds to a gravitational mass
+of only ∼1.15M☉. It is extremely unlikely that SN1987A
+produced a NS with such a record-low mass(see Özel &
+Freire 2016). This problem is most likely due to the progenitor
+structure for B15 rather than the explosion modeling.
+
+5.4. Implications for Observations
+
+The high X-ray absorption in young SNRs affects interpreta-
+tions of observations. We have focused on CasA and SN1987A,
+but the absorption estimates also apply to other extragalactic
+SNRs. Processes that produce X-rays from young compact objects
+are thermal surface emission, fallback accretion, and pulsar wind
+activity. Ejecta absorption obscures any X-ray emission and is
+generally applicable, but it is possible that extended sources, such
+as powerful pulsar wind nebulae, produce a signiﬁcant amount of
+radiation from outer regions where the absorption is expected to be
+lower. Another remark on pulsar wind nebulae is that they produce
+synchrotron emission that extends to high X-ray energies (for a
+high-energy compilation of the pulsed emission, see Figure 28 of
+Kuiper & Hermsen 2015) where Compton scattering is dominat-
+ing. Given the low scattering depths, the obscuration due to
+scattering is most likely only important during the ﬁrst few years.
+Another source of high-energy radiation is from radioactive
+elements synthesized in SN explosions that emit lines in the
+Compton absorption regime when decaying. This was seen in
+early observations of SN1987A(Dotani et al. 1987; Sunyaev
+et al. 1987; Matz et al. 1988). The ﬁrst sign of radioactive line
+emission at intermediate optical depths is the emergence of down-
+scattered X-ray emission, which is then followed by the direct line
+emission when the ejecta has expanded further. The time and
+escaping ﬂuxes of the radioactive emission convey information
+about the level of mixing of the radioactive elements and could be
+used to test the accuracy of the SN explosion simulations.
+
+Ejecta absorption can potentially also explain the lack of
+detection of K-shell emission lines resulting from electron capture
+in radioactive elements produced by the SN (Leising 2001, 2006;
+Theiling & Leising 2006). Radioactive K-shell lines have been
+observed in G1.9+0.3, which is the remnant of a thermonuclear
+SN(Borkowski et al. 2010). Because of the lower mass and
+
+11
+
+Alp et al.
+higher expansion velocity of TypeIa SNe, the X-ray absorption
+should be considerably smaller for a given age.
+
+We focus on absorption toward the center of SNRs. The
+absorption along lines of sight that pierce outer parts of the ejecta
+have different properties. This is mostly relevant for spatially
+resolved studies of SNRs. Figure 3 provides some insight into the
+radial distribution of absorbing gas. We do not attempt
+to
+investigate all possible sightlines. The difference introduced by the
+shifting line of sight is not simply a matter of geometrical scaling
+because the metallicity is higher for paths into the center and
+lower toward the outer boundary of the ejecta. An effect of this in
+SN1987A can be seen in Figure 22 and23 of Fransson et al.
+(2013). The penetration of the X-rays from the ring interaction is
+considerably deeper in the directions of the outer hydrogen
+envelope compared to the radial penetration in the core direction.
+In SN1987A, the absorption is high and signiﬁcantly affects
+observations of the compact object. The analysis is presented in
+detail in a separate work(Alp et al. 2018). Here, we note that
+the differences in optical depth for the different BSG progenitor
+models B15 and N20 are less than a factor of two and the RSGs
+also show comparable properties (Section 4). A difference of a
+factor of two in the optical depth approximately corresponds to
+a factor of two in the allowed luminosities. This uncertainty is
+comparable to the other uncertainties discussed in Section 5.3.
+The effect of absorption is expected to be relatively small for
+the Galactic SNRs. We ﬁnd a negligible effect of absorption on
+the interpretation of Chandra observations of the CCO in
+CasA (Appendix A). However, observations of SNRs with
+higher numbers of total counts or higher energy resolutions
+should be able to disentangle small effects of ejecta absorption.
+Our estimates also show that the low-energy X-ray emission
+from a compact object in a future Galactic SN will be heavily
+obscured for many decades. It is unlikely that even future
+telescopes will be able to directly observe emission from newly
+created compact objects at energies less than ∼5 keV during
+the ﬁrst
+is very
+luminous, such as the Crab(Bühler & Blandford 2014).
+
+few decades unless the compact object
+
+6. Summary and Conclusions
+
+Accurate models of absorption are critical for analyses of
+X-ray observations of SNRs. We use 3D simulations of
+neutrino-driven SN explosions(Wongwathanarat et al. 2013,
+2015) to estimate the column densities of the most abundant
+elements along the line of sight to the center of the ejecta. The
+column densities are used to compute the optical depth for
+X-rays due to photoabsorption and Compton scattering. This
+provides both the amount and composition of the obscuring gas.
+We use our absorption models to place new X-ray limits on the
+compact object in SN1987A in an accompanying paper(Alp
+et al. 2018), and re-analyze the X-ray spectrum of the CCO in
+CasA (Appendix A). Our main conclusions are as follows:
+
+1. The optical depth for X-rays is high for a long time after
+the SN explosion. For the models with a hydrogen
+envelope, the optical depth between 0.1 and 50keV is
+- , where t4 is time
+2
+approximately given by
+since the explosion in units of 10,000 days (∼27 years)
+and E is the energy in units of keV.
+
+2. The optical depth above ∼50keV is dominated by Compton
+scattering and is 1–3×10−2 at 10,000 days for models with
+a hydrogen envelope. Scaling backward in time,
+the
+
+-
+2
+100 4
+t
+
+E
+
+The Astrophysical Journal, 864:175 (15pp), 2018 September 10
+
+Alp et al.
+
+1
+
+2
+
+µ
+
+scattering depth to the center is unity at around 1000 days
+after the explosion.
+
+2
+
+.
+
+(
+vt
+
+)
+
+3. The optical depth is approximately an order of magnitude
+lower for the IIb model, which has lost all but 0.5M☉ of
+its hydrogen envelope. This model explodes as a
+TypeIIb SN and shows similarity to CasA. The optical
+depth is lower because
+
+M Et
+
+t µ
+
+4. The expected level of absorption in CasA based on
+estimates using the IIb model results in a decrease in the
+inferred CCO surface temperature of less than ∼1% at all
+epochs, which is lower than the statistical uncertainty. We
+also ﬁnd that the ejecta absorption component would be
+degenerate with the ISM absorption, if ejecta absorption
+were signiﬁcant. This is a result of the limited statistics
+of the observation,
+instrumental energy resolution, and
+degeneracy with the parameters of other model components.
+the
+metallicity of the SN ejecta is ∼2 orders of magnitude
+higher than for the ISM. This implies that the hydrogen
+column number density is a poor measure of absorption
+because the effective cross section is much higher. The high
+metallicity results in a ﬂatter energy dependence of the cross
+section and stronger metal edges for the absorption proﬁle.
+
+the same hydrogen column number density,
+
+5. For
+
+We thank the anonymous referee for the helpful comments.
+This research was funded by the Knut & Alice Wallenberg
+Foundation and the Swedish Research Council. At Garching, this
+research was supported by the Deutsche Forschungsgemeinschaft
+through Excellence Cluster universe (EXC 153;http://www.
+universe-cluster.de/) and Sonderforschungsbereich SFB 1258
+“Neutrinos and Dark Matter in Astro- and Particle Physics,” and
+by the European Research Council through grant ERC-AdG No.
+341157-COCO2CASA. The computations of
+the supernova
+models were carried out on Hydra of the Max Planck Computing
+and Data Facility (MPCDF) Garching and on the Cluster of the
+Computational Center for Particle and Astrophysics (C2PAP)
+Garching. The scientiﬁc results reported in this article are based in
+part on data obtained from the Chandra Data Archive. This
+research has made use of software provided by the Chandra X-ray
+Center (CXC) in the application package CIAO. This research has
+made use of NASA’s Astrophysics Data System.
+
+Facility: CXO(ACIS).
+Software: astropy(Astropy Collaboration et al. 2013), CIAO/
+CALDB(Fruscione et al. 2006), matplotlib(Hunter 2007),
+MARX(Davis et al. 2012), numpy(Jones et al. 2001; van der
+Walt et al. 2011), PROMETHEUS(Fryxell et al. 1991; Müller et al.
+1991), PROMETHEUS-HOTB, PROMETHEUS-VERTEX (Rampp &
+Janka 2002), scipy(Jones et al. 2001), XSPEC (Arnaud 1996).
+
+Note added in proof. A follow-up paper on the Cas A CCO was
+recently published by Posselt & Pavlov (2018). They ﬁnd no
+signiﬁcant temperature decrease and conclude that previous analyses
+were affected by instrumental effects, which could cause time-
+dependent spectral distortions.
+
+Appendix A
+
+CasA
+
+A.1. Observations and Data Reduction
+
+We analyze the three archival Chandra observations that
+were performed using an instrumental
+setup chosen to
+minimize spectral distortions of the CCO. Details of these
+
+12
+
+Table 5
+
+Chandra CasA CCO Observations
+
+Obs. ID
+
+6690
+13783
+16946
+
+Start Date
+
+(YYYY mm dd)
+
+Exposure
+
+(ks)
+
+Source
+Countsa
+
+Source
+Fractionb
+
+2006 Oct 19
+2012 May 05
+2015 Apr 27
+
+61.7
+63.4
+68.1
+
+6261
+5571
+5320
+
+0.958
+0.953
+0.954
+
+Notes.
+a Deﬁned as the number of counts extracted from the source region.
+b Deﬁned as the fraction of the source counts that are signal, whereas the rest is
+background.
+
+observations are presented in Table 5. We reduce the data using
+CIAO 4.9 and CALDB 4.7.7(Fruscione et al. 2006) and follow
+standard data reduction guidelines. No strong background
+ﬂares are detected and the data are ﬁltered by removing all
+intervals that deviate from the mean by more than 4σ. All
+source spectra are extracted from circular regions with radii
+of 2 pixels (492 mas pixel−1). All background spectra are
+extracted from annuli centered on the source position. The
+inner radii of the annuli are 3 pixels and the outer annuli are 5
+pixels. The spectra are binned such that the signal-to-noise
+level is at least 10 in each bin. Spectral ﬁtting is performed
+using XSPEC version 12.9.1p(Arnaud 1996).
+
+A.2. Results
+
+Our aim is to investigate if ejecta absorption has a signiﬁcant
+effect on the interpretation of the observed spectra of the CCO
+in CasA. To do this, we choose a model consisting of thermal
+emission from an NS surface with a carbon atmosphere, which
+is modeled using the XSPEC model carbatm(Suleimanov
+et al. 2014). We use the model tbabs(Wilms et al. 2000),
+with wilm abundances from Wilms et al. (2000) for the ISM
+absorption. The ejecta absorption is modeled using the XSPEC
+model tbvarabs(Wilms et al. 2000), which allows for
+setting the individual abundances. We take the column
+densities of the IIb model (Table 3) because it shows similarity
+to CasA(Wongwathanarat et al. 2017). All column densities
+are scaled to 340 years, assuming homologous expansion and
+ignoring the SNR age difference of the observations. To study
+an extreme scenario, we scale the average column densities by
+a factor of 4.1. This value is the ratio of the 99.7th percentile of
+the optical depth at 2keV to the direction-averaged optical
+depth at 2keV. This can be interpreted as a 3σ upper limit on
+the ejecta absorption for the IIb model. The result of scaling to
+an age of 340 years and taking the 3σ upper limit is that the
+optical depth at 1keV is ∼0.2, implying that the total effect of
+ejecta absorption is expected to be small.
+
+We perform the ﬁt of the model simultaneously to the three
+observations. The results of all ﬁts are presented in Table 6.
+First, we start by ignoring any ejecta absorption. The NS mass
+is frozen to 1.647M☉ and the radius is frozen to 10.33km, to
+allow for comparisons with previous works(Heinke &
+Ho 2010; Posselt et al. 2013). The normalization of the NS
+carbon atmosphere model is a ratio of the fraction of the surface
+that is emitting (A) over the distance squared in units of 10kpc.
+We leave the normalization free to allow for any normalization
+errors, but tied it across all observations because we do not
+expect
+the emitting fraction or distance to change. For a
+
+The Astrophysical Journal, 864:175 (15pp), 2018 September 10
+
+Alp et al.
+
+Obs.
+(YYYY)
+
+NISM(H)a
+(1022 cm−2)
+
+τ(1 keV)
+
+Tc
+(MK)
+
+Norm.a
+
+2
+
+c
+
+d.o.f.
+
+c=
+
+2
+red
+
+CasA CCO Fitting Results (1σ Conﬁdence Intervals)
+
+Table 6
+
+2006
+2012
+2015
+
+2006
+2012
+2015
+
+2006
+2012
+2015
+
+0.05
+2.15 0.05
+
++
+-
+
+0.05
+2.01 0.05
+
++
+-
+
+0.05
+0.77 0.05
+
++
+-
+
+Notes.
+a Free but tied across observations.
+b Frozen to IIb model prediction.
+c Local (unredshifted) temperature.
+
+No ejecta absorption
+
+0.05
+2.07 0.05
+0.05
+2.05 0.05
+0.05
+2.03 0.05
+
++
+-
++
+-
++
+-
+
+3σ ejecta absorption
+
++
+-
++
+-
++
+-
+10×3σ ejecta absorption
+
+0.05
+2.06 0.04
+0.05
+2.04 0.04
+0.05
+2.02 0.04
+
+0.05
+1.99 0.05
+0.05
+1.97 0.04
+0.04
+1.95 0.04
+
++
+-
++
+-
++
+-
+
+L
+
+0.2
+
+2.3
+
+1.2
+7.3 1.0
+
++
+-
+
+118/134=0.88
+
+1.1
+7.6 1.1
+
++
+-
+
+119 134
+
+=
+
+0.89
+
+1.6
+9.7 1.3
+
++
+-
+
+123 134
+
+=
+
+0.92
+
+distance of 3.4kpc, the normalization is 8.65 for A=1. The
+ISM hydrogen column density NISM(H) is left free because the
+absorption toward CasA is uncertain(Keohane et al. 1996;
+Salas et al. 2018), but it is tied across observations because it is
+not expected to vary signiﬁcantly on these timescales.
+Additionally, we ﬁnd no statistically signiﬁcant improvement
+by leaving NISM(H) untied. The local (unredshifted) blackbody
+temperature (T) is left free.
+
+Next, we include the extreme-case 3σ ejecta absorption. The
+best-ﬁt parameters are shown in the second segment of Table 6.
+The additional ejecta absorption component has no signiﬁcant
+impact and the ﬁt remains essentially unchanged. This is
+expected because of the low optical depth of ∼0.2 at 1keV,
+which implies that the difference should be very small.
+
+the bulk expansion velocity or
+
+To explore a case of signiﬁcant absorption, we add another
+factor of 10 to the 3σ absorption. The factor of 10 is arbitrarily
+chosen but the scenario could represent a case where the IIb
+model overestimates
+if
+ﬁlamentary structures of higher density have formed along
+the line of sight. The best-ﬁt values for this case are also
+provided in Table 6. The ﬁt is statistically slightly worse but
+still acceptable. The additional ejecta absorption is nearly
+completely degenerate with the other components, particularly
+the ISM absorption, but also the temperature and normalization
+to a certain extent.
+
+The conclusion is that the expected level of ejecta absorption
+based on our models has an insigniﬁcant effect on the estimated
+temperature of the CCO. The difference in inferred temperature
+is less than ∼1% between the ﬁt without and with 3σ ejecta
+absorption, which is lower than the statistical uncertainty.
+Additionally, the effect is a similar level of decrease at all
+epochs, which does not affect investigations of the cooling of
+the CCO.
+
+Appendix B
+
+Comparison with ISM Absorption
+
+A comparison of
+
+the SN abundances with the ISM
+abundances(Wilms et al. 2000) is provided in Table 3. It is
+common in X-ray astronomy to quantify absorption by the
+hydrogen column number density and to assume standard
+abundances of all other elements with respect to hydrogen. This
+assumption breaks down for ejecta absorption because the
+metallicity of the SN ejecta is much higher than that of
+the ISM. The result is that the effective cross section of the
+SN ejecta is much higher, falls slower as a function of energy,
+and the metal absorption edges are stronger. The effective cross
+sections for the ﬁve models and the ISM, as well as the ratio of
+the SN ejecta to ISM cross sections, are shown in Figure 7.
+
+13
+
+The Astrophysical Journal, 864:175 (15pp), 2018 September 10
+
+Alp et al.
+
+Figure 7. Comparison of the effective cross sections of the SN ejecta for the ﬁve models with the ISM cross section. The left panel shows the cross sections as
+functions of energy and the right panel shows the ratio of the ejecta cross sections to the ISM cross section. We note that the SN effective cross sections are much
+larger, show shallower energy dependencies, and have much stronger discontinuous absorption features.
+
+ORCID iDs
+
+Dennis Alp
+Joseﬁn Larsson
+Claes Fransson
+Annop Wongwathanarat
+8400-8891
+Hans-Thomas Janka
+0831-3330
+
+https://orcid.org/0000-0002-0427-5592
+
+https://orcid.org/0000-0003-0065-2933
+https://orcid.org/0000-0001-8532-3594
+https://orcid.org/0000-0001-
+
+https://orcid.org/0000-0002-
+
+References
+
+Abellán, F. J., Indebetouw, R., Marcaide, J. M., et al. 2017, ApJL, 842, L24
+Alp, D., Larsson, J., & Fransson, C. 2018, arXiv:1805.04526
+Anders, E., & Grevesse, N. 1989, GeCoA, 53, 197
+Arnaud, K. A. 1996, in ASP Conf. Ser. 101, Astronomical Data Analysis
+Software and Systems V, ed. G. H. Jacoby & J. Barnes (San Francisco, CA:
+ASP), 17
+
+Arnett, W. D., Bahcall, J. N., Kirshner, R. P., & Woosley, S. E. 1989,
+
+ARA&A, 27, 629
+
+Ashworth, W. B., Jr. 1980, JHA, 11, 1
+Astropy Collaboration, Robitaille, T. P., Tollerud, E. J., et al. 2013, A&A,
+
+558, A33
+
+Barlow, M. J., Krause, O., Swinyard, B. M., et al. 2010, A&A, 518, L138
+Barlow, M. J., Swinyard, B. M., Owen, P. J., et al. 2013, Sci, 342, 1343
+Bentley, R., Wootten, A., Loh, E., et al. 2018, AAS Meeting Abstracts #231,
+
+241.01
+
+Bethe, H. A., & Salpeter, E. E. 1957, Quantum Mechanics of One- and Two-
+
+Electron Atoms (New York: Academic)
+
+Bionta, R. M., Blewitt, G., Bratton, C. B., Casper, D., & Ciocio, A. 1987,
+
+PhRvL, 58, 1494
+
+Blinnikov, S., Lundqvist, P., Bartunov, O., Nomoto, K., & Iwamoto, K. 2000,
+
+ApJ, 532, 1132
+
+Blondin, J. M., & Lundqvist, P. 1993, ApJ, 405, 337
+Borkowski, K. J., Reynolds, S. P., Green, D. A., et al. 2010, ApJL, 724, L161
+Bratton, C. B., Casper, D., Ciocio, A., et al. 1988, PhRvD, 37, 3361
+Bruenn, S. W. 1993, in Nuclear Physics in the Universe, ed. M. W. Guidry &
+
+M. R. Strayer (Bristol: IOPP), 31
+
+Bühler, R., & Blandford, R. 2014, RPPh, 77, 066901
+Chakrabarty, D., Pivovaroff, M. J., Hernquist, L. E., Heyl, J. S., & Narayan, R.
+
+2001, ApJ, 548, 800
+
+Chatterjee, S., & Cordes, J. M. 2002, ApJ, 575, 407
+Chatterjee, S., & Cordes, J. M. 2004, ApJL, 600, L51
+Cordes, J. M., Romani, R. W., & Lundgren, S. C. 1993, Natur, 362, 133
+Davis, J. E., Bautz, M. W., Dewey, D., et al. 2012, Proc. SPIE, 8443, 84431A
+Dessart, L., & Hillier, D. J. 2010, MNRAS, 405, 2141
+Dickey, J. M., & Lockman, F. J. 1990, ARA&A, 28, 215
+Dotani, T., Hayashida, K., Inoue, H., et al. 1987, Natur, 330, 230
+
+14
+
+Draine, B. T. 2003, ApJ, 598, 1026
+Dwek, E., & Arendt, R. G. 2015, ApJ, 810, 75
+Ebisuzaki, T., & Shibazaki, N. 1988, ApJL, 327, L5
+Elshamouty, K. G., Heinke, C. O., Sivakoff, G. R., et al. 2013, ApJ, 777, 22
+Esposito, P., Rea, N., Lazzati, D., et al. 2018, ApJ, 857, 58
+Faucher-Giguère, C.-A., & Kaspi, V. M. 2006, ApJ, 643, 332
+Fesen, R. A., Hammell, M. C., Morse, J., et al. 2006, ApJ, 645, 283
+Flamsteed, J. 1725, Historia Coelestis Britannicae, tribus Voluminibus contenta
+
+(London: H. Meere)
+
+Fransson, C., & Chevalier, R. A. 1987, ApJL, 322, L15
+Fransson, C., Larsson, J., Spyromilio, J., et al. 2013, ApJ, 768, 88
+Fruscione, A., McDowell, J. C., Allen, G. E., et al. 2006, Proc. SPIE, 6270, 62701V
+Fryxell, B., Arnett, D., & Mueller, E. 1991, ApJ, 367, 619
+García, J., Kallman, T. R., Witthoeft, M., et al. 2009, ApJS, 185, 477
+García, J., Mendoza, C., Bautista, M. A., et al. 2005, ApJS, 158, 68
+Gatuzz, E., García, J., Kallman, T. R., Mendoza, C., & Gorczyca, T. W. 2015,
+
+ApJ, 800, 29
+
+Gomez, H. L., Krause, O., Barlow, M. J., et al. 2012, ApJ, 760, 96
+Gorczyca, T. W. 2000, PhRvA, 61, 024702
+Gorczyca, T. W., Bautista, M. A., Hasoglu, M. F., et al. 2013, ApJ, 779, 78
+Grebenev, S. A., & Syunyaev, R. A. 1988, SvAL, 14, 288
+Grevesse, N., & Sauval, A. J. 1998, SSRv, 85, 161
+Hasoğlu, M. F., Abdel-Naby, S. A., Gatuzz, E., et al. 2014, ApJS, 214, 8
+Heinke, C. O., & Ho, W. C. G. 2010, ApJL, 719, L167
+HI4PI Collaboration, Ben Bekhti, N., Flöer, L., et al. 2016, A&A, 594, A116
+Hirata, K., Kajita, T., Koshiba, M., Nakahata, M., & Oyama, Y. 1987, PhRvL,
+
+58, 1490
+
+Hirata, K. S., Kajita, T., Koshiba, M., et al. 1988, PhRvD, 38, 448
+Ho, W. C. G., & Heinke, C. O. 2009, Natur, 462, 71
+Hobbs, G., Lorimer, D. R., Lyne, A. G., & Kramer, M. 2005, MNRAS,
+
+360, 974
+
+Hughes, D. W. 1980, Natur, 285, 132
+Hunter, J. D. 2007, CSE, 9, 90
+Indebetouw, R., Matsuura, M., Dwek, E., et al. 2014, ApJL, 782, L2
+Jerkstrand, A., Fransson, C., & Kozma, C. 2011, A&A, 530, A45
+Jones, E., Oliphant, T., Peterson, P., et al. 2001, SciPy: Open Source Scientiﬁc
+
+Tools for Python, https://www.scipy.org/
+
+Juett, A. M., Schulz, N. S., Chakrabarty, D., & Gorczyca, T. W. 2006, ApJ,
+
+648, 1066
+
+Kageyama, A., & Sato, T. 2004, GGG, 5, Q09005
+Kalberla, P. M. W., Burton, W. B., Hartmann, D., et al. 2005, A&A, 440, 775
+Kamenetzky, J., McCray, R., Indebetouw, R., et al. 2013, ApJL, 773, L34
+Kamper, K. W. 1980, Obs, 100, 3
+Keohane, J. W., Rudnick, L., & Anderson, M. C. 1996, ApJ, 466, 309
+Kifonidis, K., Plewa, T., Janka, H.-T., & Müller, E. 2003, A&A, 408, 621
+Kirshner, R. P., Sonneborn, G., Crenshaw, D. M., & Nassiopoulos, G. E. 1987,
+
+ApJ, 320, 602
+
+Kortright, J. B., & Kim, S.-K. 2000, PhRvB, 62, 12216
+Krause, O., Birkmann, S. M., Usuda, T., et al. 2008, Sci, 320, 1195
+Kuiper, L., & Hermsen, W. 2015, MNRAS, 449, 3827
+
+The Astrophysical Journal, 864:175 (15pp), 2018 September 10
+
+Leising, M. D. 2001, ApJ, 563, 185
+Leising, M. D. 2006, ApJ, 651, 1019
+Limongi, M., Straniero, O., & Chiefﬁ, A. 2000, ApJS, 129, 625
+Long, K. S., Blair, W. P., Godfrey, L. E. H., et al. 2012, ApJ, 756, 18
+Matsuura, M., Dwek, E., Barlow, M. J., et al. 2015, ApJ, 800, 50
+Matsuura, M., Dwek, E., Meixner, M., et al. 2011, Sci, 333, 1258
+Matsuura, M., Indebetouw, R., Woosley, S., et al. 2017, MNRAS, 469, 3347
+Matz, S. M., Share, G. H., Leising, M. D., Chupp, E. L., & Vestrand, W. T.
+
+1988, Natur, 331, 416
+
+McCray, R. 1993, ARA&A, 31, 175
+McCray, R., & Fransson, C. 2016, ARA&A, 54, 19
+Menon, A., & Heger, A. 2017, MNRAS, 469, 4649
+Morris, T., & Podsiadlowski, P. 2007, Sci, 315, 1103
+Morrison, R., & McCammon, D. 1983, ApJ, 270, 119
+Morse, J. A., Fesen, R. A., Chevalier, R. A., et al. 2004, ApJ, 614, 727
+Müller, B., Melson, T., Heger, A., & Janka, H.-T. 2017, MNRAS, 472, 491
+Müller, E., Fryxell, B., & Arnett, D. 1991, A&A, 251, 505
+Nomoto, K., & Hashimoto, M. 1988, PhR, 163, 13
+Orlando, S., Miceli, M., Pumo, M. L., & Bocchino, F. 2015, ApJ, 810, 168
+Owen, P. J., & Barlow, M. J. 2015, ApJ, 801, 141
+Özel, F., & Freire, P. 2016, ARA&A, 54, 401
+Panagia, N. 1999, in IAU Symp. 190, New Views of the Magellanic Clouds,
+
+ed. Y.-H. Chu et al. (San Francisco, CA: ASP), 549
+
+Alp et al.
+
+Seraﬁmovich, N. I., Shibanov, Y. A., Lundqvist, P., & Sollerman, J. 2004,
+
+A&A, 425, 1041
+
+Shigeyama, T., & Nomoto, K. 1990, ApJ, 360, 242
+Shtykovskiy, P. E., Lutovinov, A. A., Gilfanov, M. R., & Sunyaev, R. A. 2005,
+
+AstL, 31, 258
+
+Stage, M. D., Joss, P. C., Madej, J., & Różańska, A. 2004, AdSpR, 33, 605
+Suleimanov, V. F., Klochkov, D., Pavlov, G. G., & Werner, K. 2014, ApJS,
+
+210, 13
+
+Sunyaev, R., Kaniovsky, A., Efremov, V., et al. 1987, Natur, 330, 227
+Tananbaum, H. 1999, IAUC, 7246
+Theiling, M. F., & Leising, M. D. 2006, NewAR, 50, 544
+Truelove, J. K., & McKee, C. F. 1999, ApJS, 120, 299
+Urushibata, T., Takahashi, K., Umeda, H., & Yoshida, T. 2018, MNRAS,
+
+473, L101
+
+Utrobin, V. P., Wongwathanarat, A., Janka, H.-T., & Müller, E. 2015, A&A,
+
+581, A40
+
+van der Walt, S., Colbert, S. C., & Varoquaux, G. 2011, CSE, 13, 22
+Verner, D. A., Ferland, G. J., Korista, K. T., & Yakovlev, D. G. 1996, ApJ,
+
+465, 487
+
+Verner, D. A., & Yakovlev, D. G. 1995, A&AS, 109, 125
+Walborn, N. R., Lasker, B. M., Laidler, V. G., & Chu, Y.-H. 1987, ApJL,
+
+321, L41
+
+West, R. M., Lauberts, A., Schuster, H.-E., & Jorgensen, H. E. 1987, A&A,
+
+Panagia, N., Gilmozzi, R., Macchetto, F., Adorf, H.-M., & Kirshner, R. P.
+
+177, L1
+
+1991, ApJL, 380, L23
+
+Pavlov, G. G., Zavlin, V. E., Aschenbach, B., Trümper, J., & Sanwal, D. 2000,
+
+ApJL, 531, L53
+
+Posselt, B., & Pavlov, G. G. 2018, arXiv:180800531
+Posselt, B., Pavlov, G. G., Suleimanov, V., & Kargaltsev, O. 2013, ApJ, 779, 186
+Rampp, M., & Janka, H.-T. 2002, A&A, 396, 361
+Reed, J. E., Hester, J. J., Fabian, A. C., & Winkler, P. F. 1995, ApJ, 440, 706
+Rest, A., Foley, R. J., Sinnott, B., et al. 2011, ApJ, 732, 3
+Rho, J., Kozasa, T., Reach, W. T., et al. 2008, ApJ, 673, 271
+Rho, J., Onaka, T., Cami, J., & Reach, W. T. 2012, ApJL, 747, L6
+Rybicki, G. B., & Lightman, A. P. 1979, Radiative Processes in Astrophysics
+
+(New York: Wiley-Interscience)
+
+Saio, H., Nomoto, K., & Kato, M. 1988, Natur, 334, 508
+Salas, P., Oonk, J. B. R., van Weeren, R. J., et al. 2018, MNRAS, 475, 2496
+Scheck, L., Kifonidis, K., Janka, H.-T., & Müller, E. 2006, A&A, 457, 963
+
+White, G. L., & Malin, D. F. 1987, Natur, 327, 36
+Wilms, J., Allen, A., & McCray, R. 2000, ApJ, 542, 914
+Winkel, B., Kerp, J., Flöer, L., et al. 2016, A&A, 585, A41
+Witthoeft, M. C., Bautista, M. A., Mendoza, C., et al. 2009, ApJS, 182,
+
+127
+
+Witthoeft, M. C., García, J., Kallman, T. R., et al. 2011, ApJS, 192, 7
+Wongwathanarat, A., Hammer, N. J., & Müller, E. 2010a, A&A, 514, A48
+Wongwathanarat, A., Janka, H.-T., & Müller, E. 2010b, ApJL, 725, L106
+Wongwathanarat, A., Janka, H.-T., & Müller, E. 2013, A&A, 552, A126
+Wongwathanarat, A., Janka, H.-T., Müller, E., Pllumbi, E., & Wanajo, S. 2017,
+
+ApJ, 842, 13
+
+Wongwathanarat, A., Müller, E., & Janka, H.-T. 2015, A&A, 577, A48
+Woosley, S. E., Pinto, P. A., & Ensman, L. 1988, ApJ, 324, 466
+Woosley, S. E., & Weaver, T. A. 1995, ApJS, 101, 181
+Xu, Y., Sutherland, P., McCray, R., & Ross, R. R. 1988, ApJ, 327, 197
+
+15
+
+

@@ -1,0 +1,3078 @@
+The Astrophysical Journal, 882:22 (19pp), 2019 September 1
+© 2019. The American Astronomical Society. All rights reserved.
+
+https://doi.org/10.3847/1538-4357/ab3395
+
+X-Ray and Gamma-Ray Emission from Core-collapse Supernovae: Comparison of
+
+1 Department of Physics, KTH Royal Institute of Technology, The Oskar Klein Centre, AlbaNova, SE-106 91 Stockholm, Sweden; dalp@kth.se
+
+Three-dimensional Neutrino-driven Explosions with SN 1987A
+, Joseﬁn Larsson1
+Hans-Thomas Janka4
+
+, and Athira Menon7
+2 Department of Astronomy, Kyoto University, Kitashirakawa-Oiwake-cho, Sakyo-ku, Kyoto, 606-8502, Japan
+
+, Annop Wongwathanarat4
+
+, Alexander Heger5,6
+
+, Anders Jerkstrand4
+
+, Claes Fransson3
+
+, Keiichi Maeda2
+
+3 Department of Astronomy, Stockholm University, The Oskar Klein Centre, AlbaNova, SE-106 91 Stockholm, Sweden
+
+4 Max Planck Institute for Astrophysics, Karl-Schwarzschild-Str. 1, D-85748 Garching, Germany
+
+5 Monash Centre for Astrophysics, School of Physics and Astronomy, Monash University, VIC 3800, Australia
+
+Dennis Alp1
+
+, Michael Gabler4
+
+,
+
+7 Anton Pannekoek Institute for Astronomy, University of Amsterdam, 1090 GE Amsterdam, The Netherlands
+
+6 Tsung-Dao Lee Institute, Shanghai 200240, People’s Republic of China
+
+Received 2019 June 10; revised 2019 July 17; accepted 2019 July 17; published 2019 August 28
+
+Abstract
+
+During the ﬁrst few hundred days after the explosion, core-collapse supernovae (SNe) emit down-scattered X-rays
+and gamma-rays originating from radioactive line emissions, primarily from the 56Ni→56Co→56Fe chain. We
+use supernova (SN) models based on three-dimensional neutrino-driven explosion simulations of single stars and
+mergers to compute this emission and compare the predictions with observations of SN1987A. A number of
+models are clearly excluded, showing that high-energy emission is a powerful way of discriminating between
+models. The best models are almost consistent with the observations, but differences that cannot be matched by a
+suitable choice of viewing angle are evident. Therefore, our self-consistent models suggest that neutrino-driven
+explosions are able to produce, in principle, sufﬁcient mixing, although remaining discrepancies may require small
+changes to the progenitor structures. The soft X-ray cutoff is primarily determined by the metallicity of the
+progenitor envelope. The main effect of asymmetries is to vary the ﬂux level by a factor of ∼3. For the more
+the shapes of the light curves also change. In addition to the models of SN1987A,
+asymmetric models,
+we investigate two models of SNeII-P and one model of a stripped-envelope SNIIb. The TypeII-P models have
+observables similar to those of the models of SN1987A, but the stripped-envelope SN model is signiﬁcantly more
+luminous and evolves faster. Finally, we make simple predictions for future observations of nearby SNe.
+Uniﬁed Astronomy Thesaurus concepts: Core-collapse supernovae (304); X-ray transient sources (1852); Gamma-
+ray transient sources (1853); Supernova dynamics (1664); Gamma-ray lines (631)
+
+1. Introduction
+
+A core-collapse supernova (CCSN) is the death of a massive
+star (Baade & Zwicky 1934; Hoyle & Fowler 1960), but the
+exact nature of the explosion remains obscured. The so-called
+delayed neutrino-heating mechanism (Arnett 1966; Colgate &
+White 1966; Bethe & Wilson 1985; Bruenn 1985) is a leading
+hypothesis in which a stalled shock is revived by neutrinos
+emitted from the surface of a hot proto-neutron star (for
+reviews, see Janka 2012, 2017; Burrows 2013; Janka et al.
+2016; Müller 2016; Couch 2017). Recent three-dimensional
+(3D) simulations are able to include the basic physics necessary
+to describe the neutrino interaction and heating, and to
+simulate the outcome of the Fe core collapse, which then
+connects to the long-term simulations involving the whole star
+(Wongwathanarat et al. 2013, 2015, M. Gabler et al. 2019, in
+preparation). These simulations demonstrated that 3D effects
+are important both for the neutrino heating and the hydro-
+dynamic instabilities above the Fe core.
+
+To verify the supernova (SN) theory and assumptions that go
+into the simulations, it is important to compare the model
+predictions with observations. The spatial density and abun-
+dance distributions of the ejecta provide key information about
+the progenitor and explosion mechanism of core-collapse
+supernovae (CCSNe). Another valuable property that
+is
+observable is the X-ray and gamma-ray emission up to
+approximately 1000 days after the explosion(d). This emission
+arises from the radioactive decays of the unstable isotopes
+
+1
+
+synthesized during the ﬁrst few seconds after core collapse
+(Hoyle 1954; Burbidge et al. 1957; Fowler & Hoyle 1964; Hix
+& Harris 2017). When an unstable isotope decays, gamma-rays
+are emitted. These gamma-rays lose energy due to Compton
+scattering as they propagate through the ejecta, and are then
+either destroyed by photoelectric absorption or escape the
+ejecta. An advantage of studying the early X-ray and gamma-
+ray emission is that the emission can be computed directly from
+the ejecta models without
+specifying the
+microscopic mixing since the thermal conditions are decoupled
+from the high-energy radiation ﬁeld (Jerkstrand et al. 2011).
+The emission is thus a sensitive probe of the macroscopic
+mixing and the ejecta structure. Additionally,
+the relevant
+physics for the photon propagation is well known and the
+gamma-ray transfer is computationally cheap compared to
+(Hillier & Dessart 2012;
+more general
+Jerkstrand et al. 2016).
+
+radiation transfer
+
+the need of
+
+Several groups have applied this method to compute the
+X-ray and gamma-ray emission from CCSN models. Previous
+studies of 3D models have explored bipolar SNII models
+(Hungerford et al. 2003) and single-lobe TypeII explosion
+models (Hungerford et al. 2005). Maeda (2006) investigated
+jet-like broad-lined SN models, and Wollaeger et al. (2017)
+computed both optical and high-energy spectra from a
+unimodal 3D model. A large number of models were also
+created and studied shortly after SN 1987A (for an overview,
+see McCray 1993). This early modeling of SN1987A was
+
+The Astrophysical Journal, 882:22 (19pp), 2019 September 1
+
+Alp et al.
+
+based on much more simpliﬁed 1D simulations. There are also
+several studies that have applied analogous methods to SNIa
+(Burrows & The 1990; Höﬂich 2002; Sim 2007; Sim &
+Mazzali 2008; Kromer & Sim 2009; Maeda et al. 2012; Summa
+et al. 2013; The & Burrows 2014) and kilonova models
+(Hotokezaka et al. 2016; Korobkin et al. 2019).
+
+In addition to the (down-scattered) X-rays and gamma-rays
+from the radioactive decay, other processes can also contribute to
+the high-energy emission. Lines from electron transitions are
+only relevant below 10keV in SNe, which is at lower energies
+than the component from the radioactive decay. The photons
+from the radioactive decay also produce fast recoil electrons
+through Compton scattering. The bremsstrahlung emission from
+these electrons is expected to be much fainter than the emission
+from the radioactive decay in the relevant energy range (Clayton
+& The 1991; Burrows & van Riper 1995). Interactions with the
+circumstellar medium (CSM) is another potential source of
+X-rays (Chevalier & Fransson 1994, 2017). This is a weak
+component for the vast majority of all SNe (Dwarkadas 2014)
+and is typically at lower X-ray energies, although the hard X-ray
+regime is CSM-dominated in some cases. Examples of such
+cases include the nearby, strongly interacting SN1993J (Leising
+et al. 1994; Fransson et al. 1996) and the extremely luminous
+TypeIIn SN2010jl (Chevalier & Irwin 2012; Ofek et al. 2014).
+Such CSM interaction results in spectra and light curves that are
+very different from those produced by reprocessed radioactive
+decay. Additionally, the gamma-ray continuum, and in part-
+icular, the direct line emission from the radioactive decay are
+unlikely to be confused with other emission components, even
+under extreme circumstances.
+
+In this paper, we compute the early X-ray and gamma-ray
+emission from recent full 3D SN models based on neutrino-
+driven explosion simulations (Wongwathanarat et al. 2013,
+2015) and compare the predicted emission properties to
+observations of SN1987A. SN1987A was a CCSN in the
+Large Magellanic Cloud (LMC), which makes it the closest
+observed SN in more than four centuries (for reviews, see
+Arnett et al. 1989; McCray 1993; McCray & Fransson 2016).
+The proximity of SN1987A makes it the only CCSN where
+detailed observations of
+the early X-ray and gamma-ray
+evolution have been possible. The comparisons allow us to
+constrain properties of the ejecta structure and composition,
+and investigate the viability of recent SN simulations and
+SN1987A progenitor models. We also investigate models of
+other types of SNe. This allows us to extend the results to more
+common SN types and serves as predictions for
+future
+observations.
+
+This paper is organized as follows. We describe the SN
+models in Section 2 and the observations of SN1987A in
+Section 3. The algorithm we use for the computations of the
+early emission is outlined in Section 4, and we present the
+results in Section 5. We discuss the results and important
+details in Section 6 and provide a summary and the main
+conclusions in Section 7.
+
+2. Models
+
+We use SN models based on 3D neutrino-driven explosion
+simulations. An overview of the models is provided in Table 1.
+All progenitor models are 1D but are mapped into three
+dimensions with imposed low-amplitude random cell-by-cell
+perturbations to seed hydrodynamic instabilities for the SN
+explosion simulations (Wongwathanarat et al. 2013). Below,
+
+2
+
+we describe the properties of the models that are most relevant
+to the current study. Comprehensive descriptions of all
+simulations can be found in the original references (Table 1).
+All simulations included the neutrino luminosity as a free
+parameter, which effectively determines the ﬁnal explosion
+energy (Eexp). We note that we do not use the light-bulb
+approximation, meaning that the outgoing neutrino luminos-
+ities are considerably modiﬁed by the infalling material in our
+simulations. The neutrino luminosity was tuned to result in
+explosion energies of ∼1.5×1051 erg for all models. This
+roughly corresponds to estimates for SN1987A (Woosley et al.
+1988; Bethe 1990; Bethe & Pizzochero 1990; Shigeyama &
+Nomoto 1990; Blinnikov et al. 2000; Utrobin 2005), and is also
+fairly representative for ordinary SNeII-P (Kasen & Woosley
+2009; Pejcha & Prieto 2015; Müller et al. 2017) and IIb SNe
+(Taddia et al. 2018).
+
+For a given explosion energy, large variations are expected
+for the density and abundance distributions of the ejecta, which
+are determined by a coupled interaction between the explosion
+dynamics and progenitor structure (Wongwathanarat et al.
+2015; Utrobin et al. 2019). In other words, these differences
+can be used to discriminate different progenitor models using
+observational data.
+
+The M15-7b and M16-7b models are the results of mergers,
+whereas all the other models are single-star models. The B15,
+N20, M15-7b, and M16-7b models end their lives as blue
+supergiants (BSGs) and are designed to match the progenitor of
+SN1987A. The B15 model is the single-star progenitor that
+yields the best agreement with the optical
+light curve of
+SN1987A, based on self-consistent 3D explosion models
+(Utrobin et al. 2015). For the merger models, Menon et al.
+(2019) present results for artiﬁcially mixed 1D explosions,
+while V. Utrobin et al. (2019, in preparation) present light-
+curve analysis based on the 3D neutrino-driven explosion
+models.
+
+We have investigated all six merger models of Menon &
+Heger (2017) that match the observational properties of the
+SN1987A progenitor. We only present results from the M15-
+7b and M16-7b models here. The M15-7b model ﬁts the X-ray
+and gamma-ray observations best, and M16-7b is the worst
+model. This choice means that
+the X-ray and gamma-ray
+properties of M15-7b and M16-7b roughly bracket those of the
+complete set of merger models.
+
+type. Finally, model W15-2-cw-IIb (IIb)
+
+The L15 and W15 models are red supergiants (RSGs), which
+allow us to extend the results to SNeII-P, which is the most
+frequent
+is an
+explosion of a nearly bare He core with a thin H envelope,
+which shows similarity to CasA (Wongwathanarat et al. 2017).
+All progenitors except the N20 and IIb models were created
+using self-consistent stellar evolution simulations. The N20
+model (Shigeyama & Nomoto 1990) was created by combining
+the core (Nomoto & Hashimoto 1988) and envelope (Saio et al.
+1988) of two different models. This was done in an attempt to
+match the properties of the progenitor of SN1987A. The IIb
+model was created by artiﬁcially removing all but 0.3 ☉M of
+the H envelope of Model W15-2-cw. This model is aimed to
+mimic a typical progenitor star of a SNIIb.
+
+The mixing of 56Ni is important for the early X-ray and
+gamma-ray emission.
+In Table 1, we provide the mass-
+weighted average radial velocity of the fastest 1% of 56Ni.
+This is similar to Wongwathanarat et al. (2015). Here, however,
+we weight the tracer element representing the uncertainty in the
+
+The Astrophysical Journal, 882:22 (19pp), 2019 September 1
+
+Table 1
+
+SN Explosion Models
+
+Modela
+
+Name
+
+Type
+
+B15-1-pw
+N20-4-cw
+L15-1-cw
+W15-2-cw
+W15-2-cw-IIb
+M157b-2-pw
+M167b-2-pw
+
+B15
+N20
+L15
+W15
+IIb
+
+M15-7b
+M16-7b
+
+BSG
+BSG
+RSG
+RSG
+
+He core
+Merger
+Merger
+
+Mej
+(M☉)
+
+14.2
+14.3
+13.7
+14.0
+3.7
+19.5
+20.5
+
+b
+tsim
+(d)
+
+156
+145
+146
+148
+18
+1
+111
+
+Eexp
+
+(1051 erg)
+
+1.43
+1.72
+1.71
+1.45
+1.52
+1.43
+1.41
+
+c
+
+Zeff
+(Zeff,☉)
+0.55
+0.54
+0.30
+0.36
+0.36
+0.47
+0.47
+
+Alp et al.
+
+e
+
+)
+
+Reference
+
+á ñv
+
+(
+
+56
+
+)
+Ni
+1%
+(km s−1)
+
+d
+
+á
+ñ<M
+
+Ni
+
+(
+56
+1%
+(M☉)
+
+3530
+2110
+4820
+4190
+6710
+3460
+1770
+
+10.5
+4.8
+11.6
+11.5
+2.8
+17.0
+6.7
+
+1, 2, 3, 4
+3, 4, 5, 6, 7, 8
+3, 4, 8, 9
+3, 4, 8, 10
+3, 4, 8, 10, 11
+12, 13
+12, 13
+
+Notes.
+a The ﬁrst letter does not correspond to any physical quantity but is related to the creators. The two-digit number is approximately the zero-age main-sequence
+(ZAMS) mass in solar masses. The single-digit number indicates the model number in the series of models varying the explosion energy and initial seed perturbation
+(Wongwathanarat et al. 2013). The last two letters are “pw” for power-law wind or “cw” for constant-wind boundary. For the binary merger progenitors, the ﬁrst two-
+digit numbers give the ZAMS masses of the primary stars in solar masses, the following one-digit numbers refer to the ZAMS masses of the secondary stars in solar
+masses, and the last letter before the ﬁrst hyphen is related to the fraction of the He-shell mass dredged up.
+b The time to which the simulations were run. The models are scaled homologously from this time.
+c The effective metallicity deﬁned as the photoabsorption opacity at 30keV (Section 2.3).
+d The mass-weighted average radial velocity of the fastest 1% of 56Ni.
+e The mass-weighted average enclosed mass coordinate of the fastest 1% of 56Ni.
+References. (1) Woosley et al. (1988), (2) Bruenn (1993), (3) Wongwathanarat et al. (2015), (4) M.Gabler et al. (2019, in preparation), (5) Nomoto & Hashimoto
+(1988), (6) Saio et al. (1988), (7) Shigeyama & Nomoto (1990), (8) Wongwathanarat et al. (2013), (9) Limongi et al. (2000), (10) Woosley & Weaver (1995),
+(11) Wongwathanarat et al. (2017), (12) Menon & Heger (2017), (13) Menon et al. (2019).
+
+nucleosynthesis (referred to as X, Section 2.2) by 0.5 relative to
+56Ni, instead of 1.0, to remain consistent with the rest of this
+paper. The radial velocity of the fastest 56Ni is a simpliﬁed
+representation of the amount of mixing in the models. The
+enclosed mass coordinate of the fastest 56Ni should be related
+to the total ejecta mass (Mej) because of the importance of the
+amount of material outside of the fastest 56Ni (Section 6.1).
+
+The large range of fastest 56Ni velocities indicates that the set
+of explosion models span a large range of mixing properties.
+The reason for this has been explored for the B15, N20, L15,
+and W15 models (Wongwathanarat et al. 2015; Utrobin et al.
+2019). The mixing in these models is the result of a complex
+interplay between the progenitor structure, dynamics of the
+SN shock, and propagation of the neutrino-heated ejecta.
+One factor that favors efﬁcient mixing is the fast growth of
+the (C+O)/He interface.
+Rayleigh–Taylor
+Furthermore, a weak interaction of
+fast Rayleigh–Taylor
+plumes with the strong reverse shock occurring below the
+He/H composition interface also enhances the amount of
+mixing. So far, however, studies have relied solely on a small
+number of single-star progenitor models. Detailed analysis of
+the merger models and comparisons with single-star models
+will be presented in a future paper (V. Utrobin et al. 2019, in
+preparation).
+
+instabilities at
+
+Finally, we also include some comparisons with the 10HMM
+model (Pinto & Woosley 1988) as a reference. It was fairly
+successful at describing several observables of SN1987A and
+is representative of the extensive, but much more simpliﬁed,
+early work on the progenitor of SN1987A (see Section 2.2 of
+McCray 1993). The 10HMM model is 1D, and importantly, has
+additional mixing introduced by hand.
+
+2.1. Geometry
+
+Of particular relevance to the gamma-ray transfer are the
+spatial resolutions of the simulations and the asymmetries
+caused by the hydrodynamic instabilities. The late-time
+simulations were run on axis-free Yin-Yang grids (Kageyama
+
+& Sato 2004; Wongwathanarat et al. 2010) with a relative
+radial resolution better than 1% at all radii and an angular
+resolution of 2°. For this study, the models are mapped from
+the Yin-Yang grids to spherical grids. The resolution of the
+spherical grids is sufﬁcient to perform the mapping without
+signiﬁcant
+loss of characteristic structures. The simulations
+provide no information on the small-scale mixing below the
+grid scale, but this does not affect the properties of the ejecta
+that are relevant for the gamma-ray propagation.
+
+The H-rich single-star models are evolved until ∼150days
+and the IIb model until 18days, beyond which they can be
+assumed to expand homologously (M. Gabler et al. 2019, in
+preparation). The merger models are only available at an age of
+1day, from which we scale the models homologously. We
+check the effects of the late-time radioactive heating on the
+dynamics by comparing results from a version of the B15
+model that has been expanded homologously from 1day to the
+standard B15 model that has been followed by simulations until
+156days. The primary difference introduced by the late-time
+heating is increased mixing, leading to a ﬂux increase of ∼20%
+for most cases, although it can reach ∼40% for the direct line
+emission at early times (<200 days). Homologous expansion is
+a reasonable approximation for a few thousand years (e.g.,
+Truelove & McKee 1999), but this period of the evolution
+could be more than an order of magnitude shorter in extreme
+cases, such as SNeIIn and in the presence of the equatorial ring
+in the case of SN1987A.
+the ejecta expand
+homologously inside of the reverse shock resulting from the
+interaction of the outermost ejecta with the CSM. During
+the ﬁrst 1000days of SN1987A, before interaction with the
+equatorial ring, all of the ejecta can safely be assumed to
+expand homologously. In fact, the central parts of the ejecta
+that contain the majority of the mass are still freely expanding
+at current epochs (Fransson et al. 2013).
+
+In general,
+
+The explosion in all models sets in strongly asymmetrically
+as a consequence of hydrodynamic instabilities associated with
+the deposition of neutrino energy behind the stalled shock. This
+
+3
+
+The Astrophysical Journal, 882:22 (19pp), 2019 September 1
+
+Alp et al.
+
+Isotope
+
+56Ni
+56Co
+57Co
+
+τa
+(day)
+
+6.08
+77.24
+271.74
+
+Referenceb
+
+Linesc
+
+1, 2, 3, 4
+1, 2, 3, 4
+1, 5, 6
+
+6
+45e
+10
+
+Table 2
+
+Nuclear Decay Data
+
+Intensity
+(γ decay−1)
+
+3.21
+2.91
+1.06
+
+d
+E1
+(keV)
+
+158
+847
+122
+
+d
+
+I1
+
+(γ decay−1)
+
+0.99
+1.00
+0.86
+
+d
+E2
+(keV)
+
+812
+1238
+136
+
+d
+
+I2
+
+(γ decay−1)
+
+0.86
+0.68
+0.11
+
+ln 2 for lifetime.
+
+Notes.
+( )
+a Half-life. Divide by
+b Reference for the lifetime.
+c Number of lines. From the Table of Isotopes (Firestone et al. 1999).
+d Line energies (Ei) and intensities (Ii) of the strongest (i = 1) and second strongest (i = 2) lines. From the Table of Isotopes (Firestone et al. 1999).
+e Including the positron-annihilation line at 511keV.
+References. (1) Firestone et al. (1999), (2) Junde (1992), (3) Junde (1999), (4) Junde et al. (2011), (5) Bhat (1992), (6) Bhat (1998).
+
+happens during the ﬁrst seconds of post-bounce evolution.
+These initial explosion asymmetries trigger the growth of
+secondary non-radial hydrodynamic instabilities after the shock
+crosses the composition–shell interfaces on its way out from
+the center to the surface of the exploding star. A more detailed
+description of the ejecta asymmetries can be found in Section 5
+of Wongwathanarat et al. (2015) and Section 3.3 of Utrobin
+et al. (2019).
+
+2.2. Radioactive Elements
+
+The nucleosynthesis is treated slightly differently in the
+different models. The nucleosynthesis in the SN1987A models
+was followed by a network of elements that includes 1H; the 13
+α-nuclei from 4He to 56Ni; and a tracer nucleus X (Kifonidis
+et al. 2003; Wongwathanarat et al. 2013, 2015). The tracer
+represents elements that were produced in grid cells where the
+electron fraction was below 0.49. Therefore, X comprises
+neutron-rich, Fe-group elements, but the simulations provide
+no additional information about the compositions. The net-
+works used for the RSG and IIb models omit 32S, 36Ar, 48Cr,
+and 52Fe.
+
+The most
+
+important nuclear decay data are provided in
+Table 2. We follow the decays 56Ni→56Co→56Fe (Clayton
+et al. 1969) and 57Co→57Fe (Clayton 1974). The most
+important transition during the relevant time intervals in the
+current context is 56Co→56Fe. The transition 57Co→57Fe
+dominates below 100keV at epochs later than ∼800days for
+the H-rich models and ∼300days for the stripped IIb model.
+The contribution from the 44Ti→44Sc→44Ca chain is
+negligible during the time periods considered in this paper.
+Finally, the isotope 57Ni has a half-life of 36hr and is much
+less abundant than 56Ni. The contribution of 57Ni→57Co is,
+therefore, always negligible.
+
+The true composition of X and the limited nuclear networks
+introduce uncertainties in the masses of individual isotopes. We
+compute the opacities based on the masses
+from the
+simulations, but rescale the escaping ﬂuxes as if the masses
+of the radioactive sources match observations of SN1987A for
+all models. All 56Ni masses from the simulations are consistent,
+within the large uncertainties, with the ∼0.07 ☉M of 56Ni
+produced by SN1987A (Suntzeff & Bouchet 1990; Bouchet
+et al. 1991). The spatial distribution of 56Ni is taken to be the
+distribution of the sum of the 56Ni explicitly followed by the
+grid weighted by 1 and the tracer X weighted by 0.5. We
+investigate the effect of this choice by comparing results based
+
+on weighing the tracer by 0 and 1. The ﬂux level varies by less
+than 25% in most cases, the shapes of the spectra are practically
+unchanged, and light-curve peaks shift by less than ∼50days.
+We set the mass of 57Ni by adopting a ﬁxed ratio of the mass
+of 57Ni relative to that of 56Ni. The estimates of the 57Ni/56Ni
+ratio of SN1987A from explosive nucleosynthesis networks
+(Thielemann et al. 1990; Woosley & Hoffman 1991), direct
+observations (Syunyaev et al. 1990; Kurfess et al. 1992), and
+light-curve modeling (Fransson & Kozma 1993) favor values
+around twice the solar ratio, where the solar system 57Fe/56Fe
+number ratio is 0.023 (Lodders 2003). The spatial distribution
+of 57Ni is represented by the tracer X.
+
+For consistency and for facilitating comparisons, we scale
+the ﬂuxes of all models to match the radioactive isotope yields
+of SN1987A. This puts the 56Ni masses of our RSG
+explosions around the 80th percentile of the distribution of
+inferred yields of ordinary SNeII-P (Kasen & Woosley 2009;
+Pejcha & Prieto 2015; Müller et al. 2017; Anderson 2019). In
+contrast, the 56Ni mass of our IIb model is at the 20th percentile
+of the inferred 56Ni masses of SNeIIb (Taddia et al. 2018;
+Anderson 2019), which peaks at roughly twice the 56Ni mass of
+SN1987A.
+
+2.3. Progenitor Metallicity
+
+The progenitor metallicity is important because it determines
+the composition of the outermost parts of the models that are
+not mixed with the freshly synthesized material. The envelope
+metallicity signiﬁcantly affects the emerging emission because
+the metals (primarily Fe) dominate the photoabsorption opacity
+in the relevant 10–100keV range, even at metallicities that are
+much lower than the solar metallicity.
+
+Instead of using the standard deﬁnition of metallicity, we deﬁne
+the effective metallicity (Zeff) as the photoabsorption opacity at
+30keV. This is done because the abundance patterns of the
+different models are different and the photoabsorption opacity is
+the most important consequence of the metallicity in the current
+context. The effective metallicities of all models are provided in
+Table 1. It is worth pointing out that the effective metallicity of the
+LMC is 0.54
+. Relative to solar metallicity, this is slightly
+higher than what is typically adopted as the (standard) metallicity
+of the LMC. This is a result of Fe dominating the photoabsorption
+opacity above 6.4keV and that Fe is not as under-abundant as
+many of the intermediate-mass elements.
+
+☉Zeff,
+
+The treatment of the metallicity in the stellar evolution
+the B15 and N20 progenitors has been
+
+simulations of
+
+4
+
+The Astrophysical Journal, 882:22 (19pp), 2019 September 1
+
+Table 3
+
+Adopted LMC Abundances
+
+Element
+
+H
+He
+C
+O
+Ne
+Mg
+Si
+S
+Ar
+Ca
+Ti
+Cr
+Fe
+
+LMCa
+(dex)
+º12
+10.93
+7.81
+8.35
+7.58
+7.06
+7.20
+6.78
+6.48
+6.02
+4.81
+5.42
+7.23
+
+Solara,b
+(dex)
+º12
+10.90
+8.39
+8.69
+7.87
+7.55
+7.54
+7.19
+6.55
+6.34
+4.92
+5.65
+7.47
+
+Difference
+
+(dex)
+L
+0.03
+−0.58
+−0.34
+−0.29
+−0.49
+−0.34
+−0.41
+−0.07
+−0.32
+−0.11
+−0.23
+−0.24
+
+LMC Ref.
+
+L
+
+1, 2
+1, 2, 3, 4
+1, 2, 4, 5
+1, 2
+4, 5
+4, 5
+1
+1
+1, 3
+6
+1, 3
+1, 3, 5
+
++
+
+log
+
+Notes. The effective metallicity (see Section 2.3) of the LMC is 0.54
+☉Zeff,
+.
+This is dominated by the difference in the Fe abundance of −0.24dex. The
+solar abundances are included for reference.
+a Number abundance of element El is represented by the astronomical log scale
+12
+b Solar abundances from Table 1 of Lodders (2003).
+References. (1) Table 12 of Russell & Dopita (1990), (2) Table 5 of Kurt &
+Dufour (1998), (3) Russell & Bessell (1989), (4) Table 17 of Hunter et al.
+(2007), (5) Table 9 of Trundle et al. (2007), (6) Table 1 of Russell &
+Dopita (1992).
+
+)]
+(
+H
+.
+
+10
+
+[
+A
+
+(
+El
+
+)
+
+A
+
+fraction of each individual element
+
+signiﬁcantly simpliﬁed. Those nuclear networks were reduced
+by omitting the heavier metals and representing the metallicity
+using only lighter elements. We correct for this by raising the
+mass
+to the LMC
+abundance in grid cells where the individual abundance is
+lower than the corresponding LMC value. Abundances are
+never lowered to match LMC abundances, which explains why
+☉Zeff, ) has marginally higher effective
+the B15 model (0.55
+☉Zeff, ). We do not use
+metallicity than the LMC (0.54
+abundances inferred from the equatorial ring of SN1987A
+because this would require much larger changes to the models.
+See Section 6.1.3 for a discussion of using abundances inferred
+ring of SN1987A instead of LMC
+from the equatorial
+abundances.
+
+The adopted LMC abundances are provided in Table 3. The
+corrections are performed in regions where the H mass fraction
+is >0.1. The H mass fractions are slightly reduced to preserve
+the total masses. The total changes are approximately shifts of
+0.1 ☉M from H to metals, primarily intermediate-mass
+elements. We reiterate that only the B15 and N20 models
+require this modiﬁcation. For example, the effective metallicity
+of the B15 model before correction is 0.03
+. We also note
+that the RSGs, mergers, and IIb models are unmodiﬁed from
+their evolutionary compositions and have slightly lower
+effective metallicities (Table 1).
+
+☉Zeff,
+
+3. Observations of SN1987A
+
+We use early X-ray and gamma-ray observations of
+SN1987A as an observational
+the simulated SN
+models. The comparisons can be divided into three categories;
+spectra, continuum light curves, and line ﬂuxes. The observa-
+tions of the line proﬁles are investigated in a separate paper
+(A. Jerkstrand et al. 2019, in preparation).
+
+test of
+
+5
+
+Alp et al.
+The distance to SN1987A is taken to be 51.2kpc (Panagia
+et al. 1991; Gould & Uza 1998; Panagia 1999; Mitchell et al.
+2002) and when comparing simulations to observations, we
+correct the observed spectra for the recessional heliocentric
+velocity of the LMC of 287kms−1 (Gröningsson et al. 2008a,
+2008b). The ISM absorption is negligible in the relevant energy
+range of ∼10–3500keV (e.g., Willingale et al. 2013; Frank
+et al. 2016).
+
+An overview of all early hard X-ray and gamma-ray
+observations of SN1987A is provided in Table 4. Some of
+the early X-ray and gamma-ray observations have also been
+summarized by other authors (Bunner 1988; Gehrels et al. 1988;
+Leising 1991; Teegarden 1991; Tueller 1991; Wamsteker 1993).
+Below, we brieﬂy describe the instruments and data used for our
+comparisons.
+
+3.1. The Roentgen Observatory
+
+The Roentgen Observatory was an experiment in the Kvant
+module of the space station Mir. The Kvant module carrying
+Roentgen docked to Mir during 1987 April and started
+observing SN1987A 168days after the outburst and continued
+to monitor SN1987A to later than 800days. We use data from
+the HEXE and the PulsarX-18 instruments.
+
+HEXE was the most sensitive instrument and provides
+relatively accurate continuum light curves in three energy
+bands in 15–200keV (Syunyaev et al. 1990). Low-resolution
+spectra were also extracted for seven epochs. We also use
+spectra from PulsarX-1 at 320days (Syunyaev et al. 1988).
+The data are of signiﬁcantly lower quality and are primarily
+included with the purpose of verifying the HEXE spectra above
+70keV during peak brightness, while also extending the
+energy coverage to 600keV.
+
+3.2. SMM
+
+The SMM was launched in 1980 and was a dedicated solar
+observatory. One of the seven instruments on board was the
+GRS, which operates in the energy range 0.3–8.5MeV (Forrest
+et al. 1980). The moderate energy resolution of around 50keV at
+1MeV is insufﬁcient for resolving the radioactive line proﬁles.
+SMM was unable to point away from the Sun except for
+short durations, so SN1987A was observed as a part of the
+background emission while SMM performed solar observations.
+Because SMM was operational for 7 yr before SN1987A, it was
+possible to monitor the background gamma-ray ﬂux before the
+explosion and then detect SN1987A as a change in the
+background level during its early evolution.
+
+We use data from SMM to constrain the evolution of the line
+ﬂuxes. SMM provides the most accurate measurements of the
+line ﬂuxes and also continuously monitored SN1987A
+throughout its early evolution. No emission from SN1987A
+was detected before 1987 July, but the 56Co decay lines rose
+rapidly during 150–200days (Matz et al. 1988). The line
+emission peaked shortly thereafter, and then decayed beyond
+the detection threshold around day 600 (Leising & Share
+1990).
+
+8 Not to be confused with the bright X-ray source LMCX-1, which is located
+0°. 6 from SN1987A.
+
+The Astrophysical Journal, 882:22 (19pp), 2019 September 1
+
+Early Hard X-Ray and Gamma-Ray Observations of SN1987A
+
+Table 4
+
+Instrumenta
+
+Platform
+
+HEXE
+Pulsar X-1
+GRS
+LAC
+MSFC/Lockheed/Marshall
+GRIP/Caltech/CIT
+GRIS/GSFC/Bell/SNLA/Sandia
+JPL
+GRAD/Florida/GSFC
+UCR Compton Telescope
+
+Roentgen/Mir-Kvant
+Roentgen/Mir-Kvant
+SMM
+Ginga
+Balloon
+Balloon
+Balloon
+Balloon
+Balloon
+Balloon
+
+Epoch
+(day)
+
+168–830
+168–830
+1–826
+2–1400
+95, 249, 411, 619
+86, 268, 414, 771
+433, 613
+286
+319
+418
+
+Energy Range
+
+(keV)
+
+15–200
+70–600
+300–9000
+
+6–28
+18–960
+30–5000
+20–8000
+50–8100
+700–3000
+500–20,000
+
+Alp et al.
+
+References
+
+1, 2, 3, 4, 5, 6
+1, 2, 3, 4, 5, 6
+7, 8, 9, 10
+11, 12, 13, 14, 15
+16, 17, 18, 19, 20
+21, 22, 23
+24, 25, 26, 27, 28
+29
+30
+31, 32, 33
+
+Note.
+a The abbreviations and acronyms are: High Energy X-ray Experiment (HEXE), Gamma-Ray Spectrometer (GRS), Solar Maximum Mission (SMM ), Large Area
+Proportional Counter (LAC), Marshall Space Flight Center (MSFC), Gamma-Ray Imaging Payload (GRIP), California Institute of Technology (CIT), Gamma-Ray
+Imaging Spectrometer (GRIS), Goddard Space Flight Center (GSFC), Sandia National Laboratories Albuquerque (SNLA), Jet Propulsion Laboratory (JPL), Gamma-
+Ray Advanced Detector (GRAD), University of California, Riverside (UCR).
+References. (1) Sunyaev et al. (1987), (2) Syunyaev et al. (1987), (3) Syunyaev et al. (1988), (4) Syunyaev et al. (1989), (5) Syunyaev et al. (1990), (6) Sunyaev et al.
+(1991), (7) Forrest et al. (1980), (8) Matz et al. (1988), (9) Leising et al. (1989), (10) Leising & Share (1990), (11) Makino & ASTRO-C Team (1987), (12) Dotani
+et al. (1987), (13) Tanaka (1988), (14) Tanaka (1991), (15) Inoue et al. (1991), (16) Sandie et al. (1988b), (17) Sandie et al. (1988a), (18) Wilson et al. (1988),
+(19) Fishman et al. (1990), (20) Pendleton et al. (1995), (21) Althouse et al. (1985), (22) Cook et al. (1988), (23) Palmer et al. (1993), (24) Teegarden et al. (1989),
+(25) Tueller et al. (1990), (26) Tueller et al. (1991), (27) Tueller (1991), (28) Barthelmy et al. (1991), (29) Mahoney et al. (1988), (30) Rester et al. (1989), (31) Zych
+et al. (1983), (32) Simone et al. (1985), (33) Ait-Ouamer et al. (1992).
+
+3.3. Ginga
+
+The X-ray astronomy satellite Ginga (“Galaxy”) was launched
+on 1987 February 5 and started observing SN1987A
+2 days after outburst and monitored SN1987A for more than
+1000 days. The ﬁrst detection of emission from SN1987A was
+on day 131 (Dotani et al. 1987). Ginga carried three instruments,
+but only data from the LAC are used for this work. The LAC
+was a collimator and provided data on SN1987A in the
+6–28keV range. Because of the relatively large collimator
+opening angle, the data might be contaminated by background
+sources (Inoue et al. 1991). For this reason, we choose to
+exclude data during an apparent ﬂaring period in 1988 January.
+We use the Ginga light curves in the 6–16 and 16–28keV
+ranges. For the presentations in this paper, we treat the two
+bands as spectral bins for the comparisons at speciﬁc times.
+The X-ray emission in the full 6–28keV range consists of two
+emission components (Tanaka 1988) and the energy cut at
+16keV was chosen to optimally separate them from each other
+(Inoue et al. 1991). The signal-to-noise ratio in the low-energy
+band is low and the emission could be the result of interactions
+with the CSM or bremsstrahlung from the fast recoil electrons.
+This means that the low-energy band is not strictly comparable
+to our predictions but could be viewed as an upper limit. The
+16–28keV component
+likely
+represents the low-energy cutoff of the Comptonized radio-
+active emission (Inoue et al. 1991; Tanaka 1991). The Ginga
+data agree reasonably well with the Roentgen/HEXE data in
+the overlapping energy range.
+
+is less variable and most
+
+3.4. Balloon-borne Experiments
+
+We use data from a number of balloon-borne experiments,
+the details of which are summarized in Table 4. They provide
+independent measurements of the spectra (MSFC, GRIP),
+which agree well with the data from HEXE and PulsarX-1.
+This effectively also veriﬁes the continuum ﬂux measurements
+
+6
+
+of HEXE that are used to construct the continuum light curves.
+All of the balloon experiments that we include were able to
+measure line ﬂuxes, which show reasonable agreement with the
+line ﬂux evolution as observed by SMM (Figure 5 of Leising &
+Share 1990). Additionally, only balloon-borne experiments
+(GRIS, JPL, GRAD) carried instruments with sufﬁcient energy
+resolution to resolve the line proﬁles of 56Co (presented in
+A. Jerkstrand et al. 2019, in preparation).
+
+4. Algorithm and Implementation
+
+We compute the X-ray and gamma-ray properties by
+following the propagation of Monte Carlo (MC) photons
+through the ejecta. The interactions we include are photo-
+electric absorption, Compton scattering, and pair production.
+We do not compute bremsstrahlung or ﬂuorescent emission
+because these effects only contribute signiﬁcantly at energies
+below the sharp photoabsorption cutoff around 15keV
+(Woosley et al. 1989; Clayton & The 1991; Burrows & van
+Riper 1995). We verify our code by comparing it to previously
+published spectra and light curves (Milne et al. 2004; The &
+Burrows 2014) of the W7 model (Nomoto et al. 1984), and by
+comparing the results from our code to those from HEIMDALL
+(Maeda et al. 2014) and SUMO-3D (A. Jerkstrand et al. 2019,
+in preparation).
+
+We use ξi to denote random numbers uniformly distributed
+in the range of 0–1, where the index i distinguishes the different
+random numbers. Spatial vectors are denoted using boldface
+(e.g., a), and the Cartesian components are (ax, ay, az). The
+spherical components are (
+, where f is the azimuthal
+angle ranging from 0–2 π, and the polar angle θ is deﬁned from
+0 at the north pole to π at the south pole. Four vectors are
+denoted using Greek indices (e.g., bμ). We denote quantities in
+the SN frame without primes and quantities in frames locally
+comoving with the homologous expansion with primes.
+
+a a
+r
+f
+
+)
+
+,
+
+,
+
+a
+
+q
+
+The Astrophysical Journal, 882:22 (19pp), 2019 September 1
+
+Alp et al.
+
+4.1. Cross Sections
+
+In this section, we describe the cross sections used for
+Compton scattering, photoabsorption, and pair production. The
+absorption and scattering properties of the tracer X are set to
+those of 56Fe.
+
+We take the pair production cross sections from Ambwani &
+Sutherland (1988), which interpolate tabulated values of the
+cross sections (Hubbell 1969; Hubbell et al. 1980). The pair
+production cross sections are
+
+⎧
+⎨⎪
+⎩⎪
+
+2
+0 cm
+(
+0.10063
+[
+0.0481
+
+E
+6
++
+
+s =
+pp
+
+4.1.1. Compton Scattering
+
+-
+0.301
+
+1.022
+E
+
+(
+
+)
+6
+
+2
+
+Z
+-
+
+´
+1.5
+
+-
+10
+) ]
+
+Z
+
+27
+
+2
+
+The Compton scattering cross section is given by the Klein–
+Nishina formula (e.g., Rybicki & Lightman 1979). For
+computational stability and performance, we use an approx-
+imate expression for the Klein–Nishina cross section (p. 319 of
+Pozdnyakov et al. 1983). The difference between the approx-
+imation and the exact formula is less than 1% at all energies.
+The energy lost by a photon in each scattering in the rest
+
+frame of the electron is given by
+
+E
+E
+
+¢
+f
+¢
+i
+
+=
+
+1
+
++
+
+E
+
+¢
+i
+m c
+
+e
+
+1
+
+(
+
+1
+
+2
+
+-
+
+cos
+
+)
+¢
+
+a
+
+,
+
+( )
+1
+
+where Ef is the ﬁnal photon energy, Ei the initial photon energy,
+me the electron mass, and α the scattering angle. It shows the
+important property that
+the fractional energy loss is much
+higher when the energy before scattering is comparable to, or
+higher than, the electron rest energy.
+
+4.1.2. Photoelectric Absorption
+
+Photoabsorption cross sections are quickly declining func-
+tions of energy E, which implies that photoabsorption is only
+relevant at relatively low X-ray energies. It starts becoming
+important around 100keV and dominates below ∼40keV for
+typical SN abundances (Alp et al. 2018). The non-relativistic
+high-energy asymptote is approximately proportional to E−3.
+We use the cross sections of Verner et al. (1996).
+
+We note that the cross sections of Verner et al. (1996) are
+very similar to those of Verner & Yakovlev (1995) at energies
+above 10keV for the relevant isotopes, except for 4He. The
+photoabsorption cross section of 4He from Verner et al. (1996)
+is approximately 40% lower than the value of Verner &
+Yakovlev (1995) but the effect on the escaping ﬂuxes is only
+approximately 1%. The cross sections of Verner et al. (1996)
+are also very similar to those of Veigele (1973).9
+
+4.1.3. Pair Production
+
+We include pair production primarily for comparisons with
+other codes (Milne et al. 2004). We have indeed veriﬁed that
+this effect has a negligible impact on the results for the models
+studied in this paper. For example, for 56Ni, the scattering cross
+section is 10 times higher than the pair production cross section
+at 3MeV, and they are approximately equal at 10MeV (see
+Figure 1 of Milne et al. 2004). Typically, less than 0.1% of the
+total photons are pair absorbed.
+
+2
+cm
+´
+
+-
+10
+
+27
+
+2
+cm
+
+6
+
+<
+E
+1.022
+
+E
+
+6
+
+1.022 MeV
+
+<
+1.5 MeV
+
+E
+
+6
+
+1.5 MeV
+
+,
+
+( )
+2
+
+where E6 is the photon energy in units of MeV and Z is the
+atomic number.10
+
+4.2. Photon Initialization
+
+Gamma-ray photons are created by the decay of
+
+the
+radioactive isotopes in the inner regions of the ejecta. Each
+MC photon is initially created by assigning a spatial position r,
+a direction of propagation W, and a photon energy. The initial
+spatial distribution is given by the spatial distribution of the
+parent nuclei in the models (Section 2.2). The direction of the
+photons are random in the rest frame of the homologously
+expanding parent nuclei, and the initial photon energies are the
+well-deﬁned energies of the corresponding transitions. Impor-
+tant data about the radioactive lines included in the code are
+provided in Table 2. With the energy E′ and the direction W¢, it
+the four-momentum ¢mp and
+is straightforward to construct
+to the SN frame. The result of
+inverse Lorentz boost
+accounting for the difference in reference frames is that the
+energies E are Doppler shifted and W slightly beamed in
+the outward direction. The effect on the result introduced by the
+beaming is an increase in escaping number ﬂux of
+less
+than 1%.
+
+it
+
+4.3. Photon Propagation
+
+As the photon propagates through the ejecta, the optical
+
+depth is given by
+
+t
+
+=
+
+t
+CS
+
++
+
+t
+ph
+
+t
++ ,
+pp
+
+( )
+3
+
+where the scattering depth τCS, photoabsorption depth τph, and
+pair production depth τpp are given by
+( )
+r
+
+)
+E n
+
+( )
+4
+
+dL
+
+(
+
+r
+
+,
+
+t
+CS
+
+KN
+
+e
+
+L
+
+ò
+s=
+ò å
+L I
+ò å
+L I
+
+t
+ph
+
+=
+
+t
+pp
+
+=
+
+s
+ph
+
+(
+
+r
+
+,
+
+)
+E I n
+
+,
+
+(
+
+r
+
+,
+
+)
+I dL
+
+s
+pp
+
+(
+
+r
+
+,
+
+)
+E I n
+
+,
+
+(
+
+r
+
+,
+
+)
+I dL
+
+,
+
+( )
+5
+
+( )
+6
+
+where L is the path traveled by the photon, σKN the Klein–
+Nishina cross section, ne the electron number density, σph
+photoabsorption cross section, n the element number density,
+and the sums are taken over all elements I. The path is deﬁned
+as the line starting from the position of the previous scattering,
+or the initial position if the photon has just been created. This
+integral is solved continuously as the photon travels through
+
+9 In passing, we also note that the photoelectric cross sections of H and He
+have been switched in Table 3 of Hoeﬂich et al. (1992).
+
+10 As noted by Swartz et al. (1995), the factor is supposed to be 0.10063, not
+1.0063 as printed in Equation (2) of Ambwani & Sutherland (1988).
+
+7
+
+The Astrophysical Journal, 882:22 (19pp), 2019 September 1
+
+the ejecta by discretizing the continuous integral into a sum of
+ﬁnite dL. The discretization is chosen such that the distance dL
+is equal to 1% of the magnitude of the current radial position of
+the photon. It was veriﬁed that ﬁner discretizations result in
+similar results and the spatial resolution is ultimately limited by
+the resolution of the models (see Section 2.1). A photon
+propagates until τ reaches a limiting optical depth τlim, which is
+sampled from the distribution
+
+t
+lim
+
+x
+= - t
+ln .
+
+( )
+7
+
+At this point, one of the following three interactions occurs: the
+photon scatters off an electron, the photon is photoabsorbed,
+and the photon pair produces.
+
+4.4. Interactions
+
+In this subsection, we describe how the different interactions
+are treated numerically at the point of interaction. Scattering
+affects the photon energy and the direction of propagation, but
+does not destroy the photon; photoabsorption destroys the photon;
+and pair production destroys the photon and creates an electron–
+positron pair. We assume that no positronium forms and that each
+positron is converted into a photon pair locally (Chugai et al.
+1997; Ruiz-Lapuente & Spruit 1998; Jerkstrand et al. 2011).
+
+An interaction occurs when τ=τlim.
+
+If
+
+the condition
+
+(Pozdnyakov et al. 1983)
+
+x
+
+ph
+
+<
+
+t
+ph
+t
+ph
+
+t
+cs
+
++
+
++
+
+t
+pp
+
+( )
+8
+
+is fulﬁlled, the photon is absorbed. Absorption means that the
+photon is destroyed, and the program moves on by simulating
+the next MC photon. If Equation (8) is not fulﬁlled, but
+
+x
+
+ph
+
+<
+
+t
+ph
++
+
++
+t
+ph
+
+t
+pp
++
+
+t
+pp
+
+t
+cs
+
+( )
+9
+
+is fulﬁlled, the original photon is replaced by a pair of 511keV
+photons with random directions in the locally comoving frame.
+This represents pair production and subsequent annihilation.
+
+If neither condition is fulﬁlled, scattering occurs and a new
+direction and energy are computed. Both the new photon
+direction and energy are dependent on the velocity of the
+scattering electron. The electron velocities are taken to be the
+velocities given by the homologous expansion, implying that
+all electrons are moving radially outward. The effect of this
+compared to stationary electrons is an increase in escaping
+number ﬂux of approximately 2%. We also veriﬁed that the
+thermal motion of electrons is unimportant compared to the
+bulk ejecta expansion in the situation under consideration,
+where temperatures are lower than 10,000K.
+
+The next step is to sample a new direction and energy for the
+photons after scattering. The distribution of the scattering angle
+frame is given by (e.g., Rybicki &
+in the electron rest
+Lightman 1979)
+⎠⎟ ⎛
+⎞
+⎛
+⎝⎜
+⎝⎜
+
+⎞
+⎠⎟
+¢
+
+2
+sin
+
+10
+
+µ
+
++
+
+-
+
+a
+
+,
+
+(
+
+)
+
+¢
+s
+d
+KN
+W¢
+d
+
+2
+
+E
+E
+
+¢
+f
+¢
+i
+
+E
+E
+
+¢
+i
+¢
+f
+
+E
+E
+
+¢
+f
+¢
+i
+
+where Ω is the solid angle. We note that this expression depends
+on the energy after scattering, which is given by Equation (1). The
+problem is to sample α from the distribution obtained by inserting
+Equation (1) into Equation (10). One possibility is to compute the
+
+8
+
+Alp et al.
+
+cumulative distribution function of α numerically and then use the
+method of inverse functions (e.g., Section 9.1 of Pozdnyakov
+et al. 1983) to draw samples of α from Equation (10) using
+uniformly distributed random numbers. This requires a two-
+dimensional lookup table of the cumulative distribution function
+as a function of Ei and α. An alternative approach based on a
+rejection technique is presented in Section9.5 of Pozdnyakov
+et al. (1983), which is also summarized in AppendixD of Santana
+et al. (2016).11 We veriﬁed that both methods agree, and choose to
+implement the rejection algorithm.
+
+4.5. Output
+
+The output of our simulation is a list of photons that escape
+the SN. For each photon packet, we save the initial and ﬁnal
+energy; the direction of propagation; the number of scatterings;
+the time of the packet as measured by an observer at inﬁnity;
+and initial SN age when the packet was created by a radioactive
+decay. The initial time is used to weight the packet by the
+remaining mass of the radioactive parent nuclei at that time.
+This weight is equivalent to the number of photons represented
+by the packet. We note that we include the expansion of the
+ejecta while the photon is traveling. The effect of including
+“live” expansion of the ejecta is a decrease in escaping ﬂux of
+approximately 1%, because while the photon is traveling
+outward, the ejecta also expand. The packet lists contain all
+information necessary to construct light curves and spectra
+during selected time intervals. It is also possible to investigate
+the light curves and spectra along different lines of sight.
+
+5. Results
+
+First, in Section 5.1, we present the effects of the ejecta
+asymmetries on the escaping X-ray and gamma-ray emission
+integrated over all energies, which are important for interpret-
+ing the comparisons with the observed data of SN1987A.
+Then, we compare the models that attempt to match SN1987A
+(B15, N20, M15-7b, M16-7b, and 10HMM) with the
+observational data. Predictions from the B15 and M15-7b
+models show the best agreement with the observations.
+Therefore, we focus on these two models and provide more
+details on their asymmetries. The spectra are presented in
+Section 5.2, the continuum light curves in Section 5.3, and the
+line ﬂuxes in Section 5.4. Lastly, we include spectra and line
+ﬂuxes for the models that represent other types of SNe in
+Section 5.5 and investigate the effects of progenitor metallicity
+in Section 5.6. The line proﬁles are investigated in a separate
+paper (A. Jerkstrand et al. 2019, in preparation).
+
+Error bars for the observational data correspond to 1σ
+conﬁdence intervals. Exceptions are temporal error bars that
+represent the integration periods and spectral bins where the
+error bars represent the bin widths.
+
+5.1. Asymmetries
+
+Figure 1 shows spherical projections of the escape directions
+of the photons for the different models. All models primarily
+show variations on large angular scales, and the brightness is
+correlated with the center of mass of the 56Ni. Generally, the
+anisotropies are larger at early times. The temporal evolutions
+
+11 We note that the plus sign in the expression for W¢ f3,
+in Santana et al. (2016) should be a minus sign.
+
+(W¢z f, with our notation)
+
+The Astrophysical Journal, 882:22 (19pp), 2019 September 1
+
+Alp et al.
+
+Figure 1. Spherical equal-area Hammer projections of the escaping photons at different times (for all energies). The left column shows the B15 model at three
+different times and the right column shows the N20, M15-7b, and W15 models at 300days. The points show the direction of the 56Ni center of mass (blue), minimum
+ﬂux (orange), and maximum ﬂux (green). The minimum and maximum directions are deﬁned by the extremum number ﬂuxes integrated over all energies and times up
+to 1000days. The numbers for the 56Ni centers of mass are the radial velocities in units ofkms−1. The distributions for narrow energy intervals are similar to the
+integrated distributions. The ﬂux asymmetries are initially larger and slowly decrease as the ejecta dilute. The main difference is the difference in amplitude of the ﬂux
+asymmetries, which reﬂects the different levels of ejecta asymmetries in the models.
+
+of all models are relatively similar and projections in narrow
+energy ranges show similar features. The main differences in
+narrow bands are that
+the emission
+asymmetries are lower for low-energy photons, which have
+scattered many times, while the asymmetries are strongest for
+the line photons that escape directly (Sections 5.2 and 5.4). The
+scales in Figure 1 show that
+is the least
+asymmetric, whereas M15-7b is the most asymmetric model.
+
+the amplitudes of
+
+the N20 model
+
+The models that are not shown (L15, M16-7b, and IIb) show
+similar emission asymmetry properties. The ﬂux ratio along the
+maximum to minimum direction is ∼1.7 for L15 at 300days,
+∼4 for M16-7b at 300days, and ∼2.1 for IIb at 100days.
+
+In what follows, we investigate quantities averaged over all
+directions, as well as along the directions of minimum and
+maximum ﬂux. The angle-averaged properties are a good
+representation of
+the distribution of properties over all
+
+9
+
+The Astrophysical Journal, 882:22 (19pp), 2019 September 1
+
+Alp et al.
+
+Figure 2. Spectra from the B15 and M15-7b models at 300days (left) and direction-averaged spectra from all SN1987A models (right). Observations of SN1987A
+(crosses); HEXE at 320days (black, Syunyaev et al. 1990), Ginga at 300days (gray, Inoue et al. 1991), MSFC at 248days (brown, Pendleton et al. 1995), PulsarX-1
+at 320days (pink, Syunyaev et al. 1990), and GRIP at 268days (yellow, Palmer et al. 1993). In the left panel, the solid lines are the spectra averaged over all
+directions, the semitransparent dashed lines are along the directions of minimum ﬂux, and the semitransparent dashed–dotted lines are along the directions of
+maximum ﬂux. The envelope metallicity, which sets the low-energy cutoff, of the 10HMM model is not well deﬁned because metals were artiﬁcially mixed into parts
+of the envelope (Sections 2 and 5.6).
+
+Figure 3. Light curves in the 45–105keV range from the B15 and M15-7b models (left), direction-averaged 45–105keV light curves from all SN1987A models
+(right), and HEXE SN1987A observations (black crosses). The horizontal bars of the data points at 145days and 445days are not visible because of the short
+exposures. In the left panel, the solid lines are averaged over all directions, the semitransparent dashed lines are along the directions of minimum ﬂux, and the
+semitransparent dashed–dotted lines are along the directions of maximum ﬂux.
+
+(Section 6.1.1). Therefore,
+
+directions
+the angle-averaged
+quantities are useful, although no real observer is able to
+measure them. The angle-averaged properties also do not
+require arbitrary choices of viewing angles and are less
+sensitive to MC noise. Because of the directional variations
+are negligible on small angular scales, we use half-opening
+angles of 30° when computing quantities along certain
+directions. The extremum directions are deﬁned by the
+extremum number ﬂuxes integrated over all energies and all
+times (<1000 days).
+
+5.2. Spectra
+
+The left panel of Figure 2 shows the averaged and directional
+spectra for the B15 and M15-7b models at 300days and the
+corresponding observational data. At 300days, both the shapes
+
+and the amplitudes are in reasonable agreement with the data,
+and any remaining deviations between models and observa-
+tions can relatively easily be accommodated by the variance
+introduced by the asymmetries. An important property is that
+the asymmetries change the overall normalizations, but does
+not affect the shapes much. The typical amplitude of the ﬂux
+variations for different viewing angles spans a factor of ∼2, but
+the most asymmetric model, M15-7b, shows variations up to a
+factor of ∼5.
+
+The right panel of Figure 2 compares all spectra of the
+SN1987A models with observational data around 300days.
+We use the direction-averaged spectra and simply note that
+variations of a factor of a few in amplitude are possible because
+of asymmetries, in particular at early times (Section 6.1.1). The
+N20 model matches the observed spectra well but is only doing
+
+10
+
+The Astrophysical Journal, 882:22 (19pp), 2019 September 1
+
+Alp et al.
+
+Figure 4. Temporal evolution of the sum of the 847 and 1238keV line ﬂuxes from the B15 and M15-7b models (left) and direction-averaged ﬂuxes from all
+SN1987A models (right). The colored solid lines that are included in the legend are direction-averaged model predictions, and the gray curve is the analytic limit of
+free escape for 0.07 ☉M of initial 56Ni (Suntzeff & Bouchet 1990; Bouchet et al. 1991). The semitransparent dashed lines are along the minimum ﬂux directions and
+the dashed–dotted lines are along the maximum ﬂux directions of the B15 and M15-7b models. The black crosses are SMM measurements. The gray markers are the
+balloon measurements; MSFC (triangle, Sandie et al. 1988b), GRIP (squares, Palmer et al. 1993), GRIS (circles, Tueller 1991), JPL (star, Mahoney et al. 1988),
+GRAD (×, Rester et al. 1989), and UCR (diamond, Ait-Ouamer et al. 1992).
+
+so around 300days (Section 5.3). The 1D model 10HMM also
+agrees relatively well with the observations, but this required
+mixing introduced by hand (Section 2). This shows that 3D
+models are able to self-consistently produce mixing at levels
+similar to what is inferred from observations, whereas this had
+to be introduced artiﬁcially in 1D models.
+
+The M16-7b model (red line toward the bottom of Figure 2
+right) clearly fails to match the observations. We reiterate
+(Section 2) that M15-7b and M16-7b are presented here
+because they ﬁt the X-ray and gamma-ray observations best
+and worst, respectively, out of the six merger progenitors that
+fulﬁll the observational criteria of the SN 1987A progenitor
+(Menon & Heger 2017). Out of the remaining four merger
+models (not shown), M15-8b and M17-7a are very similar to
+M16-7b, whereas M16-4a and M17-8b are intermediate cases.
+Only M15-7b agrees reasonably well with the X-ray and
+gamma-ray observations, whereas the remaining ﬁve merger
+models can be ruled out.
+
+5.3. Continuum Light Curves
+
+The light curves in different energy bands show similar
+results, but we focus on the 45–105keV observations by
+HEXE because they are the most accurate. The left panel of
+Figure 3 shows the averaged and directional light curves for
+the B15 and M15-7b models in the 45–105keV range and the
+corresponding HEXE data. The asymmetries clearly affect
+the ﬂux magnitude and the time of the initial rise. In contrast,
+the declining tails are relatively similar along different
+directions. This is a manifestation of the emission asymmetries
+becoming less pronounced at later times.
+
+The average 45–105keV light curves for all models and the
+HEXE observations are shown in the right panel of Figure 3.
+None of the models is able to match the early observed
+breakout time and all overshoot the light curve at later times
+(except for M16-7b, which completely fails to match the
+observations). The general agreement with observations,
+
+however, can still be considered acceptable given the
+uncertainties and sensitivity of the emission properties on the
+progenitor structure (Section 6.2).
+
+5.4. Line Emission
+
+the SN1987A-like models. For
+
+Figure 4 shows the line ﬂuxes of the sum of the 847 and
+1238keV lines for
+the
+observations that only covered one of the lines, we scale that
+value by the atomic line yields to obtain the expected combined
+ﬂux under the assumption of equal optical depths at 847 and
+1238keV. There is possibly a slight indication that the SMM
+measures lower ﬂuxes than the balloon-borne experiments
+(Leising 1991; Teegarden 1994). For the comparisons with
+model predictions, we primarily focus on the SMM values
+because of
+the continuous coverage and homogeneity of
+the data.
+
+The predicted line ﬂuxes show the same breakout
+
+time
+problem as the continuum light curves. The line ﬂux is more
+sensitive to the viewing angle than the continuum emission in
+the sense that the relative differences in ﬂux are larger. This is
+because the continuum photons have scattered into new
+directions before escaping the ejecta, which effectively reduces
+the strength of the asymmetries. Apart from this, the viewing
+angle also affects
+the more
+asymmetric models, similarly as for
+the continuum light
+curves. The accuracy of the observed line data is not as good
+as the continuum precision. However, the line ﬂuxes are only
+functions of the optical depth along the photon path, which
+makes them valuable for breaking degeneracies when inter-
+preting the more complex continuum data (Section 6.2).
+
+the light-curve shape for
+
+5.5. Other SN Types
+
+We include predictions for other types of SNe as a guide for
+future observations. We reiterate that
+the
+radioactive elements in all models are scaled to the inferred
+values of SN1987A (Section 2.2). Figure 5 shows the spectra
+
+the masses of
+
+11
+
+The Astrophysical Journal, 882:22 (19pp), 2019 September 1
+
+Alp et al.
+
+Figure 5. Direction-averaged spectra of the RSG models L15 and W15 at
+300days, and the stripped IIb model at 100days. The gray line is the B15
+model at 300days and is included for reference. The times are chosen to be
+around peak ﬂux. The variations along different directions primarily affect the
+magnitude of the ﬂux while the shape remains relatively constant (Figure 2).
+The differences at the low-energy cutoff are primarily attributed to the different
+metallicities (Table 1 and Section 5.6).
+
+Figure 6. Temporal evolution of the 847keV line ﬂuxes (not the sum of the
+847 and 1238 keV lines as in Figure 4) of the RSG models L15 and W15, and
+the stripped IIb model. The gray line is the direction-averaged line ﬂux from
+the B15 model, which is included for reference. The semitransparent dashed
+colored lines represent
+the ﬂux along the minimum direction and the
+semitransparent dashed–dotted lines the ﬂux along the maximum direction
+for the corresponding models.
+
+of the RSG models L15 and W15, as well as the stripped IIb
+model. We note that the H-rich models are shown at 300days,
+whereas the IIb model is at 100days. This roughly corresponds
+to the times of peak ﬂux. The spectral shape for a given model
+is softer at earlier times and harder at later times. We note that
+the RSG models are similar to the B15 model.
+
+Figure 6 shows the 847keV line ﬂuxes of the L15, W15, and
+IIb models. We also include the light curves along the
+extremum directions. The variations due to asymmetries are
+ﬂux variations by a factor of a few, but
+the qualitative
+properties of the line ﬂuxes are independent of the viewing
+angle.
+
+The most notable features of the IIb model are that it evolves
+faster and is more luminous at the time of peak ﬂux than the
+H-rich models. This is because of the lower ejecta mass and
+higher expansion velocities. Furthermore,
+the very thin H
+envelope quickly becomes
+the
+photoabsorption cutoff to slightly higher energies, because
+the core is revealed and a larger fraction of the photons escape
+the ejecta before being scattered many times.
+
+transparent, which shifts
+
+5.6. Effects of Progenitor Metallicity
+
+☉Zeff,
+
+In this subsection, we use ﬁve versions of the B15 model to
+investigate the effects of different progenitor envelope
+In addition to the B15 version with LMC
+metallicities.
+☉Zeff, ), we generate three additional versions
+abundances (0.55
+of B15 with effective metallicities of 0.12, 0.27, and
+1.00
+. These three versions are corrected using solar
+abundances (Table 3)
+following the method presented in
+Section 2.3. Lastly, we create a ﬁfth version with abundances
+corresponding to the ring of SN1987A (Section 6.1.3), which
+results in an effective metallicity of 0.28
+
+Figure 7 shows spectra at 300days for the ﬁve different B15
+models. This clearly shows how increasing metallicity shifts
+the low-energy cutoff of the spectra to higher energies by
+increasing the photoelectric absorption opacity. The observed
+SN1987A spectra seem to align particularly well with the
+version with LMC metallicity, but
+is also consistent with
+
+☉Zeff,
+
+.
+
+☉Zeff,
+
+line is for LMC abundances and the purple 0.28
+
+Figure 7. Spectra at 300days for the B15 model at ﬁve different metallicities.
+This shows how increasing metallicity (primarily Fe abundance) of the
+progenitor envelope affects the low-energy photoabsorption cutoff. The green
+0.55
+line is for
+abundances of the ring of SN1987A. The purple line deviates at higher
+energies because of a much higher He-to-H ratio (Section 6.1.3), which
+changes the Compton scattering opacity. Overplotted are the observed HEXE
+spectrum at 320days (black crosses), and the Ginga bands at 300days (gray
+crosses).
+
+☉Zeff,
+
+abundances inferred from the ring of SN 1987A. The four
+versions that are practically identical at higher energies have
+almost the same Compton scattering opacity. This is because
+the metallicity corrections only involve minor changes in terms
+of mass, which only marginally affect the scattering opacity.
+The reason why the version with the SN1987A ring
+abundances differs at higher energies is because of a major
+shift of 2.1 ☉M of H into He (Section 6.1.3). This reduces the
+electron density and signiﬁcantly decreases the scattering
+opacity. However, the cutoff is still at an energy similar to
+that of the version with 0.27
+, which was corrected using
+solar abundances.
+
+☉Zeff,
+
+12
+
+The Astrophysical Journal, 882:22 (19pp), 2019 September 1
+
+Alp et al.
+
+Figure 8. Light curves in the 45–105keV range along different viewing angles for the B15 model (left) and the M15-7b model (right). The solid black lines are
+averaged over all directions, the dashed black lines are along the directions of minimum ﬂux, and the dashed–dotted black lines are along the directions of maximum
+ﬂux. The colored lines are along 20 arbitrary uniformly distributed directions (the vertices of a dodecahedron).
+
+6. Discussion
+
+6.1. General Model Emission Properties
+
+Before comparing the predictions with the SN1987A
+observations (Section 6.2), we discuss some general properties
+of the predicted emission. The X-ray and gamma-ray emission
+from different progenitors shows different properties. For a
+given viewing angle,
+important parameter is the
+electron column density outside of the fastest 56Ni, or in other
+words, the amount of mixing (Section 2). This determines the
+time at which the ﬁrst emission starts escaping the ejecta. An
+additional major difference between the models is that the
+stripped IIb model evolves on shorter timescales and is more
+luminous than the H-rich models because of its lower ejecta
+mass and higher explosion velocities.
+
+the most
+
+6.1.1. Variance due to Asymmetries
+
+First, we explore the effects of the choice of viewing angle on
+the observed properties. This is the variance introduced by the
+3D structures for a given explosion. The variance arising from
+the stochastic hydrodynamic instabilities for repeated explosions
+of the same progenitor is investigated in Section 6.1.2.
+
+the M15-7b model, which is
+
+We show the light curves in the 45–105keV range for the
+B15 and M15-7b models along different viewing angles in
+Figure 8. The effects of the asymmetries are overall changes in
+amplitudes and shapes of the light curves. This is more
+prominent
+the most
+asymmetric model. The shapes of the spectra, however, are
+only weakly affected (Figure 2). The general behavior of the
+spectral shapes along different directions is larger differences at
+higher energies, particularly for the direct line emission, than at
+lower energies. This is because the scattering effectively
+smooths out the asymmetries. This also implies that the line
+ﬂuxes are more strongly affected by asymmetries than the
+45–105keV light curves. The peak line ﬂux varies along
+different directions by more than a factor of 5 in B15 and 10 in
+M15-7b, and the times of peak line ﬂux differ by up to
+
+for
+
+100days in B15 and 300days in M15-7b between the
+minimum and maximum directions.
+
+Finally, Figure 8 clearly shows that the range of ﬂuxes
+spanned by the ﬂuxes along the minimum and maximum
+directions contains the ﬂuxes from practically all directions at
+all
+the angle average is a good
+representation of
+the distribution of properties over all
+directions.
+
+times. It also shows that
+
+6.1.2. Variance due to Explosion Dynamics
+
+the progenitors
+
+The variance introduced by the stochastic hydrodynamic
+evolution is seeded by the random ﬂuctuations in the structures
+(Wongwathanarat et al. 2013). We
+of
+investigate the effects on the emission properties by simulating
+three additional explosions of the M15-7b model. The ﬁrst
+explosion differs by having different seed perturbations in the
+mapping from the 1D progenitor into three dimensions. The
+ﬁnal explosion energy of this second model is 1.44×1051 erg.
+The two other explosions were simulated with different seed
+perturbations and slightly different neutrino luminosities. They
+result in explosion energies of 1.40×1051 and 1.76×1051
+erg. A similar exercise was carried out using optical light
+curves for three versions of the B15 model by Utrobin et al.
+(2015).
+
+The 45–105keV light curves for the four versions of M15-
+7b are shown in Figure 9 (left). In addition to the variance due
+to asymmetries of the individual models,
+the peak ﬂux of
+the 45–105keV continuum varies within ∼30% and the peak
+time shifts by up to ∼100days. This means that the light-curve
+shapes are slightly different. The line ﬂuxes (Figure 9, right)
+show similar variance as the continua, with the primary
+difference being that the angle-averaged line ﬂux peaks span a
+factor of 2. For M15-7b, the differences in spectral shape
+resulting from the stochastic nature of the explosion are much
+smaller than the variance due to the intrinsic asymmetries.
+Finally, B15 and M15-7b can still be distinguished, despite the
+broad distributions of properties due to both the stochasticity of
+the explosions and intrinsic asymmetries (Figures 8 and 9).
+
+13
+
+The Astrophysical Journal, 882:22 (19pp), 2019 September 1
+
+Alp et al.
+
+Figure 9. Light curves in the 45–105keV range (left) and the sum of the 847 and 1238keV line ﬂuxes (right) from four versions of the M15-7b model with different
+explosion energies and seed perturbations. The orange lines are the reference M15-7b, which we focus on throughout the rest of the paper. The solid lines are averaged
+over all directions, the semitransparent dashed lines are along the directions of minimum ﬂux, and the semitransparent dashed–dotted lines are along the directions of
+maximum ﬂux.
+
+6.1.3. Progenitor Metallicity
+
+The progenitor surface metallicity also has interesting
+implications for the X-ray properties. Increasing progenitor
+metallicity shifts the low-energy X-ray cutoff to higher energies
+(Figure 7). This effect could potentially be used to constrain the
+progenitor metallicity and has previously been discussed in the
+context of SNeIa (Maeda et al. 2012). The cutoff is also not
+very sensitive to the viewing angle (Figure 2) because it is
+determined by the properties of the outermost layers of the
+ejecta, which are more isotropic. On the other hand, if the
+homogeneity of the outer envelope is broken by large-scale
+convection (e.g., Hoﬂich 1991), it is likely that the low-energy
+cutoff would be less sharp, which would make it more difﬁcult
+to constrain the metallicity. Inversely, this could also serve as a
+diagnostic of the envelope isotropy.
+
+It is important to point out that the cutoff is only dependent
+on the envelope metallicity when the low-energy limit is set by
+photoabsorption. This is the case in the early phases during the
+X-ray rise. At times later than the X-ray ﬂux peak, the escaping
+emission is dominated by radiation from the deeper parts where
+the mean atomic number is higher and photoelectric cross
+sections are larger. Another contributing factor (especially at
+very late times) is that the low-energy cutoff is determined by
+the ability of the ejecta to trap photons, which determines how
+many times photons scatter and lose energy before they escape.
+In Section 2.3, we describe the metallicity corrections for the
+B15 and N20 models to LMC abundances (Table 3). An
+alternative is to use the abundances of the SN1987A progenitor
+inferred from observations of the equatorial ring. We check the
+effects on the results by comparing the B15 model with LMC
+abundances (that is used throughout the rest of the paper) to a
+B15 version with SN1987A abundances. The 45–105keV light
+curves of these models are shown in Figure 10. The line ﬂuxes
+behave in a similar way. The differences are primarily driven by
+the increase of the of He abundance to 11.31 (0.21 relative to H
+by number; Lundqvist & Fransson 1996; Mattila et al. 2010) and
+the decrease of the Fe abundance to 6.98 (9.6×10−6 relative to
+H by number, Dewey et al. 2008, 2012; Zhekov et al. 2009;
+Mattila et al. 2010). Both changes contribute to lowering the
+
+Figure 10. Light curves in the 45–105keV range for the standard B15 version
+with LMC abundances (blue) and a modiﬁed B15 version with SN1987A
+abundances (orange). The solid lines are averaged over all directions, the
+semitransparent dashed lines are along the directions of minimum ﬂux, and the
+semitransparent dashed–dotted lines are along the directions of maximum ﬂux.
+
+☉Zeff,
+
+effective metallicity to 0.28
+, and consequently, shift the
+photoabsorption cutoff to lower energies (Figure 7).12 The
+inferred SN1987A progenitor He abundance is more than
+twice as high as the LMC abundance (Table 3). This requires a
+conversion of 2.1 ☉M of H into He in the envelope, which is a
+much more drastic change to the progenitor than the correction
+to LMC abundances. The H-to-He change lowers the scattering
+opacity because of the lower number of electrons per unit mass,
+which in turn leads to an earlier time of rise and a higher peak
+
+12 The conversion of H to He does not directly lower the effective metallicity
+(in fact, the effective metallicity increases slightly). However, this indirectly
+lowers the abundances of the metals, which dominate the photoabsorption
+opacity, because we adopt values of all elements relative to H. Thus, the net
+effect is a decrease of the effective metallicity.
+
+14
+
+The Astrophysical Journal, 882:22 (19pp), 2019 September 1
+
+ﬂux. Overall,
+asymmetries of the B15 model.
+
+the differences are smaller than the intrinsic
+
+6.2. Comparisons with SN1987A
+
+features of
+
+The predictions of the B15 and M15-7b models (along the
+maximum direction) capture the general
+the
+observed data relatively well. There are, however, some
+signiﬁcant differences that have constraining implications for
+the models. The other SN1987A models are worse at
+reproducing the observations, primarily because of insufﬁcient
+mixing of the 56Ni to the outer layers (Table 1). The amount of
+mixing depends on the properties of the progenitor in a
+complex way and cannot be directly inferred from basic
+progenitor or explosion parameters (Section 2). Understanding
+this complex relation requires a more detailed analysis and
+evaluation of the growth rates of Rayleigh–Taylor instabilities
+for each of the models. This has been investigated for the
+H-rich single-star progenitors (Wongwathanarat et al. 2015;
+Utrobin et al. 2019), and both single stars and mergers will be
+presented in a forthcoming paper (V. Utrobin et al. 2019, in
+preparation). We do not discuss N20, M16-7b, or the other
+merger models (not presented) further since they all fail to
+match the observations.
+
+Focusing on B15 and M15-7b, we investigate what can be
+inferred from the remaining differences between the model
+predictions and the observations. The property that is easiest to
+interpret is the line ﬂux. At early times during the rising phase,
+this practically only depends on the column density of electrons
+outside the fastest trace amounts of 56Ni on the near side. In
+contrast, at later times when the line ﬂuxes are declining, they
+are practically only a function of the average absorption
+through the ejecta to the bulk of the 56Ni. It is clear from
+Figure 4 that the line ﬂuxes of all models fail to capture the
+early observed rise before 200days and the fast decline after
+400days. The early-time observations most likely imply that
+trace amounts of 56Ni were ejected toward us at slightly higher
+velocities (more strictly, higher mass coordinate) than what is
+seen in the models. The only other (less likely) option is that
+there is a thinner “hole” through the envelope that allows some
+emission from deeper regions to escape at early times. The late-
+time line observations imply that there is more material that
+absorbs the direct emission than predicted by the models. This
+can be achieved by either larger total ejecta masses or the 56Ni
+being preferentially ejected toward the far side away from us.
+The line ﬂuxes are closely related to the continuum light
+curves. The main difference is that the continuum light curves
+depend nontrivially on the optical depths to the radioactive
+elements. For example, the continuum emission is quenched for
+very high absorption, as well as when approaching the optically
+thin regime, because the continuum requires down scattering of
+line photons. In conjunction with the observations of the direct
+line emission, however,
+is straightforward to break this
+degeneracy. From Figure 3,
+the predicted
+45–105keV light curves fail to reach the early observed ﬂuxes
+before 200days and overshoot the observed values at times
+later than 400days, similarly to the line ﬂuxes. This results in
+the same constraints on the distribution of 56Ni as discussed
+above, but is still helpful because the continuum data are more
+accurate and also provide additional independent observations.
+The model spectra at 300days in Figure 2 agree very well
+with observations. However, the same early deﬁcits and late
+excesses that are seen in the continuum light curves (Figure 3)
+
+is clear that
+
+it
+
+it
+
+Alp et al.
+
+are of course also present in the spectra at early and late times
+(not shown). The difference between predicted spectra and
+observations at these times is primarily a change in normal-
+ization, which also implies that the continuum light curves in
+other energy bands show similar trends as in the presented
+45–105keV range. A notable feature in the spectra is the low-
+energy cutoff. It can be seen in the right panel of Figure 2 that
+the SN1987A models match the spectral break around 20keV.
+This is simply a manifestation of the metallicities of the
+progenitor envelopes (Section 5.6), which are consistent with
+the observed X-ray cutoff.
+
+Finally, we stress two points concerning the magnitude of
+the discrepancies between the predictions and the observations.
+First, even though the rise of the predicted light curves are too
+late (left panels of Figures 3 and 4), the relative difference in
+maximum 56Ni velocity required to match data is relatively
+low. We ﬁnd that artiﬁcially increasing the radial velocity of all
+56Ni by around 20% in the B15 model is sufﬁcient for the
+direction-averaged emission to match both the low-energy
+continuum and line ﬂux rise.
+
+Second, the difference by a factor of ∼2 in the direct line
+ﬂux around 600days (Figure 4) can be remedied by shifting
+the 56Ni center of mass. The relevant quantity is the effective
+optical depth, and by comparing with the free-escape
+asymptote in Figure 4, it is clear that only a slight increase in
+the optical depth is sufﬁcient for models to match data. We
+make another toy model by taking the original B15 model and
+moving the 56Ni center of mass from 214–514kms−1 along
+the same direction. This is done by applying a constant shift to
+all 56Ni, effectively moving the distribution as a rigid body
+within the rest of the ejecta. This results in a relatively good
+match with observations at late times. It is only meaningful to
+view this model from the minimum direction because a natural
+consequence of the modiﬁcation is that the opposite direction
+matches the data worse. The increased radial velocity and the
+center-of-mass shift of the 56Ni distribution only marginally
+affect the spectral shape. It is also worth pointing out that the
+aforementioned example of increased mixing and center-of-
+mass shift is only one of many possibilities to match the data
+due to the large freedom when modifying 3D structures
+by hand.
+
+6.3. Future Observations
+
+We make simple predictions for observations of future nearby
+SNe by comparing our results with the sensitivity of current
+telescopes. The Chandra X-Ray Observatory (Weisskopf et al.
+2000, 2002; Garmire et al. 2003) covers soft X-rays below
+∼10 keV, NuSTAR covers the 3–79keV range (Harrison et al.
+2013; Madsen et al. 2015), and the SPectrometer on INTEGRAL
+(SPI; Vedrenne et al. 2003) on board the International Gamma
+Ray Astrophysics Laboratory (INTEGRAL; Winkler et al. 2003)
+extends from 20keV to 8MeV. Even though the effective area
+of XMM-Newton (Jansen et al. 2001; Strüder et al. 2001; Turner
+et al. 2001) is larger than the effective area of Chandra, their
+point-source sensitivities are similar (Figure 6 of Takahashi et al.
+2010). For reference, we also include the sensitivity curve of
+e-ASTROGAM (De Angelis et al. 2017), which was a candidate
+mission for the ESA M5 call and was proposed to operate from
+300keV to 3GeV.
+
+For the predictions, we choose a speciﬁc set of three non-
+stripped models and the stripped-envelope IIb model. The B15
+version used for these predictions is without the metallicity
+
+15
+
+The Astrophysical Journal, 882:22 (19pp), 2019 September 1
+
+Alp et al.
+
+four
+
+Figure 11. Comparison of predicted continua scaled to 3Mpc with the detection
+instruments: Chandra (dotted black line, Takahashi
+sensitivities of
+et al. 2010), NuSTAR (dashed black line, Koglin et al. 2005), INTEGRAL (solid
+black line, Roques et al. 2003), and the ESA M5 proposal e-ASTROGAM
+(dashed–dotted black line, De Angelis et al. 2017). The spectra are at a time of
+300days for the non-stripped models and 100 days for the IIb model, which are
+approximately the times of peak ﬂux in the NuSTAR band. All continuum
+sensitivities are given for spectral bins of ΔE/E=0.5, a detection threshold of
+3σ, and an exposure time of 1Ms.
+
+☉Zeff,
+
+its
+correction described in Section 2.3, which means that
+effective metallicity is 0.03
+. The W15 model is modiﬁed
+to Zeff=1.12 
+☉Zeff, using solar abundances. In contrast, the
+metallicity of the L15 and the IIb models are unmodiﬁed from
+their standard values provided in Table 1. We construct this set
+of models to illustrate the effects of different metallicities
+because of its importance for the low-energy cutoff. The effects
+of the metallicity on the direct line ﬂuxes are negligible.
+
+Figure 11 shows predicted spectra overplotted on the
+sensitivity curves of the instruments. NuSTAR is expected to
+provide the deepest observations. The non-stripped models are
+relatively similar and are expected to be detectable by NuSTAR
+to around 3Mpc, whereas the limiting distance for the IIb
+model is around 10Mpc. This is in agreement with the value of
+∼4Mpc given by Harrison et al. (2013) for CCSNe in general.
+These distances extend to slightly beyond the Local Group. It is
+worth pointing out that the low-metallicity version of B15 has
+the photoabsorption cutoff above the Chandra range (our code
+does not include the much fainter bremsstrahlung component at
+lower energies, Section 4). This means that even metal-free
+progenitors do not extend into the soft X-ray regime <10 keV.
+Figure 12 shows the computed 847keV line light curves and
+the narrow-line sensitivities of INTEGRAL and e-ASTROGAM .
+It is clear that INTEGRAL is only capable of detecting the
+847keV line out to around 200kpc for the non-stripped SNe.
+This effectively limits the range to within the Milky Way and
+its satellites. Stripped-envelope SNe are expected to be
+to 2Mpc, which covers the Local Group.
+detectable out
+e-ASTROGAM should expand the horizon by a factor of three,
+which would increase the number of potential targets by a
+factor of ∼30.
+
+The expected CCSN rate is around 0.1 per year within 3Mpc
+and 1 per year within 10Mpc (Arnaud et al. 2004; Ando et al.
+2005; Botticella et al. 2012; Horiuchi et al. 2013; Xiao &
+Eldridge 2015). Inferred rates based on galaxy properties and
+
+Figure 12. The 847keV line light curves scaled to 200kpc overplotted on the
+detection sensitivities of INTEGRAL/SPI (solid black line, Roques et al. 2003)
+and the ESA M5 proposal e-ASTROGAM (dashed–dotted black line, De
+Angelis et al. 2017). The sensitivities are given for a detection threshold of 3σ
+and an exposure time of 1Ms.
+
+star formation models are associated with uncertainties. Optical
+surveys, however, are possibly also incomplete by ∼20% even
+within 10Mpc (Prieto et al. 2012; Jencson et al. 2017, 2018;
+Tartaglia et al. 2018). The fraction of stripped-envelope SNe is
+estimated to be in the range 0.25–0.35, with reasonable
+agreement between estimates based on local SNe observed over
+the past decades (Botticella et al. 2012; Mattila et al. 2012;
+Horiuchi et al. 2013; Xiao & Eldridge 2015) and surveys of
+larger volumes (Smartt et al. 2009; Arcavi et al. 2010; Li et al.
+2011; Smith et al. 2011). Thus, a reasonable estimate is that a
+CCSN should be detectable by NuSTAR every 3 yr, and the most
+likely candidates are stripped-envelope SNe. Finally, we stress
+that simply comparing predicted spectra with sensitivity curves
+only provides a very rough estimate of what can be detected.
+Simulations that
+include detailed instrumental effects and
+realistic backgrounds will be the subject of future studies.
+
+7. Summary and Conclusions
+
+We use SN models based on 3D neutrino-driven explosion
+simulations (Wongwathanarat et al. 2013, 2015, 2017, M.
+Gabler et al. 2019, in preparation) to compute the expected
+early X-ray and gamma-ray emission. Four of the models are
+designed to represent SN1987A; two of these are single-star
+BSGs and two are the results of mergers. We compare
+predictions from these models to observations of SN1987A to
+constrain the model properties. Additionally, we investigate
+models of two single-star RSGs and a stripped-envelope IIb
+model to extend the results to other types of CCSNe that are
+more common than SN1987A-like events. Our main conclu-
+sions are as follows:
+
+1. The overall agreement between observations and model
+predictions indicates that
+the delayed neutrino-heating
+mechanism is able to produce SN explosions that are
+basically consistent with the X-ray and gamma-ray
+observations. General features are well reproduced, such
+as the normalization, spectral shape, and shape of the light
+curves. We stress that these models are based on realistic
+simulations of the progenitors and SN explosions.
+
+16
+
+The Astrophysical Journal, 882:22 (19pp), 2019 September 1
+
+Alp et al.
+
+2. Both the single-star progenitor B15 and the merger model
+M15-7b are capable of reproducing the most relevant
+observational X-ray and gamma-ray properties of
+SN1987A. M15-7b, however,
+is the only progenitor
+out of the six merger models of Menon & Heger (2017)
+that is able to match the main features of the observations.
+Similarly, the single-star model N20 can be excluded.
+The primary reason for failing to match the observations
+is insufﬁcient mixing of 56Ni to the outer layers, which
+related to the growth rates of Rayleigh–Taylor
+is
+(Wongwathanarat
+instabilities during the explosions
+et al. 2015; Utrobin et al. 2019, V. Utrobin et al. 2019,
+in preparation). This also highlights that X-ray and
+gamma-ray observations are a powerful way of con-
+straining progenitor models.
+
+3. On a more detailed level, there are differences in the
+temporal evolution of the continuum and line ﬂuxes
+between the 3D explosion models and SN1987A
+observations. A suitable choice of viewing angle is not
+sufﬁcient to reconcile these shortcomings. The differ-
+ences can, however, be remedied by relatively small
+changes to the explosion dynamics. Thus, we do not
+consider these discrepancies to be critical issues in the
+explosion mechanism. Rather,
+they may potentially
+provide further insight to reﬁne the progenitor models.
+For example, relative to the B15 model, it is sufﬁcient to
+increase the velocity of the fastest trace amounts of 56Ni
+on the near side by ∼20%, while the bulk of the 56Ni is
+redshifted by ∼500kms−1 instead of ∼200kms−1.
+This is only one possible explanation, which illustrates
+that relatively small changes to the explosion dynamics
+and progenitor structures are needed, especially consider-
+ing the sensitivity of the dynamics to the progenitor
+structure. This issue will be further discussed in a follow-
+up paper by A.Jerkstrand et al. (2019, in preparation).
+4. The low-energy spectral cutoff is determined by the
+photoabsorption opacity of
+the progenitor envelope
+around 30keV. In our explosion models, the outer parts
+of the envelopes are relatively spherical, which means
+that the low-energy X-ray cutoff is insensitive to viewing
+angle. This is potentially a direct way of observationally
+constraining the composition of SN progenitors. The
+observations of SN1987A are only weakly constraining,
+and we ﬁnd that
+the metallicity of its progenitor is
+consistent with both the metallicity of the LMC as well as
+the metallicity of its equatorial ring.
+
+5. The asymmetries and 3D structures introduce a viewing-
+angle dependence, which primarily affects the overall
+ﬂux normalization. For the more asymmetric models, the
+shapes of the light curves also change signiﬁcantly for
+different viewing angles. The shapes of the spectra,
+however, remain relatively unaffected. The magnitude of
+these effects varies signiﬁcantly depending on the level of
+ejecta asymmetries, epoch, and energy range considered.
+6. The most important properties that affect the nature of the
+X-ray and gamma-ray emission are the amount of 56Ni
+mixing and the level of asymmetry. Aside from this,
+qualitatively similar progenitor models produce relatively
+similar X-ray and gamma-ray emission. The X-ray and
+gamma-ray emission of the stripped-envelope IIb model
+evolves faster and is more than an order of magnitude
+more luminous than the non-stripped models.
+
+17
+
+7. NuSTAR offers the best prospects of future observations
+of early X-ray continuum emission from nearby SNe.
+Based on simple estimates,
+it should be capable of
+detecting non-stripped SNe within 3Mpc and stripped-
+to 10Mpc, which extends to the
+envelope SNe out
+nearest galaxies beyond the Local Group. This corre-
+sponds to an expected detection rate of 1 CCSN every 3
+yr. The deepest observations of direct
+line emission
+among the current
+instruments are provided by INT-
+EGRAL/SPI. It is expected to cover non-stripped SNe in
+the Milky Way and its satellites, and reach stripped SNe
+at 2Mpc, which is comparable to the extent of the Local
+Group.
+
+We thank Markus Kromer, Lih-Sin The, and Peter Milne for
+providing the W7 model (Nomoto et al. 1984), and Stan
+Woosley for providing the 10HMM model (Pinto & Woos-
+ley 1988). This research was funded by the Knut & Alice
+Wallenberg foundation. K. M. acknowledges support by JSPS
+KAKENHI grant (18H04585, 18H05223, 17H02864). The
+simulations were in part carried out on Cray XC30/XC50 at
+the Center for Computational Astrophysics, National Astro-
+nomical Observatory of Japan. At Garching, this project was
+supported by the European Research Council through grant
+ERC-AdG No. 341157-COCO2CASA, and by the Deutsche
+Forschungsgemeinschaft through Sonderforschungbereich SFB
+1258 “Neutrinos and Dark Matter in Astro- and Particle
+Physics” (NDM) and the Excellence Cluster Universe (EXC
+153;http://www.universe-cluster.de/). The 3D explosion
+modeling was performed using the draco and cobra clusters
+at the Max Planck Computing and Data Facility (MPCDF).
+A. H. has been supported, in part, by a grant from Science and
+Technology Commission of Shanghai Municipality (Grant No.
+16DZ2260200) and National Natural Science Foundation of
+China (Grant No. 11655002), and by the Australian Research
+Council through a Future Fellowship (FT120100363). This
+research has made use of NASA’s Astrophysics Data System.
+
+Facilities: SMM (GRS), Ginga (LAC).
+Software: astropy (Astropy Collaboration et al. 2013),
+FTOOLS (Blackburn 1995), h5py (Collette 2013), HEAsoft
+(NASA High Energy Astrophysics Science Archive Research
+Center (HEASARC), 2014), matplotlib (Hunter 2007),
+numpy (Jones et al. 2001; van der Walt et al. 2011),
+PROMETHEUS (Fryxell et al. 1991; Müller et al. 1991),
+PROMETHEUS-HOTB (Wongwathanarat et al. 2010; M. Gabler
+et al. 2019, in preparation), PROMETHEUS-VERTEX (Rampp &
+Janka 2002; Buras et al. 2006), SAOImage DS9 (Joye &
+Mandel 2003), scipy (Jones et al. 2001).
+
+ORCID iDs
+
+https://orcid.org/0000-0002-0427-5592
+
+https://orcid.org/0000-0003-0065-2933
+https://orcid.org/0000-0003-2611-7269
+https://orcid.org/0000-0001-8532-3594
+https://orcid.org/0000-0001-
+
+Dennis Alp
+Joseﬁn Larsson
+Keiichi Maeda
+Claes Fransson
+Annop Wongwathanarat
+8400-8891
+Michael Gabler
+Hans-Thomas Janka
+0831-3330
+Anders Jerkstrand
+Alexander Heger
+Athira Menon
+
+https://orcid.org/0000-0002-1663-4513
+
+https://orcid.org/0000-0002-
+
+https://orcid.org/0000-0001-8005-4030
+https://orcid.org/0000-0002-3684-1325
+
+https://orcid.org/0000-0002-4234-4181
+
+The Astrophysical Journal, 882:22 (19pp), 2019 September 1
+
+Alp et al.
+
+References
+
+Ait-Ouamer, F., Kerrick, A. D., O’Neill, T. J., et al. 1992, ApJ, 386, 715
+Alp, D., Larsson, J., Fransson, C., et al. 2018, ApJ, 864, 175
+Althouse, W. E., Cook, W. R., Cummings, A. C., et al. 1985, Proc. ICRC,
+
+3, 299
+
+Ambwani, K., & Sutherland, P. 1988, ApJ, 325, 820
+Anderson, J. P. 2019, A&A, 628, A7
+Ando, S., Beacom, J. F., & Yüksel, H. 2005, PhRvL, 95, 171101
+Arcavi, I., Gal-Yam, A., Kasliwal, M. M., et al. 2010, ApJ, 721, 777
+Arnaud, N., Barsuglia, M., Bizouard, M.-A., et al. 2004, APh, 21, 201
+Arnett, W. D. 1966, CaJPh, 44, 2553
+Arnett, W. D., Bahcall, J. N., Kirshner, R. P., & Woosley, S. E. 1989,
+
+ARA&A, 27, 629
+
+Astropy Collaboration, Robitaille, T. P., Tollerud, E. J., et al. 2013, A&A,
+
+558, A33
+
+Baade, W., & Zwicky, F. 1934, PNAS, 20, 259
+Barthelmy, S., Gehrels, N., Teegarden, B. J., et al. 1991, in AIP Conf. Ser. 232,
+Gamma-Ray Line Astrophysics, ed. P. Durouchoux & N. Prantzos
+(Melville, NY: AIP), 205
+
+Bethe, H. A. 1990, RvMP, 62, 801
+Bethe, H. A., & Pizzochero, P. 1990, ApJL, 350, L33
+Bethe, H. A., & Wilson, J. R. 1985, ApJ, 295, 14
+Bhat, M. R. 1992, NDS, 67, 195
+Bhat, M. R. 1998, NDS, 85, 415
+Blackburn, J. K. 1995, in ASP Conf. Ser. 77, Astronomical Data Analysis
+Software and Systems IV, ed. R. A. Shaw, H. E. Payne, & J. J. E. Hayes
+(San Francisco, CA: ASP), 367
+
+Blinnikov, S., Lundqvist, P., Bartunov, O., Nomoto, K., & Iwamoto, K. 2000,
+
+ApJ, 532, 1132
+
+Botticella, M. T., Smartt, S. J., Kennicutt, R. C., et al. 2012, A&A, 537, A132
+Bouchet, P., Phillips, M. M., Suntzeff, N. B., et al. 1991, A&A, 245, 490
+Bruenn, S. W. 1985, ApJS, 58, 771
+Bruenn, S. W. 1993, in Nuclear Physics in the Universe, ed. M. W. Guidry &
+
+M. R. Strayer (Bristol: IOP), 31
+
+Bunner, A. N. 1988,
+
+in AIP Conf. Ser. 170, Nuclear Spectroscopy of
+Astrophysical Sources, ed. N. Gehrels & G. H. Share (Melville, NY:
+AIP), 43
+
+Buras, R., Rampp, M., Janka, H. T., & Kifonidis, K. 2006, A&A, 447, 1049
+Burbidge, E. M., Burbidge, G. R., Fowler, W. A., & Hoyle, F. 1957, RvMP,
+
+29, 547
+
+Burrows, A. 2013, RvMP, 85, 245
+Burrows, A., & The, L.-S. 1990, ApJ, 360, 626
+Burrows, A., & van Riper, K. A. 1995, ApJ, 455, 215
+Chevalier, R. A., & Fransson, C. 1994, ApJ, 420, 268
+Chevalier, R. A., & Fransson, C. 2017, Thermal and Non-thermal Emission
+from Circumstellar Interaction (Cham: Springer International Publishing
+AG), 875
+
+Chevalier, R. A., & Irwin, C. M. 2012, ApJL, 747, L17
+Chugai, N. N., Chevalier, R. A., Kirshner, R. P., & Challis, P. M. 1997, ApJ,
+
+483, 925
+
+Clayton, D. D. 1974, ApJ, 188, 155
+Clayton, D. D., Colgate, S. A., & Fishman, G. J. 1969, ApJ, 155, 75
+Clayton, D. D., & The, L.-S. 1991, ApJ, 375, 221
+Colgate, S. A., & White, R. H. 1966, ApJ, 143, 626
+Collette, A. 2013, Python and HDF5: Unlocking Scientiﬁc Data (Sebastopol,
+
+CA: O’Reilly Media)
+
+Cook, W. R., Palmer, D. M., Prince, T. A., et al. 1988, ApJL, 334, L87
+Couch, S. M. 2017, RSPTA, 375, 20160271
+De Angelis, A., Tatischeff, V., Tavani, M., et al. 2017, ExA, 44, 25
+Dewey, D., Dwarkadas, V. V., Haberl, F., Sturm, R., & Canizares, C. R. 2012,
+
+ApJ, 752, 103
+
+Dewey, D., Zhekov, S. A., McCray, R., & Canizares, C. R. 2008, ApJL,
+
+676, L131
+
+Dotani, T., Hayashida, K., Inoue, H., et al. 1987, Natur, 330, 230
+Dwarkadas, V. V. 2014, MNRAS, 440, 1917
+Firestone, R. B., Ekstrom, L. P., & Chu, S. Y. F. 1999, APS Division of
+
+Nuclear Physics Meeting Abstracts, CE.13
+
+Fishman, G. J., Wilson, R. B., Paciesas, W. S., et al. 1990, AdSpR, 10, 55
+Forrest, D. J., Chupp, E. L., Ryan, J. M., et al. 1980, SoPh, 65, 15
+Fowler, W. A., & Hoyle, F. 1964, ApJS, 9, 201
+Frank, K. A., Zhekov, S. A., Park, S., et al. 2016, ApJ, 829, 40
+Fransson, C., & Kozma, C. 1993, ApJL, 408, L25
+Fransson, C., Larsson, J., Spyromilio, J., et al. 2013, ApJ, 768, 88
+Fransson, C., Lundqvist, P., & Chevalier, R. A. 1996, ApJ, 461, 993
+Fryxell, B., Arnett, D., & Mueller, E. 1991, ApJ, 367, 619
+
+Garmire, G. P., Bautz, M. W., Ford, P. G., Nousek, J. A., & Ricker, G. R., Jr.
+
+2003, Proc. SPIE, 4851, 28
+
+Gehrels, N., Leventhal, M., & MacCallum, C. J. 1988, in AIP Conf. Ser. 170,
+Nuclear Spectroscopy of Astrophysical Sources, ed. N. Gehrels &
+G. H. Share (Melville, NY: AIP), 87
+
+Gould, A., & Uza, O. 1998, ApJ, 494, 118
+Gröningsson, P., Fransson, C., Leibundgut, B., et al. 2008a, A&A, 492, 481
+Gröningsson, P., Fransson, C., Lundqvist, P., et al. 2008b, A&A, 479, 761
+Harrison, F. A., Craig, W. W., Christensen, F. E., et al. 2013, ApJ, 770, 103
+Hillier, D. J., & Dessart, L. 2012, MNRAS, 424, 252
+Hix, W. R., & Harris, J. A. 2017,
+
+in Handbook of Supernovae, ed.
+A. W. Alsabti & P. Murdin (Cham: Springer International Publishing
+AG), 1771
+
+Hoeﬂich, P., Khokhlov, A., & Mueller, E. 1992, A&A, 259, 549
+Hoﬂich, P. 1991, A&A, 246, 481
+Höﬂich, P. 2002, NewAR, 46, 475
+Horiuchi, S., Beacom, J. F., Bothwell, M. S., & Thompson, T. A. 2013, ApJ,
+
+769, 113
+
+Hotokezaka, K., Wanajo, S., Tanaka, M., et al. 2016, MNRAS, 459, 35
+Hoyle, F. 1954, ApJS, 1, 121
+Hoyle, F., & Fowler, W. A. 1960, ApJ, 132, 565
+Hubbell, J. 1969, National Bureau of Standards Report NSRDS-NBS29,
+
+Washington, DC
+
+Hubbell, J. H., Gimm, H. A., & Øverbø, I. 1980, JPCRD, 9, 1023
+Hungerford, A. L., Fryer, C. L., & Rockefeller, G. 2005, ApJ, 635, 487
+Hungerford, A. L., Fryer, C. L., & Warren, M. S. 2003, ApJ, 594, 390
+Hunter, I., Dufton, P. L., Smartt, S. J., et al. 2007, A&A, 466, 277
+Hunter, J. D. 2007, CSE, 9, 90
+Inoue, H., Hayashida, K., Itoh, M., et al. 1991, PASJ, 43, 213
+Janka, H.-T. 2012, ARNPS, 62, 407
+Janka, H.-T. 2017, Neutrino-Driven Explosions (Cham: Springer International
+
+Publishing AG), 1095
+
+Janka, H.-T., Melson, T., & Summa, A. 2016, ARNPS, 66, 341
+Jansen, F., Lumb, D., Altieri, B., et al. 2001, A&A, 365, L1
+Jencson, J. E., Kasliwal, M. M., Adams, S. M., et al. 2018, ApJ, 863, 20
+Jencson, J. E., Kasliwal, M. M., Johansson, J., et al. 2017, ApJ, 837, 167
+Jerkstrand, A., Fransson, C., & Kozma, C. 2011, A&A, 530, A45
+Jerkstrand, A., Smartt, S. J., & Heger, A. 2016, MNRAS, 455, 3207
+Jones, E., Oliphant, T., Peterson, P., et al. 2001, SciPy: Open Source Scientiﬁc
+
+Tools for Python, http://www.scipy.org
+
+Joye, W. A., & Mandel, E. 2003, in ASP Conf. Ser. 295, Astronomical Data
+Analysis Software and Systems XII, ed. H. E. Payne, R. I. Jedrzejewski, &
+R. N. Hook (San Francisco, CA: ASP), 489
+
+Junde, H. 1992, NDS, 67, 523
+Junde, H. 1999, NDS, 86, 315
+Junde, H., Su, H., & Dong, Y. 2011, NDS, 112, 1513
+Kageyama, A., & Sato, T. 2004, GGG, 5, Q09005
+Kasen, D., & Woosley, S. E. 2009, ApJ, 703, 2205
+Kifonidis, K., Plewa, T., Janka, H.-T., & Müller, E. 2003, A&A, 408, 621
+Koglin, J. E., Christensen, F. E., Craig, W. W., et al. 2005, Proc. SPIE,
+
+5900, 266
+
+Korobkin, O., Hungerford, A. M., Fryer, C. L., et al. 2019, arXiv:1905.05089
+Kromer, M., & Sim, S. A. 2009, MNRAS, 398, 1809
+Kurfess, J. D., Johnson, W. N., Kinzer, R. L., et al. 1992, ApJL, 399, L137
+Kurt, C. M., & Dufour, R. J. 1998, RMxAC, 7, 202
+Leising, M. D. 1989, in Cosmic Gamma Rays and Cosmic Neutrinos, ed.
+
+M. M. Shapiro & J. P. Wefel (Dordrecht: Kluwer), 321
+
+Leising, M. D. 1991, AdSpR, 11, 207
+Leising, M. D., Kurfess, J. D., Clayton, D. D., et al. 1994, ApJL, 431, L95
+Leising, M. D., & Share, G. H. 1990, ApJ, 357, 638
+Li, W., Leaman, J., Chornock, R., et al. 2011, MNRAS, 412, 1441
+Limongi, M., Straniero, O., & Chiefﬁ, A. 2000, ApJS, 129, 625
+Lodders, K. 2003, ApJ, 591, 1220
+Lundqvist, P., & Fransson, C. 1996, ApJ, 464, 924
+Madsen, K. K., Harrison, F. A., Markwardt, C. B., et al. 2015, ApJS, 220, 8
+Maeda, K. 2006, ApJ, 644, 385
+Maeda, K., Kutsuna, M., & Shigeyama, T. 2014, ApJ, 794, 37
+Maeda, K., Terada, Y., Kasen, D., et al. 2012, ApJ, 760, 54
+Mahoney, W. A., Varnell, L. S., Jacobson, A. S., et al. 1988, ApJL, 334, L81
+Makino, F. & ASTRO-C Team 1987, ApL, 25, 223
+Mattila, S., Dahlen, T., Efstathiou, A., et al. 2012, ApJ, 756, 111
+Mattila, S., Lundqvist, P., Gröningsson, P., et al. 2010, ApJ, 717, 1140
+Matz, S. M., Share, G. H., Leising, M. D., Chupp, E. L., & Vestrand, W. T.
+
+1988, Natur, 331, 416
+
+McCray, R. 1993, ARA&A, 31, 175
+McCray, R., & Fransson, C. 2016, ARA&A, 54, 19
+
+18
+
+The Astrophysical Journal, 882:22 (19pp), 2019 September 1
+
+Menon, A., & Heger, A. 2017, MNRAS, 469, 4649
+Menon, A., Utrobin, V., & Heger, A. 2019, MNRAS, 482, 438
+Milne, P. A., Hungerford, A. L., Fryer, C. L., et al. 2004, ApJ, 613, 1101
+Mitchell, R. C., Baron, E., Branch, D., et al. 2002, ApJ, 574, 293
+Müller, B. 2016, PASA, 33, e048
+Müller, E., Fryxell, B., & Arnett, D. 1991, A&A, 251, 505
+Müller, T., Prieto, J. L., Pejcha, O., & Clocchiatti, A. 2017, ApJ, 841, 127
+Nasa High Energy Astrophysics Science Archive Research Center (HEASARC)
+2014, HEAsoft: Uniﬁed Release of FTOOLS and XANADU, Astrophysics
+Source Code Library, ascl:1408.004
+
+Nomoto, K., & Hashimoto, M. 1988, PhR, 163, 13
+Nomoto, K., Thielemann, F.-K., & Yokoi, K. 1984, ApJ, 286, 644
+Ofek, E. O., Zoglauer, A., Boggs, S. E., et al. 2014, ApJ, 781, 42
+Palmer, D. M., Schindler, S. M., Cook, W. R., et al. 1993, ApJ, 412, 203
+Panagia, N. 1999, in IAU Symp. 190, New Views of the Magellanic Clouds,
+
+ed. Y.-H. Chu (San Francisco, CA: ASP), 549
+
+Panagia, N., Gilmozzi, R., Macchetto, F., Adorf, H.-M., & Kirshner, R. P.
+
+1991, ApJL, 380, L23
+
+Pejcha, O., & Prieto, J. L. 2015, ApJ, 806, 225
+Pendleton, G. N., Paciesas, W. S., Fishman, G. J., Meegan, C. A., &
+
+Wilson, R. B. 1995, ApJ, 439, 963
+
+Pinto, P. A., & Woosley, S. E. 1988, Natur, 333, 534
+Pozdnyakov, L. A., Sobol, I. M., & Syunyaev, R. A. 1983, ASPRv, 2, 189
+Prieto, J. L., Lee, J. C., Drake, A. J., et al. 2012, ApJ, 745, 70
+Rampp, M., & Janka, H.-T. 2002, A&A, 396, 361
+Rester, A. C., Coldwell, R. L., Dunnam, F. E., et al. 1989, ApJL, 342, L71
+Roques, J. P., Schanne, S., von Kienlin, A., et al. 2003, A&A, 411, L91
+Ruiz-Lapuente, P., & Spruit, H. C. 1998, ApJ, 500, 360
+Russell, S. C., & Bessell, M. S. 1989, ApJS, 70, 865
+Russell, S. C., & Dopita, M. A. 1990, ApJS, 74, 93
+Russell, S. C., & Dopita, M. A. 1992, ApJ, 384, 508
+Rybicki, G. B., & Lightman, A. P. 1979, Radiative Processes in Astrophysics
+
+(New York: Wiley-Interscience)
+
+Saio, H., Nomoto, K., & Kato, M. 1988, Natur, 334, 508
+Sandie, W. G., Nakano, G. H., Chase, L. F., Jr., et al. 1988a, in Supernova 1987A
+in the Large Magellanic Cloud, ed. M. Kafatos & A. G. Michalitsianos
+(Cambridge: Cambridge Univ. Press), 366
+
+Sandie, W. G., Nakano, G. H., Chase, L. F., Jr., et al. 1988b, ApJL, 334, L91
+Santana, R., Crumley, P., Hernández, R. A., & Kumar, P. 2016, MNRAS,
+
+456, 1049
+
+Shigeyama, T., & Nomoto, K. 1990, ApJ, 360, 242
+Sim, S. A. 2007, MNRAS, 375, 154
+Sim, S. A., & Mazzali, P. A. 2008, MNRAS, 385, 1681
+Simone, J., Oneill, T., Tumer, O. T., & Zych, A. D. 1985, ITNS, 32, 124
+Smartt, S. J., Eldridge, J. J., Crockett, R. M., & Maund, J. R. 2009, MNRAS,
+
+395, 1409
+
+Smith, N., Li, W., Filippenko, A. V., & Chornock, R. 2011, MNRAS,
+
+412, 1522
+
+Strüder, L., Briel, U., Dennerl, K., et al. 2001, A&A, 365, L18
+Summa, A., Ulyanov, A., Kromer, M., et al. 2013, A&A, 554, A67
+Suntzeff, N. B., & Bouchet, P. 1990, AJ, 99, 650
+Sunyaev, R., Grebenev, S., Kaniovsky, A., et al. 1991, in AIP Conf. Ser. 232,
+Gamma-Ray Line Astrophysics, ed. P. Durouchoux & N. Prantzos
+(Melville, NY: AIP), 211
+
+Sunyaev, R., Kaniovsky, A., Efremov, V., et al. 1987, Natur, 330, 227
+Swartz, D. A., Sutherland, P. G., & Harkness, R. P. 1995, ApJ, 446, 766
+Syunyaev, R. A., Efremov, V. V., Kaniovskii, A. S., et al. 1988, SvAL, 14, 247
+Syunyaev, R. A., Kaniovskii, A., Efremov, V., et al. 1987, SvAL, 13, 431
+Syunyaev, R. A., Kaniovskii, A. S., Efremov, V. V., et al. 1989, SvAL, 15, 125
+Syunyaev, R. A., Kaniovskii, A. S., Efremov, V. V., et al. 1990, SvAL, 16, 171
+
+Taddia, F., Stritzinger, M. D., Bersten, M., et al. 2018, A&A, 609, A136
+Takahashi, T., Mitsuda, K., & Kelley, R. 2010, in X-ray Astronomy 2009;
+Present Status, Multi-Wavelength Approach and Future Perspectives
+1248, 537
+
+Alp et al.
+
+Tanaka, Y. 1988,
+
+in IAU Coll. 108: Atmospheric Diagnostics of Stellar
+Evolution, Lecture Notes in Physics 305, ed. K. Nomoto (Springer:
+Berlin), 399
+
+Tanaka, Y. 1991, in Supernovae, ed. S. E. Woosley (New York: Springer-
+
+Verlag), 269
+
+Tartaglia, L., Sand, D. J., Valenti, S., et al. 2018, ApJ, 853, 62
+Teegarden, B. J. 1991, AdSpR, 11, 217
+Teegarden, B. J. 1994, ApJS, 92, 363
+Teegarden, B. J., Barthelmy, S. D., Gehrels, N., Tueller, J., & Leventhal, M.
+
+1989, Natur, 339, 122
+
+The, L.-S., & Burrows, A. 2014, ApJ, 786, 141
+Thielemann, F.-K., Hashimoto, M.-A., & Nomoto, K. 1990, ApJ, 349, 222
+Truelove, J. K., & McKee, C. F. 1999, ApJS, 120, 299
+Trundle, C., Dufton, P. L., Hunter, I., et al. 2007, A&A, 471, 625
+Tueller, J. 1991, in AIP Conf. Ser. 232, Gamma-Ray Line Astrophysics, ed.
+
+P. Durouchoux & N. Prantzos (Melville, NY: AIP), 199
+
+Tueller, J., Barthelmy, S., Gehrels, N., et al. 1991,
+
+S. E. Woosley (New York: Springer-Verlag), 278
+
+in Supernovae, ed.
+
+Tueller, J., Barthelmy, S., Gehrels, N., et al. 1990, ApJL, 351, L41
+Turner, M. J. L., Abbey, A., Arnaud, M., et al. 2001, A&A, 365, L27
+Utrobin, V. P. 2005, AstL, 31, 806
+Utrobin, V. P., Wongwathanarat, A., Janka, H.-T., & Müller, E. 2015, A&A,
+
+581, A40
+
+Utrobin, V. P., Wongwathanarat, A., Janka, H.-T., et al. 2019, A&A,
+
+624, A116
+
+van der Walt, S., Colbert, S. C., & Varoquaux, G. 2011, CSE, 13, 22
+Vedrenne, G., Roques, J.-P., Schönfelder, V., et al. 2003, A&A, 411, L63
+Veigele, W. J. 1973, AD, 5, 51
+Verner, D. A., Ferland, G. J., Korista, K. T., & Yakovlev, D. G. 1996, ApJ,
+
+465, 487
+
+Verner, D. A., & Yakovlev, D. G. 1995, A&AS, 109, 125
+Wamsteker, W. 1993, in New Aspects of Magellanic Cloud Research, Vol.
+
+416, ed. B. Baschek, G. Klare, & J. Lequeux (Berlin: Springer), 199
+
+Weisskopf, M. C., Brinkman, B., Canizares, C., et al. 2002, PASP, 114, 1
+Weisskopf, M. C., Tananbaum, H. D., Van Speybroeck, L. P., & O’Dell, S. L.
+
+2000, Proc. SPIE, 4012, 2
+
+Willingale, R., Starling, R. L. C., Beardmore, A. P., Tanvir, N. R., &
+
+O’Brien, P. T. 2013, MNRAS, 431, 394
+
+Wilson, R. B., Fishman, G. J., Meegan, C. A., Paciesas, W. S., &
+Pendleton, G. N. 1988, in AIP Conf. Ser. 170, Nuclear Spectroscopy of
+Astrophysical Sources, ed. N. Gehrels & G. H. Share (Melville, NY:
+AIP), 73
+
+Winkler, C., Courvoisier, T. J.-L., Di Cocco, G., et al. 2003, A&A, 411, L1
+Wollaeger, R. T., Hungerford, A. L., Fryer, C. L., et al. 2017, ApJ, 845, 168
+Wongwathanarat, A., Hammer, N. J., & Müller, E. 2010, A&A, 514, A48
+Wongwathanarat, A., Janka, H.-T., & Müller, E. 2013, A&A, 552, A126
+Wongwathanarat, A., Janka, H.-T., Müller, E., Pllumbi, E., & Wanajo, S. 2017,
+
+ApJ, 842, 13
+
+Wongwathanarat, A., Müller, E., & Janka, H.-T. 2015, A&A, 577, A48
+Woosley, S. E., & Hoffman, R. D. 1991, ApJL, 368, L31
+Woosley, S. E., Pinto, P. A., & Ensman, L. 1988, ApJ, 324, 466
+Woosley, S. E., Pinto, P. A., & Hartmann, D. 1989, ApJ, 346, 395
+Woosley, S. E., & Weaver, T. A. 1995, ApJS, 101, 181
+Xiao, L., & Eldridge, J. J. 2015, MNRAS, 452, 2597
+Zhekov, S. A., McCray, R., Dewey, D., et al. 2009, ApJ, 692, 1190
+Zych, A. D., Tumer, O. T., & Dayton, B. 1983, ITNS, 30, 383
+
+19
+
+
