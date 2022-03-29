@@ -283,7 +283,7 @@ et al. 2015; Arendt et al. 2016; Frank et al. 2016). However, the
 mid-infrared emission from the ER started decreasing in
 2010(MIR, Arendt et al. 2016), the optical emission started
 decreasing in 2009(Fransson et al. 2015), and the soft X-ray
-luminosity ﬂattened around 2013(Frank et al. 2016). The
+luminosity flattened around 2013(Frank et al. 2016). The
 radiation from central ejecta is also affected by the ER. Larsson
 et al. (2011) showed that the brightening of the SN ejecta in the
 optical most
@@ -402,7 +402,7 @@ most recent observations available at
 the time of analysis,
 unless previous ones have better quality. It is possible that older
 observations place more stringent constraints if the compact
-object was brighter in the past. We brieﬂy inspect an X-ray
+object was brighter in the past. We briefly inspect an X-ray
 observation from 2000 (Section 2.6), in addition to a detailed
 study of the 2015 X-ray observation, but
 investigating all
@@ -422,7 +422,7 @@ ALMA observations of SN1987A (Table 1) at 1.3mm
 epochs: Cycle 2 modest angular resolution data (2013.1.00280;
 23–770 kλ) were obtained on 2014 September 2. The quasar
 J0519-4546 (05:19:49.72, −45:46:43.85; 0.75 Jy at 234 GHz)
-was the absolute ﬂux calibrator, which is monitored regularly
+was the absolute flux calibrator, which is monitored regularly
 and calibrated against solar system objects by the observatory.
 The quasar J0635-7516 (06:35:46.51, −75:16:16.82; 0.68 Jy at
 234 GHz) was the phase calibrator.
@@ -483,18 +483,18 @@ using J0601-7036 (06:01:11.25, −70:36:08.79; 0.70 Jy at
 224 GHz; 0.58 Jy at 253 GHz) as
 the phase calibrator.
 Data from 211 to 213 GHz used J0519-4546 (0.75 Jy at
-224 GHz) as the absolute ﬂux calibrator. Data at 247 GHz used
+224 GHz) as the absolute flux calibrator. Data at 247 GHz used
 J0519-4546 for one execution, and J0334-4008 (03:34:13.65,
 −40:08:25.10; 0.44 Jy at 253 GHz) for a second execution. All
 of these quasar calibrators are observed regularly as part of
 the observatory calibration network, so we can evaluate the
 temporal evolution of each to estimate the uncertainty in the
-absolute ﬂux calibrator due to quasar variability. We can then
-compare the derived ﬂux densities of the phase calibrator to the
-monitoring observations to estimate the uncertainty in ﬂuxscale
+absolute flux calibrator due to quasar variability. We can then
+compare the derived flux densities of the phase calibrator to the
+monitoring observations to estimate the uncertainty in fluxscale
 transfer
 to the science target. These combined yield an
-estimated absolute ﬂux calibration uncertainty of better
+estimated absolute flux calibration uncertainty of better
 than 7%.
 
 We use the Common Astronomy Software Application25
@@ -560,12 +560,12 @@ star2 as26 a reference. We conﬁrmed that star 2 is not variable
 using observations from 1997 to 2006 from the Near Infrared
 Camera and Multi-Object Spectrometer at
 the VLT in the
-F160W and F205W ﬁlters. The NACO H and Ks ﬂuxes of
-star2 are obtained by converting27 the H and Ks ﬂuxes from
+F160W and F205W ﬁlters. The NACO H and Ks fluxes of
+star2 are obtained by converting27 the H and Ks fluxes from
 2MASS(Cohen et al. 2003; Skrutskie et al. 2006). The
 accuracy of this zero-point construction is checked by repeating
 the 2MASS–ESO comparison for star 3.28 The relative
-difference in the ﬂux is a factor of 1.06 in the H band and
+difference in the flux is a factor of 1.06 in the H band and
 0.82 in the Ks band. We note that star 3 shows variability
 within a factor of two in the optical(Walborn et al. 1993),
 which is conﬁrmed by regular HST observations in the R and
@@ -634,7 +634,7 @@ dither pattern and drizzled(Fruchter & Hook 2002) onto a
 ﬁnal pixel size of 252 mas2 using a value for the DrizzlePac
 (Gonzaga et al. 2012) parameter pixfrac of either 0.6 or 0.7.
 Cosmic-ray rejection is also performed when drizzling to
-combine the dithered exposures. The ﬂux zero-points for all
+combine the dithered exposures. The flux zero-points for all
 WFC3 images are taken from the IRAF/STSDAS package
 (Bushouse & Simon 1994, calibration database
 Synphot
@@ -688,7 +688,7 @@ the time of analysis, which implies that the absorption toward
 the center is the lowest (Appendix C).
 
 Contamination on the ACIS optical blocking ﬁlter(OBF,
-O’Dell et al. 2013) has previously led to inaccurate ﬂux
+O’Dell et al. 2013) has previously led to inaccurate flux
 measurements(e.g., Park et al. 2011; Helder et al. 2013). Frank
 et al. (2016) have veriﬁed that the OBF contamination is now
 well-modeled using the High Resolution Camera/Low Energy
@@ -700,7 +700,7 @@ HETG observation are used in this analysis.
 
 The data are reduced following standard procedures using
 CIAO 4.9 and CALDB 4.7.7(Fruscione et al. 2006). No
-background ﬂares are observed resulting in a total exposure of
+background flares are observed resulting in a total exposure of
 66ks with ∼11,000 source counts. XSPEC 12.9.1p(Arnaud
 1996) is used for the spectral analysis and all extracted spectra
 are binned with a minimum of 20 counts per bin. A background
@@ -1026,13 +1026,13 @@ The ALMA limits are not required to be from the same point
 because they are treated as three independent limits in the
 analysis. In contrast, UVOIR image limits from the same epoch
 are at the same spatial position for the different bands. The
-points are chosen such that the highest total ﬂux allowed by
+points are chosen such that the highest total flux allowed by
 the limits in all bands is maximized and allows us to combine
 the limits to constrain spectra.
 
 The remainder of the process is identical for the ALMA and
 UVOIR images. Limits are obtained by introducing artiﬁcial
-sources with known ﬂuxes that are recovered using a ﬁnding
+sources with known fluxes that are recovered using a ﬁnding
 algorithm, which is described in Appendix B.
 
 The Astrophysical Journal, 864:174 (24pp), 2018 September 10
@@ -1042,7 +1042,7 @@ Alp et al.
 Figure 2. The 2014 SINFONI H and K spectra of the central region of
 SN1987A. Both spectra are extracted from regions that correspond to the
 800 km s−1 kick region (Section 3.2, Figure 1). The solid black lines are the
-upper limits and the dashed black lines are the average ﬂux in the selected
+upper limits and the dashed black lines are the average flux in the selected
 intervals (Section 3.5.1). The spectra have been corrected for spread light from
 the ER and background-subtracted(Section 2.3), and corrected for interstellar
 reddening(Section 3.3). The observed spectra (blue) have been binned by a
@@ -1059,7 +1059,7 @@ line emission. These regions are assumed to contain contribu-
 tions from weak lines, gas continuum emission, and emission
 from the compact object. Therefore, the determined limits are
 conservative limits on the contribution from the compact
-object. We ﬁt functions to the observed ﬂux within the regions
+object. We ﬁt functions to the observed flux within the regions
 that are free of line emission (Sections 3.5.1 and 3.5.2). The
 magnitudes of these functions are then increased until the χ2
 values have increased by 7.740. These values are then taken to
@@ -1070,7 +1070,7 @@ this method to be applicable.
 3.5.1. NIR Spectral Limits
 
 The upper limits from the SINFONI spectra are set using the
-ﬂux density in regions that are free of strong line emission. The
+flux density in regions that are free of strong line emission. The
 resulting spectra are shown in Figure 2. The regions are
 selected to avoid intervals of emission lines identiﬁed in
 SN1987A provided in Tables 3 and 4 of Kjær et al. (2007) and
@@ -1081,7 +1081,7 @@ lines. In total, 16% of all data pass the aforementioned selection
 criteria in the H band; for the K band, 28% pass the criteria. We
 combine many very narrow intervals into four groups and
 deﬁne constant functions within the groups (Figure 2). We
-choose four regions because the speciﬁc ﬂux is relatively
+choose four regions because the speciﬁc flux is relatively
 constant within the regions. The constant values are the
 averages within each group, which are then increased to a 3σ
 upper-limit level.
@@ -1122,7 +1122,7 @@ improvement
 is seen for other simple functional
 forms. The selected regions that are relatively free from line
 emission are 6025–6100, 6850–6950, and 7550–7650Å. The
-average ﬂux in the middle region is slightly higher, but
+average flux in the middle region is slightly higher, but
 excluding it results in a ∼10% less constraining limit because
 of the reduced statistics. The regions are found by visual
 inspection of the observed spectrum and by searching the
@@ -1137,9 +1137,9 @@ it is included in Figure 3 for reference.
 
 3.6. X-Ray Limits
 
-To determine the X-ray ﬂux limit on the compact object, the
+To determine the X-ray flux limit on the compact object, the
 ER emission needs to be modeled. This is important because
-the observed ﬂux in the inner region is dominated by spread
+the observed flux in the inner region is dominated by spread
 light from the ER. We use spread light to refer to the result of
 
 7
@@ -1161,9 +1161,9 @@ count of 624. The option to correct for the encircled energy
 correction factor for the inner region is computed to be 0.46
 using the simulated MARX PSF. The value of 0.46 is
 computed for a point source at the center and will be used to
-correct for the missing ﬂux throughout this analysis. No EE
+correct for the missing flux throughout this analysis. No EE
 correction is applied to the outer region because the physical
-ﬂux of the ER is not of interest. This method is employed
+flux of the ER is not of interest. This method is employed
 because it allows for ﬁtting of the fraction of spread light,
 which can then be directly compared to the modeled fraction of
 spread light.
@@ -1184,7 +1184,7 @@ SN1987A in the Chandra observations. We estimate the
 fraction of spread light ( fs) using the spatial model and
 compare it to the observed value, which is obtained by spectral
 ﬁtting. The fraction of spread light is deﬁned as the ratio of
-spread light ﬂux in the inner region to the ﬂux in the outer
+spread light flux in the inner region to the flux in the outer
 region. The value f
 is computed using the
 s
@@ -1262,7 +1262,7 @@ Finally, the limits are set by spectral ﬁtting to the spectrum
 from the inner region with a model that includes the spread
 light from the ER.
 
-We also brieﬂy inspected the 61 ks ACIS observation from
+We also briefly inspected the 61 ks ACIS observation from
 2000 December 7 (Obs. ID 1967) and ﬁnd that the X-ray limits
 allow for approximately a factor of two higher luminosities
 because of the higher ejecta absorption (Appendix C). It is
@@ -1338,13 +1338,13 @@ from the compact object
 is negligible. The ﬁt statistic is
 for 27d.o.f. and the fraction of spread light to ER
 2c =
-ﬂux is 0.062±0.003, which can be compared to the value of
+flux is 0.062±0.003, which can be compared to the value of
 0.011
 0.073 0.005
 predicted by the model. The goodness of ﬁt implies
 that the energy dependence of the EE is small enough to be
 neglected in this case. The observed value is marginally lower
-than predicted and implies that practically all ﬂux observed in
+than predicted and implies that practically all flux observed in
 the central region can be interpreted as spread light from the
 ER. The purpose of comparing the modeled and observed fs is
 that an observed value that is signiﬁcantly higher than predicted
@@ -1614,7 +1614,7 @@ l
 ⎟
 ⎠Å
 
-where Fλ is the spectral ﬂux density and λ is the wavelength.
+where Fλ is the spectral flux density and λ is the wavelength.
 The power-law limit
 is shown in Figures 3 and 6 and is
 included in Table 3. We note that the limits from spectra
@@ -2145,7 +2145,7 @@ region where many of
 lines are expected to
 escape(Figures 3–5 of Jerkstrand et al. 2011) and longer
 wavelengths are strongly constrained by the limits (Figure 6
-and Table 3). The ﬂux limit corresponds to an allowed UVOIR
+and Table 3). The flux limit corresponds to an allowed UVOIR
 luminosity of 6.6 Le, which for the assumed heating fraction of
 70% results in a bolometric limit of 22 Le. The epoch of this
 limit
@@ -2531,7 +2531,7 @@ bolometric limit to physical parameters in Section 5.4 and
 extrapolate the limits to other epochs using simple models in
 Section 5.5. Lastly, we explore constraints on a possible binary
 main-sequence companion in Section 5.6, remaining possibi-
-lities for the compact object in Section 5.7, and brieﬂy look into
+lities for the compact object in Section 5.7, and briefly look into
 future prospects in Section 5.8.
 
 5.1. Global Limits
@@ -2547,7 +2547,7 @@ details on the literature limits are provided in Table 6. We
 categorize the limits based on the methods employed.
 Unresolved imaging in this context implies that the ER and
 ejecta are not spatially resolved. These limits are just the total
-ﬂux of
+flux of
 resulting in very
 conservative limits. The unresolved radio limit is dominated
 by ejecta-ER interactions(Callingham et al. 2016), unresolved
@@ -2708,9 +2708,9 @@ Interferometry (VLBI) using ATCA, Parkes, Mopra, and the NASA DSS 43 antenna at 
 Photodetector Array Camera and Spectrometer (PACS) on board Herschel; Multiband Imaging Photometer (MIPS) and Infrared Array Camera (IRAC) on board
 Spitzer; Thermal Region Camera and Spectrograph (T-ReCS) attached to the Gemini South 8 m Telescope; Imager on board the INTEGRAL Satellite (IBIS) on board
 INTEGRAL; The Large Area Telescope (LAT) on board Fermi; and the High Energy Stereoscopic System (HESS).
-b Either unresolved (U), meaning that the ﬂux densities are given for the ER and ejecta combined; super-resolved (S), meaning that images are restored using a
+b Either unresolved (U), meaning that the flux densities are given for the ER and ejecta combined; super-resolved (S), meaning that images are restored using a
 deconvolution algorithm; or resolved (R), meaning that the ER and central ejecta structure are spatially resolved.
-c Flux densities presented as estimates of a point source rather than upper limits are denoted by “E.” This is left blank for values presented as measured ﬂuxes of the
+c Flux densities presented as estimates of a point source rather than upper limits are denoted by “E.” This is left blank for values presented as measured fluxes of the
 ejecta and ER combined.
 d Limits from other epochs are very similar.
 e This was reported as potential dust emission.
@@ -2740,7 +2740,7 @@ their observations.
 
 Earlier studies have presented limits on the compact object in
 SN1987A in (sub-)mm, optical, UV, and X-rays. Zanardo
-et al. (2014) discussed the possibility of a PWN with a ﬂux of
+et al. (2014) discussed the possibility of a PWN with a flux of
 3mJy in the range 102–672 GHz. This is not directly
 comparable to our limits of ∼0.1mJy at 213–247 GHz because
 our limits apply to point sources and a PWN might be spatially
@@ -3296,7 +3296,7 @@ direct limits, as summarized in Table 5.
 5.5. Implications for Other Epochs
 
 In the above discussion, we have focused on constraints on
-physical properties at the times of observation. Here, we brieﬂy
+physical properties at the times of observation. Here, we briefly
 
 16
 
@@ -3924,7 +3924,7 @@ main conclusions are as follows:
 
 the geometry of
 
-1. The only model-independent results are the direct ﬂux
+1. The only model-independent results are the direct flux
 limits. They are corrected for absorption, but do not
 include information about the reprocessing of the absorbed
 emission or
@@ -3997,7 +3997,7 @@ Alp et al.
 
 Figure 9. VLT/FORS2 circular-polarization observation of SN1987A from 2015 February 23. The images show ordinary (o) and extraordinary (e) beams at two
 quarter-wave retarder plate angles of θ=±45°. The circle centered at the position of SN 1987A (α=83°. 866246, δ=−69°. 269722) marks an aperture of 5 pixel
-(1250 mas) radius within which the ﬂux is measured. Images at other epochs show no signiﬁcant variability.
+(1250 mas) radius within which the flux is measured. Images at other epochs show no signiﬁcant variability.
 
 STSDAS and PyRAF are products of the Space Telescope
 Science Institute, which is operated by AURA for NASA. The
@@ -4049,8 +4049,8 @@ A.2. Methods
 All
 
 frames are bias-subtracted using the corresponding
-calibration bias frames. A ﬂat-ﬁeld correction is not performed
-because of the ﬂat-ﬁeld effect(Patat & Romaniello 2006;
+calibration bias frames. A flat-ﬁeld correction is not performed
+because of the flat-ﬁeld effect(Patat & Romaniello 2006;
 O’Brien 2015), the additional polarization caused by the color
 dependent offset to the nominal retarder plate position, and
 the effect of the incomplete retardation of the quarter-wave
@@ -4067,7 +4067,7 @@ circular polarization of SN 1987A by performing aperture
 photometry with a set of different aperture radii, centered at the
 position of SN 1987A (Figure 9) in ordinary and extraordinary
 beams using the DAOPHOT.PHOT package, and calculating
-the circular polarization from the determined ﬂuxes. We ignore
+the circular polarization from the determined fluxes. We ignore
 the observations of February18, because of variable weather
 conditions, which makes aperture photometry difﬁcult. We
 determine the amount of circular polarization by the equation
@@ -4152,14 +4152,14 @@ f
 ( )
 8
 
-where f o and f e are the measured ﬂuxes in the ordinary and
+where f o and f e are the measured fluxes in the ordinary and
 extraordinary beams, respectively. The error is calculated by
 propagating the photometry uncertainties.
 
 A.3. Results
 
 We calculated the circular polarization of SN 1987A
-from ﬂuxes determined by performing aperture photometry
+from fluxes determined by performing aperture photometry
 using different aperture radii of 1, 2, 3, 4, and 5pixels
 (250 mas pixel−1), centered at the position of SN 1987A. We
 found that the circular polarization is consistent with zero.
@@ -4298,7 +4298,7 @@ are accounted for by including a multiplicative correction factor
 for the geometric mapping and another factor for the gain.
 
 Limits are determined by inserting artiﬁcial PSFs and ﬁnding
-the PSF ﬂux such that it just crosses the 3σ threshold of daoﬁnd.
+the PSF flux such that it just crosses the 3σ threshold of daoﬁnd.
 The procedure is then repeated inside the search region at intervals
 of 12.5 mas, which is chosen to be the half-pixel size of the WFC3
 and NACO images. At a few points, the detection threshold is
@@ -4306,7 +4306,7 @@ crossed without added artiﬁcial sources,
 implying that point
 sources are detected. These are all just slightly above the detection
 threshold of 3σ and are interpreted as structure in the ejecta. The
-limits in these points are set to the maximum ﬂux of a PSF that is
+limits in these points are set to the maximum flux of a PSF that is
 consistent with the observation. None of the threshold crossing
 events are spatially coincident in several adjacent ﬁlters and they
 are not signiﬁcantly increasing the upper limits.
@@ -4677,7 +4677,7 @@ detector is included by disabling the ideal option. Simulation
 of the readout streak and pileup are both performed. The
 extended option is disabled because the PSF is used as a
 convolution kernel. The PSF is simulated onto a pixel size of
-502 mas2 and statistical ﬂuctuations of
+502 mas2 and statistical fluctuations of
 the simulation are
 reduced by making 200 iterations. The default value of 70 mas
 for

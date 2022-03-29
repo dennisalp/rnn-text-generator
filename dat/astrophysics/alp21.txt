@@ -24,8 +24,8 @@ Abstract
 Supernova 1987A offers a unique opportunity to study an evolving supernova in unprecedented detail over several
 decades. The X-ray emission is dominated by interactions between the ejecta and the circumstellar medium,
 primarily the equatorial ring (ER). We analyze 3.3Ms of NuSTAR data obtained between 2012 and 2020, and two
-decades of XMM-Newton data. Since ∼2013, the ﬂux below 2keV has declined, the 3–8keV ﬂux has increased
-but has started to ﬂatten, and the emission above 10keV has remained nearly constant. The spectra are well
+decades of XMM-Newton data. Since ∼2013, the flux below 2keV has declined, the 3–8keV flux has increased
+but has started to flatten, and the emission above 10keV has remained nearly constant. The spectra are well
 described by a model with three thermal shock components. Two components at 0.3 and 0.9keV are associated
 with dense clumps in the ER, and a 4keV component may be a combination of emission from diffuse gas in the
 ER and the surrounding low-density H II region. We disfavor models that involve nonthermal X-ray emission and
@@ -35,7 +35,7 @@ place constraints on nonthermal components, but cannot ﬁrmly exclude an underl
 show a Ti
 M .
 0.29
-1034ergs−1, and <15% of the 10–20keV ﬂux is
+1034ergs−1, and <15% of the 10–20keV flux is
 The 35–65keV luminosity limit on the compact object is ´2
 pulsed. Considering previous limits, we conclude that there are currently no indications of a compact object, aside
 from a possible hint of dust heated by a neutron star in recent ALMA images.
@@ -129,7 +129,7 @@ from SN1987A because the angular resolution of Fermi
 is
 insufﬁcient to resolve SN1987A from other nearby sources. If
 associated with SN1987A, the data suggest an increase in the
-GeV ﬂux by a factor of ∼2 between 2010 and 2018, which could
+GeV flux by a factor of ∼2 between 2010 and 2018, which could
 indicate efﬁcient cosmic-ray acceleration in the shocks (Dwarkadas
 2013; Berezhko et al. 2015).
 
@@ -160,7 +160,7 @@ it is difﬁcult to uniquely associate each spectral component
 with one of the many possible emission regions. The most
 likely origins for the X-ray emission are: the dense ER clumps,
 the diffuse ER, the H II region, the reverse shock propagating
-into the ejecta, and reﬂected shocks off the ER clumps.
+into the ejecta, and reflected shocks off the ER clumps.
 However, it remains uncertain if there is a contribution from a
 nonthermal component. Possible origins for an additional
 component are shock-accelerated electrons, high-temperature
@@ -389,7 +389,7 @@ resolve the X-ray line emission. Accurate modeling of the line
 emission is important for the interpretation of the entire X-ray
 spectrum.
 Including XMM-Newton data also extends the
-temporal baseline for ﬂux measurements back to 2003. We
+temporal baseline for flux measurements back to 2003. We
 use XMM-Newton instead of Chandra primarily because we do
 not need to spatially resolve the ER. Instead, we prioritize the
 better photon statistics provided by the larger effective area of
@@ -660,7 +660,7 @@ excluded region around SN1987A is a circle with a radius of
 90″ (see Figure 1).
 
 We limit the energy range used for the continuum analysis to
-3–24keV. Both the ﬂux and effective area quickly decrease
+3–24keV. Both the flux and effective area quickly decrease
 toward higher energies, resulting in a signal-to-background
 ratio (S/B) lower than 0.3. The low S/B above 24keV results
 in a very high sensitivity to background systematics. Finally,
@@ -676,7 +676,7 @@ XMM-Newton operates six instruments in parallel: the pn
 CCD (Strüder et al. 2001), MOS1 and MOS2 (Turner et al.
 2001), two grating spectrometers (den Herder et al. 2001), and
 the optical monitor (Mason et al. 2001). Here, we focus on the
-pn CCD and the reﬂection grating spectrometers (RGSs). The
+pn CCD and the reflection grating spectrometers (RGSs). The
 pn camera covers 0.3–10keV with a spectral resolution of
 E
 20–50, which is comparable to the NuSTAR energy
@@ -952,7 +952,7 @@ within the same readout frame. The results are that some
 photons are rejected as invalid events, and an artiﬁcial
 hardening of the spectrum as the energies of multiple photons
 are combined. Pileup affects approximately 5% of the events
-when the photon ﬂux peaks around the year 2014. This is
+when the photon flux peaks around the year 2014. This is
 estimated using the task epatplot, which compares the
 observed event patterns with expected pattern distributions.
 Even though the magnitude of the effect
@@ -1022,7 +1022,7 @@ We use XSPEC 12.11.0 for spectral ﬁtting and use the
 photoabsorption cross sections of Verner & Yakovlev (1995).
 We follow the XSPEC convention of the photon index Γ being
 given by µ -G
-E , where N is the photon ﬂux density and E
+E , where N is the photon flux density and E
 the photon energy. Furthermore, the spectral binning of at least
 25 counts per bin allows for the use of c2 statistics.
 
@@ -1043,10 +1043,10 @@ corresponding threshold of 7.740.
 The Astrophysical Journal, 916:76 (30pp), 2021 August 1
 
 We use different combinations of data sets for different
-purposes. For the ﬂux estimates, we prioritize good ﬁts to
+purposes. For the flux estimates, we prioritize good ﬁts to
 individual epochs. Therefore, we only use NuSTAR data for
-NuSTAR ﬂuxes and pn and RGS data for XMM-Newton
-ﬂuxes. For the spectral analysis, we perform joint ﬁts to
+NuSTAR fluxes and pn and RGS data for XMM-Newton
+fluxes. For the spectral analysis, we perform joint ﬁts to
 NuSTAR and RGS data. We omit the XMM-Newton/pn data
 in these ﬁts due to calibration uncertainties, which could
 introduce systematic effects. The signiﬁcance of the calibration
@@ -1589,12 +1589,12 @@ We leave the abundances of all trace elements to their default
 values, namely 1.0 relative to our adopted ISM abundances. All
 ﬁts are insensitive to these trace elements. We test this by
 setting the abundances of all trace elements to 0.0 using the
-command NEI_TRACE_ABUND. The c2 value ﬂuctuates by a
+command NEI_TRACE_ABUND. The c2 value fluctuates by a
 few, and all ﬁtted parameters are practically unchanged.
 
 3.3. Flux Estimation
 
-To estimate ﬂuxes, we use the model and parameters described
+To estimate fluxes, we use the model and parameters described
 above. The model is ﬁtted simultaneously to all spectra within the
 groups of NuSTAR observations and within each XMM-Newton
 observation. The free parameters are the temperatures, ionization
@@ -1604,7 +1604,7 @@ are unable to robustly constrain the coolest plasma component.
 Therefore, we freeze its parameters to the values from the ﬁts to
 the XMM-Newton data that are closest in time. This component is
 almost completely below the lower energy limit of NuSTAR and
-does not affect the ﬂuxes signiﬁcantly. The parameters of each
+does not affect the fluxes signiﬁcantly. The parameters of each
 plasma component that are ﬁtted for are tied across instruments
 because the spectra are (quasi-)simultaneous. The average reduced
 ﬁt statistic is c = 0.93
@@ -1614,9 +1614,9 @@ Newton observations are c = 1.2
 
 and 1555 DoF.
 
-We measure ﬂuxes using the XSPEC component cﬂux,
-which has a parameter that corresponds to the ﬂux. After ﬁtting
-the model, the cross-calibration constant is replaced by cﬂux,
+We measure fluxes using the XSPEC component cflux,
+which has a parameter that corresponds to the flux. After ﬁtting
+the model, the cross-calibration constant is replaced by cflux,
 
 2
 red
@@ -1829,17 +1829,17 @@ Epoch
 1.2
 1.6
 
-Note. The ﬂux
+Note. The flux
 
-–Fa b denotes the ﬂux from a to bkeV. Asymmetric error bars are statistical and the symmetric uncertainties are systematic (Appendix C).
+–Fa b denotes the flux from a to bkeV. Asymmetric error bars are statistical and the symmetric uncertainties are systematic (Appendix C).
 
-and the model is reﬁtted. This results in a ﬂux estimate from
+and the model is reﬁtted. This results in a flux estimate from
 each spectrum, which also captures the calibration differences
 between the instruments. We report the weighted average as the
-best-estimate ﬂux, but
-the individual ﬂux measurements
+best-estimate flux, but
+the individual flux measurements
 provide a handle on the level of systematics (Appendix C).
-All reported ﬂuxes are observed (not correcting for ISM
+All reported fluxes are observed (not correcting for ISM
 absorption) due to the uncertain amount of absorption and to
 allow for comparisons with previous studies.
 
@@ -1959,15 +1959,15 @@ components.
 
 4.1. Light Curves
 
-We report observed ﬂuxes in a number of different energy
+We report observed fluxes in a number of different energy
 bands. For NuSTAR, we study the 3–8, 10–24, and 3–24keV
 ranges. The 3–8keV is the “hard” band in XMM-Newton and
-Chandra contexts. XMM-Newton ﬂuxes are provided in the
+Chandra contexts. XMM-Newton fluxes are provided in the
 0.5–2, 3–8, and 0.5–8keV bands, in line with previous studies
 (e.g., Frank et al. 2016). Additionally, we also compute the
-0.45–0.7keV ﬂux, which is dominated by N VII and O VIII
-Lyα. All NuSTAR ﬂuxes are provided in Table 5, whereas the
-XMM-Newton ﬂuxes are provided in Appendix E.
+0.45–0.7keV flux, which is dominated by N VII and O VIII
+Lyα. All NuSTAR fluxes are provided in Table 5, whereas the
+XMM-Newton fluxes are provided in Appendix E.
 
 The light curves are shown in Figure 4. In addition to
 NuSTAR and XMM-Newton, we show the HST R-band
@@ -1985,17 +1985,17 @@ It is apparent that the 3–8keV light curves and the 9GHz
 radio show similar
 the
 10–24keV component increases at a lower relative rate. We
-note that the 0.5–2keV ﬂux clearly starts decreasing after
-around 10,000 days and that the rise of the 3–8keV ﬂux slows
+note that the 0.5–2keV flux clearly starts decreasing after
+around 10,000 days and that the rise of the 3–8keV flux slows
 slightly after 11,000 days. This is also reported by Sun et al.
 (2021) using XMM-Newton data, as well as in a preliminary
 study of recent Chandra observations (Ravi 2019). These
 spectral changes are captured by the hardness ratios shown in
-Figure 5. This illustrates how the 3–8keV ﬂux becomes
+Figure 5. This illustrates how the 3–8keV flux becomes
 increasingly dominant, with the spectra hardening in the
 XMM-Newton energy range and softening in the NuSTAR
 range. Finally, we note that the 0.45–0.7keV evolution is more
-strongly correlated with the decaying optical ﬂux than the
+strongly correlated with the decaying optical flux than the
 0.5–2keV light curve.
 
 The offset of ∼10%–15% between the NuSTAR and XMM-
@@ -2061,7 +2061,7 @@ temperatures for
 
 for
 
-For completeness, we provide all best-ﬁt parameters, ﬂuxes of
+For completeness, we provide all best-ﬁt parameters, fluxes of
 shock components, and ﬁt statistics in Appendix F. We caution
 that
 the ionization ages for the three components may be
@@ -2085,7 +2085,7 @@ Figure 5. Hardness ratios, deﬁned as the ratio in a hard over a soft band. For
 0.5–2keV, whereas the hard is 3–8keV. These error bars only include the statistical uncertainty because ratios are computed using homogeneous instrumental setups
 in each band.
 
-Figure 6. Upper panel: unfolded observed spectra (absorbed but corrected for the instrument responses) from NuSTAR (blue), RGS (orange), and the model (black) in ﬂux
+Figure 6. Upper panel: unfolded observed spectra (absorbed but corrected for the instrument responses) from NuSTAR (blue), RGS (orange), and the model (black) in flux
 space. The NuSTAR data are plotted up to 65keV (just below the Ti
 lines), but the ﬁts are performed using only data up to 24keV. For visual clarity, we show the sum of the
 six individual NuSTAR exposures from the ﬁrst epoch at 9331days and only the ﬁrst-order RGS1 data from 9423 days. Both the NuSTAR and RGS data are also rebinned
@@ -2144,7 +2144,7 @@ of the Fe line have reported that there is a signiﬁcant contribution
 of lower ionization levels around 6.5keV, which is not captured
 by a thermal shock model (Sturm et al. 2010; Maggi et al. 2012).
 Maggi et al. (2012) suggested that this could originate from
-ﬂuorescence from near-neutral Fe, including Fe in the unshocked
+fluorescence from near-neutral Fe, including Fe in the unshocked
 ejecta. We do not investigate this in detail, but Figure 8 shows that
 any low-ionization contribution is clearly much weaker than the
 dominant component from the thermal shock model.
@@ -2177,9 +2177,9 @@ spectral ﬁtting. Instead, we overplot
 to the NuSTAR data at
 9920 days, which is close to the average best-ﬁt. The solid (NuSTAR) and
 dashed (XMM-Newton) black lines are the same underlying model but produce
-different ﬂuxes because of the different instrumental responses. We stress that
+different fluxes because of the different instrumental responses. We stress that
 the large amount of data (∼500 photons per bin in NuSTAR) makes even small
-ﬂux and energy differences appear highly signiﬁcant. The bin size is 0.04keV
+flux and energy differences appear highly signiﬁcant. The bin size is 0.04keV
 for both NuSTAR and XMM-Newton. For reference, the absolute energy
 calibration around the FeK complex is 0.04keV for NuSTAR (Madsen
 et al. 2015) and 0.01keV for XMM-Newton/pn.
@@ -2389,7 +2389,7 @@ limit instead of an upper limit at each epoch. The upper limit is
 computed by ﬁnding the PL normalization that results in an
 relative to the best ﬁt (using the XSPEC
 increase of cD = 7.740
-task error). We take the ﬂux of the PL component with this new
+task error). We take the flux of the PL component with this new
 normalization as a 3σ upper limit. The resulting limits are
 10 14 ergs−1cm−2 between 3–8keV and coincidentally
 7
@@ -2406,7 +2406,7 @@ These limits are clearly model dependent, as
 
 further
 discussed in Section 5.3. A very conservative, model-
-independent limit is to consider the total ﬂuxes as upper limits
+independent limit is to consider the total fluxes as upper limits
 (Table 5), with the 10–24keV range likely being the most
 relevant.
 
@@ -2429,7 +2429,7 @@ better follow conventions.
 
 8
 
-We obtain a 3σ upper limit on any ﬂux from SN1987A in the
+We obtain a 3σ upper limit on any flux from SN1987A in the
 10 14ergs−1cm−2. This was com-
 35–65keV range of ´ -
 puted using a Γ=2 PL component without an underlying
@@ -2460,8 +2460,8 @@ the analysis of Boggs et al. (2015), but with the inclusion of our
 new data.
 
 Following the baseline case of Boggs et al. (2015), we tie
-the ﬂuxes, energies, and widths of the two lines. This can be
-done because the relative ﬂuxes (96.4 93.0) and energies
+the fluxes, energies, and widths of the two lines. This can be
+done because the relative fluxes (96.4 93.0) and energies
 
 (78.32 keV 67.87 keV) are given by the relative yields and
 transition energies,
@@ -2559,7 +2559,7 @@ Gröningsson et al. 2008; Larsson et al. 2019).
 emission (Frank et al. 2016; Cendes et al. 2018). The
 X-ray emission below 2keV is stronger to the west and
 follows the optical ER emission. This implies that the ER
-clumps dominate the <2 keV X-ray ﬂux.
+clumps dominate the <2 keV X-ray flux.
 
 3. The inferred ER radii in optical and X-rays also indicate
 that the <2 keV X-rays originate from the same region as
@@ -2699,7 +2699,7 @@ Analogous to the redshift, we provide Ti
 
 44 mass estimates
 based on both the joint ﬁt and ﬁts to the individual modules.
-The combined analysis yields a 67.87keV line ﬂux of
+The combined analysis yields a 67.87keV line flux of
 6 photonss−1cm−2, which corresponds to an
 +
 -
@@ -2711,9 +2711,9 @@ The combined analysis yields a 67.87keV line ﬂux of
 Ti
 M . When converting
 initial
-ﬂuxes to masses, we use a distance of 51.2kpc and correct
+fluxes to masses, we use a distance of 51.2kpc and correct
 44
-the observed ﬂuxes by 3% to account for Compton scattering
+the observed fluxes by 3% to account for Compton scattering
 by the ejecta (Alp et al. 2018a and Section 5.5 below).
 
 44 mass of
@@ -2853,7 +2853,7 @@ an
 
 We present the 3–8 and 10–24keV light curves to 2020 in
 Figure 4. The 3–8keV X-ray light curve follows the radio light
-curve relatively well. The 10–24keV light curve has a ﬂatter
+curve relatively well. The 10–24keV light curve has a flatter
 evolution, but this is likely the effect of a slight decrease in
 temperature (Figure 7), rather than an indication of a different
 physical origin (Section 5.3). This shows that the X-ray light
@@ -3385,13 +3385,13 @@ The correlation between the 3–8keV and radio light curves
 hard X-rays are nonthermal. However, the 10–24keV light
 curve rises much more slowly than the 3–8keV light curve.
 This is opposite to what would naively be expected if the hard
-X-rays are of nonthermal origin. The 10–24keV ﬂux would be
+X-rays are of nonthermal origin. The 10–24keV flux would be
 expected to increase faster because thermal X-rays would
 contribute more to the 3–8keV than the 10–24keV range in
 relative terms. In this scenario, it is implicitly assumed that the
-thermal ﬂux would not increase as fast as the radio ﬂux, based
+thermal flux would not increase as fast as the radio flux, based
 on comparisons between radio and soft X-rays. Because the
-10–24keV ﬂux increases more slowly than 3–8keV, a
+10–24keV flux increases more slowly than 3–8keV, a
 nonthermal model would need to have a contrived spectral
 evolution, which we disfavor against a simple, slight decrease
 in maximum temperature in a completely thermal model.
@@ -3416,12 +3416,12 @@ to X-ray energies. From a theoretical
 perspective, Berezhko et al. (2015) present a prediction for the
 nonthermal X-ray contribution associated with cosmic-ray accel-
 eration. Using their model for cosmic-ray acceleration (Berezhko &
-Ksenofontov 2000, 2006), they ﬁnd a peak 35–65keV ﬂux of ´5
+Ksenofontov 2000, 2006), they ﬁnd a peak 35–65keV flux of ´5
 -10 14ergs−1cm−2 at 9280days (Figure 6), which is marginally
 10 14 ergs−1cm−2.
 consistent with our upper limit of ´ -
 10 13ergs−1cm−2)
-However, the predicted ﬂuxes at 3–8 ( ´ -
+However, the predicted fluxes at 3–8 ( ´ -
 10 13ergs−1cm−2) exceed the corresp-
 and 10–24keV ( ´ -
 onding model-dependent limits by a factor of ∼2 (Section 4.5).
@@ -3455,7 +3455,7 @@ et al. 2019). This time range roughly coincides with the ﬁrst
 and last NuSTAR observation. Both the X-ray and radio light
 curves continue to smoothly increase at steady rates by factors
 of ∼1.5 over this time interval (Figure 4). Notably, the high-
-energy X-ray component above 10keV is the ﬂattest and
+energy X-ray component above 10keV is the flattest and
 barely increases during this time. Therefore, we conclude that
 there is no obvious correlation between any part of the X-ray or
 radio light curve with the GeV increase. This indicates that the
@@ -3493,7 +3493,7 @@ We also search for pulsed emission between 10 and 20keV
 if a PWN is
 contributing. No pulsations are detected, and the pulsed
 fraction is constrained to less than 15% of the total source
-ﬂux between 10 and 20keV.
+flux between 10 and 20keV.
 
 the data, but
 
@@ -3541,7 +3541,7 @@ quoted luminosity interval accounts for the uncertainty in the
 amount of newly formed dust in the ejecta along the line of
 sight.
 
-Our 35–65keV ﬂux limit provides the deepest constraints on
+Our 35–65keV flux limit provides the deepest constraints on
 any X-ray emission from a compact object in SN1987A. X-ray
 emission from the compact object is affected by absorption
 because it resides close to the center of the ejecta (Alp et al.
@@ -3554,7 +3554,7 @@ the 35–65keV absorption using a three-dimensional neutrino-
 driven SN explosion model (Alp et al. 2018a), speciﬁcally the
 B15 model from Wongwathanarat et al. (2015). This is the
 same absorption model as was used for SN1987A by Alp et al.
-(2018b). We ﬁnd that approximately 5% of the 35–65keV ﬂux
+(2018b). We ﬁnd that approximately 5% of the 35–65keV flux
 is expected to be absorbed at 10,000 days, which we henceforth
 correct for. For reference, the optical depth to the center of the
 ejecta at current epochs is ∼100 at 1keV, ∼3 at 5keV, and
@@ -3588,9 +3588,9 @@ complex SN1987A system.
 
 The X-ray light curves in different energy bands have
 evolved signiﬁcantly over the past few epochs. The 10–24keV
-ﬂux remained practically constant between 9300 and
-12,000days (2012–2020). In contrast, the 3–8keV ﬂux was
-rising but has tentatively started to ﬂatten after 11,000days
+flux remained practically constant between 9300 and
+12,000days (2012–2020). In contrast, the 3–8keV flux was
+rising but has tentatively started to flatten after 11,000days
 (2017). Previously published radio light curves only extend to
 10,942days (2017; Cendes et al. 2018), but followed the rising
 phase of the 3–8keV emission up to that point. The 0.5–2keV
@@ -3624,7 +3624,7 @@ tion of a smoother broad distribution.
 
 We ﬁnd no evidence for a nonthermal contribution to the
 X-ray data, neither from the temporal nor spectral analysis. The
-10–24keV ﬂux does not follow the synchrotron radio light
+10–24keV flux does not follow the synchrotron radio light
 curve, which would be the most natural expectation if the X-ray
 emission is increasingly dominated by synchrotron emission
 from shock-accelerated electrons at higher energies. The
@@ -3763,7 +3763,7 @@ Alp, Larsson, & Fransson
 Even if a faint nonthermal component is present, it is more
 likely to be shock-accelerated synchrotron emission or the
 high-energy tail of a free–free component. We also constrain
-the pulsed fraction of the 10–20keV ﬂux to be less than 15%
+the pulsed fraction of the 10–20keV flux to be less than 15%
 (Appendix A).
 
 The NuSTAR data constrain the 35–65keV luminosity
@@ -4030,7 +4030,7 @@ upper limit on the source pulsed fraction is 15% (background
 subtracted). Importantly, however, the 10–20keV range certainly
 includes photons from ER interactions. This implies that the upper
 limit on the pulsed fraction of the compact object emission is less
-constraining than 15%. For example, if the thermal-to-PWN ﬂux
+constraining than 15%. For example, if the thermal-to-PWN flux
 ratio is >7,
 the pulsed fraction is completely unconstrained
 because a 100% pulsed fraction would go undetected.
@@ -4050,7 +4050,7 @@ the ER becomes overwhelming at
 times. The data
 reduction is similar to the reduction for the primary analysis
 (Section 2.2). The differences are that we use both pn and MOS
-data, perform no pileup correction due to the lower ﬂuxes, and
+data, perform no pileup correction due to the lower fluxes, and
 choose smaller source radii of 10″–25″ to improve S/B.
 Furthermore, we bin to a minimum of 1 count per bin and use
 the Cstatistic (Cash 1979) because of the lower number of
@@ -4150,14 +4150,14 @@ B.1. The 5.9keV 55Mn Line
 3
 The Mn
 
-limit on the line ﬂux of
+limit on the line flux of
 
 Our methods follow Leising (2006), who performs an
 analogous analysis using Chandra data. Focusing ﬁrst on the
 chain, we limit the energy range to 4–8keV and ﬁt a
 Fe55
 model consisting of a PL and a Gaussian line. The PL
-normalization, PL photon index, and line ﬂux are left free. The
+normalization, PL photon index, and line flux are left free. The
 line energy is frozen to 5.9keV, and the line width (represented
 by σ) is frozen to 0.06keV (3000
 km s 1 Doppler width). We
@@ -4187,7 +4187,7 @@ particular the X-ray and gamma-ray properties during the ﬁrst
 few years (Alp et al. 2019). At the relevant epochs, the effective
 optical depth is ∼1.2 at 5.9keV for the modeled Fe55
 distribution.
-Combining this with the ﬂux limit results in a 3σ upper limit on
+Combining this with the flux limit results in a 3σ upper limit on
 the initial Fe55 mass of
 
 (McCray 1993),
@@ -4204,13 +4204,13 @@ However, we note that there is a hint of a line at 5.9keV in
 -
 7
 10
-the data. Quantitatively, the estimated ﬂux is
+the data. Quantitatively, the estimated flux is
 photonss−1cm−2 with a 1σ conﬁdence level. This indicates
 that there might be a weak detection of the line or possibly
 slight contamination from the Mn
 pn energy calibration
 source (Strüder et al. 2001). We inspect the residuals but are
-unable to draw a ﬁrm conclusion. If astrophysical, the ﬂux
+unable to draw a ﬁrm conclusion. If astrophysical, the flux
 would point toward an initial Fe55 mass of
 M .
 We stress that the interval is a purely statistical 1σ interval.
@@ -4257,7 +4257,7 @@ Mn
 55
 the line to 4.1keV, and repeat the same procedure. The 3σ upper
 10 7 photonss−1cm−2. We note
-limit on the line ﬂux is
+limit on the line flux is
 that He-like Ca could produce K-shell lines near 4.1keV, but we
 see no signs of any line around 4.1keV in the residuals. The
 thermal X-ray emission rapidly rises toward lower energies, which
@@ -4266,9 +4266,9 @@ reduces the sensitivity. Because the initial Ti
 M (Section 4.7), we compute the unattenuated
 be ∼ ´ -
 10 4
-10 7 photonss−1cm−2. Thus, the 4.1keV ﬂux
+10 7 photonss−1cm−2. Thus, the 4.1keV flux
 7.9
-ﬂux to be
+flux to be
 limit does not constrain any parameters because it implies an
 effective optical depth of >1, which clearly is consistent with the
 value of ∼3 obtained from the 10HMM model.
@@ -4490,7 +4490,7 @@ cD 2c
 −13.06
 
 Notes. Fitting a single shock component to the 3–8keV range. The temperature TAB is inferred from the NuSTAR data whereas Tpn is from pn data. The ﬁts to the
-XMM-Newton data show a rather variable goodness of ﬁt at different epochs, likely primarily driven by random ﬂuctuations and to a lesser extent by the spectral
+XMM-Newton data show a rather variable goodness of ﬁt at different epochs, likely primarily driven by random fluctuations and to a lesser extent by the spectral
 evolution. The data quality and reduction process are very similar for the different XMM-Newton epochs.
 a Epoch of the NuSTAR observation.
 b Difference in time from the XMM-Newton to the NuSTAR observation. Three different XMM-Newton observations are used in these ﬁts (see Table 2).
@@ -4547,7 +4547,7 @@ systematics introduced by the data reduction and methods. For
 example, Frank et al. (2016) also analyzed the XMM-Newton
 observations up to 10,141 days. We ﬁnd better agreement
 within a few percent at 0.5–2keV and at earlier epochs (around
-8000 days), but up to 10% higher 3–8keV ﬂuxes at later times.
+8000 days), but up to 10% higher 3–8keV fluxes at later times.
 There is a large number of factors that could contribute to these
 differences: source and background regions, data calibration
 version, choice of underlying model, free parameters, ISM and
@@ -4555,9 +4555,9 @@ model abundances, amount of absorption, cross sections, and
 pileup corrections.
 
 For these reasons, we add a systematic uncertainty to our
-X-ray ﬂuxes. This is added in quadrature to the systematic error
+X-ray fluxes. This is added in quadrature to the systematic error
 in Figure 4, but we report both separately in tables. We adopt a
-ﬁducial systematic uncertainty of 8% (of the total ﬂux), which
+ﬁducial systematic uncertainty of 8% (of the total flux), which
 we believe is a reasonable estimate. This particular value is the
 typical difference we ﬁnd in our comparisons between
 independent analyses. It also agrees with cross-calibration
@@ -4573,7 +4573,7 @@ comparisons between parameters from different instruments,
 data reductions, or methods. The systematic errors are likely
 signiﬁcantly lower for analyses of homogeneously estimated
 parameter values. Importantly,
-the ﬂuxes
+the fluxes
 derived from the
 are
 comparable.
@@ -4824,7 +4824,7 @@ three-shock model. Both cool components have temperatures
 
 two subﬁgures of Figure D1 also show that
 
-below ∼1keV and primarily inﬂuence the RGS energy range.
+below ∼1keV and primarily influence the RGS energy range.
 The ﬁrst
 the
 addition of a third component does not signiﬁcantly change the
@@ -5066,9 +5066,9 @@ Appendix E
 
 XMM-Newton Fluxes
 
-We provide ﬂuxes in four energy bands for all XMM-
-Newton observations in Table E1. These ﬂuxes, except for the
-full 0.5-8keV ﬂux, are plotted in Figure 4. The 0.45–0.7keV
+We provide fluxes in four energy bands for all XMM-
+Newton observations in Table E1. These fluxes, except for the
+full 0.5-8keV flux, are plotted in Figure 4. The 0.45–0.7keV
 range is dominated by the strong N VII Lyα (0.5003 keV) and
 O VIII Lyα (0.6537 keV) lines. In the literature, 0.5–2keV is
 commonly referred to as the “soft” band, while 3–8keV is the
@@ -5473,9 +5473,9 @@ Epoch
 7.9
 7.3
 
-Note. The ﬂux
+Note. The flux
 
-–Fa b denotes the ﬂux from a to bkeV. Asymmetric error bars are statistical, and the symmetric uncertainties are systematic (Appendix C).
+–Fa b denotes the flux from a to bkeV. Asymmetric error bars are statistical, and the symmetric uncertainties are systematic (Appendix C).
 
 27
 
@@ -5501,11 +5501,11 @@ decrease in T3 in the last epoch appears robust. This is
 supported by the light curves, hardness ratios, and continuous
 model ﬁts.
 
-In Table F2, we provide the observed (absorbed) ﬂuxes of
+In Table F2, we provide the observed (absorbed) fluxes of
 the individual components and goodness-of-ﬁt measures. These
-ﬂuxes are the bolometric ﬂuxes of the components. Conse-
-quently, they are much more uncertain than the ﬂuxes in energy
-bands (Table 5) because the component ﬂuxes are more
+fluxes are the bolometric fluxes of the components. Conse-
+quently, they are much more uncertain than the fluxes in energy
+bands (Table 5) because the component fluxes are more
 sensitive to the underlying model.
 
 Best-ﬁt Parameters of the Three-shock Model to NuSTAR and RGS Data

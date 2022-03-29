@@ -150,7 +150,7 @@ other potential astrophysical sources in Section 8, and conclude
 in Section 9.
 
 All uncertainties are 1σ and one-sided limits are 3σ unless stated
-otherwise. We adopt a ﬂat ΛCDM cosmology with a Hubble–
+otherwise. We adopt a flat ΛCDM cosmology with a Hubble–
 Lemaître constant H0=70km s−1Mpc1 and W =L
 
 0.73.
@@ -241,7 +241,7 @@ The ﬁnal step is to separate the extragalactic transients from
 Galactic foreground sources and artifacts. This separation
 essentially ﬁnds all SBO candidates, since SBOs are required to
 be associated with galaxies. The remaining non-SBO transients
-are primarily ﬂaring dwarf stars that lack parallax in Gaia and
+are primarily flaring dwarf stars that lack parallax in Gaia and
 are not identiﬁed in SIMBAD, or instrumental artifacts that are
 difﬁcult to identify in time-integrated images. To perform this
 ﬁnal selection, we use time-resolved spectra and images.
@@ -421,7 +421,7 @@ require that the initial rise and a substantial part of the decay is
 contained within the observation. We discard sources that show
 persistent emission that appears associated with the transient
 before the initial rise, which would indicate that the source is a
-ﬂaring persistent source. We do not discard any transients
+flaring persistent source. We do not discard any transients
 because they are too short. This means that the lower limit is
 effectively set by the temporal resolution of XMM-Newton,
 which is on the order of 100 ms for the most common
@@ -800,7 +800,7 @@ Subaru data. The color scales are arbitrary and are chosen to maximize contrast.
 1×1 arcmin2 and the lines pointing to the galaxies are 3″. North is up and east is left. Middle column: combined EPIC light curves in the observed 0.3–10 keV range.
 Blue lines are binned light curves with light blue uncertainties, and orange lines are smoothed light curves (bin sizes and kernel widths are given in the legends). The
 dashed green lines show the separation into ﬁrst and second halves for the time-resolved spectral analysis. The gray regions show the typical timescales (tR/c;
-Section 7.1). The black crosses are the peak ﬂuxes (Section 4) and the horizontal black lines (lower left and right corners, barely visible in some cases) are the ﬂux
+Section 7.1). The black crosses are the peak fluxes (Section 4) and the horizontal black lines (lower left and right corners, barely visible in some cases) are the flux
 limits (Table 3). Right column: upper segments show the observed time-integrated spectra (black crosses) ﬁtted with the absorbed blackbody (blue) and power-law
 (orange) models. Lower segments show the residuals normalized by the uncertainties using the same colors as above for the respective models. For visual clarity, we
 combine all EPIC data and bin to 12 energy bins logarithmically.
@@ -905,7 +905,7 @@ background regions to construct preliminary light curves.
 
 Next, we deﬁne ﬁve time intervals: before, during, after, and
 the ﬁrst and second halves of the transient. The halves of the
-transient are deﬁned to have approximately equal ﬂuences.
+transient are deﬁned to have approximately equal fluences.
 These two halves are only used for time-resolved spectral
 analysis (Section 5). All time intervals are deﬁned by eye based
 on inspections of the preliminary source light curves.
@@ -972,29 +972,29 @@ spectra used for the merged EPIC spectra are binned using a
 common channel grid corresponding to uniform bins of width
 0.2 keV.
 
-To determine upper limits on the source ﬂux during the time
+To determine upper limits on the source flux during the time
 intervals before and after the transient, we use the SAS task
-esensmap. The task computes the photon ﬂux required for a
+esensmap. The task computes the photon flux required for a
 hypothetical source to be detected in the combination of all
-three instruments. To convert the photon ﬂux to physical units,
+three instruments. To convert the photon flux to physical units,
 we use the best-ﬁt model of the time-averaged spectrum
 (Section 5). For the upper limits, we choose a detection
 threshold (DET_ML) of 5.9, which corresponds to a chance
 probability for detection of 2.7×10−3 (3σ) under the null
 hypothesis.
 
-To estimate the peak ﬂux of each transient, we start by
+To estimate the peak flux of each transient, we start by
 ﬁnding the shortest time interval during which 25% of all
 source photons are detected. This is done by searching a
 combined EPIC source event list. Having determined the time
-interval with the highest photon ﬂux, we use epiclccorr to
+interval with the highest photon flux, we use epiclccorr to
 apply all corrections to obtain the corrected count rate with
 error bars. This task is usually used to produce light curves,
 whereas we use it here to compute a count rate during a single
 time interval. This is performed on the cameras individually,
 with the single-bin time interval provided as input. The ﬁnal
 step is to convert the peak count rates from epiclccorr to
-ﬂuxes. We do this by scaling the ﬂuxes obtained from the time-
+fluxes. We do this by scaling the fluxes obtained from the time-
 integrated spectral ﬁts (Section 5) by the ratio of the peak to the
 time-averaged photon count rate.
 
@@ -1004,11 +1004,11 @@ transient.
 
 is possible that
 
-When the ﬂux is high,
+When the flux is high,
 
 two incident,
 spatially close photons are interpreted incorrectly. They could
-be detected as a single photon with higher energy or ﬂagged as
+be detected as a single photon with higher energy or flagged as
 bad, a phenomenon referred to as pile-up. There is some
 potential
 for pile-up during the brightest phases of our
@@ -1024,14 +1024,14 @@ lists and ﬁnd no signs of suspected pile-up events. All light
 curves are practically identical, including the marginal double-
 peaked shape (Section 6).
 
-Finally, we comment on the ﬂux of the object XT151219. It
+Finally, we comment on the flux of the object XT151219. It
 is close to (but not on) a chip gap on the pn CCD. A part of the
 standard procedure when creating pn spectra is to reject events
 close to chip gaps (FLAG==0). This is performed because of
 energy calibration uncertainties for events not completely
 contained on the chip. For this object, this means rejecting
 ∼20% of the pn events. The spectral shape is unaffected, but
-the overall ﬂux is likely underestimated by ∼15% (the source is
+the overall flux is likely underestimated by ∼15% (the source is
 covered by both pn and MOS2). This does not affect any
 conclusions qualitatively and we do not attempt to correct
 for it.
@@ -1067,7 +1067,7 @@ reasonable approximation given the large uncertainties. Sapir
 et al. (2013) showed that the time-integrated spectrum of an
 peak, where hνpeak is the photon
 SBO peaks at
-the spectral peak (measured in ﬂuence per
+the spectral peak (measured in fluence per
 energy at
 logarithmic frequency; νFν) and Tpeak is the peak surface
 temperature. In comparison, the spectral peak of a blackbody of
@@ -1207,8 +1207,8 @@ further since it appears statistically marginal, but a clearly
 double-peaked X-ray transient has previously been reported by
 Jonker et al. (2013).
 
-The average ﬂuxes, peak ﬂuxes, and constraints before and
-after the transients are provided in Table 3 (with the peak ﬂuxes
+The average fluxes, peak fluxes, and constraints before and
+after the transients are provided in Table 3 (with the peak fluxes
 determined as described in Section 4). This shows that the
 transients have large dynamic ranges of at least 10 in all cases
 and substantially higher in many cases. The constraints on the
@@ -1231,13 +1231,13 @@ any emission was lower than the marginal detection after. We
 also ﬁnd no indications of a source in two XMM-Newton
 observations7 14yr before the transient.
 
-XT151219 shows a marginal quiescent ﬂux level before
+XT151219 shows a marginal quiescent flux level before
 the transient. XMM-Newton observed this position 7months
 before and 18months after the transient.8 The last observation
-marginally detects a ﬂux level roughly half (consistent within
+marginally detects a flux level roughly half (consistent within
 uncertainties) of the level seen just before the transient. We
 interpret this as quiescent X-ray emission from an underlying
-active galactic nucleus. Using the ﬂux measured just before the
+active galactic nucleus. Using the flux measured just before the
 transient, the inferred 0.3–10 keV luminosity is (1.4±0.4)×
 erg s 1 for z=0.62. No emission is detected in the
 1043
@@ -1266,7 +1266,7 @@ temperatures in the range 0.1–1 keV, or alternatively, photon
 indices of 2–4. We note that there is an observational bias
 toward soft sources due to the instrumental characteristics of
 XMM-Newton and the detection statistic, which scales with the
-number of photons rather than ﬂuence. The time-resolved ﬁts
+number of photons rather than fluence. The time-resolved ﬁts
 show that the evolutions generally go from harder to softer,
 although the signiﬁcance is marginal in some cases. No source
 shows any signiﬁcant hardening.
@@ -1424,7 +1424,7 @@ after
 >10
 >10
 
-Note. Observed ﬂuxes in the 0.3–10 keV range computed using the time-integrated best-ﬁt spectrum. The choice of model is based on the goodness of ﬁt (Table C1).
+Note. Observed fluxes in the 0.3–10 keV range computed using the time-integrated best-ﬁt spectrum. The choice of model is based on the goodness of ﬁt (Table C1).
 The last two columns show the dynamic ranges of the transients.
 
 XT
@@ -2532,9 +2532,9 @@ extrapolate from the observed 0.3–10 keV range to obtain the
 bolometric quantities. For the typical best-ﬁt temperatures of
 ∼0.4 keV,
 the 0.3–10 keV range already captures the vast
-majority of the bolometric ﬂux. The time-averaged luminosities
+majority of the bolometric flux. The time-averaged luminosities
 obtained from the ﬁts are scaled to the light curve peaks using
-the peak-to-average ﬂux ratio (Section 4; Table 3). Having
+the peak-to-average flux ratio (Section 4; Table 3). Having
 computed the energy ESBO, it is straightforward to solve for the
 remaining parameters (Section 7.1). Finally, we note that Lpeak
 is more uncertain than ESBO, both from an observational and
@@ -2788,7 +2788,7 @@ that could produce the observed transients. Section3 of Bauer
 et al. (2017) provides a similar discussion with a slightly
 different focus. They discuss CDF-SXT1, which suffers from
 similar potential contaminants as our SBO candidates. The
-most likely sources to be confused for SN SBOs are ﬂares from
+most likely sources to be confused for SN SBOs are flares from
 Galactic late-type dwarfs (Section 8.1). We discuss GRBs as
 potential sources in Section 8.2 and a number of less probable
 sources in Section 8.3. We note that the predicted number of
@@ -2798,24 +2798,24 @@ the SBO interpretation.
 
 8.1. Dwarf Stars
 
-X-ray ﬂares from late-type dwarf stars (Güdel 2004; Güdel
+X-ray flares from late-type dwarf stars (Güdel 2004; Güdel
 & Nazé 2009; Benz & Güdel 2010) could potentially be
 confused for SBO candidates, in cases where a host galaxy is
-not clearly detected. The coolest object observed to ﬂare in
+not clearly detected. The coolest object observed to flare in
 X-rays is an L1dwarf (de Luca et al. 2020). A qualitative
-difference between SN SBOs and dwarf ﬂares is that dwarf
-ﬂares are recurrent (and any dwarfs with multiple ﬂares would
-already have been excluded from our sample). Faint ﬂares are
+difference between SN SBOs and dwarf flares is that dwarf
+flares are recurrent (and any dwarfs with multiple flares would
+already have been excluded from our sample). Faint flares are
 frequent and occur up to tens of times per day, while the rate of
-the most powerful ﬂares are limited by the observed sample
+the most powerful flares are limited by the observed sample
 size (Loyd et al. 2018a, 2018b).
 
 The distribution of peak X-ray (0.3–10 keV) luminosities of
-dwarf ﬂares extends to ∼1030
+dwarf flares extends to ∼1030
 erg s 1 and decreases steeply
-with peak ﬂux (Cook et al. 2014; Williams et al. 2014; Loyd
+with peak flux (Cook et al. 2014; Williams et al. 2014; Loyd
 et al. 2018a, 2018b; de Luca et al. 2020). The effective
-temperatures for the majority of the ﬂares are in the range
+temperatures for the majority of the flares are in the range
 ∼0.5–2 keV (Pallavicini et al. 1990; Robrade & Schmitt 2005;
 Pye et al. 2015; de Luca et al. 2020). Typical timescales range
 from a few hundred to a few thousand seconds, and the
@@ -2826,8 +2826,8 @@ Pye et al. 2015).
 -
 
 For our purposes, we focus on the extreme cases despite their
-low rates. The 2014 April 23 ﬂare from DGCVn is the most
-luminous observed Mdwarf ﬂare (Caballero-García et al.
+low rates. The 2014 April 23 flare from DGCVn is the most
+luminous observed Mdwarf flare (Caballero-García et al.
 2015; Osten et al. 2016). DGCVn is a binary system
 composed of two M4Ve dwarfs with a combined absolute J-
 
@@ -2842,21 +2842,21 @@ absolute
 J-band magnitude
 
 The Astrophysical Journal, 896:39 (23pp), 2020 June 10
-band magnitude of 7.2magAB. The ﬂare reached a peak ﬂux of
+band magnitude of 7.2magAB. The flare reached a peak flux of
 3×1032
-erg s 1 and the dominant ﬂare component evolved on
+erg s 1 and the dominant flare component evolved on
 a timescale of ∼300 s. Another comparable event is the 2008
-April 25 EVLac ﬂare (Osten et al. 2010). EVLac is an
+April 25 EVLac flare (Osten et al. 2010). EVLac is an
 M3.5Vdwarf with
 of
-8.5magAB. The X-ray ﬂare reached a peak ﬂux of 1032
+8.5magAB. The X-ray flare reached a peak flux of 1032
 erg s 1 and the dominant component evolved on a timescale of
 ∼300 s. However,
 these events are very hard, with peak
 temperatures of 25 keV (DG CVn) and 10 keV (EV Lac), and
 even triggered the gamma-ray burst monitor Swift/BAT
-(Barthelmy et al. 2005). The L1dwarf ﬂare reported by de
-Luca et al. (2020) reached a peak ﬂux of 6.3×1029
+(Barthelmy et al. 2005). The L1dwarf flare reported by de
+Luca et al. (2020) reached a peak flux of 6.3×1029
 -
 erg s 1,
 had a temperature of 1.4 keV, and evolved on timescales of
@@ -2868,9 +2868,9 @@ erg s 1; however,
 both the spectral type and distance to the source are uncertain.
 We can use the optical and NIR data (Table B1) to constrain
 the distance to a potential dwarf star. This can be combined
-with the peak X-ray ﬂuxes (Table 3) to infer a peak X-ray
+with the peak X-ray fluxes (Table 3) to infer a peak X-ray
 luminosity if the source is a dwarf. For reference, the X-ray
-luminosity expressed in terms of peak ﬂux (
+luminosity expressed in terms of peak flux (
 peak
 erg s−1 cm−2), apparent magnitude (m), and absolute magni-
 tude (M) is
@@ -2920,7 +2920,7 @@ dwarf
 
 absolute magnitudes
 
-The peak ﬂare ﬂux relative to absolute magnitude is
+The peak flare flux relative to absolute magnitude is
 comparable for M and Ldwarfs. For the discussion, we adopt
 of Mr=9magAB
 ﬁducial
@@ -2938,7 +2938,7 @@ stars. For the last candidate without a host, XT 040610, the
 observations are marginally consistent with an L1dwarf
 because of the weak NIR constraints. The strongest constraint
 is in the z-band, which implies a peak luminosity of 6×1029
-erg s 1 for a distance of 330pc. This is similar to the L1ﬂare
+erg s 1 for a distance of 330pc. This is similar to the L1flare
 reported by de Luca et al. (2020).
 
 -
@@ -2947,15 +2947,15 @@ We now turn our attention to the three last SBO candidates
 with possible host associations: XT050925, 160220, and
 140811. These have been classiﬁed as galaxies based on
 morphology (Table 2) but are potentially blends of two point
-sources,implying that the transient would be a ﬂare from one
+sources,implying that the transient would be a flare from one
 of the foreground stars. By comparing the optical and NIR
 photometry with X-ray data, we ﬁnd that all three are consistent
-with being dwarf ﬂares for Mdwarfs at ∼3 kpc or Ldwarfs at
+with being dwarf flares for Mdwarfs at ∼3 kpc or Ldwarfs at
 ∼300 pc. However, this would require them to be among the
-most luminous dwarf ﬂares for either spectral type. Further-
+most luminous dwarf flares for either spectral type. Further-
 more, if these sources indeed consist of two blended sources,
 then using the combined magnitude of the two sources as we
-have done above would underestimate the true X-ray ﬂux.
+have done above would underestimate the true X-ray flux.
 
 Dust could, in principle, obscure the emission of an optical
 source. However, this is challenging to reconcile with the H
@@ -2968,7 +2968,7 @@ indicate very low levels of optical and NIR absorption (Predehl
 
 To summarize, it is possible that at least some of the bottom
 four candidates: XT050925, 160220, 140811, and 040610, are
-dwarf ﬂares. However, we are not able to ﬁrmly conclude this
+dwarf flares. However, we are not able to ﬁrmly conclude this
 without additional data.
 
 8.2. Gamma-Ray Bursts
@@ -3006,7 +3006,7 @@ if observed far off-axis. This applies to both short (Sun et al.
 2019; Xue et al. 2019; Dado & Dar 2020) and long GRBs
 (Dado & Dar 2019). The effects of a large viewing angle are
 longer duration, much lower peak luminosity, lower spectral
-peak, and lower ﬂuence. The models for off-axis GRBs can be
+peak, and lower fluence. The models for off-axis GRBs can be
 adjusted to agree qualitatively with our observations; however,
 many model parameters are essentially unconstrained and can
 be tuned to produce a very large range of observed timescales,
@@ -3049,7 +3049,7 @@ Furthermore, the prior probability of a neutron star to align
 The Astrophysical Journal, 896:39 (23pp), 2020 June 10
 with an extragalactic source is <1% for a neutron star solid
 angle density of 1000deg−2 (Ofek 2009; Sartore et al. 2010).
-Here, we very brieﬂy mention a number of potential sources
+Here, we very briefly mention a number of potential sources
 without exploring all details. We simply note that the following
 classes are able to produce some, but not all, of the observables
 without
@@ -3070,16 +3070,16 @@ to produce tidal disruption events on timescales of ∼10ks
 
 X-ray binaries (Nooraee 2013; Walter et al. 2015; Martínez-
 Núñez et al. 2017) can produce a number of different types of
-X-ray ﬂares. Type-I (thermonuclear) X-ray bursts (Galloway &
+X-ray flares. Type-I (thermonuclear) X-ray bursts (Galloway &
 Keek 2017; Galloway et al. 2020) have peak luminosities of
 ∼3×1038
 erg s 1 and evolve on timescales of 10–300 s, but
 can extend up to several thousand seconds in some cases.
 Ordinary accretion processes and type-II outbursts (van den
 Eijnden et al. 2017) generally do not produce the high dynamic
-ranges that characterize ﬂares. So-called supergiant fast X-ray
+ranges that characterize flares. So-called supergiant fast X-ray
 transients (Romano 2015; Ducci et al. 2019; Sguera et al. 2020)
-are ∼3 ks ﬂares with dynamic ranges of ∼104 and peak
+are ∼3 ks flares with dynamic ranges of ∼104 and peak
 luminosities on the order of 1037
 erg s 1, which are driven by
 wind accretion from OB supergiant companions. Although
@@ -3092,14 +3092,14 @@ White dwarf binaries (Mukai 2017) produce variable X-ray
 emission through accretion and surface nuclear burning
 (Schwarz et al. 2011; Morii et al. 2013; Starrﬁeld et al. 2016;
 Ness 2019). They can produce very soft spectra and evolve on
-short timescales, but typically do not ﬂare with sufﬁciently
+short timescales, but typically do not flare with sufﬁciently
 large dynamic ranges to be confused with SN SBOs.
 
 Magnetars (Mereghetti et al. 2015; Turolla et al. 2015; Kaspi
 & Beloborodov 2017) are isolated neutron stars that are
 characterized by very strong magnetic ﬁelds. They are known
 to produce high-energy transient emission, most notably so-
-called giant ﬂares (Hurley et al. 2005; Palmer et al. 2005).
+called giant flares (Hurley et al. 2005; Palmer et al. 2005).
 These are much harder than the SBO candidates and have light
 curves with a more prompt burst of ∼1 s followed by a much
 fainter decaying tail, similar to short GRBs.
@@ -3255,15 +3255,15 @@ in principle, be securely
 identiﬁed. The high background is produced by protons in
 the Earth’s magnetosphere and depends on the satellite altitude
 and level of solar activity (Carter & Read 2007). These proton
-ﬂares affect 30%–40% of the total XMM-Newton observation
+flares affect 30%–40% of the total XMM-Newton observation
 time. Excluding these time periods increases the S/N of typical
 persistent sources, but this is not true for a transient source that
-is only detectable during a background ﬂare. The challenge is
+is only detectable during a background flare. The challenge is
 to distinguish an interesting astrophysical
 from
-background ﬂares. This distinction is difﬁcult to do solely
+background flares. This distinction is difﬁcult to do solely
 using light curves, but can easily be done in images because
-background ﬂares affect
+background flares affect
 the CCDs uniformly whereas a
 transient source appears as a point.
 
@@ -3311,17 +3311,17 @@ position, but one bin earlier and later along the temporal
 dimension, respectively. Importantly, the transient detection
 algorithm must be able to handle the highly temporally varying
 background and reject slowly varying sources. For each cell,
-we ﬁrst need to estimate the expected persistent source ﬂux at
+we ﬁrst need to estimate the expected persistent source flux at
 the position. This is done by linearly interpolating the
-background-subtracted ﬂuxes of the cells before and after in
+background-subtracted fluxes of the cells before and after in
 time. The background subtraction in the before and after cells
 are performed by subtracting the average of the four spatially
 neighboring grid cells at the respective times. To prevent over-
 subtraction (negative counts), we simply force the expected
-source ﬂux in the current bin to be at least 1 count. This
-provides the expected persistent source ﬂux at
+source flux in the current bin to be at least 1 count. This
+provides the expected persistent source flux at
 the current
-position. To this ﬂux, we add the average background of the
+position. To this flux, we add the average background of the
 four spatially neighboring pixels. This sum is the expected total
 count rate in the current cell. Finally, we assume the count rate
 to be Poissonian and compute the p value to obtain the
@@ -3359,7 +3359,7 @@ width with a minimum number of photons in every bin
 interval before the rise of a transient source (and possibly also
 after the transient has faded) results in an increased common
 bin width. This increase could drastically reduce the sensitivity
-for short, bright, ﬂare-like transients. For these reasons, we
+for short, bright, flare-like transients. For these reasons, we
 decide to construct custom light curves for our SBO search.11
 We use the positions from the 3XMM-DR8 catalog of identiﬁed
 sources and generate light curves for all 550,614 detections that are
@@ -3396,7 +3396,7 @@ contains 25 counts from the source region. This binning
 requirement ignores the background count rate and results in
 bins with different temporal widths. The reason for choosing
 this dynamic-binning approach is to be able to effectively
-capture the large variations in ﬂux for transient sources. The
+capture the large variations in flux for transient sources. The
 background events are binned to the same temporal bins as the
 source light curves and are then subtracted from the source to
 create a ﬁnal light curve.
@@ -3405,23 +3405,23 @@ The next step is to ﬁnd all transient sources. We identify
 sources showing transient-like behavior by requiring that they
 fulﬁll at least one of the following heuristics:
 
-1. The ratio of the maximum background-subtracted ﬂux
-bin over the 50th ﬂux percentile (i.e., percentile of the
+1. The ratio of the maximum background-subtracted flux
+bin over the 50th flux percentile (i.e., percentile of the
 bins weighted by time for this individual light curve) is
 larger than 3, while the signal-to-background ratio (S/B)
-is higher than 10 at the time of peak ﬂux.
+is higher than 10 at the time of peak flux.
 
-2. Same as above, but with a peak ﬂux a factor of 5 above
+2. Same as above, but with a peak flux a factor of 5 above
 
 the 50th percentile and an S/B of at least 3.
 
 3. At least 10ks of the background-subtracted light curve is
 within 1σ of 0counts s−1. Moreover, at least one bin has
-a source ﬂux higher than 0.05counts s−1 with an S/B
+a source flux higher than 0.05counts s−1 with an S/B
 higher than 3.
 
 The combination of all heuristics is constructed to distinguish
-ﬂare-like sources while being insensitive to background ﬂares
+flare-like sources while being insensitive to background flares
 and inaccurate background subtraction. All heuristics are then
 also reevaluated with the modiﬁcation that the time intervals
 when the background count rate is higher than 0.05counts s−1
@@ -3432,7 +3432,7 @@ sources as variable. The difference in the number of variable
 sources is not surprising because of our simpliﬁed background
 treatment, which results in a very large number of sources
 being classiﬁed as variable due to inaccurately subtracted
-background ﬂares. Furthermore, these numbers are not strictly
+background flares. Furthermore, these numbers are not strictly
 comparable because we apply a number of ﬁlters and have
 deﬁned variability differently.
 
@@ -3457,7 +3457,7 @@ aperiodic short-term variability (EXTraS Working Package 2) only includes
 data that were publicly available by 2012 December 31 (corresponding to
 3XMM-DR4). The EXTraS light curves are also intended for general variable
 behavior and are not optimized for fast and possibly faint transients. For these
-reasons, we only brieﬂy inspected the EXTraS WP2 catalog, and we ﬁnd no
+reasons, we only briefly inspected the EXTraS WP2 catalog, and we ﬁnd no
 objects that were not already detected by our other methods.
 
 12 We note that the limit of 0.05counts s−1 refers to the rate of our custom

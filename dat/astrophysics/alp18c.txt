@@ -113,7 +113,7 @@ the central parts of
 these energies. An
 accompanying paper(Alp et al. 2018) uses estimates from
 the current work to model the X-ray absorption and presents a
-detailed study of multiwavelength ﬂux limits on the compact
+detailed study of multiwavelength flux limits on the compact
 object. The main result of the X-ray analysis is that the limits
 are about 100L☉, depending on the assumed spectrum of the
 compact object. This is approximately an order of magnitude
@@ -527,7 +527,7 @@ results in stronger and larger-scale asymmetries, higher overall
 ejecta velocities, and a sharper inner radius of the ejecta
 (because of the absence of an extended low-velocity tail of the
 radial distribution) in the IIb model. During the time covered
-until the ﬁnal stage of our simulations, the β-decay inﬂates the
+until the ﬁnal stage of our simulations, the β-decay inflates the
 radioactive iron-peak ﬁngers signiﬁcantly. A comparison of the
 asymmetries at 2s and tlate between all considered models is
 provided in Figure 1. The plots also visualize the outcome of
@@ -541,7 +541,7 @@ same progenitor because of the chaotic nature of hydrodynamic
 instabilities(Wongwathanarat et al. 2015). Müller et al. (2017)
 demonstrated by 3D simulations that pre-collapse large-scale
 convective perturbations in the oxygen shell during the late
-stages of stellar evolution can have a supportive inﬂuence on
+stages of stellar evolution can have a supportive influence on
 the onset of
 the explosion. These seed perturbations are
 important because they help the development of violent
@@ -1752,7 +1752,7 @@ implies that the hydrogen column density commonly used by
 X-ray astronomers is a poor parameterization of the absorption.
 The effective cross section is much higher for high-metallicity
 gas than for standard ISM compositions. The energy depend-
-ence of the effective cross section is signiﬁcantly ﬂatter for
+ence of the effective cross section is signiﬁcantly flatter for
 metal-rich than metal-poor gas, primarily because high-
 metallicity gas has more pronounced absorption edges, mostly
 K-shell edges, in the 0.3–10keV energy range. The stronger
@@ -1897,10 +1897,10 @@ impact on our conclusions. What follows is a brief description
 of some of the contributing factors.
 
 The explosion models that we use do not include a longer-
-lasting phase of simultaneous accretion and mass outﬂow
+lasting phase of simultaneous accretion and mass outflow
 around the NS after the onset of the explosion, as suggested to
 exist by present self-consistent models(Müller et al. 2017).
-Having such a phase of accretion and outﬂow instead of the
+Having such a phase of accretion and outflow instead of the
 spherical “wind” that boosts the explosion in the simulations, is
 likely to lead to more extreme asymmetries in the innermost
 ∼0.1M☉ of the ejecta. Therefore, the inner half of the iron-
@@ -1975,7 +1975,7 @@ et al. 1987; Matz et al. 1988). The ﬁrst sign of radioactive line
 emission at intermediate optical depths is the emergence of down-
 scattered X-ray emission, which is then followed by the direct line
 emission when the ejecta has expanded further. The time and
-escaping ﬂuxes of the radioactive emission convey information
+escaping fluxes of the radioactive emission convey information
 about the level of mixing of the radioactive elements and could be
 used to test the accuracy of the SN explosion simulations.
 
@@ -2115,7 +2115,7 @@ metallicity of the SN ejecta is ∼2 orders of magnitude
 higher than for the ISM. This implies that the hydrogen
 column number density is a poor measure of absorption
 because the effective cross section is much higher. The high
-metallicity results in a ﬂatter energy dependence of the cross
+metallicity results in a flatter energy dependence of the cross
 section and stronger metal edges for the absorption proﬁle.
 
 the same hydrogen column number density,
@@ -2216,7 +2216,7 @@ background.
 observations are presented in Table 5. We reduce the data using
 CIAO 4.9 and CALDB 4.7.7(Fruscione et al. 2006) and follow
 standard data reduction guidelines. No strong background
-ﬂares are detected and the data are ﬁltered by removing all
+flares are detected and the data are ﬁltered by removing all
 intervals that deviate from the mean by more than 4σ. All
 source spectra are extracted from circular regions with radii
 of 2 pixels (492 mas pixel−1). All background spectra are

@@ -62,7 +62,7 @@ would greatly accelerate the entire research ﬁeld, could occur at any time.
 En k¨arnkollapssupernova (CCSN) ¨ar en astronomisk explosion som indikerar
 slutet av en massiv stj¨arnas liv. Fr˚an observationer ¨ar det tydligt att en stor
 andel av alla massiva stj¨arnor exploderar som supernovor (SN:or), men att
-f¨orklara hur SN:or exploderar har kvarst˚att som en utmaning under ﬂera
+f¨orklara hur SN:or exploderar har kvarst˚att som en utmaning under flera
 decennier. En viktig del av pusslet ¨ar f¨oreg˚angarstj¨arnans egenskaper.
 
 De bifogade artiklarna fokuserar p˚a att j¨amf¨ora teoretiska f¨oruts¨agelser
@@ -549,7 +549,7 @@ eral properties of the theory that can be tested observationally, such as if
 a neutron star or black hole remains after the explosion (Paper I), the 3D
 structure of the ejecta (Paper II and III), and how the material is mixed
 in the turbulent explosions (Paper III). We also search for the initial X-ray
-ﬂashes associated with the onset of the SN explosion (Paper IV) and study
+flashes associated with the onset of the SN explosion (Paper IV) and study
 the processes present when the SN material collides with the surrounding
 material (Paper V). These comparisons are a small subset of all observa-
 tional criteria that any successful explosion theory needs to fulﬁll.
@@ -563,15 +563,15 @@ tions. Astronomers generally use centimeter-gram-second (cgs) units but
 there are also a number of additional units in diﬀerent subﬁelds that have
 been introduced for special purposes. A list of common units is provided
 in Table 1.1, and physical and astronomical constants in Table 1.2. Optical
-ﬂuxes are often given in magnitudes. This is a historic measure of observed
-ﬂux and must be calibrated using a given zeropoint. Without going into the
+fluxes are often given in magnitudes. This is a historic measure of observed
+flux and must be calibrated using a given zeropoint. Without going into the
 details, the important properties are that each change of 1 mag corresponds
-to a change in ﬂux of a factor of 2.5 and the magnitude scale is reversed
+to a change in flux of a factor of 2.5 and the magnitude scale is reversed
 (brighter objects have lower, more negative, magnitudes). It is worth em-
 phasizing the distinction between magnitude (mag) and order of magnitude
 (factors of 10). The unit Crab is sometimes used in X-ray instrumentation
-and is simply the observed ﬂux of the Crab Nebula (Kirsch et al., 2005).
-This is complicated by the fact that the observed ﬂux varies depending on
+and is simply the observed flux of the Crab Nebula (Kirsch et al., 2005).
+This is complicated by the fact that the observed flux varies depending on
 the given energy interval. The unit “beam” is mostly used toward longer
 
 1.2. Conventions
@@ -655,7 +655,7 @@ Time
 Energy
 Energy
 Magnetic
-ﬂux density
+flux density
 Energy
 Energy
 Flux density
@@ -756,8 +756,8 @@ position in terms of velocity. This always implicitly assumes that the ejecta
 are expanding homologously.
 
 Astrometry and photometry are two common astronomical terms. Pho-
-tometry means measuring the ﬂux of objects and is mostly used to refer
-to ﬂux measurements in UVOIR bands. Astrometry means measuring posi-
+tometry means measuring the flux of objects and is mostly used to refer
+to flux measurements in UVOIR bands. Astrometry means measuring posi-
 tions in the sky. This may sound simple but deﬁning an accurate coordinate
 frame is actually rather complicated. The International Celestial Reference
 Frame (ICRF) is the standard reference frame. The International Astro-
@@ -1293,16 +1293,16 @@ called the equinox. For example, the coordinate frame that is derived from
 the Fifth Fundamental Catalogue (FK5) of stars has the standard equinox
 J2000 (2000 January 1, noon Terrestrial Time).
 
-When discussing the distribution of ﬂux over diﬀerent energy bands, it
+When discussing the distribution of flux over diﬀerent energy bands, it
 is common to use the term spectral energy distribution (SED) instead of
-spectrum. It is also common to multiply the ﬂux density measure (y-axis)
+spectrum. It is also common to multiply the flux density measure (y-axis)
 by the abscissa (x-axis) quantity in SEDs.
 
 Power laws are often used to describe spectral shapes. Each power law
 is characterized by a power-law index. This is often called photon index
 in X-rays and gamma-rays but can be deﬁned in diﬀerent ways depending
 on context. The diﬀerences are the sign and if it is giving the shape of the
-photon number ﬂux density or (energy) ﬂux density, which shifts the photon
+photon number flux density or (energy) flux density, which shifts the photon
 index by 1.
 
 Chapter 2
@@ -1352,7 +1352,7 @@ magnetic ﬁeld, photons are indicated by waves, and energy lev-
 els are illustrated by dotted lines. Line emission (Panel I) occurs
 when an electron transitions from a higher to a lower energy level
 in an atom. Bremsstrahlung (or free-free emission, Panel II) is
-the emission produced by a free electron that is deﬂected by a
+the emission produced by a free electron that is deflected by a
 positive ion. Synchrotron radiation (Panel III) is produced by
 a fast electron gyrating in a magnetic ﬁeld. Inverse Compton
 scattering (Panel IV) is when a fast electron interacts with a
@@ -1372,14 +1372,14 @@ by the radial velocity distribution of the individual atoms or macroscopic
 objects that constitute the source. In most cases, this is dominated by the
 thermal motion of atoms or the random motions of constituting objects.
 However, in SNe, the widths of the lines are dominated by the bulk motion
-of the outﬂow of the material from the center of the explosion. This means
+of the outflow of the material from the center of the explosion. This means
 that material that is bluer is on the near side, whereas the redder emission
 originates from the far side. In addition to the energy shift and line width,
 the line proﬁle is sometimes discussed. This is essentially just analyzing the
 distribution of the emission at diﬀerent line-of-sight velocities.
 
 Bremsstrahlung (Panel II of Figure 2.1) involves a fast electron being
-deﬂected by a positively charged ion. This is often described in the frame
+deflected by a positively charged ion. This is often described in the frame
 where the ion is stationary and the incoming electron is moving, which is
 generally a good approximation of the observer’s frame because electrons
 are moving much faster than the heavier ions. The acceleration of the
@@ -1418,7 +1418,7 @@ Section 2.2).
 
 Lastly, it is worth pointing out that blackbody (thermal) emission is not
 an emission process even though it is often used to describe the emission of
-a source. Blackbody emission is emission from an opaque, non-reﬂective
+a source. Blackbody emission is emission from an opaque, non-reflective
 source in thermodynamic equilibrium with its environment. Blackbody
 emission does not specify how the photons are created. A characteristic
 is that the escaping spectrum is uniquely determined by the temperature of
@@ -1572,14 +1572,14 @@ c2
 
 is the Schwarzschild radius, M the mass, R the radius of the neutron star,
 and G the gravitational constant. For example, gr = 0.8 at the surface for
-typical neutron star parameters where gr = 1 implies ﬂat spacetime. Let
+typical neutron star parameters where gr = 1 implies flat spacetime. Let
 the quantities in the observer’s frame be denoted by subscript ∞, then the
 eﬀects on some common quantities are as follows:
 
 • Length (e.g. radius or photon wavelength) R∞ = R/gr
 • Time (diﬀerences) ∆t∞ = ∆t/gr
 • Temperature T∞ = grT
-• (Energy) ﬂux F∞ = g2
+• (Energy) flux F∞ = g2
 r F
 
 Additionally, masses are not uniquely deﬁned in some contexts. For neu-
@@ -1978,7 +1978,7 @@ Chapter 3. Core-collapse Supernovae
 shock outwards. Altogether, it is believed that this triggers a self-sustaining
 feedback loop, which eventually leads to the expulsion of the stellar man-
 tle (Couch and Ott, 2013; Couch et al., 2015). In contrast, the non-radial
-mass ﬂows dissipate kinetic energy in the form of heat, indirectly boosting
+mass flows dissipate kinetic energy in the form of heat, indirectly boosting
 the outward, radial expansion and convective activity (Scheck et al., 2008;
 Marek and Janka, 2009).
 
@@ -2158,7 +2158,7 @@ Most of these are Type II-P (plateau) SNe. The plateau refers to a period
 after the peak during which the brightness stays relatively constant. Those
 that show a linear decline post-peak are instead termed Type II-L. The
 decline rate is practically always measured in magnitudes per unit time, so
-“linear” actually refers to an exponential decline in ﬂux. There are also SNe
+“linear” actually refers to an exponential decline in flux. There are also SNe
 that initially show hydrogen signs but later transition into strong helium
 lines. These are denoted Type IIb.
 
@@ -2833,7 +2833,7 @@ Radio and (sub-)mm observations reveal objects that produce synchrotron
 emission and dust emission. Examples of synchrotron sources are shocks
 in SNRs and jets launched by accretion onto compact objects. The cold
 dust emission peaks toward the shorter wavelengths and is ubiquitous in all
-galaxies. Other notable observables are the spin-ﬂip of hydrogen at 21 cm,
+galaxies. Other notable observables are the spin-flip of hydrogen at 21 cm,
 the cosmic microwave background around 1 mm, and several molecular ro-
 tational transitions toward shorter wavelengths.
 
@@ -2981,7 +2981,7 @@ the material. An example is the high-purity germanium detectors that con-
 stitute the SPectrometer onboard INTEGRAL (SPI, Vedrenne et al. 2003;
 Roques et al. 2003) on board the INTErnational Gamma-Ray Astrophysics
 Laboratory (INTEGRAL, Winkler et al. 2003). Another type of detector is
-the scintillator, which is a material that emits ﬂashes of light when excited
+the scintillator, which is a material that emits flashes of light when excited
 by high-energy radiation. This is used to detect gamma-ray bursts by the
 Gamma-ray Burst Monitor (GBM, Meegan et al. 2009) on board Fermi.
 
@@ -3048,7 +3048,7 @@ introduction to X-ray astronomy.
 X-ray telescopes are very diﬀerent from telescopes at lower energies. First,
 there is no primary mirror that is analogous to the primary of optical tele-
 scopes. Instead, X-ray optics relies on grazing incidence mirrors. The con-
-cept is that the incoming photons reﬂect against X-ray mirrors at very
+cept is that the incoming photons reflect against X-ray mirrors at very
 small angles, relative to the surface, toward a focus. This setup requires the
 mirrors to be nearly aligned with the incoming X-ray, resulting in a small
 eﬀective area for each individual mirror, but also allows for multiple mir-
@@ -3176,7 +3176,7 @@ background should be sampled from the same CCD as the source, even if
 this CCD only constitutes a small fraction of the FoV.
 
 Spectral information is not only provided by CCDs. Higher-resolution
-spectroscopy in X-rays can be performed using either reﬂection or trans-
+spectroscopy in X-rays can be performed using either reflection or trans-
 mission gratings. The idea is simply to insert a grating that diﬀracts the
 incoming light in the optical path that is then read out by a CCD. The
 resolving powers of gratings are on the order of several hundred. The draw-
@@ -3188,7 +3188,7 @@ crocalorimeters, which are used as detectors instead of CCDs. The concept
 is that an incident X-ray hits a pixel and deposits the energy into heat.
 This temperature increase can then be accurately measured and gives spec-
 tral resolutions comparable to that of the gratings. X-ray microcalorimeters
-have been ﬂown on both Suzaku (Mitsuda et al., 2007) and Hitomi (ASTRO-
+have been flown on both Suzaku (Mitsuda et al., 2007) and Hitomi (ASTRO-
 H, Takahashi et al. 2016), but were only operational for a very short time
 due to accidents. The X-ray Imaging and Spectroscopy Mission (XRISM,
 formerly XARM and ASTRO-H2, Tashiro et al. 2018) is the replacement
@@ -3220,10 +3220,10 @@ where a photon only hit one pixel, but smaller clusters of triggered pixels
 55
 
 are often accepted. Beyond a certain threshold, events are rejected and are
-likely dominated by particle interactions or ﬂuorescence.
+likely dominated by particle interactions or fluorescence.
 
 After the initial calibrations, most observations require a time ﬁlter to
-exclude periods of high background. This type of background ﬂaring is very
+exclude periods of high background. This type of background flaring is very
 characteristic and dominated by high-energy protons from the Sun. The
 importance of this phenomenon depends on the orbit and whether or not it
 is inside the protective magnetosphere of the Earth. For example, Chandra
@@ -3231,9 +3231,9 @@ is placed in an elliptical orbit with an eccentricity of 0.74 that brings it to
 more than one-third of the distance to the Moon. The advantage of such an
 orbit is that the telescope is eclipsed by the Earth for a much shorter fraction
 of the total time and that longer continuous observations are possible. This
-comes at the cost of exposure lost to proton ﬂares. It has been found that
+comes at the cost of exposure lost to proton flares. It has been found that
 30–40 % of the exposure time of the pn instrument on board XMM-Newton
-is lost to ﬂares (Carter and Read, 2007).
+is lost to flares (Carter and Read, 2007).
 
 Most observations require a source and a background region to be de-
 ﬁned. The most common approach is to assume the background region to be
@@ -3245,9 +3245,9 @@ to point sources.
 
 Filters can also be applied to restrict the energy range used for the
 analysis.
-If light curves are produced or ﬂuxes estimated directly from
+If light curves are produced or fluxes estimated directly from
 the data, a number of instrumental corrections need to be applied. This
-converts the observed photon count rate to a ﬂux in physical units. A more
+converts the observed photon count rate to a flux in physical units. A more
 careful conversion requires a model for the spectrum and is performed in the
 spectral analysis. This is are more complicated and is described in Section
 5.4 below.
@@ -3282,7 +3282,7 @@ limitations. These are obviously non-astronomical in all but very few cases.
 An example is a temporary failure of the aspect reconstruction, where all
 sources shift by an arbitrary amount for a short time. This is not obvious
 in the time-integrated image if the failure duration is very short relative to
-the entire observation. Sometimes a pixel (or a cluster of pixels) ﬂares and
+the entire observation. Sometimes a pixel (or a cluster of pixels) flares and
 continuously triggers. This is not always ﬁltered by the data reduction and
 will leave an artifact in the ﬁnal product. Another possible problem is leak-
 age from radioactive sources that are installed on board as absolute energy
@@ -3492,7 +3492,7 @@ balloon-borne instruments that performed measurements. They provided
 spectra and light curves in the 10–200 keV range, which captures the emis-
 sion that has scattered several times before escaping. There are also more
 limited data available around 1 MeV that shows the temporal evolution of
-the ﬂuxes of the direct line emission, primarily the two most important lines
+the fluxes of the direct line emission, primarily the two most important lines
 at 847 and 1238 keV of 56Co.
 
 We ﬁnd that the model predictions agree well with observed data. There
@@ -3502,7 +3502,7 @@ faster than what is found in the models. The diﬀerent non-stripped RSG
 and BSG progenitors show very similar emission features. The stripped-
 envelope Type IIb model evolves much faster and is much brighter because of
 its lower ejecta mass and higher expansion velocities. The asymmetries and
-3D structures primarily aﬀect the magnitude of the ﬂux but the shapes of the
+3D structures primarily aﬀect the magnitude of the flux but the shapes of the
 
 62
 
@@ -3517,7 +3517,7 @@ measure the direct line emission from SNe within 0.2–2 Mpc.
 
 6.4 Paper IV
 
-This paper is a search for SN SBOs. SBOs are short ﬂashes produced when
+This paper is a search for SN SBOs. SBOs are short flashes produced when
 the explosion shock breaks the progenitor surface. The SBO leads the main
 SN emission, which is when SNe are detected. Therefore, SBOs need to
 serendipitously occur within the FoV of an X-ray telescope that is observing
@@ -3557,7 +3557,7 @@ sample. There are also indications that two or three of the candidates might
 
 63
 
-be of even more exotic origin, and a few might be contaminating ﬂares from
+be of even more exotic origin, and a few might be contaminating flares from
 foreground dwarf stars. The quality of the available data prevents us from
 robustly determining the true origins of many of the transients.
 
@@ -3639,9 +3639,9 @@ also touches upon connections to a few subsequent papers by other authors,
 primarily related to the compact object in SN 1987A.
 
 I also outline possibilities for future studies and their relevance to active
-research questions. Additionally, I brieﬂy mention some short studies, which
+research questions. Additionally, I briefly mention some short studies, which
 are often inspired by the papers but not published. These are predominantly
-very quick analyses that were worth brieﬂy exploring, but not part of a
+very quick analyses that were worth briefly exploring, but not part of a
 complete paper. Some parts of this chapter are also more speculative.
 
 7.1 The Compact Object in SN 1987A
@@ -3880,7 +3880,7 @@ sorption is lower, implying that observations could be performed at earlier
 epochs. The hard X-ray instruments are less sensitive but this could be
 outweighed by the higher source luminosities.
 
-I brieﬂy explored the prospects for diﬀerent X-ray observations by insert-
+I briefly explored the prospects for diﬀerent X-ray observations by insert-
 ing a magnetar model into modiﬁed versions of the SN models presented in
 Paper II. This set-up is very similar to the analysis performed in Paper III,
 but with the radioactive sources replaced by a central magnetar. This is
@@ -3938,7 +3938,7 @@ to obtain optical observations of the host galaxies to clarify their nature.
 The results of Paper IV are also useful for predicting the number of
 transients in other X-ray archives and for future telescopes. In principle, it
 is also possible to estimate the volumetric rates of these X-ray transients, but
-this is more challenging and requires further study. In the paper, we brieﬂy
+this is more challenging and requires further study. In the paper, we briefly
 mention that the expected detection rate for eROSITA is two transients
 similar to the SBO candidates per year. eROSITA launched on 2019 July 13
 and started its science survey on 2019 December 13. So far, no comparable
@@ -4610,7 +4610,7 @@ Vikhlinin, A. (1998), The Astrophysical Journal 505(2), L123–L126.
 Vink, J. (2012), A&ARv 20, 49.
 Walborn, N. R., Lasker, B. M., Laidler, V. G. and Chu, Y.-H. (1987), ApJ 321, L41–L44.
 Wang, L. J., Yu, H., Liu, L. D. et al. (2017), ApJ 837(2), 128.
-Wang, L., Wheeler, J. C., H¨oﬂich, P. et al. (2002), ApJ 579, 671–677.
+Wang, L., Wheeler, J. C., H¨oflich, P. et al. (2002), ApJ 579, 671–677.
 Weisskopf, M. C., Brinkman, B., Canizares, C. et al. (2002), PASP 114, 1–24.
 Weisskopf, M. C., Tananbaum, H. D., Van Speybroeck, L. P. and O’Dell, S. L. (2000),
 Chandra X-ray Observatory (CXO): overview, in J. E. Truemper and B. Aschenbach,

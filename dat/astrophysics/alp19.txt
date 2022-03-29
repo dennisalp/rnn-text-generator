@@ -53,7 +53,7 @@ models. The best models are almost consistent with the observations, but differe
 suitable choice of viewing angle are evident. Therefore, our self-consistent models suggest that neutrino-driven
 explosions are able to produce, in principle, sufﬁcient mixing, although remaining discrepancies may require small
 changes to the progenitor structures. The soft X-ray cutoff is primarily determined by the metallicity of the
-progenitor envelope. The main effect of asymmetries is to vary the ﬂux level by a factor of ∼3. For the more
+progenitor envelope. The main effect of asymmetries is to vary the flux level by a factor of ∼3. For the more
 the shapes of the light curves also change. In addition to the models of SN1987A,
 asymmetric models,
 we investigate two models of SNeII-P and one model of a stripped-envelope SNIIb. The TypeII-P models have
@@ -137,7 +137,7 @@ Alp et al.
 
 based on much more simpliﬁed 1D simulations. There are also
 several studies that have applied analogous methods to SNIa
-(Burrows & The 1990; Höﬂich 2002; Sim 2007; Sim &
+(Burrows & The 1990; Höflich 2002; Sim 2007; Sim &
 Mazzali 2008; Kromer & Sim 2009; Maeda et al. 2012; Summa
 et al. 2013; The & Burrows 2014) and kilonova models
 (Hotokezaka et al. 2016; Korobkin et al. 2019).
@@ -500,7 +500,7 @@ dynamics by comparing results from a version of the B15
 model that has been expanded homologously from 1day to the
 standard B15 model that has been followed by simulations until
 156days. The primary difference introduced by the late-time
-heating is increased mixing, leading to a ﬂux increase of ∼20%
+heating is increased mixing, leading to a flux increase of ∼20%
 for most cases, although it can reach ∼40% for the direct line
 emission at early times (<200 days). Homologous expansion is
 a reasonable approximation for a few thousand years (e.g.,
@@ -654,7 +654,7 @@ The true composition of X and the limited nuclear networks
 introduce uncertainties in the masses of individual isotopes. We
 compute the opacities based on the masses
 from the
-simulations, but rescale the escaping ﬂuxes as if the masses
+simulations, but rescale the escaping fluxes as if the masses
 of the radioactive sources match observations of SN1987A for
 all models. All 56Ni masses from the simulations are consistent,
 within the large uncertainties, with the ∼0.07 ☉M of 56Ni
@@ -664,7 +664,7 @@ distribution of the sum of the 56Ni explicitly followed by the
 grid weighted by 1 and the tracer X weighted by 0.5. We
 investigate the effect of this choice by comparing results based
 
-on weighing the tracer by 0 and 1. The ﬂux level varies by less
+on weighing the tracer by 0 and 1. The flux level varies by less
 than 25% in most cases, the shapes of the spectra are practically
 unchanged, and light-curve peaks shift by less than ∼50days.
 We set the mass of 57Ni by adopting a ﬁxed ratio of the mass
@@ -678,7 +678,7 @@ number ratio is 0.023 (Lodders 2003). The spatial distribution
 of 57Ni is represented by the tracer X.
 
 For consistency and for facilitating comparisons, we scale
-the ﬂuxes of all models to match the radioactive isotope yields
+the fluxes of all models to match the radioactive isotope yields
 of SN1987A. This puts the 56Ni masses of our RSG
 explosions around the 80th percentile of the distribution of
 inferred yields of ordinary SNeII-P (Kasen & Woosley 2009;
@@ -885,7 +885,7 @@ We use early X-ray and gamma-ray observations of
 SN1987A as an observational
 the simulated SN
 models. The comparisons can be divided into three categories;
-spectra, continuum light curves, and line ﬂuxes. The observa-
+spectra, continuum light curves, and line fluxes. The observa-
 tions of the line proﬁles are investigated in a separate paper
 (A. Jerkstrand et al. 2019, in preparation).
 
@@ -908,7 +908,7 @@ observations of SN1987A is provided in Table 4. Some of
 the early X-ray and gamma-ray observations have also been
 summarized by other authors (Bunner 1988; Gehrels et al. 1988;
 Leising 1991; Teegarden 1991; Tueller 1991; Wamsteker 1993).
-Below, we brieﬂy describe the instruments and data used for our
+Below, we briefly describe the instruments and data used for our
 comparisons.
 
 3.1. The Roentgen Observatory
@@ -941,13 +941,13 @@ SMM was unable to point away from the Sun except for
 short durations, so SN1987A was observed as a part of the
 background emission while SMM performed solar observations.
 Because SMM was operational for 7 yr before SN1987A, it was
-possible to monitor the background gamma-ray ﬂux before the
+possible to monitor the background gamma-ray flux before the
 explosion and then detect SN1987A as a change in the
 background level during its early evolution.
 
 We use data from SMM to constrain the evolution of the line
-ﬂuxes. SMM provides the most accurate measurements of the
-line ﬂuxes and also continuously monitored SN1987A
+fluxes. SMM provides the most accurate measurements of the
+line fluxes and also continuously monitored SN1987A
 throughout its early evolution. No emission from SN1987A
 was detected before 1987 July, but the 56Co decay lines rose
 rapidly during 150–200days (Matz et al. 1988). The line
@@ -1059,7 +1059,7 @@ was a collimator and provided data on SN1987A in the
 6–28keV range. Because of the relatively large collimator
 opening angle, the data might be contaminated by background
 sources (Inoue et al. 1991). For this reason, we choose to
-exclude data during an apparent ﬂaring period in 1988 January.
+exclude data during an apparent flaring period in 1988 January.
 We use the Ginga light curves in the 6–16 and 16–28keV
 ranges. For the presentations in this paper, we treat the two
 bands as spectral bins for the comparisons at speciﬁc times.
@@ -1086,14 +1086,14 @@ We use data from a number of balloon-borne experiments,
 the details of which are summarized in Table 4. They provide
 independent measurements of the spectra (MSFC, GRIP),
 which agree well with the data from HEXE and PulsarX-1.
-This effectively also veriﬁes the continuum ﬂux measurements
+This effectively also veriﬁes the continuum flux measurements
 
 6
 
 of HEXE that are used to construct the continuum light curves.
 All of the balloon experiments that we include were able to
-measure line ﬂuxes, which show reasonable agreement with the
-line ﬂux evolution as observed by SMM (Figure 5 of Leising &
+measure line fluxes, which show reasonable agreement with the
+line flux evolution as observed by SMM (Figure 5 of Leising &
 Share 1990). Additionally, only balloon-borne experiments
 (GRIS, JPL, GRAD) carried instruments with sufﬁcient energy
 resolution to resolve the line proﬁles of 56Co (presented in
@@ -1105,7 +1105,7 @@ We compute the X-ray and gamma-ray properties by
 following the propagation of Monte Carlo (MC) photons
 through the ejecta. The interactions we include are photo-
 electric absorption, Compton scattering, and pair production.
-We do not compute bremsstrahlung or ﬂuorescent emission
+We do not compute bremsstrahlung or fluorescent emission
 because these effects only contribute signiﬁcantly at energies
 below the sharp photoabsorption cutoff around 15keV
 (Woosley et al. 1989; Clayton & The 1991; Burrows & van
@@ -1283,7 +1283,7 @@ very similar to those of Verner & Yakovlev (1995) at energies
 above 10keV for the relevant isotopes, except for 4He. The
 photoabsorption cross section of 4He from Verner et al. (1996)
 is approximately 40% lower than the value of Verner &
-Yakovlev (1995) but the effect on the escaping ﬂuxes is only
+Yakovlev (1995) but the effect on the escaping fluxes is only
 approximately 1%. The cross sections of Verner et al. (1996)
 are also very similar to those of Veigele (1973).9
 
@@ -1361,7 +1361,7 @@ inverse Lorentz boost
 accounting for the difference in reference frames is that the
 energies E are Doppler shifted and W slightly beamed in
 the outward direction. The effect on the result introduced by the
-beaming is an increase in escaping number ﬂux of
+beaming is an increase in escaping number flux of
 less
 than 1%.
 
@@ -1500,7 +1500,7 @@ or the initial position if the photon has just been created. This
 integral is solved continuously as the photon travels through
 
 9 In passing, we also note that the photoelectric cross sections of H and He
-have been switched in Table 3 of Hoeﬂich et al. (1992).
+have been switched in Table 3 of Hoeflich et al. (1992).
 
 10 As noted by Swartz et al. (1995), the factor is supposed to be 0.10063, not
 1.0063 as printed in Equation (2) of Ambwani & Sutherland (1988).
@@ -1617,7 +1617,7 @@ scattering electron. The electron velocities are taken to be the
 velocities given by the homologous expansion, implying that
 all electrons are moving radially outward. The effect of this
 compared to stationary electrons is an increase in escaping
-number ﬂux of approximately 2%. We also veriﬁed that the
+number flux of approximately 2%. We also veriﬁed that the
 thermal motion of electrons is unimportant compared to the
 bulk ejecta expansion in the situation under consideration,
 where temperatures are lower than 10,000K.
@@ -1721,7 +1721,7 @@ remaining mass of the radioactive parent nuclei at that time.
 This weight is equivalent to the number of photons represented
 by the packet. We note that we include the expansion of the
 ejecta while the photon is traveling. The effect of including
-“live” expansion of the ejecta is a decrease in escaping ﬂux of
+“live” expansion of the ejecta is a decrease in escaping flux of
 approximately 1%, because while the photon is traveling
 outward, the ejecta also expand. The packet lists contain all
 information necessary to construct light curves and spectra
@@ -1741,8 +1741,8 @@ models show the best agreement with the observations.
 Therefore, we focus on these two models and provide more
 details on their asymmetries. The spectra are presented in
 Section 5.2, the continuum light curves in Section 5.3, and the
-line ﬂuxes in Section 5.4. Lastly, we include spectra and line
-ﬂuxes for the models that represent other types of SNe in
+line fluxes in Section 5.4. Lastly, we include spectra and line
+fluxes for the models that represent other types of SNe in
 Section 5.5 and investigate the effects of progenitor metallicity
 in Section 5.6. The line proﬁles are investigated in a separate
 paper (A. Jerkstrand et al. 2019, in preparation).
@@ -1771,10 +1771,10 @@ Alp et al.
 
 Figure 1. Spherical equal-area Hammer projections of the escaping photons at different times (for all energies). The left column shows the B15 model at three
 different times and the right column shows the N20, M15-7b, and W15 models at 300days. The points show the direction of the 56Ni center of mass (blue), minimum
-ﬂux (orange), and maximum ﬂux (green). The minimum and maximum directions are deﬁned by the extremum number ﬂuxes integrated over all energies and times up
+flux (orange), and maximum flux (green). The minimum and maximum directions are deﬁned by the extremum number fluxes integrated over all energies and times up
 to 1000days. The numbers for the 56Ni centers of mass are the radial velocities in units ofkms−1. The distributions for narrow energy intervals are similar to the
-integrated distributions. The ﬂux asymmetries are initially larger and slowly decrease as the ejecta dilute. The main difference is the difference in amplitude of the ﬂux
-asymmetries, which reﬂects the different levels of ejecta asymmetries in the models.
+integrated distributions. The flux asymmetries are initially larger and slowly decrease as the ejecta dilute. The main difference is the difference in amplitude of the flux
+asymmetries, which reflects the different levels of ejecta asymmetries in the models.
 
 of all models are relatively similar and projections in narrow
 energy ranges show similar features. The main differences in
@@ -1792,13 +1792,13 @@ the amplitudes of
 the N20 model
 
 The models that are not shown (L15, M16-7b, and IIb) show
-similar emission asymmetry properties. The ﬂux ratio along the
+similar emission asymmetry properties. The flux ratio along the
 maximum to minimum direction is ∼1.7 for L15 at 300days,
 ∼4 for M16-7b at 300days, and ∼2.1 for IIb at 100days.
 
 In what follows, we investigate quantities averaged over all
 directions, as well as along the directions of minimum and
-maximum ﬂux. The angle-averaged properties are a good
+maximum flux. The angle-averaged properties are a good
 representation of
 the distribution of properties over all
 
@@ -1811,14 +1811,14 @@ Alp et al.
 Figure 2. Spectra from the B15 and M15-7b models at 300days (left) and direction-averaged spectra from all SN1987A models (right). Observations of SN1987A
 (crosses); HEXE at 320days (black, Syunyaev et al. 1990), Ginga at 300days (gray, Inoue et al. 1991), MSFC at 248days (brown, Pendleton et al. 1995), PulsarX-1
 at 320days (pink, Syunyaev et al. 1990), and GRIP at 268days (yellow, Palmer et al. 1993). In the left panel, the solid lines are the spectra averaged over all
-directions, the semitransparent dashed lines are along the directions of minimum ﬂux, and the semitransparent dashed–dotted lines are along the directions of
-maximum ﬂux. The envelope metallicity, which sets the low-energy cutoff, of the 10HMM model is not well deﬁned because metals were artiﬁcially mixed into parts
+directions, the semitransparent dashed lines are along the directions of minimum flux, and the semitransparent dashed–dotted lines are along the directions of
+maximum flux. The envelope metallicity, which sets the low-energy cutoff, of the 10HMM model is not well deﬁned because metals were artiﬁcially mixed into parts
 of the envelope (Sections 2 and 5.6).
 
 Figure 3. Light curves in the 45–105keV range from the B15 and M15-7b models (left), direction-averaged 45–105keV light curves from all SN1987A models
 (right), and HEXE SN1987A observations (black crosses). The horizontal bars of the data points at 145days and 445days are not visible because of the short
-exposures. In the left panel, the solid lines are averaged over all directions, the semitransparent dashed lines are along the directions of minimum ﬂux, and the
-semitransparent dashed–dotted lines are along the directions of maximum ﬂux.
+exposures. In the left panel, the solid lines are averaged over all directions, the semitransparent dashed lines are along the directions of minimum flux, and the
+semitransparent dashed–dotted lines are along the directions of maximum flux.
 
 (Section 6.1.1). Therefore,
 
@@ -1831,7 +1831,7 @@ sensitive to MC noise. Because of the directional variations
 are negligible on small angular scales, we use half-opening
 angles of 30° when computing quantities along certain
 directions. The extremum directions are deﬁned by the
-extremum number ﬂuxes integrated over all energies and all
+extremum number fluxes integrated over all energies and all
 times (<1000 days).
 
 5.2. Spectra
@@ -1845,7 +1845,7 @@ and any remaining deviations between models and observa-
 tions can relatively easily be accommodated by the variance
 introduced by the asymmetries. An important property is that
 the asymmetries change the overall normalizations, but does
-not affect the shapes much. The typical amplitude of the ﬂux
+not affect the shapes much. The typical amplitude of the flux
 variations for different viewing angles spans a factor of ∼2, but
 the most asymmetric model, M15-7b, shows variations up to a
 factor of ∼5.
@@ -1863,10 +1863,10 @@ N20 model matches the observed spectra well but is only doing
 
 Alp et al.
 
-Figure 4. Temporal evolution of the sum of the 847 and 1238keV line ﬂuxes from the B15 and M15-7b models (left) and direction-averaged ﬂuxes from all
+Figure 4. Temporal evolution of the sum of the 847 and 1238keV line fluxes from the B15 and M15-7b models (left) and direction-averaged fluxes from all
 SN1987A models (right). The colored solid lines that are included in the legend are direction-averaged model predictions, and the gray curve is the analytic limit of
-free escape for 0.07 ☉M of initial 56Ni (Suntzeff & Bouchet 1990; Bouchet et al. 1991). The semitransparent dashed lines are along the minimum ﬂux directions and
-the dashed–dotted lines are along the maximum ﬂux directions of the B15 and M15-7b models. The black crosses are SMM measurements. The gray markers are the
+free escape for 0.07 ☉M of initial 56Ni (Suntzeff & Bouchet 1990; Bouchet et al. 1991). The semitransparent dashed lines are along the minimum flux directions and
+the dashed–dotted lines are along the maximum flux directions of the B15 and M15-7b models. The black crosses are SMM measurements. The gray markers are the
 balloon measurements; MSFC (triangle, Sandie et al. 1988b), GRIP (squares, Palmer et al. 1993), GRIS (circles, Tueller 1991), JPL (star, Mahoney et al. 1988),
 GRAD (×, Rester et al. 1989), and UCR (diamond, Ait-Ouamer et al. 1992).
 
@@ -1898,7 +1898,7 @@ HEXE because they are the most accurate. The left panel of
 Figure 3 shows the averaged and directional light curves for
 the B15 and M15-7b models in the 45–105keV range and the
 corresponding HEXE data. The asymmetries clearly affect
-the ﬂux magnitude and the time of the initial rise. In contrast,
+the flux magnitude and the time of the initial rise. In contrast,
 the declining tails are relatively similar along different
 directions. This is a manifestation of the emission asymmetries
 becoming less pronounced at later times.
@@ -1918,26 +1918,26 @@ progenitor structure (Section 6.2).
 
 the SN1987A-like models. For
 
-Figure 4 shows the line ﬂuxes of the sum of the 847 and
+Figure 4 shows the line fluxes of the sum of the 847 and
 1238keV lines for
 the
 observations that only covered one of the lines, we scale that
 value by the atomic line yields to obtain the expected combined
-ﬂux under the assumption of equal optical depths at 847 and
+flux under the assumption of equal optical depths at 847 and
 1238keV. There is possibly a slight indication that the SMM
-measures lower ﬂuxes than the balloon-borne experiments
+measures lower fluxes than the balloon-borne experiments
 (Leising 1991; Teegarden 1994). For the comparisons with
 model predictions, we primarily focus on the SMM values
 because of
 the continuous coverage and homogeneity of
 the data.
 
-The predicted line ﬂuxes show the same breakout
+The predicted line fluxes show the same breakout
 
 time
-problem as the continuum light curves. The line ﬂux is more
+problem as the continuum light curves. The line flux is more
 sensitive to the viewing angle than the continuum emission in
-the sense that the relative differences in ﬂux are larger. This is
+the sense that the relative differences in flux are larger. This is
 because the continuum photons have scattered into new
 directions before escaping the ejecta, which effectively reduces
 the strength of the asymmetries. Apart from this, the viewing
@@ -1946,7 +1946,7 @@ the more
 asymmetric models, similarly as for
 the continuum light
 curves. The accuracy of the observed line data is not as good
-as the continuum precision. However, the line ﬂuxes are only
+as the continuum precision. However, the line fluxes are only
 functions of the optical depth along the photon path, which
 makes them valuable for breaking degeneracies when inter-
 preting the more complex continuum data (Section 6.2).
@@ -1972,37 +1972,37 @@ Alp et al.
 Figure 5. Direction-averaged spectra of the RSG models L15 and W15 at
 300days, and the stripped IIb model at 100days. The gray line is the B15
 model at 300days and is included for reference. The times are chosen to be
-around peak ﬂux. The variations along different directions primarily affect the
-magnitude of the ﬂux while the shape remains relatively constant (Figure 2).
+around peak flux. The variations along different directions primarily affect the
+magnitude of the flux while the shape remains relatively constant (Figure 2).
 The differences at the low-energy cutoff are primarily attributed to the different
 metallicities (Table 1 and Section 5.6).
 
-Figure 6. Temporal evolution of the 847keV line ﬂuxes (not the sum of the
+Figure 6. Temporal evolution of the 847keV line fluxes (not the sum of the
 847 and 1238 keV lines as in Figure 4) of the RSG models L15 and W15, and
-the stripped IIb model. The gray line is the direction-averaged line ﬂux from
+the stripped IIb model. The gray line is the direction-averaged line flux from
 the B15 model, which is included for reference. The semitransparent dashed
 colored lines represent
-the ﬂux along the minimum direction and the
-semitransparent dashed–dotted lines the ﬂux along the maximum direction
+the flux along the minimum direction and the
+semitransparent dashed–dotted lines the flux along the maximum direction
 for the corresponding models.
 
 of the RSG models L15 and W15, as well as the stripped IIb
 model. We note that the H-rich models are shown at 300days,
 whereas the IIb model is at 100days. This roughly corresponds
-to the times of peak ﬂux. The spectral shape for a given model
+to the times of peak flux. The spectral shape for a given model
 is softer at earlier times and harder at later times. We note that
 the RSG models are similar to the B15 model.
 
-Figure 6 shows the 847keV line ﬂuxes of the L15, W15, and
+Figure 6 shows the 847keV line fluxes of the L15, W15, and
 IIb models. We also include the light curves along the
 extremum directions. The variations due to asymmetries are
-ﬂux variations by a factor of a few, but
+flux variations by a factor of a few, but
 the qualitative
-properties of the line ﬂuxes are independent of the viewing
+properties of the line fluxes are independent of the viewing
 angle.
 
 The most notable features of the IIb model are that it evolves
-faster and is more luminous at the time of peak ﬂux than the
+faster and is more luminous at the time of peak flux than the
 H-rich models. This is because of the lower ejecta mass and
 higher expansion velocities. Furthermore,
 the very thin H
@@ -2085,8 +2085,8 @@ solar abundances.
 Alp et al.
 
 Figure 8. Light curves in the 45–105keV range along different viewing angles for the B15 model (left) and the M15-7b model (right). The solid black lines are
-averaged over all directions, the dashed black lines are along the directions of minimum ﬂux, and the dashed–dotted black lines are along the directions of maximum
-ﬂux. The colored lines are along 20 arbitrary uniformly distributed directions (the vertices of a dodecahedron).
+averaged over all directions, the dashed black lines are along the directions of minimum flux, and the dashed–dotted black lines are along the directions of maximum
+flux. The colored lines are along 20 arbitrary uniformly distributed directions (the vertices of a dodecahedron).
 
 6. Discussion
 
@@ -2130,19 +2130,19 @@ spectral shapes along different directions is larger differences at
 higher energies, particularly for the direct line emission, than at
 lower energies. This is because the scattering effectively
 smooths out the asymmetries. This also implies that the line
-ﬂuxes are more strongly affected by asymmetries than the
-45–105keV light curves. The peak line ﬂux varies along
+fluxes are more strongly affected by asymmetries than the
+45–105keV light curves. The peak line flux varies along
 different directions by more than a factor of 5 in B15 and 10 in
-M15-7b, and the times of peak line ﬂux differ by up to
+M15-7b, and the times of peak line flux differ by up to
 
 for
 
 100days in B15 and 300days in M15-7b between the
 minimum and maximum directions.
 
-Finally, Figure 8 clearly shows that the range of ﬂuxes
-spanned by the ﬂuxes along the minimum and maximum
-directions contains the ﬂuxes from practically all directions at
+Finally, Figure 8 clearly shows that the range of fluxes
+spanned by the fluxes along the minimum and maximum
+directions contains the fluxes from practically all directions at
 all
 the angle average is a good
 representation of
@@ -2156,7 +2156,7 @@ times. It also shows that
 the progenitors
 
 The variance introduced by the stochastic hydrodynamic
-evolution is seeded by the random ﬂuctuations in the structures
+evolution is seeded by the random fluctuations in the structures
 (Wongwathanarat et al. 2013). We
 of
 investigate the effects on the emission properties by simulating
@@ -2174,12 +2174,12 @@ curves for three versions of the B15 model by Utrobin et al.
 The 45–105keV light curves for the four versions of M15-
 7b are shown in Figure 9 (left). In addition to the variance due
 to asymmetries of the individual models,
-the peak ﬂux of
+the peak flux of
 the 45–105keV continuum varies within ∼30% and the peak
 time shifts by up to ∼100days. This means that the light-curve
-shapes are slightly different. The line ﬂuxes (Figure 9, right)
+shapes are slightly different. The line fluxes (Figure 9, right)
 show similar variance as the continua, with the primary
-difference being that the angle-averaged line ﬂux peaks span a
+difference being that the angle-averaged line flux peaks span a
 factor of 2. For M15-7b, the differences in spectral shape
 resulting from the stochastic nature of the explosion are much
 smaller than the variance due to the intrinsic asymmetries.
@@ -2193,10 +2193,10 @@ the explosions and intrinsic asymmetries (Figures 8 and 9).
 
 Alp et al.
 
-Figure 9. Light curves in the 45–105keV range (left) and the sum of the 847 and 1238keV line ﬂuxes (right) from four versions of the M15-7b model with different
+Figure 9. Light curves in the 45–105keV range (left) and the sum of the 847 and 1238keV line fluxes (right) from four versions of the M15-7b model with different
 explosion energies and seed perturbations. The orange lines are the reference M15-7b, which we focus on throughout the rest of the paper. The solid lines are averaged
-over all directions, the semitransparent dashed lines are along the directions of minimum ﬂux, and the semitransparent dashed–dotted lines are along the directions of
-maximum ﬂux.
+over all directions, the semitransparent dashed lines are along the directions of minimum flux, and the semitransparent dashed–dotted lines are along the directions of
+maximum flux.
 
 6.1.3. Progenitor Metallicity
 
@@ -2210,7 +2210,7 @@ very sensitive to the viewing angle (Figure 2) because it is
 determined by the properties of the outermost layers of the
 ejecta, which are more isotropic. On the other hand, if the
 homogeneity of the outer envelope is broken by large-scale
-convection (e.g., Hoﬂich 1991), it is likely that the low-energy
+convection (e.g., Hoflich 1991), it is likely that the low-energy
 cutoff would be less sharp, which would make it more difﬁcult
 to constrain the metallicity. Inversely, this could also serve as a
 diagnostic of the envelope isotropy.
@@ -2218,7 +2218,7 @@ diagnostic of the envelope isotropy.
 It is important to point out that the cutoff is only dependent
 on the envelope metallicity when the low-energy limit is set by
 photoabsorption. This is the case in the early phases during the
-X-ray rise. At times later than the X-ray ﬂux peak, the escaping
+X-ray rise. At times later than the X-ray flux peak, the escaping
 emission is dominated by radiation from the deeper parts where
 the mean atomic number is higher and photoelectric cross
 sections are larger. Another contributing factor (especially at
@@ -2232,7 +2232,7 @@ inferred from observations of the equatorial ring. We check the
 effects on the results by comparing the B15 model with LMC
 abundances (that is used throughout the rest of the paper) to a
 B15 version with SN1987A abundances. The 45–105keV light
-curves of these models are shown in Figure 10. The line ﬂuxes
+curves of these models are shown in Figure 10. The line fluxes
 behave in a similar way. The differences are primarily driven by
 the increase of the of He abundance to 11.31 (0.21 relative to H
 by number; Lundqvist & Fransson 1996; Mattila et al. 2010) and
@@ -2243,8 +2243,8 @@ Mattila et al. 2010). Both changes contribute to lowering the
 Figure 10. Light curves in the 45–105keV range for the standard B15 version
 with LMC abundances (blue) and a modiﬁed B15 version with SN1987A
 abundances (orange). The solid lines are averaged over all directions, the
-semitransparent dashed lines are along the directions of minimum ﬂux, and the
-semitransparent dashed–dotted lines are along the directions of maximum ﬂux.
+semitransparent dashed lines are along the directions of minimum flux, and the
+semitransparent dashed–dotted lines are along the directions of maximum flux.
 
 ☉Zeff,
 
@@ -2269,7 +2269,7 @@ effect is a decrease of the effective metallicity.
 
 The Astrophysical Journal, 882:22 (19pp), 2019 September 1
 
-ﬂux. Overall,
+flux. Overall,
 asymmetries of the B15 model.
 
 the differences are smaller than the intrinsic
@@ -2302,13 +2302,13 @@ match the observations.
 Focusing on B15 and M15-7b, we investigate what can be
 inferred from the remaining differences between the model
 predictions and the observations. The property that is easiest to
-interpret is the line ﬂux. At early times during the rising phase,
+interpret is the line flux. At early times during the rising phase,
 this practically only depends on the column density of electrons
 outside the fastest trace amounts of 56Ni on the near side. In
-contrast, at later times when the line ﬂuxes are declining, they
+contrast, at later times when the line fluxes are declining, they
 are practically only a function of the average absorption
 through the ejecta to the bulk of the 56Ni. It is clear from
-Figure 4 that the line ﬂuxes of all models fail to capture the
+Figure 4 that the line fluxes of all models fail to capture the
 early observed rise before 200days and the fast decline after
 400days. The early-time observations most likely imply that
 trace amounts of 56Ni were ejected toward us at slightly higher
@@ -2320,7 +2320,7 @@ time line observations imply that there is more material that
 absorbs the direct emission than predicted by the models. This
 can be achieved by either larger total ejecta masses or the 56Ni
 being preferentially ejected toward the far side away from us.
-The line ﬂuxes are closely related to the continuum light
+The line fluxes are closely related to the continuum light
 curves. The main difference is that the continuum light curves
 depend nontrivially on the optical depths to the radioactive
 elements. For example, the continuum emission is quenched for
@@ -2331,9 +2331,9 @@ line emission, however,
 is straightforward to break this
 degeneracy. From Figure 3,
 the predicted
-45–105keV light curves fail to reach the early observed ﬂuxes
+45–105keV light curves fail to reach the early observed fluxes
 before 200days and overshoot the observed values at times
-later than 400days, similarly to the line ﬂuxes. This results in
+later than 400days, similarly to the line fluxes. This results in
 the same constraints on the distribution of 56Ni as discussed
 above, but is still helpful because the continuum data are more
 accurate and also provide additional independent observations.
@@ -2369,10 +2369,10 @@ maximum 56Ni velocity required to match data is relatively
 low. We ﬁnd that artiﬁcially increasing the radial velocity of all
 56Ni by around 20% in the B15 model is sufﬁcient for the
 direction-averaged emission to match both the low-energy
-continuum and line ﬂux rise.
+continuum and line flux rise.
 
 Second, the difference by a factor of ∼2 in the direct line
-ﬂux around 600days (Figure 4) can be remedied by shifting
+flux around 600days (Figure 4) can be remedied by shifting
 the 56Ni center of mass. The relevant quantity is the effective
 optical depth, and by comparing with the free-escape
 asymptote in Figure 4, it is clear that only a slight increase in
@@ -2431,7 +2431,7 @@ et al. 2010), NuSTAR (dashed black line, Koglin et al. 2005), INTEGRAL (solid
 black line, Roques et al. 2003), and the ESA M5 proposal e-ASTROGAM
 (dashed–dotted black line, De Angelis et al. 2017). The spectra are at a time of
 300days for the non-stripped models and 100 days for the IIb model, which are
-approximately the times of peak ﬂux in the NuSTAR band. All continuum
+approximately the times of peak flux in the NuSTAR band. All continuum
 sensitivities are given for spectral bins of ΔE/E=0.5, a detection threshold of
 3σ, and an exposure time of 1Ms.
 
@@ -2447,7 +2447,7 @@ metallicity of the L15 and the IIb models are unmodiﬁed from
 their standard values provided in Table 1. We construct this set
 of models to illustrate the effects of different metallicities
 because of its importance for the low-energy cutoff. The effects
-of the metallicity on the direct line ﬂuxes are negligible.
+of the metallicity on the direct line fluxes are negligible.
 
 Figure 11 shows predicted spectra overplotted on the
 sensitivity curves of the instruments. NuSTAR is expected to
@@ -2554,7 +2554,7 @@ gamma-ray observations are a powerful way of con-
 straining progenitor models.
 
 3. On a more detailed level, there are differences in the
-temporal evolution of the continuum and line ﬂuxes
+temporal evolution of the continuum and line fluxes
 between the 3D explosion models and SN1987A
 observations. A suitable choice of viewing angle is not
 sufﬁcient to reconcile these shortcomings. The differ-
@@ -2590,7 +2590,7 @@ the metallicity of its equatorial ring.
 
 5. The asymmetries and 3D structures introduce a viewing-
 angle dependence, which primarily affects the overall
-ﬂux normalization. For the more asymmetric models, the
+flux normalization. For the more asymmetric models, the
 shapes of the light curves also change signiﬁcantly for
 different viewing angles. The shapes of the spectra,
 however, remain relatively unaffected. The magnitude of
@@ -2820,9 +2820,9 @@ in Handbook of Supernovae, ed.
 A. W. Alsabti & P. Murdin (Cham: Springer International Publishing
 AG), 1771
 
-Hoeﬂich, P., Khokhlov, A., & Mueller, E. 1992, A&A, 259, 549
-Hoﬂich, P. 1991, A&A, 246, 481
-Höﬂich, P. 2002, NewAR, 46, 475
+Hoeflich, P., Khokhlov, A., & Mueller, E. 1992, A&A, 259, 549
+Hoflich, P. 1991, A&A, 246, 481
+Höflich, P. 2002, NewAR, 46, 475
 Horiuchi, S., Beacom, J. F., Bothwell, M. S., & Thompson, T. A. 2013, ApJ,
 
 769, 113
