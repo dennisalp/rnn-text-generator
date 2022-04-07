@@ -42,11 +42,13 @@ def train_mod(dataset, epochs, embedding_dim, rnn_units, ids2chars, chars2ids):
 
     history = model.fit(dataset, epochs=epochs)
     
-    return OneStepModel(model, ids2chars, chars2ids)
+    return model
 
 
-def gen_txt(model, init_str, len_out_str):
+def gen_txt(model, init_str, len_out_str, ids2chars, chars2ids, temperature=1.0):
 
+    model = OneStepModel(model, ids2chars, chars2ids, temperature=temperature)
+    
     states = None
     next_char = tf.constant([init_str])
     result = [next_char]

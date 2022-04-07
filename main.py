@@ -7,7 +7,7 @@ def main():
     
     input_path = os.path.join('dat', 'astrophysics.txt')
     init_str = 'He '
-    len_out_str = 1000
+    len_out_str = 2000
     seq_length = 100
     batch_size = 64
     buffer_size = 10000
@@ -17,9 +17,9 @@ def main():
 
     dataset, ids2chars, chars2ids = read_data(input_path, batch_size, seq_length, buffer_size)
     model = train_mod(dataset, epochs, embedding_dim, rnn_units, ids2chars, chars2ids)
-    gen_txt(model, init_str, len_out_str)
+    gen_txt(model, init_str, len_out_str, ids2chars, chars2ids, temperature=1.0)
     st()
-    gen_txt(model, init_str, len_out_str)
+    gen_txt(model, init_str, len_out_str, ids2chars, chars2ids, temperature=1.0)
 
 
 if __name__ == '__main__':

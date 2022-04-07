@@ -1,4 +1,4 @@
-# python -i scrape.py "Taylor Swift" 300
+# python -i scrape.py "Taylor Swift" 250
 
 import os
 import sys
