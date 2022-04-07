@@ -6,7 +6,7 @@ from utils import read_data, train_mod, gen_txt
 def main():
     
     input_path = os.path.join('dat', 'astrophysics.txt')
-    init_str = 'Hello World'
+    init_str = 'He '
     len_out_str = 1000
     seq_length = 100
     batch_size = 64
