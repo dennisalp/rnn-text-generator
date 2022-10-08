@@ -59,3 +59,19 @@ def gen_txt(model, init_str, len_out_str, ids2chars, chars2ids, temperature=1.0)
 
     result = tf.strings.join(result)
     print(result[0].numpy().decode('utf-8'))
+
+
+def load_model(pth):
+    old = tf.keras.models.load_model(pth)
+    vs = old.layers[0].get_config()['input_dim']
+    ed = old.layers[0].get_config()['output_dim']
+    ru = old.layers[1].get_config()['units']
+    
+    new = CustomTrainingModel(
+          vocab_size=vs,
+          embedding_dim=ed,
+          rnn_units=ru)
+    
+    new.build((None, vs))
+    new.set_weights(old.get_weights())
+    return new
