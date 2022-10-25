@@ -21,9 +21,11 @@ class BaseModel(tf.keras.Model):
         x = self.embedding(x, training=training)
 
         if states is None:
-            states = self.gru.get_initial_state(x)
-        x, states = self.gru(x, initial_state=states, training=training)
-        x, states = self.gr2(x, initial_state=states, training=training)
+            states = []
+            states.append(self.gru.get_initial_state(x))
+            states.append(self.gr2.get_initial_state(x))
+        x, states[0] = self.gru(x, initial_state=states[0], training=training)
+        x, states[1] = self.gr2(x, initial_state=states[1], training=training)
 
         x = self.dense(x, training=training)
 
