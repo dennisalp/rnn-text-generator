@@ -39,8 +39,17 @@ def train_mod(dataset, epochs, embedding_dim, rnn_units, ids2chars, chars2ids):
     model.compile(optimizer = tf.keras.optimizers.Adam(),
                   loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True))
     
+    cb = tf.keras.callbacks.EarlyStopping(
+        monitor='loss',
+        min_delta=0,
+        patience=2,
+        verbose=1,
+        mode='auto',
+        baseline=None,
+        restore_best_weights=True
+    )
 
-    history = model.fit(dataset, epochs=epochs)
+    history = model.fit(dataset, epochs=epochs, callbacks=[cb])
     
     return model
 
