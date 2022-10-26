@@ -5,14 +5,11 @@ from utils import read_data, train_mod, gen_txt
 
 def main():
     
-    input_path = os.path.join('dat', 'astrophysics.txt')
-    pth = 'mod'
-    init_str = 'what?'
-    len_out_str = 2000
+    input_path = '../input/movies/mov.txt'
     seq_length = 100
     batch_size = 64
     buffer_size = 10000
-    embedding_dim = 256
+    embedding_dim = 40
     rnn_units = 1024
     epochs = 30
 

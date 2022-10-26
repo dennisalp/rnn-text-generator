@@ -42,7 +42,7 @@ def train_mod(dataset, epochs, embedding_dim, rnn_units, ids2chars, chars2ids):
     cb = tf.keras.callbacks.EarlyStopping(
         monitor='loss',
         min_delta=0,
-        patience=2,
+        patience=4,
         verbose=1,
         mode='auto',
         baseline=None,

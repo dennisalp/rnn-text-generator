@@ -56,6 +56,7 @@ class OneStepModel(tf.keras.Model):
     def generate_one_step(self, inputs, states=None):
         input_chars = tf.strings.unicode_split(inputs, 'UTF-8')
         input_ids = self.chars2ids(input_chars).to_tensor()
+        if type(states) is list: states = states.copy()
         
         # predicted_logits.shape is [batch, char, next_char_logits]
         predicted_logits, states = self.model(inputs=input_ids, states=states,
