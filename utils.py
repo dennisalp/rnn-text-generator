@@ -33,7 +33,7 @@ def read_data(input_path, batch_size, seq_length, buffer_size):
         return input_text, target_text
 
     text = open(input_path, 'rb').read().decode(encoding='utf-8').lower()
-    text = letters2words(text).split()
+    text = letters2words(text).split(' ')
     vocab = sorted(set(text))
 
     chars2ids = tf.keras.layers.StringLookup(vocabulary=vocab, mask_token=None)
