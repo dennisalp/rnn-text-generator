@@ -54,16 +54,15 @@ class OneStepModel(tf.keras.Model):
 
     @tf.function
     def generate_one_step(self, inputs, states=None):
-        input_chars = tf.strings.unicode_split(inputs, 'UTF-8')
+        input_chars = tf.strings.split(inputs, ' ')
         input_ids = self.chars2ids(input_chars).to_tensor()
         if type(states) is list: states = states.copy()
         
         # predicted_logits.shape is [batch, char, next_char_logits]
-        predicted_logits, states = self.model(inputs=input_ids, states=states,
-                                                  return_state=True)
+        predicted_logits, states = self.model(inputs=input_ids, states=states, return_state=True)
         predicted_logits = predicted_logits[:, -1, :]
         predicted_logits = predicted_logits/self.temperature
-        predicted_logits = predicted_logits + self.prediction_mask
+#         predicted_logits = predicted_logits + self.prediction_mask
 
         predicted_ids = tf.random.categorical(predicted_logits, num_samples=1)
         predicted_ids = tf.squeeze(predicted_ids, axis=-1)
