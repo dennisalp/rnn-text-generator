@@ -83,8 +83,9 @@ def gen_txt(model, init_str, len_out_str, ids2chars, chars2ids, temperature=1.0)
     model = OneStepModel(model, ids2chars, chars2ids, temperature=temperature)
     
     states = None
+    if init_str[-1] != '\n': init_str += '\n'
     next_char = tf.constant([letters2words(init_str)])
-    result = [next_char]
+    result = []
 
     for n in range(len_out_str):
         next_char, states = model.generate_one_step(next_char, states=states)
@@ -93,7 +94,7 @@ def gen_txt(model, init_str, len_out_str, ids2chars, chars2ids, temperature=1.0)
     result = tf.strings.join(result, ' ')
     result = result[0].numpy().decode('utf-8')
     result = inverse_fmt(result)
-    print(result)
+    return result
 
 
 def load_model(pth):
